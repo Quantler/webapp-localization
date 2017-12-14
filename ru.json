@@ -1,1207 +1,1757 @@
 {
-  "WebApp": {
-    "RightMenu": {
-      "Languages": {
-        "ar": "Arabic",
-        "de": "German",
-        "en": "English",
-        "es": "Spanish",
-        "fr": "French",
-        "it": "Italian",
-        "ja": "Japanese",
-        "ko": "Korean",
-        "nl": "Dutch",
-        "pt": "Portuguese",
-        "ru": "Russian",
-        "zh": "Chinese"
-      },
-      "Subscription": "Текущая подписка",
-      "Statistics": "Статистика",
-      "Language": "язык",
-      "StatisticsAnalyzed": "Годы проанализированных данных",
-      "StatisticsModules": "Количество модулей",
-      "HelpTranslate": "Помощь Перевести",
-      "SettingsFirstName": "Имя",
-      "SettingsLastName": "Фамилия",
-      "SettingsEmail": "Адрес электронной почты",
-      "SettingsNewsletter": "Новостная рассылка",
-      "SettingsPublicAPIKey": "Public API Key",
-      "SettingsCopyPuclikAPIKey": "Copy, publick key link",
-      "SettingsSecret": "Secret",
-      "SettingsCopySecret": "Copy, secret link",
-      "SettingsAssetTypes": "Asset types",
-      "SettingsBountyPage": "Testing CI",
-      "SettingsLogOut": "Выйти",
-      "ProfileRecord": "Пофиль",
-      "Settings": "Настройки"
-    },
-    "LeftMenu": {
-      "Items": {
-        "Subscription": "Моя подписка",
-        "SmartFunds": "Интеллектуальные фонды",
-        "Dashboard": "Панель приборов",
-        "Management": "управление",
-        "Modules": "Модули",
-        "Universes": "Вселенные",
-        "Discussions": "Обсуждение",
-        "Catalog": "Каталог",
-        "Help": "Помощь и часто задаваемые вопросы"
-      },
-      "Text": {
-        "Hosting": "Хостинг для Фонда",
-        "Lab": "Фондовая лаборатория",
-        "Community": "сообщество",
-        "Documentation": "Документация"
-      },
-      "Support": "Поддержка"
-    },
-    "Dashboard": {
-      "Title": "Панель приборов",
-      "Hosting": {
-        "Status": "Статус хостинга",
-        "View": "Управление хостингом",
-        "NoSubscription": "Отсутствует пакет подписки на хостинг",
-        "NoSubscriptionText": "Sed tempor fringilla lobortis. Mauris sagittis ac dolor ac malesuada. Vestibulum dapibus ultricie ...",
-        "NoSubscriptionButton": "Получить пакет хостинга"
-      },
-      "Statistics": {
-        "Backtest": "Время использования бэктеста",
-        "Allocated": "Текущая подписка на выделенные фонды",
-        "Storage": "Текущий предел хранения"
-      },
-      "Create": {
-        "Title": "Создайте свой собственный Smart-фонд",
-        "CatalogTitle": "Вдохновиться",
-        "CatalogText": "Просмотрите наш рынок различных модулей, созданных нашим сообществом",
-        "CatalogButton": "Исследуйте каталог",
-        "UniversesTitle": "Торговля, что вы хотите",
-        "UniversesText": "Выберите, на каких запасах, сырьевых товарах, индексах, валютах Forex или криптовых валютах вы хотите создать алгоритм",
-        "UniversesButton": "Создать Вселенную",
-        "CreateTitle": "Инвестируйте в свои идеи",
-        "CreateText": "Создайте свой собственный единственный в своем роде алгоритм торговли всего за несколько минут",
-        "CreateButton": "Создать Смартфонд"
-      },
-      "WhatsHappening": {
-        "Title": "Что происходит",
-        "Discussions": "Обсуждение",
-        "Modules": "Модули",
-        "SmartFunds": "Интеллектуальные фонды",
-        "Universes": "Вселенные",
-        "News": "Новости",
-        "DicussionTitleBar": "Обсуждать дискуссии",
-        "ModulesTitleBar": "Просматривать модули",
-        "SmartFundsTitleBar": "Просматривать умные средства",
-        "UniversesTitleBar": "Просматривать вселенные"
-      }
-    },
-    "Onboarding": {
-      "AssetTypeTitle": "Что бы вы инвестировали?",
-      "AssetTypeSubTitle": "Включить активы, с которыми вы хотите торговать. Вы сможете изменить это в любой момент при использовании Quantler.",
-      "DisclaimerTitle": "отказ",
-      "DisclaimerText": "Этот материал на этом веб-сайте предоставляется только в информационных целях и не представляет собой предложение о продаже, вымогательство для покупки или рекомендацию или одобрение любой безопасности или стратегии, а также не представляет собой предложение о предоставлении инвестиционных консультационных или других услуг Quantler. Кроме того, содержание веб-сайта не дает никакого мнения относительно пригодности какой-либо безопасности или каких-либо конкретных инвестиций. Простая и не гипотетическая производительность не гарантирует будущих результатов. Квантлер предоставляет только хостинг для торговых алгоритмов, проконсультируйтесь с вашим брокером о расходах и информации, связанной с торговлей.",
-      "DisclaimerAgree": "Я прочитал и понял сказанное выше",
-      "DisclaimerButton": "Продолжать",
-      "EquitiesTitle": "Equities",
-      "EquitiesText": "Enable equity investment",
-      "ETFTitle": "ETFs & ETCs",
-      "ETFText": "Enable ETF & ETC trading",
-      "CryptoTitle": "Crypto",
-      "CryptoText": "Enable crypto currency trading"
-    },
-    "Management": {
-      "Title": "управление",
-      "Select": "Выберите хостинг",
-      "HostingTitle": "Хостинг",
-      "HostingLocation": "Место нахождения",
-      "HostingLatency": "Задержка",
-      "DelayNotice": "Данные могут быть отложены, проверьте, что ваш брокер для точного представления",
-      "SettledCash": "Расчетная наличность",
-      "UnsettledCash": "Неурегулированные денежные средства",
-      "Positions": "позиции",
-      "Equity": "Капитал",
-      "FreeMargin": "Свободная маржа",
-      "NoHostingTitle": "Отсутствует пакет хостинга",
-      "NoHostingSubTitle": "Sed tempor fringilla lobortis. Mauris sagittis ac dolor ac malesuada. Vestibulum dapibus ultricie ...",
-      "NoHostingButton": "ПОЛУЧИТЕ ХОСТИНГ-ПАКЕТ",
-      "NoAccount": "Нет учетной записи",
-      "FundDetails": {
-        "TabPositionsTitle": "позиции",
-        "TabTradesTitle": "Торги",
-        "TabOrdersTitle": "заказы",
-        "TabLoggingTitle": "логирование",
-        "Bought": "Купил",
-        "Sold": "Продан",
-        "SinceInception": "С момента создания"
-      },
-      "Account": {
-        "NoHosting": "No hosting running",
-        "Account": "Account",
-        "Balance": "Balance",
-        "Equity": "Equity",
-        "FloatingROI": "Floating ROI"
-      }
-    },
-    "Components": {
-      "DiscussionBar": {
-        "Views": "Просмотры",
-        "Replies": "Ответы",
-        "LastReply": "Последний ответ",
-        "NoReplies": "пока нет ответов"
-      },
-      "SmartFundBar": {
-        "Title": "Smart fund",
-        "MonthReturn": "1 месяц назад",
-        "YearReturn": "1 год возврата",
-        "Daytrading": "Daytrading"
-      },
-      "ModulesBar": {
-        "Title": "Модуль",
-        "View": "Модуль просмотра",
-        "Details": "Детали"
-      },
-      "Pagination": {
-        "LoadMore": "Загрузить еще",
-        "Loading": "загрузка"
-      },
-      "UniverseBar": {
-        "Title": "Universe",
-        "Overview": "Осмотр",
-        "IndexValue": "Значение индекса",
-        "YearReturn": "1 год возврата",
-        "CreatedBy": "Сделано"
-      },
-      "NewsBar": {
-        "NoDataText": "No news available"
-      }
-    },
-    "Discussions": {
-      "Title": "Обсуждение",
-      "CreateNewPost": "Создать новую тему",
-      "AllTags": "Все теги",
-      "BackTo": "Назад к обсуждениям",
-      "PostDetails": {
-        "BacktestPerformance": "Представление",
-        "AddAttachment": "Прикрепить вложение",
-        "PostAReply": "Отправить ответ",
-        "PostAReplyPlaceholder": "Введите свой ответ здесь",
-        "Reply": "ответить",
-        "Posting": "публикуется"
-      },
-      "CreatePost": {
-        "PostTitle": "Заголовок поста",
-        "PostTitlePlaceholder": "Введите свой заголовок здесь",
-        "PostAReplyPlaceholder": "Введите текст темы",
-        "Tags": "Теги",
-        "ShowMoreTags": "Показать больше тегов",
-        "ShowLessTags": "Скрыть",
-        "AddAttachment": "Прикрепить вложение",
-        "Post": "Создать тему",
-        "Posting": "публикуется"
-      },
-      "Tags": {
-        "Investing": {
-          "Title": "Инвестирование",
-          "Description": "Инвестирование"
+    "WebApp": {
+        "RightMenu": {
+            "Languages": {
+                "ru": "Russian",
+                "en": "English",
+                "ar": "Arabic",
+                "de": "German",
+                "es": "Spanish",
+                "fr": "French",
+                "it": "Italian",
+                "ja": "Japanese",
+                "ko": "Korean",
+                "nl": "Dutch",
+                "pt": "Portuguese",
+                "zh": "Chinese"
+            },
+            "Subscription": "Текущая подписка",
+            "Statistics": "Статистика",
+            "Language": "язык",
+            "StatisticsAnalyzed": "Годы проанализированных данных",
+            "StatisticsModules": "Количество модулей",
+            "HelpTranslate": "Помощь Перевести",
+            "SettingsFirstName": "Имя",
+            "SettingsLastName": "Фамилия",
+            "SettingsEmail": "Адрес электронной почты",
+            "SettingsNewsletter": "Новостная рассылка",
+            "SettingsLogOut": "Выйти",
+            "BacktestPower": "",
+            "StatisticsBacktests": "",
+            "SettingsAPIKeys": "",
+            "SettingsPublicAPIKey": "Public API Key",
+            "SettingsCopyPuclikAPIKey": "Copy, publick key link",
+            "SettingsSecret": "Secret",
+            "SettingsCopySecret": "Copy, secret link",
+            "SettingsResetKeys": "",
+            "SettingsAssetTypes": "Asset types",
+            "SettingsBountyPage": "Testing CI",
+            "AccountDetails": "",
+            "Affiliates": "",
+            "ProfileRecord": "Пофиль",
+            "Settings": "Настройки",
+            "ManageSubscription": "",
+            "PopupNoEmail": ""
         },
-        "Symbol": {
-          "Title": "Символ",
-          "Description": "Символ"
+        "LeftMenu": {
+            "Items": {
+                "Subscription": "Моя подписка",
+                "SmartFunds": "Интеллектуальные фонды",
+                "Dashboard": "Панель приборов",
+                "Management": "управление",
+                "Modules": "Модули",
+                "Universes": "Вселенные",
+                "Discussions": "Обсуждение",
+                "Catalog": "Каталог",
+                "Help": "Помощь и часто задаваемые вопросы"
+            },
+            "Text": {
+                "Hosting": "Хостинг для Фонда",
+                "Lab": "Фондовая лаборатория",
+                "Community": "сообщество",
+                "Documentation": "Документация"
+            },
+            "Support": "Поддержка"
         },
-        "Backtesting": {
-          "Title": "Backtesting",
-          "Description": "Backtesting"
+        "Dashboard": {
+            "Title": "Панель приборов",
+            "Hosting": {
+                "Status": "Статус хостинга",
+                "View": "Управление хостингом",
+                "NoSubscription": "Отсутствует пакет подписки на хостинг",
+                "NoSubscriptionText": "Sed tempor fringilla lobortis. Mauris sagittis ac dolor ac malesuada. Vestibulum dapibus ultricie ...",
+                "NoSubscriptionButton": "Получить пакет хостинга"
+            },
+            "Statistics": {
+                "Backtest": "Время использования бэктеста",
+                "Allocated": "Текущая подписка на выделенные фонды",
+                "Storage": "Текущий предел хранения"
+            },
+            "Create": {
+                "Title": "Создайте свой собственный Smart-фонд",
+                "CatalogTitle": "Вдохновиться",
+                "CatalogText": "Просмотрите наш рынок различных модулей, созданных нашим сообществом",
+                "CatalogButton": "Исследуйте каталог",
+                "UniversesTitle": "Торговля, что вы хотите",
+                "UniversesText": "Выберите, на каких запасах, сырьевых товарах, индексах, валютах Forex или криптовых валютах вы хотите создать алгоритм",
+                "UniversesButton": "Создать Вселенную",
+                "CreateTitle": "Инвестируйте в свои идеи",
+                "CreateText": "Создайте свой собственный единственный в своем роде алгоритм торговли всего за несколько минут",
+                "CreateButton": "Создать Смартфонд"
+            },
+            "WhatsHappening": {
+                "Title": "Что происходит",
+                "Discussions": "Обсуждение",
+                "Modules": "Модули",
+                "SmartFunds": "Интеллектуальные фонды",
+                "Universes": "Вселенные",
+                "News": "Новости",
+                "DicussionTitleBar": "Обсуждать дискуссии",
+                "ModulesTitleBar": "Просматривать модули",
+                "SmartFundsTitleBar": "Просматривать умные средства",
+                "UniversesTitleBar": "Просматривать вселенные"
+            }
         },
-        "Subscription": {
-          "Title": "Подписка",
-          "Description": "Подписка"
+        "Onboarding": {
+            "AssetTypeTitle": "Что бы вы инвестировали?",
+            "AssetTypeSubTitle": "Включить активы, с которыми вы хотите торговать. Вы сможете изменить это в любой момент при использовании Quantler.",
+            "DisclaimerTitle": "отказ",
+            "DisclaimerText": "Этот материал на этом веб-сайте предоставляется только в информационных целях и не представляет собой предложение о продаже, вымогательство для покупки или рекомендацию или одобрение любой безопасности или стратегии, а также не представляет собой предложение о предоставлении инвестиционных консультационных или других услуг Quantler. Кроме того, содержание веб-сайта не дает никакого мнения относительно пригодности какой-либо безопасности или каких-либо конкретных инвестиций. Простая и не гипотетическая производительность не гарантирует будущих результатов. Квантлер предоставляет только хостинг для торговых алгоритмов, проконсультируйтесь с вашим брокером о расходах и информации, связанной с торговлей.",
+            "DisclaimerAgree": "Я прочитал и понял сказанное выше",
+            "DisclaimerButton": "Продолжать",
+            "AcceptFirst": "",
+            "EquitiesTitle": "Equities",
+            "EquitiesText": "Enable equity investment",
+            "ETFTitle": "ETFs & ETCs",
+            "ETFText": "Enable ETF & ETC trading",
+            "CryptoTitle": "Crypto",
+            "CryptoText": "Enable crypto currency trading"
         },
-        "FAQ": {
-          "Title": "ЧАВО",
-          "Description": "ЧАВО"
+        "Management": {
+            "Title": "управление",
+            "Select": "Выберите хостинг",
+            "HostingTitle": "Хостинг",
+            "HostingLocation": "Место нахождения",
+            "HostingLatency": "Задержка",
+            "DelayNotice": "Данные могут быть отложены, проверьте, что ваш брокер для точного представления",
+            "SettledCash": "Расчетная наличность",
+            "UnsettledCash": "Неурегулированные денежные средства",
+            "Positions": "позиции",
+            "Equity": "Капитал",
+            "FreeMargin": "Свободная маржа",
+            "NoHostingTitle": "Отсутствует пакет хостинга",
+            "NoHostingSubTitle": "Sed tempor fringilla lobortis. Mauris sagittis ac dolor ac malesuada. Vestibulum dapibus ultricie ...",
+            "NoHostingButton": "ПОЛУЧИТЕ ХОСТИНГ-ПАКЕТ",
+            "NoAccount": "Нет учетной записи",
+            "FundDetails": {
+                "TabPositionsTitle": "позиции",
+                "TabTradesTitle": "Торги",
+                "TabOrdersTitle": "заказы",
+                "TabLoggingTitle": "логирование",
+                "Bought": "Купил",
+                "Sold": "Продан",
+                "SinceInception": "С момента создания"
+            },
+            "Account": {
+                "NoHosting": "No hosting running",
+                "Account": "Account",
+                "Balance": "Balance",
+                "Equity": "Equity",
+                "FloatingROI": "Floating ROI"
+            }
         },
-        "Day Trading": {
-          "Title": "Дневные торги",
-          "Description": "Дневные торги"
+        "Components": {
+            "DiscussionBar": {
+                "Views": "Просмотры",
+                "Replies": "Ответы",
+                "LastReply": "Последний ответ",
+                "NoReplies": "пока нет ответов"
+            },
+            "SmartFundBar": {
+                "MonthReturn": "1 месяц назад",
+                "YearReturn": "1 год возврата",
+                "Daytrading": "Daytrading",
+                "Title": "Smart fund",
+                "TitleBacktest": "",
+                "NoDataText": "",
+                "CumulativeChart": "",
+                "CumulativeChartEquity": "",
+                "CumulativeChartBenchmark": "",
+                "DrawDownChart": "",
+                "DrawDownChartLabel": ""
+            },
+            "ModulesBar": {
+                "View": "Модуль просмотра",
+                "Details": "Детали",
+                "Title": "Модуль"
+            },
+            "Pagination": {
+                "LoadMore": "Загрузить еще",
+                "Loading": "загрузка"
+            },
+            "UniverseBar": {
+                "IndexValue": "Значение индекса",
+                "YearReturn": "1 год возврата",
+                "CreatedBy": "Сделано",
+                "Title": "Universe",
+                "Overview": "Осмотр",
+                "NoDataText": ""
+            },
+            "Catalog": {
+                "Catalog": "",
+                "View": "",
+                "SmartFunds": "",
+                "Universes": "",
+                "Modules": "",
+                "AllThemes": ""
+            },
+            "NewsBar": {
+                "NoDataText": "No news available"
+            }
         },
-        "Trending": {
-          "Title": "Тренды",
-          "Description": "Тренды"
-        },
-        "Hosting": {
-          "Title": "Хостинг",
-          "Description": "Хостинг"
-        },
-        "Stat. Arbitrage": {
-          "Title": "Арбитраж",
-          "Description": "Арбитраж"
-        },
-        "Seasonal": {
-          "Title": "Сезонный",
-          "Description": "Сезонный"
-        },
-        "Equities": {
-          "Title": "Equities",
-          "Description": "Equities"
-        },
-        "Development": {
-          "Title": "Разработка",
-          "Description": "Разработка"
-        },
-        "Catalog": {
-          "Title": "Каталог",
-          "Description": "Каталог"
-        },
-        "Universe": {
-          "Title": "Вселенная",
-          "Description": "Вселенная"
-        },
-        "Market Data": {
-          "Title": "Рекламная информация",
-          "Description": "Рекламная информация"
-        },
-        "Tools And Tips": {
-          "Title": "Инструменты и подсказки",
-          "Description": "Инструменты и подсказки"
-        },
-        "Exit": {
-          "Title": "Exit",
-          "Description": "Exit"
-        },
-        "Entry": {
-          "Title": "Entry",
-          "Description": "Entry"
-        },
-        "Money Management": {
-          "Title": "Money Management",
-          "Description": "Money Management"
-        },
-        "Risk Management": {
-          "Title": "Risk Management",
-          "Description": "Risk Management"
-        },
-        "Live Trading": {
-          "Title": "Долгосрочные торги",
-          "Description": "Долгосрочные торги"
-        },
-        "Getting Started": {
-          "Title": "Начнем",
-          "Description": "Начнем"
-        },
-        "News": {
-          "Title": "Новости",
-          "Description": "Новости"
-        },
-        "Feature Request": {
-          "Title": "Запрос улучшения",
-          "Description": "Запрос улучшения"
-        },
-        "Colleboration Request": {
-          "Title": "Colleboration Request",
-          "Description": "Colleboration Request"
-        },
-        "Help Request": {
-          "Title": "Запрос помощи",
-          "Description": "Запрос помощи"
+        "Discussions": {
+            "Title": "Обсуждение",
+            "CreateNewPost": "Создать новую тему",
+            "AllTags": "Все теги",
+            "PostDetails": {
+                "BacktestPerformance": "Представление",
+                "AddAttachment": "Прикрепить вложение",
+                "PostAReply": "Отправить ответ",
+                "PostAReplyPlaceholder": "Введите свой ответ здесь",
+                "TypeAReplyFirst": "",
+                "Reply": "ответить",
+                "Posting": "публикуется"
+            },
+            "CreatePost": {
+                "PostTitle": "Заголовок поста",
+                "PostTitlePlaceholder": "Введите свой заголовок здесь",
+                "Tags": "Теги",
+                "ShowMoreTags": "Показать больше тегов",
+                "AddAttachment": "Прикрепить вложение",
+                "ShowLessTags": "Скрыть",
+                "PostAReplyPlaceholder": "Введите текст темы",
+                "Post": "Создать тему",
+                "Posting": "публикуется",
+                "Errors": {
+                    "Title": "",
+                    "Tag": "",
+                    "Empty": ""
+                }
+            },
+            "BackTo": "Назад к обсуждениям",
+            "NoDiscussions": "",
+            "NoDiscussionsDesc": "",
+            "Tags": {
+                "Investing": {
+                    "Title": "Инвестирование",
+                    "Description": "Инвестирование"
+                },
+                "Symbol": {
+                    "Title": "Символ",
+                    "Description": "Символ"
+                },
+                "Backtesting": {
+                    "Title": "Backtesting",
+                    "Description": "Backtesting"
+                },
+                "Subscription": {
+                    "Title": "Подписка",
+                    "Description": "Подписка"
+                },
+                "FAQ": {
+                    "Title": "ЧАВО",
+                    "Description": "ЧАВО"
+                },
+                "Day Trading": {
+                    "Title": "Дневные торги",
+                    "Description": "Дневные торги"
+                },
+                "Trending": {
+                    "Title": "Тренды",
+                    "Description": "Тренды"
+                },
+                "Hosting": {
+                    "Title": "Хостинг",
+                    "Description": "Хостинг"
+                },
+                "Stat. Arbitrage": {
+                    "Title": "Арбитраж",
+                    "Description": "Арбитраж"
+                },
+                "Seasonal": {
+                    "Title": "Сезонный",
+                    "Description": "Сезонный"
+                },
+                "Equities": {
+                    "Title": "Equities",
+                    "Description": "Equities"
+                },
+                "Development": {
+                    "Title": "Разработка",
+                    "Description": "Разработка"
+                },
+                "Catalog": {
+                    "Title": "Каталог",
+                    "Description": "Каталог"
+                },
+                "Universe": {
+                    "Title": "Вселенная",
+                    "Description": "Вселенная"
+                },
+                "Market Data": {
+                    "Title": "Рекламная информация",
+                    "Description": "Рекламная информация"
+                },
+                "Tools And Tips": {
+                    "Title": "Инструменты и подсказки",
+                    "Description": "Инструменты и подсказки"
+                },
+                "Exit": {
+                    "Title": "Exit",
+                    "Description": "Exit"
+                },
+                "Entry": {
+                    "Title": "Entry",
+                    "Description": "Entry"
+                },
+                "Money Management": {
+                    "Title": "Money Management",
+                    "Description": "Money Management"
+                },
+                "Risk Management": {
+                    "Title": "Risk Management",
+                    "Description": "Risk Management"
+                },
+                "Live Trading": {
+                    "Title": "Долгосрочные торги",
+                    "Description": "Долгосрочные торги"
+                },
+                "Getting Started": {
+                    "Title": "Начнем",
+                    "Description": "Начнем"
+                },
+                "News": {
+                    "Title": "Новости",
+                    "Description": "Новости"
+                },
+                "Feature Request": {
+                    "Title": "Запрос улучшения",
+                    "Description": "Запрос улучшения"
+                },
+                "Colleboration Request": {
+                    "Title": "Colleboration Request",
+                    "Description": "Colleboration Request"
+                },
+                "Help Request": {
+                    "Title": "Запрос помощи",
+                    "Description": "Запрос помощи"
+                },
+                "General": {
+                    "Title": "Основной",
+                    "Description": "Основной"
+                }
+            }
         },
         "General": {
-          "Title": "Основной",
-          "Description": "Основной"
+            "Update": "Обновить",
+            "Delete": "Удалить",
+            "Account": "Счет",
+            "On": "На",
+            "Off": "от",
+            "Deployed": "развернутый",
+            "Allocated": "Выделено",
+            "Symbol": "Символ",
+            "Direction": "направление",
+            "Size": "Размер",
+            "Changed": "Изменено",
+            "Price": "Цена",
+            "Margin": "Поле",
+            "Start": "Начало",
+            "Stop": "Стоп",
+            "Reply": "Ответить",
+            "Trades": "Торги",
+            "Fills": "заливка",
+            "Date": "Дата",
+            "Time": "Время",
+            "Quantity": "Количество",
+            "Difference": "разница",
+            "Allocation": "распределение",
+            "Sharing": "разделение",
+            "Public": "общественного",
+            "Setup": "Настроить",
+            "Checking": "проверка",
+            "Continue": "Продолжать",
+            "Close": "Закрыть",
+            "Country": "Страна",
+            "Balance": "Баланс",
+            "Equity": "Капитал",
+            "Floating": "Плавающая рентабельность инвестиций",
+            "Type": "Тип",
+            "Description": "Описание",
+            "File": "файл",
+            "Line": "Линия",
+            "Save": "Сохранить",
+            "Name": "имя",
+            "Title": "заглавие",
+            "Module": "модуль",
+            "Values": "Значения",
+            "Broker": "Маклер",
+            "Daytrading": "Дневная торговля",
+            "LongTermTrading": "Долгосрочное инвестирование",
+            "Saving": "Сохраняется"
+        },
+        "Backtester": {
+            "Title": "Умные средства",
+            "MySmartFunds": "Мои интеллектуальные фонды",
+            "CreateNew": "Создавать новое",
+            "Overview": {
+                "NoFundTitle": "Давайте начнем!",
+                "NoFundSubTitle": "Кажется, вы еще не сделали свой первый квантовый фонд, поэтому эта вкладка пуста. Создайте свой первый фонд на панели инструментов в левом верхнем углу.",
+                "SuggestionTitle": "ИЛИ ВЫБРАТЬ ПРЕДВАРИТЕЛЬНУЮ СТРАТЕГИЮ",
+                "Size": "Размер",
+                "BacktestHistory": "История опроса",
+                "Filters": {
+                    "Status": "Живая торговля",
+                    "Sharpe": "Шарп",
+                    "DD": "выборка",
+                    "ROI": "ROI",
+                    "NER": "Чистый коэффициент затрат",
+                    "Time": "Все время",
+                    "Modules": "Все модули",
+                    "Universes": "Вселенные",
+                    "LiveTrading": "",
+                    "DemoTrading": "",
+                    "Name": "",
+                    "CreatedAI": "",
+                    "CreatedImport": "",
+                    "CreatedManual": ""
+                },
+                "SearchFund": "Search a smart fund"
+            },
+            "Create": {
+                "Name": "Название Smart Fund",
+                "Settings": {
+                    "Title": "Настройки backtest",
+                    "SubTitle": "Выберите параметры окружающей среды, на которых будет выполняться этот торговый алгоритм.",
+                    "StartDate": "Выберите дату начала",
+                    "EndDate": "Выберите дату окончания",
+                    "Timeframe": "Период времени",
+                    "SelectUniverse": "Выберите свою вселенную",
+                    "MoreOptions": "больше вариантов",
+                    "LessOptions": "Меньше вариантов",
+                    "BrokerModel": "Модель брокера",
+                    "AccountType": "тип аккаунта",
+                    "AllocatedFunds": "Выделенные фонды",
+                    "BaseCurrency": "Базисная валюта",
+                    "ExtendedMarket": "Расширенные рыночные часы",
+                    "ExtendedMarketTooltip": "Привет мир",
+                    "UseTickData": "Использовать тиковые данные",
+                    "UseTickDataTooltip": "Привет мир",
+                    "Add": "Добавить новое",
+                    "Check": "Проверить каталог",
+                    "UniverseAdd": {
+                        "Title": "Выбрать юниверс",
+                        "Search": "Поиск вселенной",
+                        "NotListed": "Ваша вселенная не указана выше?"
+                    },
+                    "ModulesAdd": {
+                        "Title": "Выбрать модуль",
+                        "NotListed": "Ваш модуль не указан выше?"
+                    }
+                },
+                "Logic": {
+                    "Title": "Разработка стратегии",
+                    "SubTitle": "Создайте свой торговый алгоритм, добавив модули, которые вы хотите использовать в определенных областях.",
+                    "SubTitlePreset": "Чтобы создать свою стратегию, вы можете выбрать свои пресеты, выбор пресета перезапишет вашу текущую стратегию.",
+                    "Choose": "выберите",
+                    "Overwrite": "затирать",
+                    "SelectAPreset": "Выберите предустановку",
+                    "EntryTooltip": "Привет мир",
+                    "ExitTooltip": "Привет мир",
+                    "MMTooltip": "Привет мир",
+                    "RMTooltip": "Привет мир",
+                    "Preset1": {
+                        "Name": "",
+                        "Description": ""
+                    },
+                    "Preset2": {
+                        "Name": "",
+                        "Description": ""
+                    },
+                    "Preset3": {
+                        "Name": "",
+                        "Description": ""
+                    },
+                    "Preset1Name": "Имя пресета 1",
+                    "Preset1Description": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Morbi non elementum lorem, ac finibus turpis. Etiam orci augue, consectetur ut commodo imperdiet, hendrerit sed urna. Нунк сидит в амуре. Nam erat libero, время, не относящееся к некрому, tincidunt oullamcorper libero.",
+                    "Preset2Name": "Имя пресета 1",
+                    "Preset2Description": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Morbi non elementum lorem, ac finibus turpis. Etiam orci augue, consectetur ut commodo imperdiet, hendrerit sed urna. Нунк сидит в амуре. Nam erat libero, время, не относящееся к некрому, tincidunt oullamcorper libero.",
+                    "Preset3Name": "пустой",
+                    "Preset3Description": "Начинается с пустой стратегии."
+                },
+                "Results": {
+                    "Title": "Результаты",
+                    "SubTitle": "ПРЕДУПРЕЖДЕНИЕ. Прошлые показатели не гарантируют будущих результатов. Всегда запускайте алгоритм торговли в демонстрационной среде перед живым исполнением.",
+                    "PerformanceOverview": "Обзор производительности",
+                    "Summary": "Резюме",
+                    "TradingPeriod": "Торговый период",
+                    "GrossPnlTooltip": "Привет мир",
+                    "TotalNetProfitTooltip": "Привет мир",
+                    "ROITooltip": "Привет мир",
+                    "FillNr": "Заполнить Nr",
+                    "SubTitle2": "",
+                    "Trades": "",
+                    "Overview": "",
+                    "Statistics": "",
+                    "Orders": "",
+                    "Logging": "",
+                    "Finalizing": "",
+                    "Completed": "",
+                    "OrdersHeaders": {
+                        "Date": "",
+                        "Time": "",
+                        "Symbol": "",
+                        "Type": "",
+                        "FillPrice": "",
+                        "Currency": "",
+                        "Quantity": ""
+                    },
+                    "OverviewHeaders": {
+                        "BrokerModel": "",
+                        "BaseCurrency": "",
+                        "StartDate": "",
+                        "EndDate": "",
+                        "InitCapital": "",
+                        "EndingCapital": "",
+                        "ErrorsFound": "",
+                        "ROI": ""
+                    }
+                },
+                "Dialog": {
+                    "Title": "Настройка хостинга",
+                    "Select": "Выберите свой брокерский счет",
+                    "AccountBalance": "Баланс",
+                    "CurrencyAllocated": "Выделенная валюта",
+                    "FreeForAllocation": "Бесплатно для размещения",
+                    "PublicText": "Отпустите свой исходный код под лицензией MIT и получите ежемесячную скидку",
+                    "SeeTerms": "См. Условия",
+                    "AddBrokerageTitle": "Добавить новый брокерский счет",
+                    "AddBrokerageDesc": "В случае отсутствия учетной записи или предпочтете создать новую. Добавьте новую учетную запись сейчас.",
+                    "AwaitingSetup": "Ожидание установки",
+                    "WarningMessage": "Все шаги отмечены, есть 1 предупреждение. Продолжайте?"
+                },
+                "NextStep": "следующий шаг",
+                "RunBacktest": "Запустить backtest",
+                "StartHosting": "Начать хостинг",
+                "NamePlaceholder": "",
+                "SelectPreset": "",
+                "Errors": {
+                    "Name": "",
+                    "Universe": "",
+                    "Module": ""
+                }
+            },
+            "MySmartFund": "My Smart Fund",
+            "SelectPremade": "",
+            "Signal": "",
+            "MoneyManagement": "",
+            "RiskManagement": "",
+            "Updated": "",
+            "Backtests": "",
+            "CreatedOn": "",
+            "DeleteBacktest": "",
+            "ReloadBacktest": "",
+            "OpenBacktest": "",
+            "ROI": "",
+            "Drawdown": "",
+            "Sharpe": "",
+            "NetExpenseRatio": "",
+            "NER": "",
+            "Modules": "",
+            "Universe": "",
+            "DeleteSmartFund": "",
+            "AreYouSure": "",
+            "BackToSmartfunds": ""
+        },
+        "MySubscription": {
+            "Title": "Моя подписка",
+            "CommissionFree": "Комиссионные брокеры",
+            "OtherBrokers": "Другие брокеры",
+            "License": "Лицензия",
+            "MoreInfo": "больше информации",
+            "Unaffiliated": "Квантлер не связан ни с каким третьим финансовым учреждением третьей стороны",
+            "Initial": {
+                "ChooseTitle": "Выбор подписки",
+                "ChooseText": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+                "GetStarted": "начать",
+                "SharingDiscountTitle": "Поделитесь алгоритмом, чтобы получить скидку в размере 10 000 долларов США",
+                "SharingDiscountDesc": "За общий алгоритм мы вычтем 10 000 долларов США из вашей вычисленной суммы. Например, вы выделили 25 000 и поделились 2 алгоритмами, мы будем платить только за (25 000 (2 * 10 000)) 5 000 выделенных средств.",
+                "PlansTitle": "Все планы включают",
+                "PlanLowLatency": "Соединение с низкой задержкой",
+                "PlanLowLatencyTooltip": "Привет мир",
+                "PlanLocations": "Расположение серверов по всему миру",
+                "PlanLocationsTooltip": "Привет мир",
+                "PlanSecurity": "Безопасные, зашифрованные соединения",
+                "PlanSecurityTooltip": "Привет мир",
+                "PlanUnlimited": "Неограниченные стратегии",
+                "PlanUnlimitedTooltip": "Привет мир",
+                "PlanActive": "2 активных стратегии торговли бумагами",
+                "PlanActiveTooltip": "Привет мир",
+                "PlanBacktestTime": "24 часа / месяц Время повторного тестирования",
+                "PlanBacktestTimeTooltip": "Привет мир",
+                "PlanHosting": "Размещение стратегии",
+                "PlanHostingTooltip": "Привет мир",
+                "CancelSubscription": "Отменить подписку",
+                "Step1PersonalInfo": {
+                    "Title": "Личная информация",
+                    "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+                    "Name": "имя",
+                    "PhoneNumber": "Номер телефона",
+                    "Country": "Страна проживания",
+                    "Address": "Адрес",
+                    "StateRegion": "Государство / Регион",
+                    "City": "город",
+                    "Street": "Улица, дом, Апт",
+                    "Zip": "Почтовый Индекс"
+                },
+                "Step2ServiceAgreement": {
+                    "SubTitle": "Пожалуйста, оставьте ниже нижеследующее соглашение об обслуживании и сообщите нам, что вы согласны",
+                    "AgreeTitle": "Соглашение об обслуживании клиентов",
+                    "AgreeText": "Настоящим я заявляю, что внимательно прочитал, понял и согласился с соглашением с клиентом",
+                    "Privacy": "Приватность",
+                    "AgreementParagraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo lacus sed diam egestas pellentesque. Fusce a gravida neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sit amet tortor nulla. Donec auctor sagittis ex in egestas.",
+                    "AgreementParagraph2": "Morbi porttitor ipsum ac diam interdum, vel tristique ante dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eu elementum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque feugiat justo in faucibus dignissim. Maecenas nec ex et diam bibendum euismod sit amet ac lectus. Etiam tempus elementum facilisis. Aliquam tempus, dolor ac blandit condimentum, lorem lacus interdum eros, ac faucibus mauris ipsum sed arcu. Nulla elit elit, mollis vel viverra in, ullamcorper et ante. Ut sagittis erat quis risus fermentum pharetra. Duis interdum purus id faucibus sodales.",
+                    "AgreementParagraph3": "Sed lacinia dui et nisl congue mollis. Sed eget nulla a est mattis facilisis. Ut placerat sed nisl sed tincidunt. Nullam tincidunt consectetur ligula eget consectetur. Etiam odio neque, maximus nec pretium vel, fringilla non dolor. Sed posuere risus et lectus tincidunt, vitae maximus neque auctor. In quis luctus purus, sit amet facilisis mauris. Proin at massa vitae sapien mattis porttitor nec quis ex. Nulla facilisi. Ut nisi magna, finibus sit amet tempor ut, luctus a urna. Pellentesque interdum egestas nunc, eget suscipit libero fermentum vitae. Nunc ipsum dui, varius nec finibus vel, pellentesque eu est. Cras porttitor nisl in mauris consequat rhoncus.",
+                    "AgreementParagraph4": "Phasellus id rutrum risus, a tempor neque. Vestibulum nec maximus leo, vel finibus quam. In euismod ante eu viverra maximus. Etiam a consequat nunc. Vestibulum lacinia in libero vestibulum ornare. Vivamus venenatis, nibh et eleifend efficitur, velit quam auctor est, at laoreet lacus tellus at neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In consectetur, ante sit amet luctus rhoncus, mauris augue cursus nulla, aliquam sagittis tellus turpis non neque. Suspendisse tincidunt mattis mi, at laoreet purus venenatis quis. Donec eu velit et urna tristique cursus a ut nulla. Duis facilisis diam quis ipsum fermentum dapibus viverra eu nisi. Sed vitae dolor ante. Vestibulum congue, felis ut maximus rutrum, est neque condimentum erat, vitae mattis lorem massa a risus. Nunc aliquam tellus ac aliquam vestibulum. Donec dignissim consequat nisi, nec placerat odio auctor vel. Maecenas convallis pharetra aliquet. In sollicitudin scelerisque elit. Mauris fringilla urna ligula, vitae efficitur libero mollis sed. Aliquam placerat scelerisque nulla, lobortis sagittis dui venenatis in. Curabitur suscipit ipsum vel mi placerat interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eget suscipit augue, non cursus turpis. Nunc porttitor commodo consequat. Nulla nec justo rutrum, posuere lorem et, mollis lacus. In tristique, neque quis semper vulputate, ante lorem luctus libero, ut facilisis ligula mi quis nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ultricies arcu ipsum, ac placerat arcu eleifend ut. Maecenas pulvinar dignissim erat."
+                },
+                "Step3PaymentInformation": {
+                    "Title": "Платежная информация",
+                    "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+                    "Provide": "ПРЕДОСТАВИТЬ ОПЛАТЫ ОПЛАТЫ"
+                },
+                "Step4Completed": {
+                    "Title": "Сукчес!",
+                    "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+                    "Started": "НАЧАЛО ПОДПИСКИ",
+                    "Connect": "ПОДКЛЮЧИТЕ ВАШ БРОКЕР"
+                },
+                "Country": "Страна",
+                "CountryHint": "Выберите страну",
+                "Tooltips": {
+                    "Personal Information": "Персональная информация",
+                    "Service Agreement": "Лицензионное соглашение",
+                    "Payment": "Оплата",
+                    "Broker Details": "Информация о брокерах"
+                },
+                "CheckOutModal": {
+                    "Getstarted": "You need Quantcoins to get started",
+                    "Description": "Quantcoins are needed to proceed and start trading. They are still available and ready for you to pick up",
+                    "CHECKOUTICO": "CHECKOUT ICO"
+                },
+                "Tiers": {
+                    "Tier1": {
+                        "Title": "tier 1",
+                        "Feature1Title": "Automated portfolio management",
+                        "Feature1Tooltip": "Automated portfolio management",
+                        "Feature2Title": "Tax-efficient investing features",
+                        "Feature2Tooltip": "Tax-efficient investing features",
+                        "Feature3Title": "New account only",
+                        "Feature3Tooltip": "New account only",
+                        "AllocatedFunds": "Allocated funds",
+                        "Price": "free",
+                        "PayPeriod": ""
+                    },
+                    "Tier2": {
+                        "Title": "tier 2",
+                        "Feature1Title": "Automated portfolio management",
+                        "Feature1Tooltip": "Automated portfolio management",
+                        "Feature2Title": "Tax-efficient investing features",
+                        "Feature2Tooltip": "Tax-efficient investing features",
+                        "Feature3Title": "New account only",
+                        "Feature3Tooltip": "New account only",
+                        "AllocatedFunds": "Allocated funds",
+                        "Price": "~0.25% OF TOTAL",
+                        "PayPeriod": "annually",
+                        "Additional": "0,242657% effectively"
+                    }
+                }
+            },
+            "Overview": {
+                "Title": "Обзор подписки",
+                "ManagePayment": "Управление платежами",
+                "Current": "Текущий",
+                "Running": "Бег",
+                "Shared": "Общий",
+                "SmartFundShared": "Интеллектуальные фонды",
+                "AllocateReduced": "Распределение сокращено",
+                "AllocateTotal": "Всего выделено",
+                "EstimateTier": "Оценочный уровень",
+                "EstimateInvoice": "Расчетный счет (с учетом НДС)",
+                "SubscriptionHistory": "История подписки",
+                "SubscriptionPeriod": "Период подписки",
+                "BrokerSettings": "Настройки Брокеров",
+                "CreateAccount": "создать учетную запись",
+                "Allocated": "Выделено"
+            },
+            "Settings": {
+                "Title": "Выберите один из совместимых брокеров",
+                "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+                "AddABroker": "Добавить брокера",
+                "ConnectedBrokers": "Связанные брокеры",
+                "AddBroker": "Добавить брокера",
+                "CantFind": "Не можете найти своего брокера?",
+                "ActiveHosting": "Активный хостинг",
+                "Compatible": "Совместимые с Quantler брокеры",
+                "Adding": "Добавление"
+            },
+            "Planned": {
+                "title": "Planned",
+                "tooltip": "This broker is not compatible yet"
+            },
+            "Assettypes": ""
+        },
+        "Modules": {
+            "Title": "модули",
+            "Add": "Добавить новый модуль",
+            "AddPopup": {
+                "DefineTitle": "Определить модуль",
+                "DefineText": "Выберите имя и тип модуля перед созданием",
+                "DescTitle": "Описание",
+                "DescText": "Задайте описание своего модуля.",
+                "DoneTitle": "Готово!",
+                "DoneText": "Вы готовы начать кодирование!",
+                "ModuleNameTooltip": "Привет мир",
+                "ModuleTypeTooltip": "Привет мир",
+                "TypeYourDescription": "Введите свой пост здесь",
+                "ModuleReady": "Ваш модуль готов",
+                "SelectAModule": "Выберите модуль",
+                "SelectAModuleDesc": "Кажется, у вас нет выбранного модуля, поэтому здесь ничего не показывать. Выберите модуль с левой стороны, чтобы начать работу или создать новый модуль",
+                "Types": {
+                    "RM": "Создайте модуль управления рисками, чтобы указать, как управлять своим риском.",
+                    "MM": "Создайте модуль управления денежными средствами, чтобы указать размер и время выбора позиции.",
+                    "Signal": "",
+                    "Entry": "Создайте модуль ввода, чтобы узнать, как и когда выходить на рынки.",
+                    "Exit": "Создайте модуль выхода, чтобы узнать, как и когда выйти из рынков."
+                },
+                "CreateTitle": "Создать модуль",
+                "ModuleName": "Имя модуля",
+                "ModuleNamePlaceholder": "Укажите имя модуля",
+                "ModuleType": "Тип модуля"
+            },
+            "SettingsPanel": {
+                "NameTooltip": "Привет мир",
+                "SharingTooltip": "Привет мир",
+                "ParamaterName": "Имя параметра",
+                "ParameterDescription": "Описание",
+                "ParameterValues": "Значения",
+                "Parameters": "Параметры",
+                "ModuleSettings": "Настройки модуля",
+                "Name": "",
+                "Sharing": "",
+                "SetModule": "",
+                "not": "",
+                "public": "",
+                "Saving": "",
+                "update": "",
+                "deleting": "",
+                "delete": "",
+                "DeleteModule": "",
+                "Areyousure": ""
+            },
+            "Compile": "компилировать",
+            "Line": "Строка",
+            "NoErrors": "Нет ошибок. Пожалуйста, сначала скомпилируйте",
+            "Parameter": "параметр",
+            "Parameters": "параметры",
+            "BackTo": "Назад к",
+            "File": "Файл",
+            "Description": "Описание",
+            "Module": "Модуль",
+            "CompileErrors": "Ошибка: Компиляция прервана",
+            "CompileSuccess": "Нет ошибок: Компиляция успешно завершена",
+            "Noerrorstodisplay": "",
+            "NoModulesFound": "",
+            "NoModulesFoundDescription": "",
+            "ModuleTypeFilter": {
+                "Title": "",
+                "Selection": ""
+            }
+        },
+        "Universe": {
+            "Title": "вселенные",
+            "Add": "Добавить новую вселенную",
+            "Overview": {
+                "AlreadyShared": "Уже",
+                "FinalizeFirst": "Пожалуйста, завершите первый",
+                "Delete": "Удалить Вселенную",
+                "EmptyUniversesTitle": "Давайте начнем!",
+                "EmptyUniversesDesc": "Кажется, вы еще не сделали свой первый алгоритм, поэтому эта вкладка пуста. Создайте свой первый алгоритм на панели инструментов в левом верхнем углу.",
+                "EmptyUniversesSuggestions": "Вселенная",
+                "AreYouSure": "",
+                "SuggestionTitle": "",
+                "SelectUniverse": ""
+            },
+            "Item": {
+                "Index": "Индекс Quantler 1 YR Return",
+                "Autosaved": "автосохранение",
+                "Created": "Сделано",
+                "DescriptionPlaceholder": "Вселенная Описание",
+                "SearchPlaceholder": "Тикер или название компании",
+                "Name": "имя",
+                "Symbol": "Символ",
+                "Weight": "вес",
+                "Price": "Цена",
+                "MarketCap": "Рыночная капитализация",
+                "Delete": "Удалить",
+                "Industry": "Промышленность",
+                "EmptySymbolsTitle": "Давайте начнем!",
+                "EmptySymbolsDesc": "Кажется, вы еще не сделали свой первый алгоритм, поэтому эта вкладка пуста. Создайте свой первый алгоритм на панели инструментов в левом верхнем углу.",
+                "Autosaving": "",
+                "Import": "",
+                "ImportDescription": "",
+                "Importing": "",
+                "Saving": "",
+                "Finalize": "",
+                "Finalized": "",
+                "Share": "",
+                "Status": "",
+                "Description": "",
+                "Custom": "",
+                "Equal": "",
+                "AllTagsPlaceholder": "",
+                "MaximumTagsReached": "",
+                "MaximumSymbolsReached": "",
+                "Broker": "",
+                "Filter": "",
+                "YearReturn": "",
+                "MonthReturn": "",
+                "NoResults": "",
+                "Unavailable": "",
+                "Updating": "",
+                "UpdateAvailable": "",
+                "AlreadyImported": "",
+                "Errors": {
+                    "Name": "",
+                    "Symbol": "",
+                    "Weights": ""
+                }
+            },
+            "Tags": {
+                "Europe": {
+                    "Title": "Европа",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Online": {
+                    "Title": "В сети",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Pharma": {
+                    "Title": "Pharma",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Agriculture": {
+                    "Title": "сельское хозяйство",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Real Estate": {
+                    "Title": "Недвижимость",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Automotive": {
+                    "Title": "автомобильный",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "World": {
+                    "Title": "Мир",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "USA": {
+                    "Title": "США",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Asia": {
+                    "Title": "Азия",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Green Energy": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Travel": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Blockchain": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Emerging Markets": {
+                    "Title": "Emerging Markets",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Financial Services": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Food and Beverages": {
+                    "Title": "Food and Beverages",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Precious Metals": {
+                    "Title": "Precious Metals",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Social Responsibility": {
+                    "Title": "Social Responsibility",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Oil and Gas": {
+                    "Title": "Oil and Gas",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Welness": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Retail": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Latest Hypes": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Dividends": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Bonds": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Fund of Funds": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "LowVolatility": {
+                    "Title": "Низкая волатильность",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "LifeScience": {
+                    "Title": "Наука о жизни",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "NewTechnologies": {
+                    "Title": "Новые технологии",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "SocialMedia": {
+                    "Title": "Социальные медиа",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Aviation": {
+                    "Title": "авиации",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Leisure": {
+                    "Title": "Досуг",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "SportAndFitness": {
+                    "Title": "Спорт и фитнес",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Wellness": {
+                    "Title": "хорошее здоровье",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "HealthyLifestyle": {
+                    "Title": "Здоровый образ жизни",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "AlternativeEnergy": {
+                    "Title": "Альтернативой энергии",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Semiconductor": {
+                    "Title": "полупроводник",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Biotech": {
+                    "Title": "Biotech",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Cleantech": {
+                    "Title": "Cleantech",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "SmartGrid": {
+                    "Title": "Умная сеть электроснабжения",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "WindEnergy": {
+                    "Title": "Ветряная энергия",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "SolarEnergy": {
+                    "Title": "Солнечная энергия",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "InternetOfThings": {
+                    "Title": "Интернет вещей",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "OilAndGas": {
+                    "Title": "Нефти и газа",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "FoodAndBeverages": {
+                    "Title": "Еда и напитки",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "WasteManagement": {
+                    "Title": "Управление отходами",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Water": {
+                    "Title": "вода",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Lithium": {
+                    "Title": "литий",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "PreciousMetals": {
+                    "Title": "Драгоценные металлы",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "IndustrialMetals": {
+                    "Title": "Промышленные металлы",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Gold": {
+                    "Title": "Золото",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "SocialResponsibility": {
+                    "Title": "Социальная ответственность",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "EmergingMarkets": {
+                    "Title": "Развивающиеся рынки",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Low Volatility": {
+                    "Title": "Low Volatility",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Life Science": {
+                    "Title": "Life Science",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "New Technologies": {
+                    "Title": "New Technologies",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Social Media": {
+                    "Title": "Social Media",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Sport And Fitness": {
+                    "Title": "Sport And Fitness",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Healthy Lifestyle": {
+                    "Title": "Healthy Lifestyle",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Alternative Energy": {
+                    "Title": "Alternative Energy",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Smart Grid": {
+                    "Title": "Smart Grid",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "WindE nergy": {
+                    "Title": "Wind Energy",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Solar Energy": {
+                    "Title": "Solar Energy",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Internet Of Things": {
+                    "Title": "Internet Of Things",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Waste Management": {
+                    "Title": "Waste Management",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Industrial Metals": {
+                    "Title": "Industrial Metals",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                }
+            },
+            "NoUniversesFound": "",
+            "NoUniversesFoundDescr": ""
+        },
+        "Symbol": {
+            "KeyFinancials": "Основные финансовые показатели",
+            "Website": "Веб-сайт",
+            "Currency": "валюта",
+            "DayRange": "Дневной диапазон",
+            "52WeekRange": "Диапазон 52 недели",
+            "LastPrice": "Последняя цена",
+            "Shares": "Акции",
+            "MarketCap": "Рыночная капитализация (USD)",
+            "EPS": "прибыль на акцию",
+            "PERatio": "Коэффициент P / E",
+            "Div Yield": "Дивный доход",
+            "Sponsor": "спонсор",
+            "AssetClass": "Класс активов",
+            "NER": "Чистый коэффициент затрат",
+            "AvgDaily": "Avg. Ежедневный объем",
+            "AvailableSupply": "Доступное снабжение",
+            "TotalSupply": "Общее снабжение",
+            "PopupNoDesc": "Без описания",
+            "MoreDetails": "Подробнее",
+            "Price": "Цена",
+            "52Week": "52-недельный диапазон",
+            "Returns": "Возвращает",
+            "1MO": "1MO",
+            "6MO": "6MO",
+            "1YR": "1YR",
+            "Performance": "Производительность",
+            "From": "Из",
+            "To": "к",
+            "Industry": {
+                "Finance": {
+                    "Title": "финансов"
+                }
+            },
+            "AssetType": {
+                "Equity": {
+                    "Title": "Капитал",
+                    "Plural": "Рынок акций"
+                },
+                "ETF": {
+                    "Title": "ETF",
+                    "Plural": "биржевые индексные фонды"
+                },
+                "Crypto": {
+                    "Title": "крипто-",
+                    "Plural": "Crypto-х"
+                }
+            },
+            "Back": "Назад",
+            "LastUpdated": "",
+            "Open": "Open",
+            "Description": "Описание",
+            "Details": {
+                "AAPL": {
+                    "Description": ""
+                }
+            }
+        },
+        "Catalog": {
+            "Title": "Каталог",
+            "Universe": {
+                "Tag": "Показать по тегам",
+                "Popular": "Показать Популярное",
+                "All": "Показать все",
+                "ShowAll": "Показать все {0} юниверсы",
+                "Top1Y": "Топ 1Y выполнение",
+                "Top1M": "Top 1M peforming"
+            },
+            "SmartFunds": {
+                "CautionTitle": "предосторожность",
+                "CautionText": "Прошлые показатели не гарантируют будущих результатов. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu est convallis, iaculis ipsum a, facilisis velit. Maecenas feugiat, velit в faucibus sagittis, nisl elit volutpat velit, id эффективный черепашский quam at nunc. Quisque egestas metus elit, blandit pharetra diam faucibus sit amet.",
+                "IGotIt": "я понял",
+                "NoSmartFundsFound": "",
+                "NoSmartFundsFoundDescr": "",
+                "Overview": "",
+                "PopularFunds": "",
+                "Community": "",
+                "ShowAll": "",
+                "YearPerformance": "",
+                "Popular": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Speculative": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Theme": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "BrokerBased": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Filters": {
+                    "Style": "Торговый стиль",
+                    "Activity": "Активность",
+                    "Sharpe": "Шарп",
+                    "DD": "выборка",
+                    "ROI": "ROI",
+                    "NER": "Чистый коэффициент затрат",
+                    "Time": "Все время",
+                    "Modules": "Все модули",
+                    "Universes": "Вселенные",
+                    "Others": "",
+                    "AssetType": "",
+                    "Theme": "",
+                    "Broker": "",
+                    "YearReturn": "",
+                    "MonthReturn": "",
+                    "Speculative": "",
+                    "Passive": "",
+                    "SelectedThemes": "",
+                    "SearchingThemes": "",
+                    "Filters": ""
+                },
+                "StatisticTab": {
+                    "ROI": "",
+                    "1YROI": "",
+                    "1MROI": "",
+                    "NetExpenseRatio": "",
+                    "Drawdown": "",
+                    "Sharpe": ""
+                },
+                "DetailsTabs": {
+                    "PastPerformance": "",
+                    "SymbolsAndWeights": "",
+                    "RecentNews": ""
+                },
+                "SymbolsTable": {
+                    "Name": "",
+                    "Symbol": "",
+                    "Weight": "",
+                    "Price": "",
+                    "MarketCap": "",
+                    "YR": ""
+                },
+                "ImportButton": "",
+                "BackButton": ""
+            },
+            "Modules": {
+                "AllModuleTypes": "Все типы модулей",
+                "AllTime": "Все время",
+                "Item": {
+                    "PostReply": "Отправить ответ",
+                    "Reply": "Ответить",
+                    "BackTo": "Вернуться к"
+                }
+            }
+        },
+        "Bounty": {
+            "Title": "щедроты",
+            "ICO": {
+                "Tab": "ICO Bounty",
+                "PayoutTitle": "Выплата дивидендов",
+                "PayoutShareFriends": "<B> Поделиться с друзьями: </ b> 25 очков p / share",
+                "PayoutFollowTwitter": "<B> Следуйте за нами на Twitter: </ b> 500 баллов",
+                "PayoutFollowFacebook": "<B> Следуйте за нами на Facebook: </ b> 500 баллов",
+                "ForumSignature": "<B> Подпись форума: </ b> 75 баллов за неделю",
+                "BlogPost": "<B> Сообщение в блоге: </ b> 1750 баллов",
+                "AffiliateLink": "<B> Аффилированная регистрация ссылок: </ b> 125 баллов",
+                "Journalism": "<B> Журналистика: </ b> Переменная",
+                "OtherPromotions": "<B> Другие акции: </ b> Переменная",
+                "ICOAffLink": "Ico партнерская ссылка",
+                "ICOAffLinkApp": "Ваша ссылка на приложение Quantler",
+                "ICOAffLinkIco": "Ваша ссылка на ICO Quantler",
+                "ICOAffLinkCopy": "Скопировать в буфер обмена",
+                "ShareWithFriends": "Поделиться с друзьями",
+                "Performance": "Представление",
+                "LinkClicks": "Ссылка на клики",
+                "FriendsShared": "Друзья",
+                "Translations": "Переводы",
+                "BlogPosts": "Сообщения в блоге",
+                "SocialMedia": "Социальные медиа",
+                "OtherPromotionsItem": "Другие рекламные акции",
+                "Points": "Точки",
+                "Note": "Примечание: приведенные выше цифры представляют собой оценки, вопросы округления и времени могут привести к отклонениям цифр",
+                "AddBounty": "Добавить запрос на раздачу",
+                "BountyType": "Тип баунти",
+                "BountyLink": "Ссылка Bounty",
+                "Message": "Сообщение",
+                "AddRequest": "Добавить запрос",
+                "BountyHistory": "История бонусов",
+                "HistoryTable": {
+                    "Type": "Тип",
+                    "Occured": "происходивших",
+                    "Points": "Точки",
+                    "Approved": "утвержденный",
+                    "Comment": "Комментарий"
+                },
+                "BountyLinkPlaceholder": "",
+                "MessagePlaceholder": "",
+                "SuccessAddRequest": "",
+                "BountyPayout": {
+                    "EtherBountyPayoutAddress": "",
+                    "Save": "",
+                    "SuccessSave": ""
+                },
+                "HistoryItemModal": {
+                    "BountyType": "",
+                    "BountyLink": "",
+                    "TimeOccured": "",
+                    "Points": "",
+                    "Approved": "",
+                    "Yes": "",
+                    "No": "",
+                    "Comment": "",
+                    "Message": "",
+                    "Close": ""
+                }
+            },
+            "Github": {
+                "Tab": "Github Bounty",
+                "UnderDevelopmentTitle": "",
+                "UnderDevelopmentText": ""
+            }
+        },
+        "AnnouncementBar": {
+            "title": "ANNOUNCEMENT",
+            "description": "Invest from £15 in our equity crowdfunding round"
+        },
+        "NotOptimizedForMobile": {
+            "Title": "",
+            "Text": "",
+            "OK": ""
+        },
+        "qEditor": {
+            "PostReply": "",
+            "Reply": "",
+            "Posting": "",
+            "TypeAReplyFirst": ""
         }
-      }
     },
-    "General": {
-      "Update": "Обновить",
-      "Delete": "Удалить",
-      "Account": "Счет",
-      "On": "На",
-      "Off": "от",
-      "Deployed": "развернутый",
-      "Allocated": "Выделено",
-      "Symbol": "Символ",
-      "Direction": "направление",
-      "Size": "Размер",
-      "Changed": "Изменено",
-      "Price": "Цена",
-      "Margin": "Поле",
-      "Start": "Начало",
-      "Stop": "Стоп",
-      "Reply": "Ответить",
-      "Trades": "Торги",
-      "Fills": "заливка",
-      "Date": "Дата",
-      "Time": "Время",
-      "Quantity": "Количество",
-      "Difference": "разница",
-      "Allocation": "распределение",
-      "Sharing": "разделение",
-      "Public": "общественного",
-      "Setup": "Настроить",
-      "Checking": "проверка",
-      "Continue": "Продолжать",
-      "Close": "Закрыть",
-      "Country": "Страна",
-      "Balance": "Баланс",
-      "Equity": "Капитал",
-      "Floating": "Плавающая рентабельность инвестиций",
-      "Type": "Тип",
-      "Description": "Описание",
-      "File": "файл",
-      "Line": "Линия",
-      "Save": "Сохранить",
-      "Saving": "Сохраняется",
-      "Name": "имя",
-      "Title": "заглавие",
-      "Module": "модуль",
-      "Values": "Значения",
-      "Broker": "Маклер",
-      "Daytrading": "Дневная торговля",
-      "LongTermTrading": "Долгосрочное инвестирование"
-    },
-    "Backtester": {
-      "Title": "Умные средства",
-      "MySmartFunds": "Мои интеллектуальные фонды",
-      "MySmartFund": "My Smart Fund",
-      "CreateNew": "Создавать новое",
-      "Overview": {
-        "NoFundTitle": "Давайте начнем!",
-        "NoFundSubTitle": "Кажется, вы еще не сделали свой первый квантовый фонд, поэтому эта вкладка пуста. Создайте свой первый фонд на панели инструментов в левом верхнем углу.",
-        "SearchFund": "Search a smart fund",
-        "SuggestionTitle": "ИЛИ ВЫБРАТЬ ПРЕДВАРИТЕЛЬНУЮ СТРАТЕГИЮ",
-        "Size": "Размер",
-        "BacktestHistory": "История опроса",
-        "Filters": {
-          "Status": "Живая торговля",
-          "Sharpe": "Шарп",
-          "DD": "выборка",
-          "ROI": "ROI",
-          "NER": "Чистый коэффициент затрат",
-          "Time": "Все время",
-          "Modules": "Все модули",
-          "Universes": "Вселенные"
+    "LandingPage": {
+        "Welcome": {
+            "Title": "Представляем Quantler",
+            "SubTitle": "Онлайн-автоматизированный торговый сервис для индивидуальных инвесторов",
+            "H1Title": "Теперь легко автоматизировать ваши инвестиции",
+            "H1SubTitle": "Первая полностью автоматизированная торговая среда для выравнивания вашего стиля инвестирования",
+            "H1SubItem1Title": "Вдохновиться",
+            "H1SubItem1Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
+            "H1SubItem2Title": "Торговля, что вы хотите",
+            "H1SubItem2Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
+            "H1SubItem3Title": "Инвестируйте в свои идеи",
+            "H1SubItem3Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
+            "InvestInWhatYouBelieveIn": "",
+            "ShowSmartFunds": ""
+        },
+        "SmartFund": {
+            "MenuItem": "Автоматизированная торговля",
+            "Title": "Познакомьтесь со своими финансовыми целями без компромиссов",
+            "SubTitle": "Автоматизированная торговля, автоматическая торговля финансовыми рынками. Создавайте свои собственные автоматические торговые стратегии онлайн или офлайн.",
+            "H1Title": "Каждый инвестор является uniqe, каждый торговый алоризм, а также",
+            "H1SubTitle": "Создание интеллектуального фонда с записью или без написания одной строки кода",
+            "GetStarted": "",
+            "Text1": "",
+            "Text2": "",
+            "Text3": "",
+            "H1Item1Text": "Вселенные, определите, что вы хотите торговать",
+            "H1Item2Text": "Создайте свой собственный интеллектуальный фонд",
+            "H1Item3Text": "Проанализируйте и проанализируйте свой потенциал с помощью облачности"
+        },
+        "General": {
+            "Create": "Создать Смартфонд",
+            "Start": "Начните автоматизировать свое инвестирование. Торговля, где и что вы хотите.",
+            "GetStarted": "начать",
+            "NoLock": "Нет блокировки в",
+            "NoLockText": "Мы поддерживаем наш продукт и услуги хостинга. В любое время вы можете отменить свою подписку для размещения своих торговых алгоритмов. Наше программное обеспечение является открытым исходным кодом, вы также можете размещать свои смартфон на других хостинг-провайдерах.",
+            "ComapreAligned": "Согласовано с вашими личными ценностями",
+            "CompareOwnership": "Прямое владение акциями",
+            "CompareKnow": "Знайте, что вы имеете",
+            "CompareCompromise": "Без компромиссов гарантировано",
+            "NewToQuatler": "Новый для Квантлера?",
+            "OpenAccount": "Завести учетную запись",
+            "StartInvest": "Начать автоматическое инвестирование сегодня",
+            "FitStyle": {
+                "Title": "",
+                "DayTraders": "",
+                "Text1": "",
+                "LTInvestors": "",
+                "Text2": ""
+            },
+            "QuantlerCompares": {
+                "Title": "",
+                "Cost": "",
+                "MinimumInvestment": "",
+                "RealStocks": "",
+                "DirectOwnership": "",
+                "OpenSource": "",
+                "AbilityToCustomize": "",
+                "WorldwideCoverage": "",
+                "Quantler": "",
+                "Iconomi": "",
+                "ETrade": "",
+                "RoboAdvisory": ""
+            },
+            "Fit": "Примените свой стиль инвестирования",
+            "FitDayTitle": "Дневные трейдеры",
+            "FitDayText": "Быстрые умные средства, размещенные на объектах с низкой задержкой",
+            "FitLongTitle": "Долгосрочные инвесторы",
+            "FitLongText": "Умные средства для анализа многих активов ежемесячно или ежегодно",
+            "CompareTitle": "Посмотрите, как Квандер сравнивает",
+            "CompareCosts": "Расходы",
+            "CompareMinimum": "Минимальная инвестиция",
+            "CompareCustom": "Возможность настройки"
+        },
+        "Menu": {
+            "What": "Что мы делаем",
+            "How": "Как мы это делаем",
+            "Why": "Почему мы это делаем",
+            "Login": "Авторизоваться",
+            "Register": "регистр",
+            "Crowdfund": "",
+            "ICO": ""
+        },
+        "Hosting": {
+            "MenuItem": "Хостинг",
+            "Title": "Создайте свой алгоритм на своих условиях",
+            "H1Title": "Что такое автоматическая торговля",
+            "H1SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Cras enim libero, gravida at orci sit amet, aliquet sagittis elit. Nam dapibus orci varius, pulvinar ipsum sit amet, volutpat enim. Curabitur incdiet, purus sed mollis tincidunt, ipsum nisi mollis dolor, ac molestie libero leo eget nibh",
+            "H2Title": "Принимайте свои торговые алгоритмы в Quantler",
+            "H2SubTitle": "Создавайте alhorithms по таким темам, как Cyber ​​Security, Connected Cars, Green Energy, Internet of Things",
+            "WorksTitle": "Вот как работает алгоритм хостинга",
+            "WorksChooseTitle": "Выберите местоположение хоста",
+            "WorksChooseText": "Выберите место, где вы хотите разместить свой сервер.",
+            "WorksDeployTitle": "Разверните свой алгоритм",
+            "WorksDeployText": "Добавить или удалить торговые алгоритмы с вашего сервера",
+            "WorksManageTitle": "Управление хостингом",
+            "WorksManageText": "Обновление программного обеспечения Quantler, анализ торговых алгоритмов"
+        },
+        "BrokerNeutral": {
+            "MenuItem": "Брокер Нейтральный",
+            "Title": "Торговля, где вы хотите",
+            "SubTitle": "Wit доступ к 1000 + брокерам по всему миру, брокер-нейтральный, торговля, где вы решаете, как торговать",
+            "H1Title": "Выбор брокеров, с которыми мы совместимы",
+            "H2Title": "Как это работает",
+            "H2TitleItem1": "Имитировать поведение брокера",
+            "H2TextItem1": "Узнайте, как брокеры сравниваются с затратами и скоростью выполнения",
+            "H2TitleItem2": "Выберите своего брокера для торговли",
+            "H2TextItem2": "Квантлер нейтрален брокер, вы можете торговать с любым из совместимых с 1000 + брокерами",
+            "H2TitleItem3": "Торговля, что вы хотите",
+            "H2TextItem3": "Торговля любым из активов, совместимых с выбранным брокером",
+            "FAQTitle": "Часто задаваемые вопросы",
+            "FAQMore": "Просмотреть все faqs",
+            "FAQ1Title": "Что такое автоматическая торговля?",
+            "FAQ1Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
+            "FAQ2Title": "Как я могу создать собственный алгоритм?",
+            "FAQ2Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
+            "FAQ3Title": "Каковы затраты на автоматическую торговлю?",
+            "FAQ3Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
+            "FAQ4Title": "Что делать, если у меня нет торгового алгоритма?",
+            "FAQ4Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
+            "Planned": ""
+        },
+        "Pricing": {
+            "MenuItem": "ценообразование",
+            "Title": "Когда дело доходит до инвестиций, вы получаете то, что не платите",
+            "SubTitle": "Альтернативное управление инвестициями с альтернативным ценообразованием.",
+            "H1Title": "Инвестирование в неоплаченные металлы, ценообразование на основе голого металла",
+            "H1Item1Title": "Нет платы за управление.",
+            "H1Item1Text": "Betterment не взимает комиссию за транзакцию для покупки и продажи ценных бумаг.",
+            "H1Item2Title": "Нет платы за производительность.",
+            "H1Item2Text": "Плата за внесение или снятие с вашего счета Betterment не взимается.",
+            "H1Item3Title": "Никаких отклонений.",
+            "H1Item3Text": "Betterment автоматически и регулярно балансирует ваш портфель за плату.",
+            "H1Item4Title": "Удовлетворение гарантировано.",
+            "H1Item4Text": "Мы стремимся предоставить нашим клиентам отличный инвестиционный опыт.",
+            "H2Title": "Пакеты Quantler",
+            "H2SubTitle": "Все цены включают НДС / Налоги",
+            "PricingTier1Title": "1-го уровня",
+            "PricingTier1Item1": "Автоматизированное управление портфелем",
+            "PricingTier1Item2": "Налогооблагаемые инвестиционные функции",
+            "PricingTier1Item3": "Советы по вашим инвестициям",
+            "PricingTier1Item4": "Награжденная поддержка клиентов",
+            "PricingTier1Item5": "Никакой платы на балансе более 52 миллионов",
+            "PricingTier2Title": "Уровень 2",
+            "PricingTier2Item1": "Все преимущества вашего цифрового плана",
+            "PricingTier2Item2": "Ежегодный звонок с нашей командой профессионалов CFP * и лицензированных финансовых",
+            "PricingTier2Item3": "Дополнительный мониторинг учетной записи нашей командой лицензированных экспертов",
+            "PricingAllocated": "Выделенные фонды",
+            "PricingFree": "Свободно",
+            "PricingYearly": "р / год",
+            "PricingBrokeragesTitle": "Комиссионные брокеры, совместимые с Quantler",
+            "PricingBrokeragesSubTitle": "Квантлер не связан ни с каким третьим финансовым институтом",
+            "PricingBrokeragesEligible": "приемлемость",
+            "PricingMonthly": "",
+            "EquivalentValueCharged": "",
+            "Planned": {
+                "Title": "",
+                "Tooltip": ""
+            }
+        },
+        "FAQ": {
+            "MenuItem": "Вопросы-Ответы",
+            "Title": "Чем мы можем вам помочь?",
+            "Ask": "Задайте вопрос...",
+            "Topics": "темы",
+            "NoQuestionsFound": "",
+            "ContactUs": "",
+            "HeadOffice": "",
+            "FAQQuestions": {
+                "Topic1": {
+                    "topic": "",
+                    "questions": {
+                        "q1": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q2": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q3": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q4": {
+                            "title": "",
+                            "description": ""
+                        }
+                    }
+                },
+                "Topic2": {
+                    "topic": "",
+                    "questions": {
+                        "q1": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q2": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q3": {
+                            "title": "",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "Topic1Title": "Общие вопросы",
+            "Topic1Questions1Title": "Как влияет Учетная запись в другой форме на торговый счет?",
+            "Topic1Questions1Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
+            "Topic1Questions2Title": "Могу ли я открыть и Учетный и Торговый счет?",
+            "Topic1Questions2Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
+            "Topic2Title": "Учет воздействия",
+            "Topic2Questions1Title": "Как влияет Учетная запись в другой форме на торговый счет?",
+            "Topic2Questions1Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
+            "Topic2Questions2Title": "Могу ли я открыть и Учетный и Торговый счет?",
+            "Topic2Questions2Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой"
+        },
+        "Why": {
+            "Title": "Почему Квандер?",
+            "SubTitle": "Мы упрощаем автоматическое инвестирование, делаем их универсальными доступными, открытыми и предоставляем поддержку там, где это необходимо.",
+            "H1Title": "Мы берем сложные, дорогие, громоздкие, единичные инвестиционные технологии и делаем их интуитивно понятными, недорогими, прозрачными, удобными, настраиваемыми, основанными на идеях инвестициями.",
+            "BenefitsTitle": "Некоторые из преимуществ использования Quantler",
+            "BenefitsTitleItem1": "Возьмите под контроль, безопасные расходы",
+            "BenefitsTextItem1": "Объединенные инвестиции типично взимают плату за управление, в то время как Квантлер этого не делает. Квантлер взимает плату только за хостинг, а не за торговлю.",
+            "BenefitsTitleItem2": "Направляйте собственные инвестиции",
+            "BenefitsTextItem2": "В отличие от объединенных инвестиций, таких как ручные фонды и биржевые фонды (ETF), когда вы используете Quantler, вы инвестируете в то, что хотите, как хотите",
+            "BenefitsTitleItem3": "Открытый исходный код",
+            "BenefitsTextItem3": "Квантлер является открытым исходным кодом, хочет знать, как он работает или улучшает его? Квандер вы можете.",
+            "BenefitsTitleItem4": "Вы торгуете там, где хотите",
+            "BenefitsTextItem4": "Квантлер не является брокером, это компания siftware для автоматической торговли. Вы определяете, где вы хотите торговать. Вы не привязаны к конкретному финансовому введению. Добро пожаловать на свободу выбора."
+        },
+        "Login": {
+            "Email": "Введите адрес электронной почты",
+            "Password": "пароль",
+            "Forgot": "Забыли пароль?",
+            "Or": "Или",
+            "SignInFacebook": "Авторизоваться с помощью Фэйсбука",
+            "SignInGoogle": "Войти через Google",
+            "SignUpFacebook": "Зарегистрируйтесь в Facebook",
+            "SignUpGoogle": "Зарегистрируйтесь в Google",
+            "TermsAgree": "При входе в систему вы соглашаетесь с Условиями использования Quantler",
+            "Warning": "ПРЕДУПРЕЖДЕНИЕ: нет инвестиционного совета. Ничто, предоставляемое Квантором, не должно толковаться как инвестиционные, юридические или налоговые консультации. Мы не являемся финансовыми консультантами, брокерами или управляющими фондами. Ни одно из контента, предлагаемого Квестором, третьими лицами или общим кодом и или алгоритмами на Квантолле, не должно толковаться как рекомендации. Это учебные материалы, предназначенные для разработки вашей стратегии. Вы признаете и соглашаетесь с тем, что любое использование Quantler, любые решения, принятые в зависимость от Quantler, включая любые торговые или инвестиционные решения или стратегии, принимаются на ваш страх и риск. Услуга предоставляет возможность тестировать идеи по историческим данным, однако прошлая производительность не гарантирует будущих результатов. Получив доступ к этому сайту, вы соглашаетесь с условиями Quantler",
+            "RegisterName": "Полное имя",
+            "RegisterEmail": "Введите адрес электронной почты",
+            "RegisterPassword": "пароль",
+            "RegisterPasswordRetype": "Повторите ввод пароля",
+            "IAgree": "Я согласен с условиями",
+            "SignUp": "Зарегистрироваться",
+            "WrongEmail": "",
+            "PasswordsNotMatch": "",
+            "RecoverSent": "",
+            "IRememberPassword": "",
+            "PasswordReset": "",
+            "ProvideRecoverEmail": "",
+            "Reset": "",
+            "Errors": {
+                "Name": "",
+                "Email": "",
+                "Password": "",
+                "PasswordsMatch": "",
+                "AgreeTerms": ""
+            }
+        },
+        "Copyright": "Все права защищены.",
+        "ICO": {
+            "DecentralizingWallStreet": "",
+            "FromSmartContractsToETF": "",
+            "BuyTokens": "",
+            "TimeUntilStart": "",
+            "NotStartedTitle": "",
+            "NotStartedDescription": "",
+            "Link": "",
+            "Days": "",
+            "Hours": "",
+            "Minutes": "",
+            "Seconds": "",
+            "RaisedSoFar": "",
+            "TotalRaised": "",
+            "ICOEnded": "",
+            "StartDate": "",
+            "SoftCap": "",
+            "SoftCapDiscount": "",
+            "Tooltip": "",
+            "EndDate": "",
+            "TimeLeft": "",
+            "EtherRaised": "",
+            "QuantGenerated": "",
+            "BaseExchangeRate": "",
+            "TryTheBeta": "",
+            "DownloadWhitePaper": "",
+            "WhyBuyTokens": "",
+            "TokenBackedNotes": "",
+            "QUADCoin": "",
+            "Shares": "",
+            "NotesText": "",
+            "NotesText2": "",
+            "QUADCoinText": "",
+            "SharesText": "",
+            "EULA": {
+                "Title": "",
+                "Intro": "",
+                "Text1": "",
+                "Text2": "",
+                "Text3": "",
+                "Agree1": "",
+                "Agree2": "",
+                "Agree3": "",
+                "Agree4": "",
+                "Accept": "",
+                "BackToQuantler": "",
+                "ReadMore": "",
+                "AcceptAll": ""
+            },
+            "BUY": {
+                "QuantPurchaseInstructions": "",
+                "TransactionData": "",
+                "The": "",
+                "LearnMoreAbout": "",
+                "QuantPurchaseInfo": "",
+                "ContractAddress": "",
+                "GASS": "",
+                "CopyLink": "",
+                "Copied": ""
+            },
+            "Errors": {
+                "Name": "",
+                "Email": "",
+                "Message": ""
+            },
+            "Schema": {
+                "Investor": "",
+                "You": "",
+                "BuyCoins": "",
+                "SmartContract": "",
+                "Floating": "",
+                "Coins": "",
+                "Simulations": "",
+                "Mining": "",
+                "BlockChain": "",
+                "QuantToken": "",
+                "FundHosting": "",
+                "Ledger": "",
+                "MethodOfPayment": "",
+                "Conversion": "",
+                "Exchange": ""
+            },
+            "HowSmartFundsMakeLifeEasier": "",
+            "SmartFundsDescription": "",
+            "Comparison": {
+                "TraditionalInvManagement": "",
+                "SmartFunds": "",
+                "CloseSource": "",
+                "OpenSource": "",
+                "Centralized": "",
+                "Decentralized": "",
+                "NoCustomConfig": "",
+                "CustomConfig": "",
+                "ComplexCostStructure": "",
+                "SupplyChainAddCosts": "",
+                "NoSupplyChainAddCosts": "",
+                "TransparantCost": "",
+                "TraditionalExchangesOnly": "",
+                "TraditionalAndCrypto": ""
+            },
+            "DistributeFunding": {
+                "Title": "",
+                "SubTitle": "",
+                "TknAllocation": "",
+                "UseOfFunds": "",
+                "GithubBountyLow": "",
+                "CompanyReserved": "",
+                "Mining": "",
+                "TokenSale": "",
+                "CapEx": "",
+                "Marketing": "",
+                "SoftDev": "",
+                "BusDev": "",
+                "LegalCompliance": "",
+                "OtherExpenses": "",
+                "WhatKindOfBounties": "",
+                "ICOBounty": "",
+                "ICOBountyText1": "",
+                "GithubBounty": "",
+                "ICOBountyText2": "",
+                "Note": "",
+                "WhatIsCompatible": "",
+                "Assets": "",
+                "AssetsText": "",
+                "BrokersExchanges": "",
+                "BrokersExchangesText": ""
+            },
+            "GlobalSolution": {
+                "Title": "",
+                "FreePortfolio": "",
+                "OpenSource": "",
+                "AboveUSD": "",
+                "TransparentInvoicing": "",
+                "NoConflict": "",
+                "BCEmpowered": "",
+                "Decentralized": "",
+                "PlatformIndependent": "",
+                "CryptoCurrencyReady": "",
+                "Quote": "",
+                "QuotePlace": "",
+                "QuoteAuthor": ""
+            },
+            "FAQ": {
+                "Title": "",
+                "Q1": "",
+                "A1": "",
+                "Q2": "",
+                "A2": "",
+                "Q3": "",
+                "A3": "",
+                "Q4": "",
+                "A4": "",
+                "Q5": "",
+                "A5": ""
+            },
+            "ContactUs": {
+                "Title": "",
+                "Text": "",
+                "Text2": "",
+                "NumberOfChamber": "",
+                "SendMessage": "",
+                "FullName": "",
+                "Email": "",
+                "Phone": "",
+                "Message": ""
+            }
         }
-      },
-      "Create": {
-        "Name": "Название Smart Fund",
-        "Settings": {
-          "Title": "Настройки backtest",
-          "SubTitle": "Выберите параметры окружающей среды, на которых будет выполняться этот торговый алгоритм.",
-          "StartDate": "Выберите дату начала",
-          "EndDate": "Выберите дату окончания",
-          "Timeframe": "Период времени",
-          "SelectUniverse": "Выберите свою вселенную",
-          "MoreOptions": "больше вариантов",
-          "LessOptions": "Меньше вариантов",
-          "BrokerModel": "Модель брокера",
-          "AccountType": "тип аккаунта",
-          "AllocatedFunds": "Выделенные фонды",
-          "BaseCurrency": "Базисная валюта",
-          "ExtendedMarket": "Расширенные рыночные часы",
-          "ExtendedMarketTooltip": "Привет мир",
-          "UseTickData": "Использовать тиковые данные",
-          "UseTickDataTooltip": "Привет мир",
-          "Add": "Добавить новое",
-          "Check": "Проверить каталог",
-          "UniverseAdd": {
-            "Title": "Выбрать юниверс",
-            "Search": "Поиск вселенной",
-            "NotListed": "Ваша вселенная не указана выше?"
-          },
-          "ModulesAdd": {
-            "Title": "Выбрать модуль",
-            "NotListed": "Ваш модуль не указан выше?"
-          }
-        },
-        "Logic": {
-          "Title": "Разработка стратегии",
-          "SubTitle": "Создайте свой торговый алгоритм, добавив модули, которые вы хотите использовать в определенных областях.",
-          "SubTitlePreset": "Чтобы создать свою стратегию, вы можете выбрать свои пресеты, выбор пресета перезапишет вашу текущую стратегию.",
-          "Choose": "выберите",
-          "Overwrite": "затирать",
-          "Preset1Name": "Имя пресета 1",
-          "Preset1Description": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Morbi non elementum lorem, ac finibus turpis. Etiam orci augue, consectetur ut commodo imperdiet, hendrerit sed urna. Нунк сидит в амуре. Nam erat libero, время, не относящееся к некрому, tincidunt oullamcorper libero.",
-          "Preset2Name": "Имя пресета 1",
-          "Preset2Description": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Morbi non elementum lorem, ac finibus turpis. Etiam orci augue, consectetur ut commodo imperdiet, hendrerit sed urna. Нунк сидит в амуре. Nam erat libero, время, не относящееся к некрому, tincidunt oullamcorper libero.",
-          "Preset3Name": "пустой",
-          "Preset3Description": "Начинается с пустой стратегии.",
-          "SelectAPreset": "Выберите предустановку",
-          "EntryTooltip": "Привет мир",
-          "ExitTooltip": "Привет мир",
-          "MMTooltip": "Привет мир",
-          "RMTooltip": "Привет мир"
-        },
-        "Results": {
-          "Title": "Результаты",
-          "SubTitle": "ПРЕДУПРЕЖДЕНИЕ. Прошлые показатели не гарантируют будущих результатов. Всегда запускайте алгоритм торговли в демонстрационной среде перед живым исполнением.",
-          "PerformanceOverview": "Обзор производительности",
-          "Summary": "Резюме",
-          "TradingPeriod": "Торговый период",
-          "GrossPnlTooltip": "Привет мир",
-          "TotalNetProfitTooltip": "Привет мир",
-          "ROITooltip": "Привет мир",
-          "FillNr": "Заполнить Nr"
-        },
-        "Dialog": {
-          "Title": "Настройка хостинга",
-          "Select": "Выберите свой брокерский счет",
-          "AccountBalance": "Баланс",
-          "CurrencyAllocated": "Выделенная валюта",
-          "FreeForAllocation": "Бесплатно для размещения",
-          "PublicText": "Отпустите свой исходный код под лицензией MIT и получите ежемесячную скидку",
-          "SeeTerms": "См. Условия",
-          "AddBrokerageTitle": "Добавить новый брокерский счет",
-          "AddBrokerageDesc": "В случае отсутствия учетной записи или предпочтете создать новую. Добавьте новую учетную запись сейчас.",
-          "AwaitingSetup": "Ожидание установки",
-          "WarningMessage": "Все шаги отмечены, есть 1 предупреждение. Продолжайте?"
-        },
-        "NextStep": "следующий шаг",
-        "RunBacktest": "Запустить backtest",
-        "StartHosting": "Начать хостинг"
-      }
-    },
-    "MySubscription": {
-      "Title": "Моя подписка",
-      "CommissionFree": "Комиссионные брокеры",
-      "OtherBrokers": "Другие брокеры",
-      "License": "Лицензия",
-      "MoreInfo": "больше информации",
-      "Unaffiliated": "Квантлер не связан ни с каким третьим финансовым учреждением третьей стороны",
-      "Initial": {
-        "ChooseTitle": "Выбор подписки",
-        "ChooseText": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
-        "Country": "Страна",
-        "CountryHint": "Выберите страну",
-        "GetStarted": "начать",
-        "SharingDiscountTitle": "Поделитесь алгоритмом, чтобы получить скидку в размере 10 000 долларов США",
-        "SharingDiscountDesc": "За общий алгоритм мы вычтем 10 000 долларов США из вашей вычисленной суммы. Например, вы выделили 25 000 и поделились 2 алгоритмами, мы будем платить только за (25 000 (2 * 10 000)) 5 000 выделенных средств.",
-        "PlansTitle": "Все планы включают",
-        "PlanLowLatency": "Соединение с низкой задержкой",
-        "PlanLowLatencyTooltip": "Привет мир",
-        "PlanLocations": "Расположение серверов по всему миру",
-        "PlanLocationsTooltip": "Привет мир",
-        "PlanSecurity": "Безопасные, зашифрованные соединения",
-        "PlanSecurityTooltip": "Привет мир",
-        "PlanUnlimited": "Неограниченные стратегии",
-        "PlanUnlimitedTooltip": "Привет мир",
-        "PlanActive": "2 активных стратегии торговли бумагами",
-        "PlanActiveTooltip": "Привет мир",
-        "PlanBacktestTime": "24 часа / месяц Время повторного тестирования",
-        "PlanBacktestTimeTooltip": "Привет мир",
-        "PlanHosting": "Размещение стратегии",
-        "PlanHostingTooltip": "Привет мир",
-        "CancelSubscription": "Отменить подписку",
-        "Tooltips": {
-          "Personal Information": "Персональная информация",
-          "Service Agreement": "Лицензионное соглашение",
-          "Payment": "Оплата",
-          "Broker Details": "Информация о брокерах"
-        },
-        "Step1PersonalInfo": {
-          "Title": "Личная информация",
-          "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
-          "Name": "имя",
-          "PhoneNumber": "Номер телефона",
-          "Country": "Страна проживания",
-          "Address": "Адрес",
-          "StateRegion": "Государство / Регион",
-          "City": "город",
-          "Street": "Улица, дом, Апт",
-          "Zip": "Почтовый Индекс"
-        },
-        "Step2ServiceAgreement": {
-          "SubTitle": "Пожалуйста, оставьте ниже нижеследующее соглашение об обслуживании и сообщите нам, что вы согласны",
-          "AgreeTitle": "Соглашение об обслуживании клиентов",
-          "AgreeText": "Настоящим я заявляю, что внимательно прочитал, понял и согласился с соглашением с клиентом",
-          "Privacy": "Приватность",
-          "AgreementParagraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo lacus sed diam egestas pellentesque. Fusce a gravida neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sit amet tortor nulla. Donec auctor sagittis ex in egestas.",
-          "AgreementParagraph2": "Morbi porttitor ipsum ac diam interdum, vel tristique ante dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eu elementum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque feugiat justo in faucibus dignissim. Maecenas nec ex et diam bibendum euismod sit amet ac lectus. Etiam tempus elementum facilisis. Aliquam tempus, dolor ac blandit condimentum, lorem lacus interdum eros, ac faucibus mauris ipsum sed arcu. Nulla elit elit, mollis vel viverra in, ullamcorper et ante. Ut sagittis erat quis risus fermentum pharetra. Duis interdum purus id faucibus sodales.",
-          "AgreementParagraph3": "Sed lacinia dui et nisl congue mollis. Sed eget nulla a est mattis facilisis. Ut placerat sed nisl sed tincidunt. Nullam tincidunt consectetur ligula eget consectetur. Etiam odio neque, maximus nec pretium vel, fringilla non dolor. Sed posuere risus et lectus tincidunt, vitae maximus neque auctor. In quis luctus purus, sit amet facilisis mauris. Proin at massa vitae sapien mattis porttitor nec quis ex. Nulla facilisi. Ut nisi magna, finibus sit amet tempor ut, luctus a urna. Pellentesque interdum egestas nunc, eget suscipit libero fermentum vitae. Nunc ipsum dui, varius nec finibus vel, pellentesque eu est. Cras porttitor nisl in mauris consequat rhoncus.",
-          "AgreementParagraph4": "Phasellus id rutrum risus, a tempor neque. Vestibulum nec maximus leo, vel finibus quam. In euismod ante eu viverra maximus. Etiam a consequat nunc. Vestibulum lacinia in libero vestibulum ornare. Vivamus venenatis, nibh et eleifend efficitur, velit quam auctor est, at laoreet lacus tellus at neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In consectetur, ante sit amet luctus rhoncus, mauris augue cursus nulla, aliquam sagittis tellus turpis non neque. Suspendisse tincidunt mattis mi, at laoreet purus venenatis quis. Donec eu velit et urna tristique cursus a ut nulla. Duis facilisis diam quis ipsum fermentum dapibus viverra eu nisi. Sed vitae dolor ante. Vestibulum congue, felis ut maximus rutrum, est neque condimentum erat, vitae mattis lorem massa a risus. Nunc aliquam tellus ac aliquam vestibulum. Donec dignissim consequat nisi, nec placerat odio auctor vel. Maecenas convallis pharetra aliquet. In sollicitudin scelerisque elit. Mauris fringilla urna ligula, vitae efficitur libero mollis sed. Aliquam placerat scelerisque nulla, lobortis sagittis dui venenatis in. Curabitur suscipit ipsum vel mi placerat interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eget suscipit augue, non cursus turpis. Nunc porttitor commodo consequat. Nulla nec justo rutrum, posuere lorem et, mollis lacus. In tristique, neque quis semper vulputate, ante lorem luctus libero, ut facilisis ligula mi quis nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ultricies arcu ipsum, ac placerat arcu eleifend ut. Maecenas pulvinar dignissim erat."
-        },
-        "Step3PaymentInformation": {
-          "Title": "Платежная информация",
-          "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
-          "Provide": "ПРЕДОСТАВИТЬ ОПЛАТЫ ОПЛАТЫ"
-        },
-        "Step4Completed": {
-          "Title": "Сукчес!",
-          "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
-          "Started": "НАЧАЛО ПОДПИСКИ",
-          "Connect": "ПОДКЛЮЧИТЕ ВАШ БРОКЕР"
-        },
-        "Tiers": {
-          "Tier1": {
-            "Title": "tier 1",
-            "Feature1Title": "Automated portfolio management",
-            "Feature1Tooltip": "Automated portfolio management",
-            "Feature2Title": "Tax-efficient investing features",
-            "Feature2Tooltip": "Tax-efficient investing features",
-            "Feature3Title": "New account only",
-            "Feature3Tooltip": "New account only",
-            "AllocatedFunds": "Allocated funds",
-            "Price": "free"
-          },
-          "Tier2": {
-            "Title": "tier 2",
-            "Feature1Title": "Automated portfolio management",
-            "Feature1Tooltip": "Automated portfolio management",
-            "Feature2Title": "Tax-efficient investing features",
-            "Feature2Tooltip": "Tax-efficient investing features",
-            "Feature3Title": "New account only",
-            "Feature3Tooltip": "New account only",
-            "AllocatedFunds": "Allocated funds",
-            "Price": "~0.25% OF TOTAL",
-            "PayPeriod": "annually",
-            "Additional": "0,242657% effectively"
-          }
-        },
-        "CheckOutModal": {
-          "Getstarted": "You need Quantcoins to get started",
-          "Description": "Quantcoins are needed to proceed and start trading. They are still available and ready for you to pick up",
-          "CHECKOUTICO": "CHECKOUT ICO"
-        }
-      },
-      "Overview": {
-        "Title": "Обзор подписки",
-        "BrokerSettings": "Настройки Брокеров",
-        "CreateAccount": "создать учетную запись",
-        "ManagePayment": "Управление платежами",
-        "Current": "Текущий",
-        "Running": "Бег",
-        "Shared": "Общий",
-        "Allocated": "Выделено",
-        "SmartFundShared": "Интеллектуальные фонды",
-        "AllocateReduced": "Распределение сокращено",
-        "AllocateTotal": "Всего выделено",
-        "EstimateTier": "Оценочный уровень",
-        "EstimateInvoice": "Расчетный счет (с учетом НДС)",
-        "SubscriptionHistory": "История подписки",
-        "SubscriptionPeriod": "Период подписки"
-      },
-      "Settings": {
-        "Title": "Выберите один из совместимых брокеров",
-        "SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Преобладающий бибендум диам. Curabitur et justo pulvinar, эффективный платикат, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
-        "AddABroker": "Добавить брокера",
-        "ConnectedBrokers": "Связанные брокеры",
-        "AddBroker": "Добавить брокера",
-        "CantFind": "Не можете найти своего брокера?",
-        "ActiveHosting": "Активный хостинг",
-        "Compatible": "Совместимые с Quantler брокеры",
-        "Adding": "Добавление"
-      },
-      "Planned": {
-        "title": "Planned",
-        "tooltip": "This broker is not compatible yet"
-      }
-    },
-    "Modules": {
-      "Title": "модули",
-      "Add": "Добавить новый модуль",
-      "BackTo": "Назад к",
-      "AddPopup": {
-        "CreateTitle": "Создать модуль",
-        "DefineTitle": "Определить модуль",
-        "DefineText": "Выберите имя и тип модуля перед созданием",
-        "DescTitle": "Описание",
-        "DescText": "Задайте описание своего модуля.",
-        "DoneTitle": "Готово!",
-        "DoneText": "Вы готовы начать кодирование!",
-        "ModuleName": "Имя модуля",
-        "ModuleNameTooltip": "Привет мир",
-        "ModuleNamePlaceholder": "Укажите имя модуля",
-        "ModuleType": "Тип модуля",
-        "ModuleTypeTooltip": "Привет мир",
-        "TypeYourDescription": "Введите свой пост здесь",
-        "ModuleReady": "Ваш модуль готов",
-        "SelectAModule": "Выберите модуль",
-        "SelectAModuleDesc": "Кажется, у вас нет выбранного модуля, поэтому здесь ничего не показывать. Выберите модуль с левой стороны, чтобы начать работу или создать новый модуль",
-        "Types": {
-          "Entry": "Создайте модуль ввода, чтобы узнать, как и когда выходить на рынки.",
-          "Exit": "Создайте модуль выхода, чтобы узнать, как и когда выйти из рынков.",
-          "RM": "Создайте модуль управления рисками, чтобы указать, как управлять своим риском.",
-          "MM": "Создайте модуль управления денежными средствами, чтобы указать размер и время выбора позиции."
-        }
-      },
-      "SettingsPanel": {
-        "NameTooltip": "Привет мир",
-        "SharingTooltip": "Привет мир",
-        "ParamaterName": "Имя параметра",
-        "ParameterDescription": "Описание",
-        "ParameterValues": "Значения",
-        "Parameters": "Параметры",
-        "ModuleSettings": "Настройки модуля"
-      },
-      "Compile": "компилировать",
-      "Line": "Строка",
-      "File": "Файл",
-      "Description": "Описание",
-      "Module": "Модуль",
-      "NoErrors": "Нет ошибок. Пожалуйста, сначала скомпилируйте",
-      "CompileErrors": "Ошибка: Компиляция прервана",
-      "CompileSuccess": "Нет ошибок: Компиляция успешно завершена",
-      "Parameter": "параметр",
-      "Parameters": "параметры"
-    },
-    "Universe": {
-      "Title": "вселенные",
-      "Add": "Добавить новую вселенную",
-      "Overview": {
-        "AlreadyShared": "Уже",
-        "FinalizeFirst": "Пожалуйста, завершите первый",
-        "Delete": "Удалить Вселенную",
-        "EmptyUniversesTitle": "Давайте начнем!",
-        "EmptyUniversesDesc": "Кажется, вы еще не сделали свой первый алгоритм, поэтому эта вкладка пуста. Создайте свой первый алгоритм на панели инструментов в левом верхнем углу.",
-        "EmptyUniversesSuggestions": "Вселенная"
-      },
-      "Item": {
-        "Index": "Индекс Quantler 1 YR Return",
-        "Autosaved": "автосохранение",
-        "Created": "Сделано",
-        "DescriptionPlaceholder": "Вселенная Описание",
-        "SearchPlaceholder": "Тикер или название компании",
-        "Name": "имя",
-        "Symbol": "Символ",
-        "Weight": "вес",
-        "Price": "Цена",
-        "MarketCap": "Рыночная капитализация",
-        "Delete": "Удалить",
-        "Industry": "Промышленность",
-        "EmptySymbolsTitle": "Давайте начнем!",
-        "EmptySymbolsDesc": "Кажется, вы еще не сделали свой первый алгоритм, поэтому эта вкладка пуста. Создайте свой первый алгоритм на панели инструментов в левом верхнем углу."
-      },
-      "Tags": {
-        "LowVolatility": {
-          "Title": "Низкая волатильность",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Europe": {
-          "Title": "Европа",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "LifeScience": {
-          "Title": "Наука о жизни",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "NewTechnologies": {
-          "Title": "Новые технологии",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "SocialMedia": {
-          "Title": "Социальные медиа",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Online": {
-          "Title": "В сети",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Aviation": {
-          "Title": "авиации",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Leisure": {
-          "Title": "Досуг",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "SportAndFitness": {
-          "Title": "Спорт и фитнес",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Wellness": {
-          "Title": "хорошее здоровье",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "HealthyLifestyle": {
-          "Title": "Здоровый образ жизни",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "AlternativeEnergy": {
-          "Title": "Альтернативой энергии",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Semiconductor": {
-          "Title": "полупроводник",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Biotech": {
-          "Title": "Biotech",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Pharma": {
-          "Title": "Pharma",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Cleantech": {
-          "Title": "Cleantech",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "SmartGrid": {
-          "Title": "Умная сеть электроснабжения",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "WindEnergy": {
-          "Title": "Ветряная энергия",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "SolarEnergy": {
-          "Title": "Солнечная энергия",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "InternetOfThings": {
-          "Title": "Интернет вещей",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "OilAndGas": {
-          "Title": "Нефти и газа",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "FoodAndBeverages": {
-          "Title": "Еда и напитки",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "WasteManagement": {
-          "Title": "Управление отходами",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Agriculture": {
-          "Title": "сельское хозяйство",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Water": {
-          "Title": "вода",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Real Estate": {
-          "Title": "Недвижимость",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Automotive": {
-          "Title": "автомобильный",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Lithium": {
-          "Title": "литий",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "PreciousMetals": {
-          "Title": "Драгоценные металлы",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "IndustrialMetals": {
-          "Title": "Промышленные металлы",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Gold": {
-          "Title": "Золото",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "SocialResponsibility": {
-          "Title": "Социальная ответственность",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "World": {
-          "Title": "Мир",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "USA": {
-          "Title": "США",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "EmergingMarkets": {
-          "Title": "Развивающиеся рынки",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Asia": {
-          "Title": "Азия",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Low Volatility": {
-          "Title": "Low Volatility",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Life Science": {
-          "Title": "Life Science",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "New Technologies": {
-          "Title": "New Technologies",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Social Media": {
-          "Title": "Social Media",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Sport And Fitness": {
-          "Title": "Sport And Fitness",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Healthy Lifestyle": {
-          "Title": "Healthy Lifestyle",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Alternative Energy": {
-          "Title": "Alternative Energy",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Smart Grid": {
-          "Title": "Smart Grid",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "WindE nergy": {
-          "Title": "Wind Energy",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Solar Energy": {
-          "Title": "Solar Energy",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Internet Of Things": {
-          "Title": "Internet Of Things",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Oil and Gas": {
-          "Title": "Oil and Gas",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Food And Beverages": {
-          "Title": "Food and Beverages",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Waste Management": {
-          "Title": "Waste Management",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Precious Metals": {
-          "Title": "Precious Metals",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Industrial Metals": {
-          "Title": "Industrial Metals",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Social Responsibility": {
-          "Title": "Social Responsibility",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Emerging Markets": {
-          "Title": "Emerging Markets",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        }
-      }
-    },
-    "Symbol": {
-      "Back": "Назад",
-      "KeyFinancials": "Основные финансовые показатели",
-      "Website": "Веб-сайт",
-      "Currency": "валюта",
-      "DayRange": "Дневной диапазон",
-      "52WeekRange": "Диапазон 52 недели",
-      "LastPrice": "Последняя цена",
-      "Open": "Open",
-      "Shares": "Акции",
-      "MarketCap": "Рыночная капитализация (USD)",
-      "EPS": "прибыль на акцию",
-      "PERatio": "Коэффициент P / E",
-      "Div Yield": "Дивный доход",
-      "Sponsor": "спонсор",
-      "AssetClass": "Класс активов",
-      "NER": "Чистый коэффициент затрат",
-      "AvgDaily": "Avg. Ежедневный объем",
-      "AvailableSupply": "Доступное снабжение",
-      "TotalSupply": "Общее снабжение",
-      "PopupNoDesc": "Без описания",
-      "MoreDetails": "Подробнее",
-      "Price": "Цена",
-      "52Week": "52-недельный диапазон",
-      "Returns": "Возвращает",
-      "1MO": "1MO",
-      "6MO": "6MO",
-      "1YR": "1YR",
-      "Description": "Описание",
-      "Performance": "Производительность",
-      "From": "Из",
-      "To": "к",
-      "Industry": {
-        "Finance": {
-          "Title": "финансов"
-        }
-      },
-      "Details": {
-        "AAPL": {
-          "Description": ""
-        }
-      },
-      "AssetType": {
-        "Equity": {
-          "Title": "Капитал",
-          "Plural": "Рынок акций"
-        },
-        "ETF": {
-          "Title": "ETF",
-          "Plural": "биржевые индексные фонды"
-        },
-        "Crypto": {
-          "Title": "крипто-",
-          "Plural": "Crypto-х"
-        }
-      }
-    },
-    "Catalog": {
-      "Title": "Каталог",
-      "Universe": {
-        "Tag": "Показать по тегам",
-        "Popular": "Показать Популярное",
-        "All": "Показать все",
-        "ShowAll": "Показать все {0} юниверсы",
-        "Top1Y": "Топ 1Y выполнение",
-        "Top1M": "Top 1M peforming"
-      },
-      "SmartFunds": {
-        "CautionTitle": "предосторожность",
-        "CautionText": "Прошлые показатели не гарантируют будущих результатов. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu est convallis, iaculis ipsum a, facilisis velit. Maecenas feugiat, velit в faucibus sagittis, nisl elit volutpat velit, id эффективный черепашский quam at nunc. Quisque egestas metus elit, blandit pharetra diam faucibus sit amet.",
-        "IGotIt": "я понял",
-        "Filters": {
-          "Style": "Торговый стиль",
-          "Activity": "Активность",
-          "Sharpe": "Шарп",
-          "DD": "выборка",
-          "ROI": "ROI",
-          "NER": "Чистый коэффициент затрат",
-          "Time": "Все время",
-          "Modules": "Все модули",
-          "Universes": "Вселенные"
-        }
-      },
-      "Modules": {
-        "AllModuleTypes": "Все типы модулей",
-        "AllTime": "Все время",
-        "Item": {
-          "PostReply": "Отправить ответ",
-          "Reply": "Ответить",
-          "BackTo": "Вернуться к"
-        }
-      }
-    },
-    "Bounty": {
-      "Title": "щедроты",
-      "ICO": {
-        "Tab": "ICO Bounty",
-        "PayoutTitle": "Выплата дивидендов",
-        "PayoutShareFriends": "<B> Поделиться с друзьями: </ b> 25 очков p / share",
-        "PayoutFollowTwitter": "<B> Следуйте за нами на Twitter: </ b> 500 баллов",
-        "PayoutFollowFacebook": "<B> Следуйте за нами на Facebook: </ b> 500 баллов",
-        "ForumSignature": "<B> Подпись форума: </ b> 75 баллов за неделю",
-        "BlogPost": "<B> Сообщение в блоге: </ b> 1750 баллов",
-        "AffiliateLink": "<B> Аффилированная регистрация ссылок: </ b> 125 баллов",
-        "Journalism": "<B> Журналистика: </ b> Переменная",
-        "OtherPromotions": "<B> Другие акции: </ b> Переменная",
-        "ICOAffLink": "Ico партнерская ссылка",
-        "ICOAffLinkApp": "Ваша ссылка на приложение Quantler",
-        "ICOAffLinkIco": "Ваша ссылка на ICO Quantler",
-        "ICOAffLinkCopy": "Скопировать в буфер обмена",
-        "ShareWithFriends": "Поделиться с друзьями",
-        "Performance": "Представление",
-        "LinkClicks": "Ссылка на клики",
-        "FriendsShared": "Друзья",
-        "Translations": "Переводы",
-        "BlogPosts": "Сообщения в блоге",
-        "SocialMedia": "Социальные медиа",
-        "OtherPromotionsItem": "Другие рекламные акции",
-        "Points": "Точки",
-        "Note": "Примечание: приведенные выше цифры представляют собой оценки, вопросы округления и времени могут привести к отклонениям цифр",
-        "AddBounty": "Добавить запрос на раздачу",
-        "BountyType": "Тип баунти",
-        "BountyLink": "Ссылка Bounty",
-        "Message": "Сообщение",
-        "AddRequest": "Добавить запрос",
-        "BountyHistory": "История бонусов",
-        "HistoryTable": {
-          "Type": "Тип",
-          "Occured": "происходивших",
-          "Points": "Точки",
-          "Approved": "утвержденный",
-          "Comment": "Комментарий"
-        }
-      },
-      "Github": {
-        "Tab": "Github Bounty"
-      }
-    },
-    "AnnouncementBar": {
-      "title": "ANNOUNCEMENT",
-      "description": "Invest from £15 in our equity crowdfunding round"
     }
-  },
-  "LandingPage": {
-    "Welcome": {
-      "Title": "Представляем Quantler",
-      "SubTitle": "Онлайн-автоматизированный торговый сервис для индивидуальных инвесторов",
-      "H1Title": "Теперь легко автоматизировать ваши инвестиции",
-      "H1SubTitle": "Первая полностью автоматизированная торговая среда для выравнивания вашего стиля инвестирования",
-      "H1SubItem1Title": "Вдохновиться",
-      "H1SubItem1Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
-      "H1SubItem2Title": "Торговля, что вы хотите",
-      "H1SubItem2Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
-      "H1SubItem3Title": "Инвестируйте в свои идеи",
-      "H1SubItem3Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa."
-    },
-    "SmartFund": {
-      "MenuItem": "Автоматизированная торговля",
-      "Title": "Познакомьтесь со своими финансовыми целями без компромиссов",
-      "SubTitle": "Автоматизированная торговля, автоматическая торговля финансовыми рынками. Создавайте свои собственные автоматические торговые стратегии онлайн или офлайн.",
-      "H1Title": "Каждый инвестор является uniqe, каждый торговый алоризм, а также",
-      "H1SubTitle": "Создание интеллектуального фонда с записью или без написания одной строки кода",
-      "H1Item1Text": "Вселенные, определите, что вы хотите торговать",
-      "H1Item2Text": "Создайте свой собственный интеллектуальный фонд",
-      "H1Item3Text": "Проанализируйте и проанализируйте свой потенциал с помощью облачности"
-    },
-    "General": {
-      "Create": "Создать Смартфонд",
-      "Start": "Начните автоматизировать свое инвестирование. Торговля, где и что вы хотите.",
-      "GetStarted": "начать",
-      "OpenAccount": "Завести учетную запись",
-      "NoLock": "Нет блокировки в",
-      "NoLockText": "Мы поддерживаем наш продукт и услуги хостинга. В любое время вы можете отменить свою подписку для размещения своих торговых алгоритмов. Наше программное обеспечение является открытым исходным кодом, вы также можете размещать свои смартфон на других хостинг-провайдерах.",
-      "Fit": "Примените свой стиль инвестирования",
-      "FitDayTitle": "Дневные трейдеры",
-      "FitDayText": "Быстрые умные средства, размещенные на объектах с низкой задержкой",
-      "FitLongTitle": "Долгосрочные инвесторы",
-      "FitLongText": "Умные средства для анализа многих активов ежемесячно или ежегодно",
-      "CompareTitle": "Посмотрите, как Квандер сравнивает",
-      "CompareCosts": "Расходы",
-      "CompareMinimum": "Минимальная инвестиция",
-      "ComapreAligned": "Согласовано с вашими личными ценностями",
-      "CompareOwnership": "Прямое владение акциями",
-      "CompareKnow": "Знайте, что вы имеете",
-      "CompareCustom": "Возможность настройки",
-      "CompareCompromise": "Без компромиссов гарантировано",
-      "NewToQuatler": "Новый для Квантлера?",
-      "StartInvest": "Начать автоматическое инвестирование сегодня"
-    },
-    "Menu": {
-      "What": "Что мы делаем",
-      "How": "Как мы это делаем",
-      "Why": "Почему мы это делаем",
-      "Login": "Авторизоваться",
-      "Register": "регистр"
-    },
-    "Hosting": {
-      "MenuItem": "Хостинг",
-      "Title": "Создайте свой алгоритм на своих условиях",
-      "H1Title": "Что такое автоматическая торговля",
-      "H1SubTitle": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Cras enim libero, gravida at orci sit amet, aliquet sagittis elit. Nam dapibus orci varius, pulvinar ipsum sit amet, volutpat enim. Curabitur incdiet, purus sed mollis tincidunt, ipsum nisi mollis dolor, ac molestie libero leo eget nibh",
-      "H2Title": "Принимайте свои торговые алгоритмы в Quantler",
-      "H2SubTitle": "Создавайте alhorithms по таким темам, как Cyber ​​Security, Connected Cars, Green Energy, Internet of Things",
-      "WorksTitle": "Вот как работает алгоритм хостинга",
-      "WorksChooseTitle": "Выберите местоположение хоста",
-      "WorksChooseText": "Выберите место, где вы хотите разместить свой сервер.",
-      "WorksDeployTitle": "Разверните свой алгоритм",
-      "WorksDeployText": "Добавить или удалить торговые алгоритмы с вашего сервера",
-      "WorksManageTitle": "Управление хостингом",
-      "WorksManageText": "Обновление программного обеспечения Quantler, анализ торговых алгоритмов"
-    },
-    "BrokerNeutral": {
-      "MenuItem": "Брокер Нейтральный",
-      "Title": "Торговля, где вы хотите",
-      "SubTitle": "Wit доступ к 1000 + брокерам по всему миру, брокер-нейтральный, торговля, где вы решаете, как торговать",
-      "H1Title": "Выбор брокеров, с которыми мы совместимы",
-      "H2Title": "Как это работает",
-      "H2TitleItem1": "Имитировать поведение брокера",
-      "H2TextItem1": "Узнайте, как брокеры сравниваются с затратами и скоростью выполнения",
-      "H2TitleItem2": "Выберите своего брокера для торговли",
-      "H2TextItem2": "Квантлер нейтрален брокер, вы можете торговать с любым из совместимых с 1000 + брокерами",
-      "H2TitleItem3": "Торговля, что вы хотите",
-      "H2TextItem3": "Торговля любым из активов, совместимых с выбранным брокером",
-      "FAQTitle": "Часто задаваемые вопросы",
-      "FAQMore": "Просмотреть все faqs",
-      "FAQ1Title": "Что такое автоматическая торговля?",
-      "FAQ1Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
-      "FAQ2Title": "Как я могу создать собственный алгоритм?",
-      "FAQ2Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
-      "FAQ3Title": "Каковы затраты на автоматическую торговлю?",
-      "FAQ3Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
-      "FAQ4Title": "Что делать, если у меня нет торгового алгоритма?",
-      "FAQ4Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой"
-    },
-    "Pricing": {
-      "MenuItem": "ценообразование",
-      "Title": "Когда дело доходит до инвестиций, вы получаете то, что не платите",
-      "SubTitle": "Альтернативное управление инвестициями с альтернативным ценообразованием.",
-      "H1Title": "Инвестирование в неоплаченные металлы, ценообразование на основе голого металла",
-      "H1Item1Title": "Нет платы за управление.",
-      "H1Item1Text": "Betterment не взимает комиссию за транзакцию для покупки и продажи ценных бумаг.",
-      "H1Item2Title": "Нет платы за производительность.",
-      "H1Item2Text": "Плата за внесение или снятие с вашего счета Betterment не взимается.",
-      "H1Item3Title": "Никаких отклонений.",
-      "H1Item3Text": "Betterment автоматически и регулярно балансирует ваш портфель за плату.",
-      "H1Item4Title": "Удовлетворение гарантировано.",
-      "H1Item4Text": "Мы стремимся предоставить нашим клиентам отличный инвестиционный опыт.",
-      "H2Title": "Пакеты Quantler",
-      "H2SubTitle": "Все цены включают НДС / Налоги",
-      "PricingTier1Title": "1-го уровня",
-      "PricingTier1Item1": "Автоматизированное управление портфелем",
-      "PricingTier1Item2": "Налогооблагаемые инвестиционные функции",
-      "PricingTier1Item3": "Советы по вашим инвестициям",
-      "PricingTier1Item4": "Награжденная поддержка клиентов",
-      "PricingTier1Item5": "Никакой платы на балансе более 52 миллионов",
-      "PricingTier2Title": "Уровень 2",
-      "PricingTier2Item1": "Все преимущества вашего цифрового плана",
-      "PricingTier2Item2": "Ежегодный звонок с нашей командой профессионалов CFP * и лицензированных финансовых",
-      "PricingTier2Item3": "Дополнительный мониторинг учетной записи нашей командой лицензированных экспертов",
-      "PricingAllocated": "Выделенные фонды",
-      "PricingFree": "Свободно",
-      "PricingYearly": "р / год",
-      "PricingBrokeragesTitle": "Комиссионные брокеры, совместимые с Quantler",
-      "PricingBrokeragesSubTitle": "Квантлер не связан ни с каким третьим финансовым институтом",
-      "PricingBrokeragesEligible": "приемлемость"
-    },
-    "FAQ": {
-      "MenuItem": "Вопросы-Ответы",
-      "Title": "Чем мы можем вам помочь?",
-      "Ask": "Задайте вопрос...",
-      "Topics": "темы",
-      "Topic1Title": "Общие вопросы",
-      "Topic1Questions1Title": "Как влияет Учетная запись в другой форме на торговый счет?",
-      "Topic1Questions1Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
-      "Topic1Questions2Title": "Могу ли я открыть и Учетный и Торговый счет?",
-      "Topic1Questions2Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
-      "Topic2Title": "Учет воздействия",
-      "Topic2Questions1Title": "Как влияет Учетная запись в другой форме на торговый счет?",
-      "Topic2Questions1Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
-      "Topic2Questions2Title": "Могу ли я открыть и Учетный и Торговый счет?",
-      "Topic2Questions2Comment": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой"
-    },
-    "Why": {
-      "Title": "Почему Квандер?",
-      "SubTitle": "Мы упрощаем автоматическое инвестирование, делаем их универсальными доступными, открытыми и предоставляем поддержку там, где это необходимо.",
-      "H1Title": "Мы берем сложные, дорогие, громоздкие, единичные инвестиционные технологии и делаем их интуитивно понятными, недорогими, прозрачными, удобными, настраиваемыми, основанными на идеях инвестициями.",
-      "BenefitsTitle": "Некоторые из преимуществ использования Quantler",
-      "BenefitsTitleItem1": "Возьмите под контроль, безопасные расходы",
-      "BenefitsTextItem1": "Объединенные инвестиции типично взимают плату за управление, в то время как Квантлер этого не делает. Квантлер взимает плату только за хостинг, а не за торговлю.",
-      "BenefitsTitleItem2": "Направляйте собственные инвестиции",
-      "BenefitsTextItem2": "В отличие от объединенных инвестиций, таких как ручные фонды и биржевые фонды (ETF), когда вы используете Quantler, вы инвестируете в то, что хотите, как хотите",
-      "BenefitsTitleItem3": "Открытый исходный код",
-      "BenefitsTextItem3": "Квантлер является открытым исходным кодом, хочет знать, как он работает или улучшает его? Квандер вы можете.",
-      "BenefitsTitleItem4": "Вы торгуете там, где хотите",
-      "BenefitsTextItem4": "Квантлер не является брокером, это компания siftware для автоматической торговли. Вы определяете, где вы хотите торговать. Вы не привязаны к конкретному финансовому введению. Добро пожаловать на свободу выбора."
-    },
-    "Login": {
-      "Email": "Введите адрес электронной почты",
-      "Password": "пароль",
-      "Forgot": "Забыли пароль?",
-      "Or": "Или",
-      "SignInFacebook": "Авторизоваться с помощью Фэйсбука",
-      "SignInGoogle": "Войти через Google",
-      "SignUpFacebook": "Зарегистрируйтесь в Facebook",
-      "SignUpGoogle": "Зарегистрируйтесь в Google",
-      "TermsAgree": "При входе в систему вы соглашаетесь с Условиями использования Quantler",
-      "Warning": "ПРЕДУПРЕЖДЕНИЕ: нет инвестиционного совета. Ничто, предоставляемое Квантором, не должно толковаться как инвестиционные, юридические или налоговые консультации. Мы не являемся финансовыми консультантами, брокерами или управляющими фондами. Ни одно из контента, предлагаемого Квестором, третьими лицами или общим кодом и или алгоритмами на Квантолле, не должно толковаться как рекомендации. Это учебные материалы, предназначенные для разработки вашей стратегии. Вы признаете и соглашаетесь с тем, что любое использование Quantler, любые решения, принятые в зависимость от Quantler, включая любые торговые или инвестиционные решения или стратегии, принимаются на ваш страх и риск. Услуга предоставляет возможность тестировать идеи по историческим данным, однако прошлая производительность не гарантирует будущих результатов. Получив доступ к этому сайту, вы соглашаетесь с условиями Quantler",
-      "RegisterName": "Полное имя",
-      "RegisterEmail": "Введите адрес электронной почты",
-      "RegisterPassword": "пароль",
-      "RegisterPasswordRetype": "Повторите ввод пароля",
-      "IAgree": "Я согласен с условиями",
-      "SignUp": "Зарегистрироваться"
-    },
-    "Copyright": "Все права защищены.",
-    "ICO": {}
-  }
 }
