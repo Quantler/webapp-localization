@@ -1,1148 +1,1757 @@
 {
-  "WebApp": {
-    "RightMenu": {
-      "Languages": {
-        "ar": "Arabic",
-        "de": "German",
-        "en": "English",
-        "es": "Spanish",
-        "fr": "French",
-        "it": "Italian",
-        "ja": "Japanese",
-        "ko": "Korean",
-        "nl": "Dutch",
-        "pt": "Portuguese",
-        "ru": "Russian",
-        "zh": "Chinese"
-      },
-      "Subscription": "",
-      "Statistics": "",
-      "Language": "",
-      "StatisticsAnalyzed": "",
-      "StatisticsModules": "",
-      "HelpTranslate": "",
-      "SettingsFirstName": "",
-      "SettingsLastName": "",
-      "SettingsEmail": "",
-      "SettingsNewsletter": "",
-      "SettingsLogOut": ""
-    },
-    "LeftMenu": {
-      "Items": {
-        "Subscription": "",
-        "SmartFunds": "",
-        "Dashboard": "",
-        "Management": "",
-        "Modules": "",
-        "Universes": "",
-        "Discussions": "",
-        "Catalog": "",
-        "Help": ""
-      },
-      "Text": {
-        "Hosting": "",
-        "Lab": "",
-        "Community": "",
-        "Documentation": ""
-      },
-      "Support": ""
-    },
-    "Dashboard": {
-      "Title": "",
-      "Hosting": {
-        "Status": "",
-        "View": "",
-        "NoSubscription": "",
-        "NoSubscriptionText": "",
-        "NoSubscriptionButton": ""
-      },
-      "Statistics": {
-        "Backtest": "",
-        "Allocated": "",
-        "Storage": ""
-      },
-      "Create": {
-        "Title": "",
-        "CatalogTitle": "",
-        "CatalogText": "",
-        "CatalogButton": "",
-        "UniversesTitle": "",
-        "UniversesText": "",
-        "UniversesButton": "",
-        "CreateTitle": "",
-        "CreateText": "",
-        "CreateButton": ""
-      },
-      "WhatsHappening": {
-        "Title": "",
-        "Discussions": "",
-        "Modules": "",
-        "SmartFunds": "",
-        "Universes": "",
-        "News": "",
-        "DicussionTitleBar": "",
-        "ModulesTitleBar": "",
-        "SmartFundsTitleBar": "",
-        "UniversesTitleBar": ""
-      }
-    },
-    "Onboarding": {
-      "AssetTypeTitle": "",
-      "AssetTypeSubTitle": "",
-      "DisclaimerTitle": "",
-      "DisclaimerText": "",
-      "DisclaimerAgree": "",
-      "DisclaimerButton": ""
-    },
-    "Management": {
-      "Title": "",
-      "Select": "",
-      "HostingTitle": "",
-      "HostingLocation": "",
-      "HostingLatency": "",
-      "DelayNotice": "",
-      "SettledCash": "",
-      "UnsettledCash": "",
-      "Positions": "",
-      "Equity": "",
-      "FreeMargin": "",
-      "NoHostingTitle": "",
-      "NoHostingSubTitle": "",
-      "NoHostingButton": "",
-      "NoAccount": "",
-      "FundDetails": {
-        "TabPositionsTitle": "",
-        "TabTradesTitle": "",
-        "TabOrdersTitle": "",
-        "TabLoggingTitle": "",
-        "Bought": "",
-        "Sold": "",
-        "SinceInception": ""
-      },
-      "Account": {
-        "NoHosting": "No hosting running",
-        "Account": "Account",
-        "Balance": "Balance",
-        "Equity": "Equity",
-        "FloatingROI": "Floating ROI"
-      }
-    },
-    "Components": {
-      "DiscussionBar": {
-        "Views": "",
-        "Replies": "",
-        "LastReply": ""
-      },
-      "SmartFundBar": {
-        "MonthReturn": "",
-        "YearReturn": "",
-        "Daytrading": ""
-      },
-      "ModulesBar": {
-        "View": "",
-        "Details": ""
-      },
-      "Pagination": {
-        "LoadMore": ""
-      },
-      "UniverseBar": {
-        "IndexValue": "",
-        "YearReturn": "",
-        "CreatedBy": ""
-      },
-      "NewsBar": {
-        "NoDataText": "No news available"
-      }
-    },
-    "Discussions": {
-      "Title": "",
-      "CreateNewPost": "",
-      "AllTags": "",
-      "PostDetails": {
-        "BacktestPerformance": "",
-        "AddAttachment": "",
-        "PostAReply": "",
-        "PostAReplyPlaceholder": ""
-      },
-      "CreatePost": {
-        "PostTitle": "",
-        "PostTitlePlaceholder": "",
-        "Tags": "",
-        "ShowMoreTags": "",
-        "AddAttachment": ""
-      },
-      "Tags": {
-        "Investing": {
-          "Title": "Investing",
-          "Description": "Investing"
+    "WebApp": {
+        "RightMenu": {
+            "Languages": {
+                "ru": "Russian",
+                "en": "English",
+                "ar": "Arabic",
+                "de": "German",
+                "es": "Spanish",
+                "fr": "French",
+                "it": "Italian",
+                "ja": "Japanese",
+                "ko": "Korean",
+                "nl": "Dutch",
+                "pt": "Portuguese",
+                "zh": "Chinese"
+            },
+            "Subscription": "Testing CI",
+            "Statistics": "",
+            "Language": "",
+            "StatisticsAnalyzed": "",
+            "StatisticsModules": "",
+            "HelpTranslate": "",
+            "SettingsFirstName": "",
+            "SettingsLastName": "",
+            "SettingsEmail": "",
+            "SettingsNewsletter": "",
+            "SettingsLogOut": "",
+            "BacktestPower": "",
+            "StatisticsBacktests": "",
+            "SettingsAPIKeys": "",
+            "SettingsPublicAPIKey": "",
+            "SettingsCopyPuclikAPIKey": "",
+            "SettingsSecret": "",
+            "SettingsCopySecret": "",
+            "SettingsResetKeys": "",
+            "SettingsAssetTypes": "",
+            "SettingsBountyPage": "",
+            "AccountDetails": "",
+            "Affiliates": "",
+            "ProfileRecord": "",
+            "Settings": "",
+            "ManageSubscription": "",
+            "PopupNoEmail": ""
         },
-        "Symbol": {
-          "Title": "Symbol",
-          "Description": "Symbol"
+        "LeftMenu": {
+            "Items": {
+                "Subscription": "",
+                "SmartFunds": "",
+                "Dashboard": "",
+                "Management": "",
+                "Modules": "",
+                "Universes": "",
+                "Discussions": "",
+                "Catalog": "",
+                "Help": ""
+            },
+            "Text": {
+                "Hosting": "",
+                "Lab": "",
+                "Community": "",
+                "Documentation": ""
+            },
+            "Support": ""
         },
-        "Backtesting": {
-          "Title": "Backtesting",
-          "Description": "Backtesting"
+        "Dashboard": {
+            "Title": "",
+            "Hosting": {
+                "Status": "",
+                "View": "",
+                "NoSubscription": "",
+                "NoSubscriptionText": "",
+                "NoSubscriptionButton": ""
+            },
+            "Statistics": {
+                "Backtest": "",
+                "Allocated": "",
+                "Storage": ""
+            },
+            "Create": {
+                "Title": "",
+                "CatalogTitle": "",
+                "CatalogText": "",
+                "CatalogButton": "",
+                "UniversesTitle": "",
+                "UniversesText": "",
+                "UniversesButton": "",
+                "CreateTitle": "",
+                "CreateText": "",
+                "CreateButton": ""
+            },
+            "WhatsHappening": {
+                "Title": "",
+                "Discussions": "",
+                "Modules": "",
+                "SmartFunds": "",
+                "Universes": "",
+                "News": "",
+                "DicussionTitleBar": "",
+                "ModulesTitleBar": "",
+                "SmartFundsTitleBar": "",
+                "UniversesTitleBar": ""
+            }
         },
-        "Subscription": {
-          "Title": "Subscription",
-          "Description": "Subscription"
+        "Onboarding": {
+            "AssetTypeTitle": "",
+            "AssetTypeSubTitle": "",
+            "DisclaimerTitle": "",
+            "DisclaimerText": "",
+            "DisclaimerAgree": "",
+            "DisclaimerButton": "",
+            "AcceptFirst": "",
+            "EquitiesTitle": "",
+            "EquitiesText": "",
+            "ETFTitle": "",
+            "ETFText": "",
+            "CryptoTitle": "",
+            "CryptoText": ""
         },
-        "FAQ": {
-          "Title": "FAQ",
-          "Description": "FAQ"
+        "Management": {
+            "Title": "",
+            "Select": "",
+            "HostingTitle": "",
+            "HostingLocation": "",
+            "HostingLatency": "",
+            "DelayNotice": "",
+            "SettledCash": "",
+            "UnsettledCash": "",
+            "Positions": "",
+            "Equity": "",
+            "FreeMargin": "",
+            "NoHostingTitle": "",
+            "NoHostingSubTitle": "",
+            "NoHostingButton": "",
+            "NoAccount": "",
+            "FundDetails": {
+                "TabPositionsTitle": "",
+                "TabTradesTitle": "",
+                "TabOrdersTitle": "",
+                "TabLoggingTitle": "",
+                "Bought": "",
+                "Sold": "",
+                "SinceInception": ""
+            },
+            "Account": {
+                "NoHosting": "No hosting running",
+                "Account": "Account",
+                "Balance": "Balance",
+                "Equity": "Equity",
+                "FloatingROI": "Floating ROI"
+            }
         },
-        "Day Trading": {
-          "Title": "Day Trading",
-          "Description": "Day Trading"
+        "Components": {
+            "DiscussionBar": {
+                "Views": "",
+                "Replies": "",
+                "LastReply": "",
+                "NoReplies": ""
+            },
+            "SmartFundBar": {
+                "MonthReturn": "",
+                "YearReturn": "",
+                "Daytrading": "",
+                "Title": "",
+                "TitleBacktest": "",
+                "NoDataText": "",
+                "CumulativeChart": "",
+                "CumulativeChartEquity": "",
+                "CumulativeChartBenchmark": "",
+                "DrawDownChart": "",
+                "DrawDownChartLabel": ""
+            },
+            "ModulesBar": {
+                "View": "",
+                "Details": "",
+                "Title": ""
+            },
+            "Pagination": {
+                "LoadMore": "",
+                "Loading": ""
+            },
+            "UniverseBar": {
+                "IndexValue": "",
+                "YearReturn": "",
+                "CreatedBy": "",
+                "Title": "",
+                "Overview": "",
+                "NoDataText": ""
+            },
+            "Catalog": {
+                "Catalog": "",
+                "View": "",
+                "SmartFunds": "",
+                "Universes": "",
+                "Modules": "",
+                "AllThemes": ""
+            },
+            "NewsBar": {
+                "NoDataText": "No news available"
+            }
         },
-        "Trending": {
-          "Title": "Trending",
-          "Description": "Trending"
-        },
-        "Hosting": {
-          "Title": "Hosting",
-          "Description": "Hosting"
-        },
-        "Stat. Arbitrage": {
-          "Title": "Stat. Arbitrage",
-          "Description": "Stat. Arbitrage"
-        },
-        "Seasonal": {
-          "Title": "Seasonal",
-          "Description": "Seasonal"
-        },
-        "Equities": {
-          "Title": "Equities",
-          "Description": "Equities"
-        },
-        "Development": {
-          "Title": "Development",
-          "Description": "Development"
-        },
-        "Catalog": {
-          "Title": "Catalog",
-          "Description": "Catalog"
-        },
-        "Universe": {
-          "Title": "Universe",
-          "Description": "Universe"
-        },
-        "Market Data": {
-          "Title": "Market Data",
-          "Description": "Market Data"
-        },
-        "Tools And Tips": {
-          "Title": "Tools And Tips",
-          "Description": "Tools And Tips"
-        },
-        "Exit": {
-          "Title": "Exit",
-          "Description": "Exit"
-        },
-        "Entry": {
-          "Title": "Entry",
-          "Description": "Entry"
-        },
-        "Money Management": {
-          "Title": "Money Management",
-          "Description": "Money Management"
-        },
-        "Risk Management": {
-          "Title": "Risk Management",
-          "Description": "Risk Management"
-        },
-        "Live Trading": {
-          "Title": "Live Trading",
-          "Description": "Live Trading"
-        },
-        "Getting Started": {
-          "Title": "Getting Started",
-          "Description": "Getting Started"
-        },
-        "News": {
-          "Title": "News",
-          "Description": "News"
-        },
-        "Feature Request": {
-          "Title": "Feature Request",
-          "Description": "Feature Request"
-        },
-        "Colleboration Request": {
-          "Title": "Colleboration Request",
-          "Description": "Colleboration Request"
-        },
-        "Help Request": {
-          "Title": "Help Request",
-          "Description": "Help Request"
+        "Discussions": {
+            "Title": "",
+            "CreateNewPost": "",
+            "AllTags": "",
+            "PostDetails": {
+                "BacktestPerformance": "",
+                "AddAttachment": "",
+                "PostAReply": "",
+                "PostAReplyPlaceholder": "",
+                "TypeAReplyFirst": "",
+                "Reply": "",
+                "Posting": ""
+            },
+            "CreatePost": {
+                "PostTitle": "",
+                "PostTitlePlaceholder": "",
+                "Tags": "",
+                "ShowMoreTags": "",
+                "AddAttachment": "",
+                "ShowLessTags": "",
+                "PostAReplyPlaceholder": "",
+                "Post": "",
+                "Posting": "",
+                "Errors": {
+                    "Title": "",
+                    "Tag": "",
+                    "Empty": ""
+                }
+            },
+            "BackTo": "",
+            "NoDiscussions": "",
+            "NoDiscussionsDesc": "",
+            "Tags": {
+                "Investing": {
+                    "Title": "Investing",
+                    "Description": "Investing"
+                },
+                "Symbol": {
+                    "Title": "Symbol",
+                    "Description": "Symbol"
+                },
+                "Backtesting": {
+                    "Title": "Backtesting",
+                    "Description": "Backtesting"
+                },
+                "Subscription": {
+                    "Title": "Subscription",
+                    "Description": "Subscription"
+                },
+                "FAQ": {
+                    "Title": "FAQ",
+                    "Description": "FAQ"
+                },
+                "Day Trading": {
+                    "Title": "Day Trading",
+                    "Description": "Day Trading"
+                },
+                "Trending": {
+                    "Title": "Trending",
+                    "Description": "Trending"
+                },
+                "Hosting": {
+                    "Title": "Hosting",
+                    "Description": "Hosting"
+                },
+                "Stat. Arbitrage": {
+                    "Title": "Stat. Arbitrage",
+                    "Description": "Stat. Arbitrage"
+                },
+                "Seasonal": {
+                    "Title": "Seasonal",
+                    "Description": "Seasonal"
+                },
+                "Equities": {
+                    "Title": "Equities",
+                    "Description": "Equities"
+                },
+                "Development": {
+                    "Title": "Development",
+                    "Description": "Development"
+                },
+                "Catalog": {
+                    "Title": "Catalog",
+                    "Description": "Catalog"
+                },
+                "Universe": {
+                    "Title": "Universe",
+                    "Description": "Universe"
+                },
+                "Market Data": {
+                    "Title": "Market Data",
+                    "Description": "Market Data"
+                },
+                "Tools And Tips": {
+                    "Title": "Tools And Tips",
+                    "Description": "Tools And Tips"
+                },
+                "Exit": {
+                    "Title": "Exit",
+                    "Description": "Exit"
+                },
+                "Entry": {
+                    "Title": "Entry",
+                    "Description": "Entry"
+                },
+                "Money Management": {
+                    "Title": "Money Management",
+                    "Description": "Money Management"
+                },
+                "Risk Management": {
+                    "Title": "Risk Management",
+                    "Description": "Risk Management"
+                },
+                "Live Trading": {
+                    "Title": "Live Trading",
+                    "Description": "Live Trading"
+                },
+                "Getting Started": {
+                    "Title": "Getting Started",
+                    "Description": "Getting Started"
+                },
+                "News": {
+                    "Title": "News",
+                    "Description": "News"
+                },
+                "Feature Request": {
+                    "Title": "Feature Request",
+                    "Description": "Feature Request"
+                },
+                "Colleboration Request": {
+                    "Title": "Colleboration Request",
+                    "Description": "Colleboration Request"
+                },
+                "Help Request": {
+                    "Title": "Help Request",
+                    "Description": "Help Request"
+                },
+                "General": {
+                    "Title": "General",
+                    "Description": "General"
+                }
+            }
         },
         "General": {
-          "Title": "General",
-          "Description": "General"
-        }
-      }
-    },
-    "General": {
-      "Update": "",
-      "Delete": "",
-      "Account": "",
-      "On": "",
-      "Off": "",
-      "Deployed": "",
-      "Allocated": "",
-      "Symbol": "",
-      "Direction": "",
-      "Size": "",
-      "Changed": "",
-      "Price": "",
-      "Margin": "",
-      "Start": "",
-      "Stop": "",
-      "Reply": "",
-      "Trades": "",
-      "Fills": "",
-      "Date": "",
-      "Time": "",
-      "Quantity": "",
-      "Difference": "",
-      "Allocation": "",
-      "Sharing": "",
-      "Public": "",
-      "Setup": "",
-      "Checking": "",
-      "Continue": "",
-      "Close": "",
-      "Country": "",
-      "Balance": "",
-      "Equity": "",
-      "Floating": "",
-      "Type": "",
-      "Description": "",
-      "File": "",
-      "Line": "",
-      "Save": "",
-      "Name": "",
-      "Title": "",
-      "Module": "",
-      "Values": "",
-      "Broker": "",
-      "Daytrading": "",
-      "LongTermTrading": ""
-    },
-    "Backtester": {
-      "Title": "",
-      "MySmartFunds": "",
-      "CreateNew": "",
-      "Overview": {
-        "NoFundTitle": "",
-        "NoFundSubTitle": "",
-        "SuggestionTitle": "",
-        "Size": "",
-        "BacktestHistory": "",
-        "Filters": {
-          "Status": "",
-          "Sharpe": "",
-          "DD": "",
-          "ROI": "",
-          "NER": "",
-          "Time": "",
-          "Modules": "",
-          "Universes": ""
-        }
-      },
-      "Create": {
-        "Name": "",
-        "Settings": {
-          "Title": "",
-          "SubTitle": "",
-          "StartDate": "",
-          "EndDate": "",
-          "Timeframe": "",
-          "SelectUniverse": "",
-          "MoreOptions": "",
-          "LessOptions": "",
-          "BrokerModel": "",
-          "AccountType": "",
-          "AllocatedFunds": "",
-          "BaseCurrency": "",
-          "ExtendedMarket": "",
-          "ExtendedMarketTooltip": "",
-          "UseTickData": "",
-          "UseTickDataTooltip": "",
-          "Add": "",
-          "Check": "",
-          "UniverseAdd": {
+            "Update": "",
+            "Delete": "",
+            "Account": "",
+            "On": "",
+            "Off": "",
+            "Deployed": "",
+            "Allocated": "",
+            "Symbol": "",
+            "Direction": "",
+            "Size": "",
+            "Changed": "",
+            "Price": "",
+            "Margin": "",
+            "Start": "",
+            "Stop": "",
+            "Reply": "",
+            "Trades": "",
+            "Fills": "",
+            "Date": "",
+            "Time": "",
+            "Quantity": "",
+            "Difference": "",
+            "Allocation": "",
+            "Sharing": "",
+            "Public": "",
+            "Setup": "",
+            "Checking": "",
+            "Continue": "",
+            "Close": "",
+            "Country": "",
+            "Balance": "",
+            "Equity": "",
+            "Floating": "",
+            "Type": "",
+            "Description": "",
+            "File": "",
+            "Line": "",
+            "Save": "",
+            "Name": "",
             "Title": "",
-            "Search": "",
-            "NotListed": ""
-          },
-          "ModulesAdd": {
+            "Module": "",
+            "Values": "",
+            "Broker": "",
+            "Daytrading": "",
+            "LongTermTrading": "",
+            "Saving": ""
+        },
+        "Backtester": {
             "Title": "",
-            "NotListed": ""
-          }
+            "MySmartFunds": "",
+            "CreateNew": "",
+            "Overview": {
+                "NoFundTitle": "",
+                "NoFundSubTitle": "",
+                "SuggestionTitle": "",
+                "Size": "",
+                "BacktestHistory": "",
+                "Filters": {
+                    "Status": "",
+                    "Sharpe": "",
+                    "DD": "",
+                    "ROI": "",
+                    "NER": "",
+                    "Time": "",
+                    "Modules": "",
+                    "Universes": "",
+                    "LiveTrading": "",
+                    "DemoTrading": "",
+                    "Name": "",
+                    "CreatedAI": "",
+                    "CreatedImport": "",
+                    "CreatedManual": ""
+                },
+                "SearchFund": ""
+            },
+            "Create": {
+                "Name": "",
+                "Settings": {
+                    "Title": "",
+                    "SubTitle": "",
+                    "StartDate": "",
+                    "EndDate": "",
+                    "Timeframe": "",
+                    "SelectUniverse": "",
+                    "MoreOptions": "",
+                    "LessOptions": "",
+                    "BrokerModel": "",
+                    "AccountType": "",
+                    "AllocatedFunds": "",
+                    "BaseCurrency": "",
+                    "ExtendedMarket": "",
+                    "ExtendedMarketTooltip": "",
+                    "UseTickData": "",
+                    "UseTickDataTooltip": "",
+                    "Add": "",
+                    "Check": "",
+                    "UniverseAdd": {
+                        "Title": "",
+                        "Search": "",
+                        "NotListed": ""
+                    },
+                    "ModulesAdd": {
+                        "Title": "",
+                        "NotListed": ""
+                    }
+                },
+                "Logic": {
+                    "Title": "",
+                    "SubTitle": "",
+                    "SubTitlePreset": "",
+                    "Choose": "",
+                    "Overwrite": "",
+                    "SelectAPreset": "",
+                    "EntryTooltip": "",
+                    "ExitTooltip": "",
+                    "MMTooltip": "",
+                    "RMTooltip": "",
+                    "Preset1": {
+                        "Name": "",
+                        "Description": ""
+                    },
+                    "Preset2": {
+                        "Name": "",
+                        "Description": ""
+                    },
+                    "Preset3": {
+                        "Name": "",
+                        "Description": ""
+                    },
+                    "Preset1Name": "",
+                    "Preset1Description": "",
+                    "Preset2Name": "",
+                    "Preset2Description": "",
+                    "Preset3Name": "",
+                    "Preset3Description": ""
+                },
+                "Results": {
+                    "Title": "",
+                    "SubTitle": "",
+                    "PerformanceOverview": "",
+                    "Summary": "",
+                    "TradingPeriod": "",
+                    "GrossPnlTooltip": "",
+                    "TotalNetProfitTooltip": "",
+                    "ROITooltip": "",
+                    "FillNr": "",
+                    "SubTitle2": "",
+                    "Trades": "",
+                    "Overview": "",
+                    "Statistics": "",
+                    "Orders": "",
+                    "Logging": "",
+                    "Finalizing": "",
+                    "Completed": "",
+                    "OrdersHeaders": {
+                        "Date": "",
+                        "Time": "",
+                        "Symbol": "",
+                        "Type": "",
+                        "FillPrice": "",
+                        "Currency": "",
+                        "Quantity": ""
+                    },
+                    "OverviewHeaders": {
+                        "BrokerModel": "",
+                        "BaseCurrency": "",
+                        "StartDate": "",
+                        "EndDate": "",
+                        "InitCapital": "",
+                        "EndingCapital": "",
+                        "ErrorsFound": "",
+                        "ROI": ""
+                    }
+                },
+                "Dialog": {
+                    "Title": "",
+                    "Select": "",
+                    "AccountBalance": "",
+                    "CurrencyAllocated": "",
+                    "FreeForAllocation": "",
+                    "PublicText": "",
+                    "SeeTerms": "",
+                    "AddBrokerageTitle": "",
+                    "AddBrokerageDesc": "",
+                    "AwaitingSetup": "",
+                    "WarningMessage": ""
+                },
+                "NextStep": "",
+                "RunBacktest": "",
+                "StartHosting": "",
+                "NamePlaceholder": "",
+                "SelectPreset": "",
+                "Errors": {
+                    "Name": "",
+                    "Universe": "",
+                    "Module": ""
+                }
+            },
+            "MySmartFund": "",
+            "SelectPremade": "",
+            "Signal": "",
+            "MoneyManagement": "",
+            "RiskManagement": "",
+            "Updated": "",
+            "Backtests": "",
+            "CreatedOn": "",
+            "DeleteBacktest": "",
+            "ReloadBacktest": "",
+            "OpenBacktest": "",
+            "ROI": "",
+            "Drawdown": "",
+            "Sharpe": "",
+            "NetExpenseRatio": "",
+            "NER": "",
+            "Modules": "",
+            "Universe": "",
+            "DeleteSmartFund": "",
+            "AreYouSure": "",
+            "BackToSmartfunds": ""
         },
-        "Logic": {
-          "Title": "",
-          "SubTitle": "",
-          "SubTitlePreset": "",
-          "Choose": "",
-          "Overwrite": "",
-          "Preset1Name": "",
-          "Preset1Description": "",
-          "Preset2Name": "",
-          "Preset2Description": "",
-          "Preset3Name": "",
-          "Preset3Description": "",
-          "SelectAPreset": "",
-          "EntryTooltip": "",
-          "ExitTooltip": "",
-          "MMTooltip": "",
-          "RMTooltip": ""
+        "MySubscription": {
+            "Title": "",
+            "CommissionFree": "",
+            "OtherBrokers": "",
+            "License": "",
+            "MoreInfo": "",
+            "Unaffiliated": "",
+            "Initial": {
+                "ChooseTitle": "",
+                "ChooseText": "",
+                "GetStarted": "",
+                "SharingDiscountTitle": "",
+                "SharingDiscountDesc": "",
+                "PlansTitle": "",
+                "PlanLowLatency": "",
+                "PlanLowLatencyTooltip": "",
+                "PlanLocations": "",
+                "PlanLocationsTooltip": "",
+                "PlanSecurity": "",
+                "PlanSecurityTooltip": "",
+                "PlanUnlimited": "",
+                "PlanUnlimitedTooltip": "",
+                "PlanActive": "",
+                "PlanActiveTooltip": "",
+                "PlanBacktestTime": "",
+                "PlanBacktestTimeTooltip": "",
+                "PlanHosting": "",
+                "PlanHostingTooltip": "",
+                "CancelSubscription": "",
+                "Step1PersonalInfo": {
+                    "Title": "",
+                    "SubTitle": "",
+                    "Name": "",
+                    "PhoneNumber": "",
+                    "Country": "",
+                    "Address": "",
+                    "StateRegion": "",
+                    "City": "",
+                    "Street": "",
+                    "Zip": ""
+                },
+                "Step2ServiceAgreement": {
+                    "SubTitle": "",
+                    "AgreeTitle": "",
+                    "AgreeText": "",
+                    "Privacy": "",
+                    "AgreementParagraph1": "",
+                    "AgreementParagraph2": "",
+                    "AgreementParagraph3": "",
+                    "AgreementParagraph4": ""
+                },
+                "Step3PaymentInformation": {
+                    "Title": "",
+                    "SubTitle": "",
+                    "Provide": ""
+                },
+                "Step4Completed": {
+                    "Title": "",
+                    "SubTitle": "",
+                    "Started": "",
+                    "Connect": ""
+                },
+                "Country": "",
+                "CountryHint": "",
+                "Tooltips": {
+                    "Personal Information": "Personal Information",
+                    "Service Agreement": "Service Agreement",
+                    "Payment": "Payment",
+                    "Broker Details": "Broker Details"
+                },
+                "CheckOutModal": {
+                    "Getstarted": "You need Quantcoins to get started",
+                    "Description": "Quantcoins are needed to proceed and start trading. They are still available and ready for you to pick up",
+                    "CHECKOUTICO": "CHECKOUT ICO"
+                },
+                "Tiers": {
+                    "Tier1": {
+                        "Title": "tier 1",
+                        "Feature1Title": "Automated portfolio management",
+                        "Feature1Tooltip": "Automated portfolio management",
+                        "Feature2Title": "Tax-efficient investing features",
+                        "Feature2Tooltip": "Tax-efficient investing features",
+                        "Feature3Title": "New account only",
+                        "Feature3Tooltip": "New account only",
+                        "AllocatedFunds": "Allocated funds",
+                        "Price": "free",
+                        "PayPeriod": ""
+                    },
+                    "Tier2": {
+                        "Title": "tier 2",
+                        "Feature1Title": "Automated portfolio management",
+                        "Feature1Tooltip": "Automated portfolio management",
+                        "Feature2Title": "Tax-efficient investing features",
+                        "Feature2Tooltip": "Tax-efficient investing features",
+                        "Feature3Title": "New account only",
+                        "Feature3Tooltip": "New account only",
+                        "AllocatedFunds": "Allocated funds",
+                        "Price": "~0.25% OF TOTAL",
+                        "PayPeriod": "annually",
+                        "Additional": "0,242657% effectively"
+                    }
+                }
+            },
+            "Overview": {
+                "Title": "",
+                "ManagePayment": "",
+                "Current": "",
+                "Running": "",
+                "Shared": "",
+                "SmartFundShared": "",
+                "AllocateReduced": "",
+                "AllocateTotal": "",
+                "EstimateTier": "",
+                "EstimateInvoice": "",
+                "SubscriptionHistory": "",
+                "SubscriptionPeriod": "",
+                "BrokerSettings": "",
+                "CreateAccount": "",
+                "Allocated": ""
+            },
+            "Settings": {
+                "Title": "",
+                "SubTitle": "",
+                "AddABroker": "",
+                "ConnectedBrokers": "",
+                "AddBroker": "",
+                "CantFind": "",
+                "ActiveHosting": "",
+                "Compatible": "",
+                "Adding": ""
+            },
+            "Planned": {
+                "title": "Planned",
+                "tooltip": "This broker is not compatible yet"
+            },
+            "Assettypes": ""
         },
-        "Results": {
-          "Title": "",
-          "SubTitle": "",
-          "PerformanceOverview": "",
-          "Summary": "",
-          "TradingPeriod": "",
-          "GrossPnlTooltip": "",
-          "TotalNetProfitTooltip": "",
-          "ROITooltip": "",
-          "FillNr": ""
+        "Modules": {
+            "Title": "",
+            "Add": "",
+            "AddPopup": {
+                "DefineTitle": "",
+                "DefineText": "",
+                "DescTitle": "",
+                "DescText": "",
+                "DoneTitle": "",
+                "DoneText": "",
+                "ModuleNameTooltip": "",
+                "ModuleTypeTooltip": "",
+                "TypeYourDescription": "",
+                "ModuleReady": "",
+                "SelectAModule": "",
+                "SelectAModuleDesc": "",
+                "Types": {
+                    "RM": "",
+                    "MM": "",
+                    "Signal": "",
+                    "Entry": "",
+                    "Exit": ""
+                },
+                "CreateTitle": "",
+                "ModuleName": "",
+                "ModuleNamePlaceholder": "",
+                "ModuleType": ""
+            },
+            "SettingsPanel": {
+                "NameTooltip": "",
+                "SharingTooltip": "",
+                "ParamaterName": "",
+                "ParameterDescription": "",
+                "ParameterValues": "",
+                "Parameters": "",
+                "ModuleSettings": "",
+                "Name": "",
+                "Sharing": "",
+                "SetModule": "",
+                "not": "",
+                "public": "",
+                "Saving": "",
+                "update": "",
+                "deleting": "",
+                "delete": "",
+                "DeleteModule": "",
+                "Areyousure": ""
+            },
+            "Compile": "",
+            "Line": "",
+            "NoErrors": "",
+            "Parameter": "",
+            "Parameters": "",
+            "BackTo": "",
+            "File": "",
+            "Description": "",
+            "Module": "",
+            "CompileErrors": "",
+            "CompileSuccess": "",
+            "Noerrorstodisplay": "",
+            "NoModulesFound": "",
+            "NoModulesFoundDescription": "",
+            "ModuleTypeFilter": {
+                "Title": "",
+                "Selection": ""
+            }
         },
-        "Dialog": {
-          "Title": "",
-          "Select": "",
-          "AccountBalance": "",
-          "CurrencyAllocated": "",
-          "FreeForAllocation": "",
-          "PublicText": "",
-          "SeeTerms": "",
-          "AddBrokerageTitle": "",
-          "AddBrokerageDesc": "",
-          "AwaitingSetup": "",
-          "WarningMessage": ""
+        "Universe": {
+            "Title": "",
+            "Add": "",
+            "Overview": {
+                "AlreadyShared": "",
+                "FinalizeFirst": "",
+                "Delete": "",
+                "EmptyUniversesTitle": "",
+                "EmptyUniversesDesc": "",
+                "EmptyUniversesSuggestions": "",
+                "AreYouSure": "",
+                "SuggestionTitle": "",
+                "SelectUniverse": ""
+            },
+            "Item": {
+                "Index": "",
+                "Autosaved": "",
+                "Created": "",
+                "DescriptionPlaceholder": "",
+                "SearchPlaceholder": "",
+                "Name": "",
+                "Symbol": "",
+                "Weight": "",
+                "Price": "",
+                "MarketCap": "",
+                "Delete": "",
+                "Industry": "",
+                "EmptySymbolsTitle": "",
+                "EmptySymbolsDesc": "",
+                "Autosaving": "",
+                "Import": "",
+                "ImportDescription": "",
+                "Importing": "",
+                "Saving": "",
+                "Finalize": "",
+                "Finalized": "",
+                "Share": "",
+                "Status": "",
+                "Description": "",
+                "Custom": "",
+                "Equal": "",
+                "AllTagsPlaceholder": "",
+                "MaximumTagsReached": "",
+                "MaximumSymbolsReached": "",
+                "Broker": "",
+                "Filter": "",
+                "YearReturn": "",
+                "MonthReturn": "",
+                "NoResults": "",
+                "Unavailable": "",
+                "Updating": "",
+                "UpdateAvailable": "",
+                "AlreadyImported": "",
+                "Errors": {
+                    "Name": "",
+                    "Symbol": "",
+                    "Weights": ""
+                }
+            },
+            "Tags": {
+                "Europe": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Online": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Pharma": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Agriculture": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Real Estate": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Automotive": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "World": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "USA": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Asia": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Green Energy": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Travel": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Blockchain": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Emerging Markets": {
+                    "Title": "Emerging Markets",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Financial Services": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Food and Beverages": {
+                    "Title": "Food and Beverages",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Precious Metals": {
+                    "Title": "Precious Metals",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Social Responsibility": {
+                    "Title": "Social Responsibility",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Oil and Gas": {
+                    "Title": "Oil and Gas",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Welness": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Retail": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Latest Hypes": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Dividends": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Bonds": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Fund of Funds": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "LowVolatility": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "LifeScience": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "NewTechnologies": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "SocialMedia": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Aviation": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Leisure": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "SportAndFitness": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Wellness": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "HealthyLifestyle": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "AlternativeEnergy": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Semiconductor": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Biotech": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Cleantech": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "SmartGrid": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "WindEnergy": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "SolarEnergy": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "InternetOfThings": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "OilAndGas": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "FoodAndBeverages": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "WasteManagement": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Water": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Lithium": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "PreciousMetals": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "IndustrialMetals": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Gold": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "SocialResponsibility": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "EmergingMarkets": {
+                    "Title": "",
+                    "Description": ""
+                },
+                "Low Volatility": {
+                    "Title": "Low Volatility",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Life Science": {
+                    "Title": "Life Science",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "New Technologies": {
+                    "Title": "New Technologies",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Social Media": {
+                    "Title": "Social Media",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Sport And Fitness": {
+                    "Title": "Sport And Fitness",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Healthy Lifestyle": {
+                    "Title": "Healthy Lifestyle",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Alternative Energy": {
+                    "Title": "Alternative Energy",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Smart Grid": {
+                    "Title": "Smart Grid",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "WindE nergy": {
+                    "Title": "Wind Energy",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Solar Energy": {
+                    "Title": "Solar Energy",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Internet Of Things": {
+                    "Title": "Internet Of Things",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Waste Management": {
+                    "Title": "Waste Management",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                },
+                "Industrial Metals": {
+                    "Title": "Industrial Metals",
+                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                }
+            },
+            "NoUniversesFound": "",
+            "NoUniversesFoundDescr": ""
         },
-        "NextStep": "",
-        "RunBacktest": "",
-        "StartHosting": ""
-      }
+        "Symbol": {
+            "KeyFinancials": "",
+            "Website": "",
+            "Currency": "",
+            "DayRange": "",
+            "52WeekRange": "",
+            "LastPrice": "",
+            "Shares": "",
+            "MarketCap": "",
+            "EPS": "",
+            "PERatio": "",
+            "Div Yield": "",
+            "Sponsor": "",
+            "AssetClass": "",
+            "NER": "",
+            "AvgDaily": "",
+            "AvailableSupply": "",
+            "TotalSupply": "",
+            "PopupNoDesc": "",
+            "MoreDetails": "",
+            "Price": "",
+            "52Week": "",
+            "Returns": "",
+            "1MO": "",
+            "6MO": "",
+            "1YR": "",
+            "Performance": "",
+            "From": "",
+            "To": "",
+            "Industry": {
+                "Finance": {
+                    "Title": ""
+                }
+            },
+            "AssetType": {
+                "Equity": {
+                    "Title": "",
+                    "Plural": ""
+                },
+                "ETF": {
+                    "Title": "",
+                    "Plural": ""
+                },
+                "Crypto": {
+                    "Title": "",
+                    "Plural": ""
+                }
+            },
+            "Back": "",
+            "LastUpdated": "",
+            "Open": "",
+            "Description": "",
+            "Details": {
+                "AAPL": {
+                    "Description": ""
+                }
+            }
+        },
+        "Catalog": {
+            "Title": "",
+            "Universe": {
+                "Tag": "",
+                "Popular": "",
+                "All": "",
+                "ShowAll": "",
+                "Top1Y": "",
+                "Top1M": ""
+            },
+            "SmartFunds": {
+                "CautionTitle": "",
+                "CautionText": "",
+                "IGotIt": "",
+                "NoSmartFundsFound": "",
+                "NoSmartFundsFoundDescr": "",
+                "Overview": "",
+                "PopularFunds": "",
+                "Community": "",
+                "ShowAll": "",
+                "YearPerformance": "",
+                "Popular": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Speculative": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Theme": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "BrokerBased": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Filters": {
+                    "Style": "Trading Style",
+                    "Activity": "Activity",
+                    "Sharpe": "Sharpe",
+                    "DD": "Drawdown",
+                    "ROI": "ROI",
+                    "NER": "Net Expense Ratio",
+                    "Time": "All Time",
+                    "Modules": "All Modules",
+                    "Universes": "Universes",
+                    "Others": "",
+                    "AssetType": "",
+                    "Theme": "",
+                    "Broker": "",
+                    "YearReturn": "",
+                    "MonthReturn": "",
+                    "Speculative": "",
+                    "Passive": "",
+                    "SelectedThemes": "",
+                    "SearchingThemes": "",
+                    "Filters": ""
+                },
+                "StatisticTab": {
+                    "ROI": "",
+                    "1YROI": "",
+                    "1MROI": "",
+                    "NetExpenseRatio": "",
+                    "Drawdown": "",
+                    "Sharpe": ""
+                },
+                "DetailsTabs": {
+                    "PastPerformance": "",
+                    "SymbolsAndWeights": "",
+                    "RecentNews": ""
+                },
+                "SymbolsTable": {
+                    "Name": "",
+                    "Symbol": "",
+                    "Weight": "",
+                    "Price": "",
+                    "MarketCap": "",
+                    "YR": ""
+                },
+                "ImportButton": "",
+                "BackButton": ""
+            },
+            "Modules": {
+                "AllModuleTypes": "",
+                "AllTime": "",
+                "Item": {
+                    "PostReply": "",
+                    "Reply": "",
+                    "BackTo": ""
+                }
+            }
+        },
+        "Bounty": {
+            "Title": "",
+            "ICO": {
+                "Tab": "",
+                "PayoutTitle": "",
+                "PayoutShareFriends": "",
+                "PayoutFollowTwitter": "",
+                "PayoutFollowFacebook": "",
+                "ForumSignature": "",
+                "BlogPost": "",
+                "AffiliateLink": "",
+                "Journalism": "",
+                "OtherPromotions": "",
+                "ICOAffLink": "",
+                "ICOAffLinkApp": "",
+                "ICOAffLinkIco": "",
+                "ICOAffLinkCopy": "",
+                "ShareWithFriends": "",
+                "Performance": "",
+                "LinkClicks": "",
+                "FriendsShared": "",
+                "Translations": "",
+                "BlogPosts": "",
+                "SocialMedia": "",
+                "OtherPromotionsItem": "",
+                "Points": "",
+                "Note": "",
+                "AddBounty": "",
+                "BountyType": "",
+                "BountyLink": "",
+                "Message": "",
+                "AddRequest": "",
+                "BountyHistory": "",
+                "HistoryTable": {
+                    "Type": "",
+                    "Occured": "",
+                    "Points": "",
+                    "Approved": "",
+                    "Comment": ""
+                },
+                "BountyLinkPlaceholder": "",
+                "MessagePlaceholder": "",
+                "SuccessAddRequest": "",
+                "BountyPayout": {
+                    "EtherBountyPayoutAddress": "",
+                    "Save": "",
+                    "SuccessSave": ""
+                },
+                "HistoryItemModal": {
+                    "BountyType": "",
+                    "BountyLink": "",
+                    "TimeOccured": "",
+                    "Points": "",
+                    "Approved": "",
+                    "Yes": "",
+                    "No": "",
+                    "Comment": "",
+                    "Message": "",
+                    "Close": ""
+                }
+            },
+            "Github": {
+                "Tab": "",
+                "UnderDevelopmentTitle": "",
+                "UnderDevelopmentText": ""
+            }
+        },
+        "AnnouncementBar": {
+            "title": "ANNOUNCEMENT",
+            "description": "Invest from £15 in our equity crowdfunding round"
+        },
+        "NotOptimizedForMobile": {
+            "Title": "",
+            "Text": "",
+            "OK": ""
+        },
+        "qEditor": {
+            "PostReply": "",
+            "Reply": "",
+            "Posting": "",
+            "TypeAReplyFirst": ""
+        }
     },
-    "MySubscription": {
-      "Title": "",
-      "CommissionFree": "",
-      "OtherBrokers": "",
-      "License": "",
-      "MoreInfo": "",
-      "Unaffiliated": "",
-      "Initial": {
-        "ChooseTitle": "",
-        "ChooseText": "",
-        "GetStarted": "",
-        "SharingDiscountTitle": "",
-        "SharingDiscountDesc": "",
-        "PlansTitle": "",
-        "PlanLowLatency": "",
-        "PlanLowLatencyTooltip": "",
-        "PlanLocations": "",
-        "PlanLocationsTooltip": "",
-        "PlanSecurity": "",
-        "PlanSecurityTooltip": "",
-        "PlanUnlimited": "",
-        "PlanUnlimitedTooltip": "",
-        "PlanActive": "",
-        "PlanActiveTooltip": "",
-        "PlanBacktestTime": "",
-        "PlanBacktestTimeTooltip": "",
-        "PlanHosting": "",
-        "PlanHostingTooltip": "",
-        "CancelSubscription": "",
-        "Step1PersonalInfo": {
-          "Title": "",
-          "SubTitle": "",
-          "Name": "",
-          "PhoneNumber": "",
-          "Country": "",
-          "Address": "",
-          "StateRegion": "",
-          "City": "",
-          "Street": "",
-          "Zip": ""
+    "LandingPage": {
+        "Welcome": {
+            "Title": "",
+            "SubTitle": "",
+            "H1Title": "",
+            "H1SubTitle": "",
+            "H1SubItem1Title": "",
+            "H1SubItem1Text": "",
+            "H1SubItem2Title": "",
+            "H1SubItem2Text": "",
+            "H1SubItem3Title": "",
+            "H1SubItem3Text": "",
+            "InvestInWhatYouBelieveIn": "",
+            "ShowSmartFunds": ""
         },
-        "Step2ServiceAgreement": {
-          "SubTitle": "",
-          "AgreeTitle": "",
-          "AgreeText": ""
+        "SmartFund": {
+            "MenuItem": "",
+            "Title": "",
+            "SubTitle": "",
+            "H1Title": "",
+            "H1SubTitle": "",
+            "GetStarted": "",
+            "Text1": "",
+            "Text2": "",
+            "Text3": "",
+            "H1Item1Text": "",
+            "H1Item2Text": "",
+            "H1Item3Text": ""
         },
-        "Step3PaymentInformation": {
-          "Title": "",
-          "SubTitle": "",
-          "Provide": ""
+        "General": {
+            "Create": "",
+            "Start": "",
+            "GetStarted": "",
+            "NoLock": "",
+            "NoLockText": "",
+            "ComapreAligned": "",
+            "CompareOwnership": "",
+            "CompareKnow": "",
+            "CompareCompromise": "",
+            "NewToQuatler": "",
+            "OpenAccount": "",
+            "StartInvest": "",
+            "FitStyle": {
+                "Title": "",
+                "DayTraders": "",
+                "Text1": "",
+                "LTInvestors": "",
+                "Text2": ""
+            },
+            "QuantlerCompares": {
+                "Title": "",
+                "Cost": "",
+                "MinimumInvestment": "",
+                "RealStocks": "",
+                "DirectOwnership": "",
+                "OpenSource": "",
+                "AbilityToCustomize": "",
+                "WorldwideCoverage": "",
+                "Quantler": "",
+                "Iconomi": "",
+                "ETrade": "",
+                "RoboAdvisory": ""
+            },
+            "Fit": "",
+            "FitDayTitle": "",
+            "FitDayText": "",
+            "FitLongTitle": "",
+            "FitLongText": "",
+            "CompareTitle": "",
+            "CompareCosts": "",
+            "CompareMinimum": "",
+            "CompareCustom": ""
         },
-        "Step4Completed": {
-          "Title": "",
-          "SubTitle": "",
-          "Started": "",
-          "Connect": ""
+        "Menu": {
+            "What": "",
+            "How": "",
+            "Why": "",
+            "Login": "",
+            "Register": "",
+            "Crowdfund": "",
+            "ICO": ""
         },
-        "Tooltips": {
-          "Personal Information": "Personal Information",
-          "Service Agreement": "Service Agreement",
-          "Payment": "Payment",
-          "Broker Details": "Broker Details"
+        "Hosting": {
+            "MenuItem": "",
+            "Title": "",
+            "H1Title": "",
+            "H1SubTitle": "",
+            "H2Title": "",
+            "H2SubTitle": "",
+            "WorksTitle": "",
+            "WorksChooseTitle": "",
+            "WorksChooseText": "",
+            "WorksDeployTitle": "",
+            "WorksDeployText": "",
+            "WorksManageTitle": "",
+            "WorksManageText": ""
         },
-        "Tiers": {
-          "Tier1": {
-            "Title": "tier 1",
-            "Feature1Title": "Automated portfolio management",
-            "Feature1Tooltip": "Automated portfolio management",
-            "Feature2Title": "Tax-efficient investing features",
-            "Feature2Tooltip": "Tax-efficient investing features",
-            "Feature3Title": "New account only",
-            "Feature3Tooltip": "New account only",
-            "AllocatedFunds": "Allocated funds",
-            "Price": "free"
-          },
-          "Tier2": {
-            "Title": "tier 2",
-            "Feature1Title": "Automated portfolio management",
-            "Feature1Tooltip": "Automated portfolio management",
-            "Feature2Title": "Tax-efficient investing features",
-            "Feature2Tooltip": "Tax-efficient investing features",
-            "Feature3Title": "New account only",
-            "Feature3Tooltip": "New account only",
-            "AllocatedFunds": "Allocated funds",
-            "Price": "~0.25% OF TOTAL",
-            "PayPeriod": "annually",
-            "Additional": "0,242657% effectively"
-          }
+        "BrokerNeutral": {
+            "MenuItem": "",
+            "Title": "",
+            "SubTitle": "",
+            "H1Title": "",
+            "H2Title": "",
+            "H2TitleItem1": "",
+            "H2TextItem1": "",
+            "H2TitleItem2": "",
+            "H2TextItem2": "",
+            "H2TitleItem3": "",
+            "H2TextItem3": "",
+            "FAQTitle": "",
+            "FAQMore": "",
+            "FAQ1Title": "",
+            "FAQ1Text": "",
+            "FAQ2Title": "",
+            "FAQ2Text": "",
+            "FAQ3Title": "",
+            "FAQ3Text": "",
+            "FAQ4Title": "",
+            "FAQ4Text": "",
+            "Planned": ""
         },
-        "CheckOutModal": {
-          "Getstarted": "You need Quantcoins to get started",
-          "Description": "Quantcoins are needed to proceed and start trading. They are still available and ready for you to pick up",
-          "CHECKOUTICO": "CHECKOUT ICO"
+        "Pricing": {
+            "MenuItem": "",
+            "Title": "",
+            "SubTitle": "",
+            "H1Title": "",
+            "H1Item1Title": "",
+            "H1Item1Text": "",
+            "H1Item2Title": "",
+            "H1Item2Text": "",
+            "H1Item3Title": "",
+            "H1Item3Text": "",
+            "H1Item4Title": "",
+            "H1Item4Text": "",
+            "H2Title": "",
+            "H2SubTitle": "",
+            "PricingTier1Title": "",
+            "PricingTier1Item1": "",
+            "PricingTier1Item2": "",
+            "PricingTier1Item3": "",
+            "PricingTier1Item4": "",
+            "PricingTier1Item5": "",
+            "PricingTier2Title": "",
+            "PricingTier2Item1": "",
+            "PricingTier2Item2": "",
+            "PricingTier2Item3": "",
+            "PricingAllocated": "",
+            "PricingFree": "",
+            "PricingYearly": "",
+            "PricingBrokeragesTitle": "",
+            "PricingBrokeragesSubTitle": "",
+            "PricingBrokeragesEligible": "",
+            "PricingMonthly": "",
+            "EquivalentValueCharged": "",
+            "Planned": {
+                "Title": "",
+                "Tooltip": ""
+            }
+        },
+        "FAQ": {
+            "MenuItem": "",
+            "Title": "",
+            "Ask": "",
+            "Topics": "",
+            "NoQuestionsFound": "",
+            "ContactUs": "",
+            "HeadOffice": "",
+            "FAQQuestions": {
+                "Topic1": {
+                    "topic": "",
+                    "questions": {
+                        "q1": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q2": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q3": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q4": {
+                            "title": "",
+                            "description": ""
+                        }
+                    }
+                },
+                "Topic2": {
+                    "topic": "",
+                    "questions": {
+                        "q1": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q2": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q3": {
+                            "title": "",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "Topic1Title": "",
+            "Topic1Questions1Title": "",
+            "Topic1Questions1Comment": "",
+            "Topic1Questions2Title": "",
+            "Topic1Questions2Comment": "",
+            "Topic2Title": "",
+            "Topic2Questions1Title": "",
+            "Topic2Questions1Comment": "",
+            "Topic2Questions2Title": "",
+            "Topic2Questions2Comment": ""
+        },
+        "Why": {
+            "Title": "",
+            "SubTitle": "",
+            "H1Title": "",
+            "BenefitsTitle": "",
+            "BenefitsTitleItem1": "",
+            "BenefitsTextItem1": "",
+            "BenefitsTitleItem2": "",
+            "BenefitsTextItem2": "",
+            "BenefitsTitleItem3": "",
+            "BenefitsTextItem3": "",
+            "BenefitsTitleItem4": "",
+            "BenefitsTextItem4": ""
+        },
+        "Login": {
+            "Email": "",
+            "Password": "",
+            "Forgot": "",
+            "Or": "",
+            "SignInFacebook": "",
+            "SignInGoogle": "",
+            "SignUpFacebook": "",
+            "SignUpGoogle": "",
+            "TermsAgree": "",
+            "Warning": "",
+            "RegisterName": "",
+            "RegisterEmail": "",
+            "RegisterPassword": "",
+            "RegisterPasswordRetype": "",
+            "IAgree": "",
+            "SignUp": "",
+            "WrongEmail": "",
+            "PasswordsNotMatch": "",
+            "RecoverSent": "",
+            "IRememberPassword": "",
+            "PasswordReset": "",
+            "ProvideRecoverEmail": "",
+            "Reset": "",
+            "Errors": {
+                "Name": "",
+                "Email": "",
+                "Password": "",
+                "PasswordsMatch": "",
+                "AgreeTerms": ""
+            }
+        },
+        "Copyright": "",
+        "ICO": {
+            "DecentralizingWallStreet": "",
+            "FromSmartContractsToETF": "",
+            "BuyTokens": "",
+            "TimeUntilStart": "",
+            "NotStartedTitle": "",
+            "NotStartedDescription": "",
+            "Link": "",
+            "Days": "",
+            "Hours": "",
+            "Minutes": "",
+            "Seconds": "",
+            "RaisedSoFar": "",
+            "TotalRaised": "",
+            "ICOEnded": "",
+            "StartDate": "",
+            "SoftCap": "",
+            "SoftCapDiscount": "",
+            "Tooltip": "",
+            "EndDate": "",
+            "TimeLeft": "",
+            "EtherRaised": "",
+            "QuantGenerated": "",
+            "BaseExchangeRate": "",
+            "TryTheBeta": "",
+            "DownloadWhitePaper": "",
+            "WhyBuyTokens": "",
+            "TokenBackedNotes": "",
+            "QUADCoin": "",
+            "Shares": "",
+            "NotesText": "",
+            "NotesText2": "",
+            "QUADCoinText": "",
+            "SharesText": "",
+            "EULA": {
+                "Title": "",
+                "Intro": "",
+                "Text1": "",
+                "Text2": "",
+                "Text3": "",
+                "Agree1": "",
+                "Agree2": "",
+                "Agree3": "",
+                "Agree4": "",
+                "Accept": "",
+                "BackToQuantler": "",
+                "ReadMore": "",
+                "AcceptAll": ""
+            },
+            "BUY": {
+                "QuantPurchaseInstructions": "",
+                "TransactionData": "",
+                "The": "",
+                "LearnMoreAbout": "",
+                "QuantPurchaseInfo": "",
+                "ContractAddress": "",
+                "GASS": "",
+                "CopyLink": "",
+                "Copied": ""
+            },
+            "Errors": {
+                "Name": "",
+                "Email": "",
+                "Message": ""
+            },
+            "Schema": {
+                "Investor": "",
+                "You": "",
+                "BuyCoins": "",
+                "SmartContract": "",
+                "Floating": "",
+                "Coins": "",
+                "Simulations": "",
+                "Mining": "",
+                "BlockChain": "",
+                "QuantToken": "",
+                "FundHosting": "",
+                "Ledger": "",
+                "MethodOfPayment": "",
+                "Conversion": "",
+                "Exchange": ""
+            },
+            "HowSmartFundsMakeLifeEasier": "",
+            "SmartFundsDescription": "",
+            "Comparison": {
+                "TraditionalInvManagement": "",
+                "SmartFunds": "",
+                "CloseSource": "",
+                "OpenSource": "",
+                "Centralized": "",
+                "Decentralized": "",
+                "NoCustomConfig": "",
+                "CustomConfig": "",
+                "ComplexCostStructure": "",
+                "SupplyChainAddCosts": "",
+                "NoSupplyChainAddCosts": "",
+                "TransparantCost": "",
+                "TraditionalExchangesOnly": "",
+                "TraditionalAndCrypto": ""
+            },
+            "DistributeFunding": {
+                "Title": "",
+                "SubTitle": "",
+                "TknAllocation": "",
+                "UseOfFunds": "",
+                "GithubBountyLow": "",
+                "CompanyReserved": "",
+                "Mining": "",
+                "TokenSale": "",
+                "CapEx": "",
+                "Marketing": "",
+                "SoftDev": "",
+                "BusDev": "",
+                "LegalCompliance": "",
+                "OtherExpenses": "",
+                "WhatKindOfBounties": "",
+                "ICOBounty": "",
+                "ICOBountyText1": "",
+                "GithubBounty": "",
+                "ICOBountyText2": "",
+                "Note": "",
+                "WhatIsCompatible": "",
+                "Assets": "",
+                "AssetsText": "",
+                "BrokersExchanges": "",
+                "BrokersExchangesText": ""
+            },
+            "GlobalSolution": {
+                "Title": "",
+                "FreePortfolio": "",
+                "OpenSource": "",
+                "AboveUSD": "",
+                "TransparentInvoicing": "",
+                "NoConflict": "",
+                "BCEmpowered": "",
+                "Decentralized": "",
+                "PlatformIndependent": "",
+                "CryptoCurrencyReady": "",
+                "Quote": "",
+                "QuotePlace": "",
+                "QuoteAuthor": ""
+            },
+            "FAQ": {
+                "Title": "",
+                "Q1": "",
+                "A1": "",
+                "Q2": "",
+                "A2": "",
+                "Q3": "",
+                "A3": "",
+                "Q4": "",
+                "A4": "",
+                "Q5": "",
+                "A5": ""
+            },
+            "ContactUs": {
+                "Title": "",
+                "Text": "",
+                "Text2": "",
+                "NumberOfChamber": "",
+                "SendMessage": "",
+                "FullName": "",
+                "Email": "",
+                "Phone": "",
+                "Message": ""
+            }
         }
-      },
-      "Overview": {
-        "Title": "",
-        "ManagePayment": "",
-        "Current": "",
-        "Running": "",
-        "Shared": "",
-        "SmartFundShared": "",
-        "AllocateReduced": "",
-        "AllocateTotal": "",
-        "EstimateTier": "",
-        "EstimateInvoice": "",
-        "SubscriptionHistory": "",
-        "SubscriptionPeriod": ""
-      },
-      "Settings": {
-        "Title": "",
-        "SubTitle": "",
-        "AddABroker": "",
-        "ConnectedBrokers": "",
-        "AddBroker": "",
-        "CantFind": "",
-        "ActiveHosting": "",
-        "Compatible": "",
-        "Adding": ""
-      },
-      "Planned": {
-        "title": "Planned",
-        "tooltip": "This broker is not compatible yet"
-      }
-    },
-    "Modules": {
-      "Title": "",
-      "Add": "",
-      "AddPopup": {
-        "DefineTitle": "",
-        "DefineText": "",
-        "DescTitle": "",
-        "DescText": "",
-        "DoneTitle": "",
-        "DoneText": "",
-        "ModuleNameTooltip": "",
-        "ModuleTypeTooltip": "",
-        "TypeYourDescription": "",
-        "ModuleReady": "",
-        "SelectAModule": "",
-        "SelectAModuleDesc": "",
-        "Types": {
-          "Entry": "",
-          "Exit": "",
-          "RM": "",
-          "MM": ""
-        }
-      },
-      "SettingsPanel": {
-        "NameTooltip": "",
-        "SharingTooltip": "",
-        "ParamaterName": ""
-      },
-      "Compile": "",
-      "Line": "",
-      "NoErrors": "",
-      "Parameter": "",
-      "Parameters": ""
-    },
-    "Universe": {
-      "Title": "",
-      "Add": "",
-      "Overview": {
-        "AlreadyShared": "",
-        "FinalizeFirst": "",
-        "Delete": "",
-        "EmptyUniversesTitle": "",
-        "EmptyUniversesDesc": "",
-        "EmptyUniversesSuggestions": ""
-      },
-      "Item": {
-        "Index": "",
-        "Autosaved": "",
-        "Created": "",
-        "DescriptionPlaceholder": "",
-        "SearchPlaceholder": "",
-        "Name": "",
-        "Symbol": "",
-        "Weight": "",
-        "Price": "",
-        "MarketCap": "",
-        "Delete": "",
-        "Industry": "",
-        "EmptySymbolsTitle": "",
-        "EmptySymbolsDesc": ""
-      },
-      "Tags": {
-        "LowVolatility": {
-          "Title": "",
-          "Description": ""
-        },
-        "Europe": {
-          "Title": "",
-          "Description": ""
-        },
-        "LifeScience": {
-          "Title": "",
-          "Description": ""
-        },
-        "NewTechnologies": {
-          "Title": "",
-          "Description": ""
-        },
-        "SocialMedia": {
-          "Title": "",
-          "Description": ""
-        },
-        "Online": {
-          "Title": "",
-          "Description": ""
-        },
-        "Aviation": {
-          "Title": "",
-          "Description": ""
-        },
-        "Leisure": {
-          "Title": "",
-          "Description": ""
-        },
-        "SportAndFitness": {
-          "Title": "",
-          "Description": ""
-        },
-        "Wellness": {
-          "Title": "",
-          "Description": ""
-        },
-        "HealthyLifestyle": {
-          "Title": "",
-          "Description": ""
-        },
-        "AlternativeEnergy": {
-          "Title": "",
-          "Description": ""
-        },
-        "Semiconductor": {
-          "Title": "",
-          "Description": ""
-        },
-        "Biotech": {
-          "Title": "",
-          "Description": ""
-        },
-        "Pharma": {
-          "Title": "",
-          "Description": ""
-        },
-        "Cleantech": {
-          "Title": "",
-          "Description": ""
-        },
-        "SmartGrid": {
-          "Title": "",
-          "Description": ""
-        },
-        "WindEnergy": {
-          "Title": "",
-          "Description": ""
-        },
-        "SolarEnergy": {
-          "Title": "",
-          "Description": ""
-        },
-        "InternetOfThings": {
-          "Title": "",
-          "Description": ""
-        },
-        "OilAndGas": {
-          "Title": "",
-          "Description": ""
-        },
-        "FoodAndBeverages": {
-          "Title": "",
-          "Description": ""
-        },
-        "WasteManagement": {
-          "Title": "",
-          "Description": ""
-        },
-        "Agriculture": {
-          "Title": "",
-          "Description": ""
-        },
-        "Water": {
-          "Title": "",
-          "Description": ""
-        },
-        "Real Estate": {
-          "Title": "",
-          "Description": ""
-        },
-        "Automotive": {
-          "Title": "",
-          "Description": ""
-        },
-        "Lithium": {
-          "Title": "",
-          "Description": ""
-        },
-        "PreciousMetals": {
-          "Title": "",
-          "Description": ""
-        },
-        "IndustrialMetals": {
-          "Title": "",
-          "Description": ""
-        },
-        "Gold": {
-          "Title": "",
-          "Description": ""
-        },
-        "SocialResponsibility": {
-          "Title": "",
-          "Description": ""
-        },
-        "World": {
-          "Title": "",
-          "Description": ""
-        },
-        "USA": {
-          "Title": "",
-          "Description": ""
-        },
-        "EmergingMarkets": {
-          "Title": "",
-          "Description": ""
-        },
-        "Asia": {
-          "Title": "",
-          "Description": ""
-        },
-        "Low Volatility": {
-          "Title": "Low Volatility",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Life Science": {
-          "Title": "Life Science",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "New Technologies": {
-          "Title": "New Technologies",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Social Media": {
-          "Title": "Social Media",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Sport And Fitness": {
-          "Title": "Sport And Fitness",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Healthy Lifestyle": {
-          "Title": "Healthy Lifestyle",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Alternative Energy": {
-          "Title": "Alternative Energy",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Smart Grid": {
-          "Title": "Smart Grid",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "WindE nergy": {
-          "Title": "Wind Energy",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Solar Energy": {
-          "Title": "Solar Energy",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Internet Of Things": {
-          "Title": "Internet Of Things",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Oil and Gas": {
-          "Title": "Oil and Gas",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Food And Beverages": {
-          "Title": "Food and Beverages",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Waste Management": {
-          "Title": "Waste Management",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Precious Metals": {
-          "Title": "Precious Metals",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Industrial Metals": {
-          "Title": "Industrial Metals",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Social Responsibility": {
-          "Title": "Social Responsibility",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        },
-        "Emerging Markets": {
-          "Title": "Emerging Markets",
-          "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-        }
-      }
-    },
-    "Symbol": {
-      "KeyFinancials": "",
-      "Website": "",
-      "Currency": "",
-      "DayRange": "",
-      "52WeekRange": "",
-      "LastPrice": "",
-      "Shares": "",
-      "MarketCap": "",
-      "EPS": "",
-      "PERatio": "",
-      "Div Yield": "",
-      "Sponsor": "",
-      "AssetClass": "",
-      "NER": "",
-      "AvgDaily": "",
-      "AvailableSupply": "",
-      "TotalSupply": "",
-      "PopupNoDesc": "",
-      "MoreDetails": "",
-      "Price": "",
-      "52Week": "",
-      "Returns": "",
-      "1MO": "",
-      "6MO": "",
-      "1YR": "",
-      "Performance": "",
-      "From": "",
-      "To": "",
-      "Industry": {
-        "Finance": {
-          "Title": ""
-        }
-      },
-      "Details": {
-        "AAPL": {
-          "Description": ""
-        }
-      },
-      "AssetType": {
-        "Equity": {
-          "Title": "",
-          "Plural": ""
-        },
-        "ETF": {
-          "Title": "",
-          "Plural": ""
-        },
-        "Crypto": {
-          "Title": "",
-          "Plural": ""
-        }
-      }
-    },
-    "Catalog": {
-      "Title": "",
-      "Universe": {
-        "Tag": "",
-        "Popular": "",
-        "All": "",
-        "ShowAll": "",
-        "Top1Y": "",
-        "Top1M": ""
-      },
-      "SmartFunds": {
-        "CautionTitle": "",
-        "CautionText": "",
-        "IGotIt": "",
-        "Filters": {
-          "Style": "Trading Style",
-          "Activity": "Activity",
-          "Sharpe": "Sharpe",
-          "DD": "Drawdown",
-          "ROI": "ROI",
-          "NER": "Net Expense Ratio",
-          "Time": "All Time",
-          "Modules": "All Modules",
-          "Universes": "Universes"
-        }
-      },
-      "Modules": {
-        "AllModuleTypes": "",
-        "AllTime": "",
-        "Item": {
-          "PostReply": "",
-          "Reply": "",
-          "BackTo": ""
-        }
-      }
-    },
-    "Bounty": {
-      "Title": "",
-      "ICO": {
-        "Tab": "",
-        "PayoutTitle": "",
-        "PayoutShareFriends": "",
-        "PayoutFollowTwitter": "",
-        "PayoutFollowFacebook": "",
-        "ForumSignature": "",
-        "BlogPost": "",
-        "AffiliateLink": "",
-        "Journalism": "",
-        "OtherPromotions": "",
-        "ICOAffLink": "",
-        "ICOAffLinkApp": "",
-        "ICOAffLinkIco": "",
-        "ICOAffLinkCopy": "",
-        "ShareWithFriends": "",
-        "Performance": "",
-        "LinkClicks": "",
-        "FriendsShared": "",
-        "Translations": "",
-        "BlogPosts": "",
-        "SocialMedia": "",
-        "OtherPromotionsItem": "",
-        "Points": "",
-        "Note": "",
-        "AddBounty": "",
-        "BountyType": "",
-        "BountyLink": "",
-        "Message": "",
-        "AddRequest": "",
-        "BountyHistory": "",
-        "HistoryTable": {
-          "Type": "",
-          "Occured": "",
-          "Points": "",
-          "Approved": "",
-          "Comment": ""
-        }
-      },
-      "Github": {
-        "Tab": ""
-      }
-    },
-    "AnnouncementBar": {
-      "title": "ANNOUNCEMENT",
-      "description": "Invest from £15 in our equity crowdfunding round"
     }
-  },
-  "LandingPage": {
-    "Welcome": {
-      "Title": "",
-      "SubTitle": "",
-      "H1Title": "",
-      "H1SubTitle": "",
-      "H1SubItem1Title": "",
-      "H1SubItem1Text": "",
-      "H1SubItem2Title": "",
-      "H1SubItem2Text": "",
-      "H1SubItem3Title": "",
-      "H1SubItem3Text": ""
-    },
-    "SmartFund": {
-      "MenuItem": "",
-      "Title": "",
-      "SubTitle": "",
-      "H1Title": "",
-      "H1SubTitle": "",
-      "H1Item1Text": "",
-      "H1Item2Text": "",
-      "H1Item3Text": ""
-    },
-    "General": {
-      "Create": "",
-      "Start": "",
-      "GetStarted": "",
-      "NoLock": "",
-      "NoLockText": "",
-      "Fit": "",
-      "FitDayTitle": "",
-      "FitDayText": "",
-      "FitLongTitle": "",
-      "FitLongText": "",
-      "CompareTitle": "",
-      "CompareCosts": "",
-      "CompareMinimum": "",
-      "ComapreAligned": "",
-      "CompareOwnership": "",
-      "CompareKnow": "",
-      "CompareCustom": "",
-      "CompareCompromise": "",
-      "NewToQuatler": ""
-    },
-    "Menu": {
-      "What": "",
-      "How": "",
-      "Why": "",
-      "Login": "",
-      "Register": ""
-    },
-    "Hosting": {
-      "MenuItem": "",
-      "Title": "",
-      "H1Title": "",
-      "H1SubTitle": "",
-      "H2Title": "",
-      "H2SubTitle": "",
-      "WorksTitle": "",
-      "WorksChooseTitle": "",
-      "WorksChooseText": "",
-      "WorksDeployTitle": "",
-      "WorksDeployText": "",
-      "WorksManageTitle": "",
-      "WorksManageText": ""
-    },
-    "BrokerNeutral": {
-      "MenuItem": "",
-      "Title": "",
-      "SubTitle": "",
-      "H1Title": "",
-      "H2Title": "",
-      "H2TitleItem1": "",
-      "H2TextItem1": "",
-      "H2TitleItem2": "",
-      "H2TextItem2": "",
-      "H2TitleItem3": "",
-      "H2TextItem3": "",
-      "FAQTitle": "",
-      "FAQMore": "",
-      "FAQ1Title": "",
-      "FAQ1Text": "",
-      "FAQ2Title": "",
-      "FAQ2Text": "",
-      "FAQ3Title": "",
-      "FAQ3Text": "",
-      "FAQ4Title": "",
-      "FAQ4Text": ""
-    },
-    "Pricing": {
-      "MenuItem": "",
-      "Title": "",
-      "SubTitle": "",
-      "H1Title": "",
-      "H1Item1Title": "",
-      "H1Item1Text": "",
-      "H1Item2Title": "",
-      "H1Item2Text": "",
-      "H1Item3Title": "",
-      "H1Item3Text": "",
-      "H1Item4Title": "",
-      "H1Item4Text": "",
-      "H2Title": "",
-      "H2SubTitle": "",
-      "PricingTier1Title": "",
-      "PricingTier1Item1": "",
-      "PricingTier1Item2": "",
-      "PricingTier1Item3": "",
-      "PricingTier1Item4": "",
-      "PricingTier1Item5": "",
-      "PricingTier2Title": "",
-      "PricingTier2Item1": "",
-      "PricingTier2Item2": "",
-      "PricingTier2Item3": "",
-      "PricingAllocated": "",
-      "PricingFree": "",
-      "PricingYearly": "",
-      "PricingBrokeragesTitle": "",
-      "PricingBrokeragesSubTitle": "",
-      "PricingBrokeragesEligible": ""
-    },
-    "FAQ": {
-      "MenuItem": "",
-      "Title": "",
-      "Ask": "",
-      "Topics": "",
-      "Topic1Title": "",
-      "Topic1Questions1Title": "",
-      "Topic1Questions1Comment": "",
-      "Topic1Questions2Title": "",
-      "Topic1Questions2Comment": "",
-      "Topic2Title": "",
-      "Topic2Questions1Title": "",
-      "Topic2Questions1Comment": "",
-      "Topic2Questions2Title": "",
-      "Topic2Questions2Comment": ""
-    },
-    "Why": {
-      "Title": "",
-      "SubTitle": "",
-      "H1Title": "",
-      "BenefitsTitle": "",
-      "BenefitsTitleItem1": "",
-      "BenefitsTextItem1": "",
-      "BenefitsTitleItem2": "",
-      "BenefitsTextItem2": "",
-      "BenefitsTitleItem3": "",
-      "BenefitsTextItem3": "",
-      "BenefitsTitleItem4": "",
-      "BenefitsTextItem4": ""
-    },
-    "Login": {
-      "Email": "",
-      "Password": "",
-      "Forgot": "",
-      "Or": "",
-      "SignInFacebook": "",
-      "SignInGoogle": "",
-      "SignUpFacebook": "",
-      "SignUpGoogle": "",
-      "TermsAgree": "",
-      "Warning": "",
-      "RegisterName": "",
-      "RegisterEmail": "",
-      "RegisterPassword": "",
-      "RegisterPasswordRetype": "",
-      "IAgree": "",
-      "SignUp": ""
-    },
-    "Copyright": "",
-    "ICO": {}
-  }
 }
