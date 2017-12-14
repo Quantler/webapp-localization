@@ -2,18 +2,18 @@
     "WebApp": {
         "RightMenu": {
             "Languages": {
-                "ru": "Russian",
+                "ru": "Русский",
                 "en": "English",
-                "ar": "Arabic",
-                "de": "German",
-                "es": "Spanish",
-                "fr": "French",
-                "it": "Italian",
-                "ja": "Japanese",
-                "ko": "Korean",
-                "nl": "Dutch",
-                "pt": "Portuguese",
-                "zh": "Chinese"
+                "ar": "العربية",
+                "de": "Deutsch",
+                "es": "Español",
+                "fr": "Français",
+                "it": "Italiano",
+                "ja": "日本語",
+                "ko": "한국어",
+                "nl": "Nederlands",
+                "pt": "Português",
+                "zh": "中文"
             },
             "Subscription": "CI Testing",
             "Statistics": "",
