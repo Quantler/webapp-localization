@@ -1,0 +1,1564 @@
+{
+  "WebApp": {
+    "AnnouncementBar": {
+      "title": "ANNOUNCEMENT",
+      "description": "Support our product, check out our ICO and buy our tokens with a 20% discount!"
+    },
+    "NotOptimizedForMobile": {
+      "Title": "Uh oh, We have a problem…",
+      "Text": "It seems you are browsing Quantler using a mobile phone. Please note that we have not yet optimized the quantler application for your resolution. It’s better to use a computer.",
+      "OK": "Ok"
+    },
+    "RightMenu": {
+      "Languages": {
+        "ar": "العربية",
+        "de": "Deutsch",
+        "en": "English",
+        "es": "Español",
+        "fr": "Français",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "nl": "Nederlands",
+        "pt": "Português",
+        "ru": "Русский",
+        "zh": "中文"
+      },
+      "Subscription": "Current Subscription",
+      "BacktestPower": "Backtest Power",
+      "Statistics": "Statistics",
+      "StatisticsBacktests": "BackTests",
+      "StatisticsAnalyzed": "Years of data analyzed",
+      "StatisticsModules": "Number of modules",
+      "Language": "Language",
+      "HelpTranslate": "Help Translate",
+      "SettingsFirstName": "First Name",
+      "SettingsLastName": "Last Name",
+      "SettingsEmail": "Email Address",
+      "SettingsNewsletter": "Newsletter",
+      "SettingsAPIKeys": "API keys",
+      "SettingsPublicAPIKey": "Public API Key",
+      "SettingsCopyPuclikAPIKey": "Copy, publick key link",
+      "SettingsSecret": "Secret API Key",
+      "SettingsCopySecret": "Copy, secret link",
+      "SettingsResetKeys": "reset keys",
+      "SettingsAssetTypes": "Asset types",
+      "SettingsBountyPage": "Bounty page",
+      "SettingsLogOut": "Log Out",
+      "AccountDetails": "Account Details",
+      "Affiliates": "Affiliates",
+      "ProfileRecord": "Profile record",
+      "Settings": "Settings",
+      "ManageSubscription": "Subscription",
+      "PopupNoEmail": "No email"
+    },
+    "LeftMenu": {
+      "Items": {
+        "Subscription": "My Subscription",
+        "SmartFunds": "Quant Funds",
+        "Dashboard": "Dashboard",
+        "Management": "Management",
+        "Modules": "Modules",
+        "Universes": "Universes",
+        "Discussions": "Discussions",
+        "Catalog": "Catalog",
+        "Help": "Help & FAQs"
+      },
+      "Text": {
+        "Hosting": "Fund Hosting",
+        "Lab": "Fund Lab",
+        "Community": "Community",
+        "Documentation": "Documentation"
+      },
+      "Support": "Support"
+    },
+    "Dashboard": {
+      "Title": "Dashboard",
+      "Statistics": {
+        "Backtest": "Backtests time used",
+        "Allocated": "Allocated funds current subscription",
+        "Storage": "Current storage limit"
+      },
+      "Hosting": {
+        "Status": "Hosting Status",
+        "View": "view hosting management",
+        "NoSubscription": "There is no active hosting subscription package available",
+        "NoSubscriptionText": "Please register your account to enable the hosting of your quant funds",
+        "NoSubscriptionButton": "get a hosting package"
+      },
+      "Create": {
+        "Title": "Create your own Quant Fund",
+        "CatalogTitle": "Get Inspired",
+        "CatalogText": "Browse our catalog of various Quant Funds created by our community",
+        "CatalogButton": "Explore Catalog",
+        "UniversesTitle": "Invest in what you want",
+        "UniversesText": "Select on which Stocks, Commodities, Indices, Forex or Crypto currencies you want to a Quant Fund on",
+        "UniversesButton": "Create Universe",
+        "CreateTitle": "Invest in your ideas",
+        "CreateText": "Create your own one-of-a-kind Quant Fund just in a few minutes",
+        "CreateButton": "Create Quant Fund"
+      },
+      "WhatsHappening": {
+        "Title": "Latest Updates",
+        "Discussions": "Discussions",
+        "Modules": "Modules",
+        "SmartFunds": "Quant Funds",
+        "Universes": "Universes",
+        "News": "News",
+        "DicussionTitleBar": "view discussions",
+        "ModulesTitleBar": "view modules",
+        "SmartFundsTitleBar": "view quant funds",
+        "UniversesTitleBar": "view universes"
+      }
+    },
+    "Onboarding": {
+      "AssetTypeTitle": "What would you like to invest in?",
+      "AssetTypeSubTitle": "Enable assets that you want to trade on. You will be able to change this at any moment while using Quantler.",
+      "DisclaimerTitle": "Disclaimer",
+      "DisclaimerText": "The material on this website is provided for informational purposes only and does not constitute an offer to sell, a solicitation to buy, or a recommendation or endorsement for any security or strategy, nor does it constitute an offer to provide investment advisory or other services by Quantler. In addition, the content of the website offers no opinion with respect to the suitability of any security or any specific investment. Past nor hypothetical performance does not guarantee future results. Quantler only provides hosting for your personal quant funds, please consult with your broker for costs and information related to trading.",
+      "DisclaimerAgree": "I have read and understand the statement above",
+      "DisclaimerButton": "continue",
+      "AcceptFirst": "Agree to the terms first",
+      "EquitiesTitle": "Equities",
+      "EquitiesText": "Enable equity investing",
+      "ETFTitle": "ETFs & ETCs",
+      "ETFText": "Enable ETF & ETC investing",
+      "CryptoTitle": "Crypto",
+      "CryptoText": "Enable crypto currency investing"
+    },
+    "Management": {
+      "Title": "Management",
+      "Select": "Select your hosting",
+      "HostingTitle": "Hosting",
+      "HostingLocation": "Location",
+      "HostingLatency": "Latency",
+      "DelayNotice": "Data can be delayed, check your broker for accurate representation",
+      "SettledCash": "settled cash",
+      "UnsettledCash": "unsettled cash",
+      "Positions": "Positions",
+      "Equity": "Equity",
+      "FreeMargin": "Free Margin",
+      "NoHostingTitle": "There is no active hosting package available",
+      "NoHostingSubTitle": "You currently do not have an active hosting package. Go to My Subscription to activate your subscription.",
+      "NoHostingButton": "GET A HOSTING PACKAGE",
+      "NoAccount": "No account available",
+      "FundDetails": {
+        "TabPositionsTitle": "Positions",
+        "TabTradesTitle": "Trades",
+        "TabOrdersTitle": "Orders",
+        "TabLoggingTitle": "Logging",
+        "Bought": "Bought",
+        "Sold": "Sold",
+        "SinceInception": "Since inception"
+      },
+      "Account": {
+        "NoHosting": "No hosting running",
+        "Account": "Account",
+        "Balance": "Balance",
+        "Equity": "Equity",
+        "FloatingROI": "Floating ROI"
+      }
+    },
+    "Components": {
+      "DiscussionBar": {
+        "Views": "Views",
+        "Replies": "Replies",
+        "LastReply": "Last reply by",
+        "NoReplies": "No replies yet"
+      },
+      "Catalog": {
+        "Catalog": "CATALOG",
+        "View": "VIEW",
+        "SmartFunds": "Quant Funds",
+        "Universes": "Universes",
+        "Modules": "Modules",
+        "AllThemes": "All themes"
+      },
+      "SmartFundBar": {
+        "Title": "Quant fund",
+        "TitleBacktest": "Backtest",
+        "MonthReturn": "1 Month Return",
+        "YearReturn": "1 Year Return",
+        "Daytrading": "Daytrading",
+        "NoDataText": "No quant funds available",
+        "CumulativeChart": "Cumulative return %",
+        "CumulativeChartEquity": "Equity",
+        "CumulativeChartBenchmark": "Benchmark",
+        "DrawDownChart": "Drawdown %",
+        "DrawDownChartLabel": "Drawdown"
+      },
+      "ModulesBar": {
+        "Title": "Module",
+        "View": "View module",
+        "Details": "Description"
+      },
+      "Pagination": {
+        "LoadMore": "Load More",
+        "Loading": "loading"
+      },
+      "UniverseBar": {
+        "Title": "Universe",
+        "Overview": "Overview",
+        "IndexValue": "Index Value",
+        "YearReturn": "1 Year Return",
+        "CreatedBy": "Created by",
+        "NoDataText": "No universes available"
+      },
+      "NewsBar": {
+        "NoDataText": "No news available"
+      }
+    },
+    "Discussions": {
+      "Title": "Discussions",
+      "CreateNewPost": "create new post",
+      "AllTags": "All Tags",
+      "BackTo": "Back to discussions",
+      "NoDiscussions": "No discussions found. Try searching again",
+      "NoDiscussionsDesc": "It seems your search query did not come up with results. Try making changes to your filters above.",
+      "PostDetails": {
+        "BacktestPerformance": "Performance",
+        "AddAttachment": "Add attachment",
+        "PostAReply": "Post a reply",
+        "PostAReplyPlaceholder": "Type your reply here",
+        "TypeAReplyFirst": "Type a reply first",
+        "Reply": "Post reply",
+        "Posting": "posting"
+      },
+      "CreatePost": {
+        "PostTitle": "Post Title",
+        "PostTitlePlaceholder": "Type your title here",
+        "Tags": "Tags",
+        "ShowMoreTags": "Show more tags",
+        "ShowLessTags": "Show less tags",
+        "PostAReplyPlaceholder": "Type your message here",
+        "AddAttachment": "Add attachment",
+        "Post": "submit post",
+        "Posting": "posting",
+        "Errors": {
+          "Title": "Your post needs a title",
+          "Tag": "Your post needs a tag",
+          "Empty": "Your post is empty"
+        }
+      },
+      "Tags": {
+        "Investing": {
+          "Title": "Investing",
+          "Description": "Investing"
+        },
+        "Symbol": {
+          "Title": "Symbol",
+          "Description": "Symbol"
+        },
+        "Backtesting": {
+          "Title": "Backtesting",
+          "Description": "Backtesting"
+        },
+        "Subscription": {
+          "Title": "Subscription",
+          "Description": "Subscription"
+        },
+        "FAQ": {
+          "Title": "FAQ",
+          "Description": "FAQ"
+        },
+        "Day Trading": {
+          "Title": "Day Trading",
+          "Description": "Day Trading"
+        },
+        "Trending": {
+          "Title": "Trending",
+          "Description": "Trending"
+        },
+        "Hosting": {
+          "Title": "Hosting",
+          "Description": "Hosting"
+        },
+        "Stat. Arbitrage": {
+          "Title": "Stat. Arbitrage",
+          "Description": "Stat. Arbitrage"
+        },
+        "Seasonal": {
+          "Title": "Seasonal",
+          "Description": "Seasonal"
+        },
+        "Equities": {
+          "Title": "Equities",
+          "Description": "Equities"
+        },
+        "Development": {
+          "Title": "Development",
+          "Description": "Development"
+        },
+        "Catalog": {
+          "Title": "Catalog",
+          "Description": "Catalog"
+        },
+        "Universe": {
+          "Title": "Universe",
+          "Description": "Universe"
+        },
+        "Market Data": {
+          "Title": "Market Data",
+          "Description": "Market Data"
+        },
+        "Tools And Tips": {
+          "Title": "Tools And Tips",
+          "Description": "Tools And Tips"
+        },
+        "Exit": {
+          "Title": "Exit",
+          "Description": "Exit"
+        },
+        "Entry": {
+          "Title": "Entry",
+          "Description": "Entry"
+        },
+        "Money Management": {
+          "Title": "Money Management",
+          "Description": "Money Management"
+        },
+        "Risk Management": {
+          "Title": "Risk Management",
+          "Description": "Risk Management"
+        },
+        "Live Trading": {
+          "Title": "Live Trading",
+          "Description": "Live Trading"
+        },
+        "Getting Started": {
+          "Title": "Getting Started",
+          "Description": "Getting Started"
+        },
+        "News": {
+          "Title": "News",
+          "Description": "News"
+        },
+        "Feature Request": {
+          "Title": "Feature Request",
+          "Description": "Feature Request"
+        },
+        "Colleboration Request": {
+          "Title": "Colleboration Request",
+          "Description": "Colleboration Request"
+        },
+        "Help Request": {
+          "Title": "Help Request",
+          "Description": "Help Request"
+        },
+        "General": {
+          "Title": "General",
+          "Description": "General"
+        }
+      }
+    },
+    "General": {
+      "Update": "Update",
+      "Delete": "Delete",
+      "Account": "Account",
+      "On": "On",
+      "Off": "Off",
+      "Deployed": "Deployed",
+      "Allocated": "Allocated",
+      "Symbol": "Symbol",
+      "Direction": "Direction",
+      "Size": "Size",
+      "Changed": "Changed",
+      "Price": "Price",
+      "Margin": "Margin",
+      "Start": "Start",
+      "Stop": "Stop",
+      "Reply": "Reply",
+      "Trades": "Trades",
+      "Fills": "Fills",
+      "Date": "Date",
+      "Time": "Time",
+      "Quantity": "Quantity",
+      "Difference": "Difference",
+      "Allocation": "Allocation",
+      "Sharing": "Sharing",
+      "Public": "Public",
+      "Setup": "Setup",
+      "Checking": "Checking",
+      "Continue": "Continue",
+      "Close": "Close",
+      "Country": "Country",
+      "Balance": "Balance",
+      "Equity": "Equity",
+      "Floating": "Floating ROI",
+      "Type": "Type",
+      "Description": "Description",
+      "File": "File",
+      "Line": "Line",
+      "Save": "Save",
+      "Saving": "Saving",
+      "Name": "Name",
+      "Title": "Title",
+      "Module": "Module",
+      "Values": "Values",
+      "Broker": "Broker",
+      "Daytrading": "Day Trading",
+      "LongTermTrading": "Long-Term Investing"
+    },
+    "Backtester": {
+      "Title": "quant funds",
+      "CreateNew": "Create new Quant Fund",
+      "MySmartFunds": "My Quant Funds",
+      "MySmartFund": "My Quant Fund",
+      "SelectPremade": "OR SELECT A PRE-MADE STRATEGY",
+      "Signal": "Signal",
+      "MoneyManagement": "Money Management",
+      "RiskManagement": "Risk Management",
+      "Updated": "Updated",
+      "Backtests": "Backtests",
+      "CreatedOn": "created on",
+      "DeleteBacktest": "Delete Backtest",
+      "ReloadBacktest": "Reload Backtest",
+      "OpenBacktest": "Open Backtest",
+      "ROI": "ROI",
+      "Drawdown": "Drawdown",
+      "Sharpe": "Sharpe",
+      "NetExpenseRatio": "Net expense ratio",
+      "NER": "NER",
+      "Modules": "Modules",
+      "Universe": "Universe",
+      "DeleteSmartFund": "Delete Quant Fund",
+      "AreYouSure": "Are you sure?",
+      "BackToSmartfunds": "Back to my Quant Funds",
+      "Overview": {
+        "NoFundTitle": "Let's get started!",
+        "NoFundSubTitle": "It seems you have not made your first Quant Fund yet, therefore this tab is empty. Create your first fund in the toolbar at the top left.",
+        "SearchFund": "Search a quant fund",
+        "SuggestionTitle": "OR SELECT A PRE-MADE STRATEGY",
+        "Size": "Size",
+        "BacktestHistory": "Backtest history",
+        "Filters": {
+          "Status": "Live Trading",
+          "LiveTrading": "Live Trading",
+          "DemoTrading": "Demo Trading",
+          "Sharpe": "Sharpe",
+          "DD": "Drawdown",
+          "ROI": "ROI",
+          "NER": "Net Expense Ratio",
+          "Time": "All Time",
+          "Modules": "All Modules",
+          "Universes": "Universes",
+          "Name": "Name",
+          "CreatedAI": "Created AI",
+          "CreatedImport": "Created Import",
+          "CreatedManual": "Created Manual"
+        }
+      },
+      "Create": {
+        "Name": "Quant Fund name",
+        "NamePlaceholder": "Name your quant fund",
+        "Settings": {
+          "Title": "backtest settings",
+          "SubTitle": "Select the environmental settings on which this trading algorithm will be run.",
+          "StartDate": "Start date",
+          "EndDate": "End date",
+          "Timeframe": "Timeframe",
+          "SelectUniverse": "Please select your universe",
+          "MoreOptions": "more options",
+          "LessOptions": "less options",
+          "BrokerModel": "Broker Model",
+          "AccountType": "Account Type",
+          "AllocatedFunds": "Allocated Funds",
+          "BaseCurrency": "Base Currency",
+          "ExtendedMarket": "Extended Market Hours",
+          "ExtendedMarketTooltip": "Hello World",
+          "UseTickData": "Use tick data",
+          "UseTickDataTooltip": "Hello World",
+          "Add": "add new",
+          "Check": "check catalog",
+          "UniverseAdd": {
+            "Title": "select a universe",
+            "Search": "search universe",
+            "NotListed": "Is your universe not listed above?"
+          },
+          "ModulesAdd": {
+            "Title": "select a module",
+            "NotListed": "Is your module not listed above?"
+          }
+        },
+        "Logic": {
+          "Title": "strategy design",
+          "SubTitle": "Design your trading algorithm by adding the modules you wish to use on the designated areas.",
+          "SubTitlePreset": "To create your strategy you can choose your presets, selecting a preset will overwrite your current strategy.",
+          "Choose": "Choose",
+          "Overwrite": "Overwrite",
+          "Preset1": {
+            "Name": "Auto Rebalance (Periodic)",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non elementum lorem, ac finibus turpis. Etiam orci augue, consectetur ut commodo imperdiet, hendrerit sed urna. Nunc sit amet massa tortor. Nam erat libero, tempor non neque nec, tincidunt ullamcorper libero."
+          },
+          "Preset2": {
+            "Name": "Name of Preset 2",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non elementum lorem, ac finibus turpis. Etiam orci augue, consectetur ut commodo imperdiet, hendrerit sed urna. Nunc sit amet massa tortor. Nam erat libero, tempor non neque nec, tincidunt ullamcorper libero."
+          },
+          "Preset3": {
+            "Name": "Empty",
+            "Description": "Starts from a blank strategy."
+          },
+          "SelectAPreset": "select a preset",
+          "EntryTooltip": "Hello World",
+          "ExitTooltip": "Hello World",
+          "MMTooltip": "Hello World",
+          "RMTooltip": "Hello World"
+        },
+        "Results": {
+          "Title": "RESULTS",
+          "SubTitle": "WARNING: Past performance does not guarentee future results.",
+          "SubTitle2": "Always run a trading algorithm in a demo environment before live execution.",
+          "PerformanceOverview": "Performance Overview",
+          "Summary": "Summary",
+          "TradingPeriod": "Trading Period",
+          "Trades": "Trades",
+          "GrossPnlTooltip": "Hello World",
+          "TotalNetProfitTooltip": "Hello World",
+          "ROITooltip": "Hello World",
+          "FillNr": "Fill Nr",
+          "Overview": "Overview",
+          "Statistics": "Statistics",
+          "Orders": "Orders",
+          "Logging": "Logging",
+          "Finalizing": "Finalizing",
+          "Completed": "Completed, Start Hosting",
+          "OrdersHeaders": {
+            "Date": "Date",
+            "Time": "Time",
+            "Symbol": "Symbol",
+            "Type": "Type",
+            "FillPrice": "Fill Price",
+            "Currency": "Currency",
+            "Quantity": "Quantity"
+          },
+          "OverviewHeaders": {
+            "BrokerModel": "Broker Model",
+            "BaseCurrency": "Base currency",
+            "StartDate": "Start date",
+            "EndDate": "End date",
+            "InitCapital": "Initial capital",
+            "EndingCapital": "Ending capital",
+            "ErrorsFound": "Errors found",
+            "ROI": "ROI"
+          }
+        },
+        "Dialog": {
+          "Title": "Setup hosting environment",
+          "Select": "Select your brokerage account",
+          "AccountBalance": "Account Balance",
+          "CurrencyAllocated": "Currency Allocated",
+          "FreeForAllocation": "Free for allocation",
+          "PublicText": "Release your source code under MIT license and receive a monthly discount",
+          "SeeTerms": "See Terms",
+          "AddBrokerageTitle": "Add new brokerage account",
+          "AddBrokerageDesc": "In case there is no account available or you would rather create a new one. Add a new account now.",
+          "AwaitingSetup": "Awaiting setup",
+          "WarningMessage": "All steps are checked, there is 1 warning, Continue anyway?"
+        },
+        "NextStep": "next step",
+        "SelectPreset": "select preset",
+        "RunBacktest": "run backtest",
+        "StartHosting": "start hosting",
+        "Errors": {
+          "Name": "Give your quant fund a name",
+          "Universe": "Select a universe",
+          "Module": "Select Modules"
+        }
+      }
+    },
+    "qEditor": {
+      "PostReply": "Post a reply",
+      "Reply": "Post reply",
+      "Posting": "POSTING...",
+      "TypeAReplyFirst": "Type a reply first"
+    },
+    "MySubscription": {
+      "Title": "My Subscription",
+      "CommissionFree": "Commission free brokers",
+      "OtherBrokers": "Other Brokers",
+      "License": "License",
+      "MoreInfo": "more info",
+      "Unaffiliated": "Quantler is not affiliated to any third party financial institution",
+      "Initial": {
+        "ChooseTitle": "Choosing a subscription",
+        "ChooseText": "Register your hosting subscription at Quantler. Depending on your country of residence we have several brokers available for you to choose from. Please change your country on the right in case we guessed it wrong.",
+        "Country": "Country",
+        "CountryHint": "Select your country",
+        "GetStarted": "get started",
+        "SharingDiscountTitle": "Share a Quant Fund to get a discount of $5.000 reduced allocation",
+        "SharingDiscountDesc": "Per shared Quant Fund we will subtract $5.000 from your invoiced allocated amount. For example you have allocated 25.000 and shared 2 Quant Funds, we will only charge you for (25.000-(2*5.000)) 15.000 of allocated funds.",
+        "PlansTitle": "All Plans Include",
+        "PlanLowLatency": "Low latency connection",
+        "PlanLowLatencyTooltip": "As low as 0.5ms",
+        "PlanLocations": "Wordwide server locations",
+        "PlanLocationsTooltip": "US, Europe or Asia",
+        "PlanSecurity": "Secure, encrypted connections",
+        "PlanSecurityTooltip": "All data is encrypted",
+        "PlanUnlimited": "Unlimited Quant Funds",
+        "PlanUnlimitedTooltip": "Unlimited diversivication",
+        "PlanActive": "Paper trading account",
+        "PlanActiveTooltip": "Test new Quant Funds in a safe environment",
+        "PlanBacktestTime": "24 hour/month Backtesting time",
+        "PlanBacktestTimeTooltip": "24 hour of backtesting time included p/month",
+        "PlanHosting": "Quant Fund Hosting",
+        "PlanHostingTooltip": "Hosting services included",
+        "CancelSubscription": "Cancel Subscription",
+        "Tooltips": {
+          "Personal Information": "Personal Information",
+          "Service Agreement": "Service Agreement",
+          "Payment": "Payment",
+          "Broker Details": "Broker Details"
+        },
+        "CheckOutModal": {
+          "Getstarted": "You need QUANT tokens to get started",
+          "Description": "QUANT tokens are needed to proceed and start hosting your Quant Fund. They are still available and ready for you to pick up",
+          "CHECKOUTICO": "SEE OUR ICO"
+        },
+        "Tiers": {
+          "Tier1": {
+            "Title": "tier 1",
+            "Feature1Title": "Unlimited number of Quant Funds",
+            "Feature1Tooltip": "As many as you need",
+            "Feature2Title": "No additional costs",
+            "Feature2Tooltip": "Excludes any costs associated with your chosen broker",
+            "Feature3Title": "No Credit Card Required",
+            "Feature3Tooltip": "No Credit Card Required",
+            "AllocatedFunds": "Allocated funds",
+            "Price": "1$",
+            "PayPeriod": "Monthly"
+          },
+          "Tier2": {
+            "Title": "tier 2",
+            "Feature1Title": "All the benefits of tier 1",
+            "Feature1Tooltip": "No exceptions",
+            "Feature2Title": "Transparant invoicing",
+            "Feature2Tooltip": "You will receive detail information on invoicing",
+            "Feature3Title": "No Credit Card Required",
+            "Feature3Tooltip": "No Credit Card Required",
+            "AllocatedFunds": "Allocated funds",
+            "Price": "0.25%",
+            "PayPeriod": "Annually",
+            "Additional": "of total funds allocated"
+          }
+        },
+        "Step1PersonalInfo": {
+          "Title": "Personal Information",
+          "SubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum diam ut eros elementum, sed porta diam pulvinar. Curabitur et justo pulvinar, efficitur velit placerat, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+          "Name": "Name",
+          "PhoneNumber": "Phone Number",
+          "Country": "Country of residence",
+          "Address": "Address",
+          "StateRegion": "State/Region",
+          "City": "City",
+          "Street": "Street, House, Apt",
+          "Zip": "Zip Code"
+        },
+        "Step2ServiceAgreement": {
+          "SubTitle": "Please red the following service agreement below and let us know that you agree",
+          "AgreeTitle": "Client Service Agreement",
+          "AgreeText": "I hereby declare to have carefully read, understand and agree with the client serivce agreement",
+          "Privacy": "Privacy",
+          "AgreementParagraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo lacus sed diam egestas pellentesque. Fusce a gravida neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sit amet tortor nulla. Donec auctor sagittis ex in egestas.",
+          "AgreementParagraph2": "Morbi porttitor ipsum ac diam interdum, vel tristique ante dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eu elementum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque feugiat justo in faucibus dignissim. Maecenas nec ex et diam bibendum euismod sit amet ac lectus. Etiam tempus elementum facilisis. Aliquam tempus, dolor ac blandit condimentum, lorem lacus interdum eros, ac faucibus mauris ipsum sed arcu. Nulla elit elit, mollis vel viverra in, ullamcorper et ante. Ut sagittis erat quis risus fermentum pharetra. Duis interdum purus id faucibus sodales.",
+          "AgreementParagraph3": "Sed lacinia dui et nisl congue mollis. Sed eget nulla a est mattis facilisis. Ut placerat sed nisl sed tincidunt. Nullam tincidunt consectetur ligula eget consectetur. Etiam odio neque, maximus nec pretium vel, fringilla non dolor. Sed posuere risus et lectus tincidunt, vitae maximus neque auctor. In quis luctus purus, sit amet facilisis mauris. Proin at massa vitae sapien mattis porttitor nec quis ex. Nulla facilisi. Ut nisi magna, finibus sit amet tempor ut, luctus a urna. Pellentesque interdum egestas nunc, eget suscipit libero fermentum vitae. Nunc ipsum dui, varius nec finibus vel, pellentesque eu est. Cras porttitor nisl in mauris consequat rhoncus.",
+          "AgreementParagraph4": "Phasellus id rutrum risus, a tempor neque. Vestibulum nec maximus leo, vel finibus quam. In euismod ante eu viverra maximus. Etiam a consequat nunc. Vestibulum lacinia in libero vestibulum ornare. Vivamus venenatis, nibh et eleifend efficitur, velit quam auctor est, at laoreet lacus tellus at neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In consectetur, ante sit amet luctus rhoncus, mauris augue cursus nulla, aliquam sagittis tellus turpis non neque. Suspendisse tincidunt mattis mi, at laoreet purus venenatis quis. Donec eu velit et urna tristique cursus a ut nulla. Duis facilisis diam quis ipsum fermentum dapibus viverra eu nisi. Sed vitae dolor ante. Vestibulum congue, felis ut maximus rutrum, est neque condimentum erat, vitae mattis lorem massa a risus. Nunc aliquam tellus ac aliquam vestibulum. Donec dignissim consequat nisi, nec placerat odio auctor vel. Maecenas convallis pharetra aliquet. In sollicitudin scelerisque elit. Mauris fringilla urna ligula, vitae efficitur libero mollis sed. Aliquam placerat scelerisque nulla, lobortis sagittis dui venenatis in. Curabitur suscipit ipsum vel mi placerat interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eget suscipit augue, non cursus turpis. Nunc porttitor commodo consequat. Nulla nec justo rutrum, posuere lorem et, mollis lacus. In tristique, neque quis semper vulputate, ante lorem luctus libero, ut facilisis ligula mi quis nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ultricies arcu ipsum, ac placerat arcu eleifend ut. Maecenas pulvinar dignissim erat."
+        },
+        "Step3PaymentInformation": {
+          "Title": "Payment Information",
+          "SubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum diam ut eros elementum, sed porta diam pulvinar. Curabitur et justo pulvinar, efficitur velit placerat, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+          "Provide": "PROVIDE PAYMENT DETAILS"
+        },
+        "Step4Completed": {
+          "Title": "Succes!",
+          "SubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum diam ut eros elementum, sed porta diam pulvinar. Curabitur et justo pulvinar, efficitur velit placerat, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+          "Started": "SUBSCRIPTION STARTED",
+          "Connect": "CONNECT YOUR BROKER"
+        }
+      },
+      "Overview": {
+        "Title": "Subscription Overview",
+        "BrokerSettings": "Btoker Settings",
+        "CreateAccount": "create an account",
+        "ManagePayment": "Manage Payment",
+        "Current": "Current",
+        "Running": "Running",
+        "Shared": "Shared",
+        "Allocated": "Allocated",
+        "SmartFundShared": "Quant Funds shared",
+        "AllocateReduced": "Allocation Reduced",
+        "AllocateTotal": "Total Allocated",
+        "EstimateTier": "Estimated Tier",
+        "EstimateInvoice": "Estimated Invoice (VAT included)",
+        "SubscriptionHistory": "Subscription History",
+        "SubscriptionPeriod": "Subscription Period"
+      },
+      "Settings": {
+        "Title": "Choose one of the compatible brokers",
+        "SubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum diam ut eros elementum, sed porta diam pulvinar. Curabitur et justo pulvinar, efficitur velit placerat, tincidunt est. Proin pellentesque urna urna, interdum porttitor erat tempor quis.",
+        "AddABroker": "Add a broker",
+        "ConnectedBrokers": "Connected Brokers",
+        "AddBroker": "Add Broker",
+        "CantFind": "Can't find your broker?",
+        "ActiveHosting": "Active Hosting",
+        "Compatible": "Quantler’s compatible brokers",
+        "Adding": "Adding"
+      },
+      "Planned": {
+        "title": "Planned",
+        "tooltip": "This broker is not compatible yet"
+      },
+      "Assettypes": "Asset types"
+
+    },
+    "Modules": {
+      "Title": "modules",
+      "Add": "add new module",
+      "BackTo": "Back to",
+      "AddPopup": {
+        "CreateTitle": "Create Module",
+        "DefineTitle": "Define Module",
+        "DefineText": "Choose a module name and type before creating one",
+        "DescTitle": "Description",
+        "DescText": "Set your module description.",
+        "DoneTitle": "Done!",
+        "DoneText": "You are ready to start coding!",
+        "ModuleName": "Modules Name",
+        "ModuleNameTooltip": "Define your module name",
+        "ModuleNamePlaceholder": "Define your module name",
+        "ModuleType": "Module Type",
+        "ModuleTypeTooltip": "Select which module type you want to create",
+        "TypeYourDescription": "Type your module description here",
+        "ModuleReady": "Your module is ready",
+        "SelectAModule": "Select a module",
+        "SelectAModuleDesc": "It seems you have no module selected so there’s nothing to show here. Select a module on the left side to get started or create a new module",
+        "Types": {
+          "Signal": "Create a signal module to develop how, when and where to enter the markets.",
+          "RM": "Create a Risk Management module to specify how to manage your risk.",
+          "MM": "Create a Money Management module to specify position sizing and timing."
+        }
+      },
+      "SettingsPanel": {
+        "NameTooltip": "Module Name",
+        "SharingTooltip": "Enable sharing so others can use your module as well",
+        "ParamaterName": "Parameter Name",
+        "ParameterDescription": "Description",
+        "ParameterValues": "Values",
+        "Parameters": "Parameters",
+        "ModuleSettings": "Module Settings",
+        "Name": "Name",
+        "Sharing": "Sharing",
+        "SetModule": "Set Module",
+        "not": " not",
+        "public": "public",
+        "Saving": "Saving...",
+        "update": "update",
+        "deleting": "deleting...",
+        "delete": "delete",
+        "DeleteModule": "Delete Module",
+        "Areyousure": "Are you sure?"
+      },
+      "Compile": "Compile",
+      "Line": "Line",
+      "File": "File",
+      "Description": "Description",
+      "Module": "Module",
+      "NoErrors": "No Errors: Please compile first",
+      "CompileErrors": "Errors found: Compilation failed",
+      "CompileSuccess": "No Errors found: Compilation Succeeded",
+      "Noerrorstodisplay": "No errors to display",
+      "Parameter": "Parameter",
+      "Parameters": "Parameters",
+      "NoModulesFound": "No modules found. Try searching again",
+      "NoModulesFoundDescription": "It seems your search query did not come up with results. Try making changes to your filters above.",
+      "ModuleTypeFilter": {
+        "Title": "MODULES",
+        "Selection": "Selection"
+      }
+    },
+    "Universe": {
+      "Title": "universes",
+      "Add": "add new universe",
+      "NoUniversesFound": "No universes found. Try searching again",
+      "NoUniversesFoundDescr": "It seems your search query did not come up with results. Try making changes to your filters above.",
+      "Overview": {
+        "AlreadyShared": "Already Shared",
+        "FinalizeFirst": "Please finalize first",
+        "Delete": "Delete Universe",
+        "AreYouSure": "Are you sure?",
+        "EmptyUniversesTitle": "Let’s get started!",
+        "EmptyUniversesDesc": "It seems you have not made your first universe yet, therefore this tab is empty. Create your first universe or check out our community.",
+        "EmptyUniversesSuggestions": "universe Suggestions",
+        "SuggestionTitle": "universe Suggestions",
+        "SelectUniverse": "Or select a pre-made universe"
+      },
+      "Item": {
+        "Index": "Indexed 1 Year Return",
+        "Autosaved": "Autosaved",
+        "Autosaving": "Auto Saving...",
+        "Import": "Import",
+        "ImportDescription": "Import Universe",
+        "Importing": "Importing",
+        "Saving": "saving",
+        "Finalize": "finalize",
+        "Finalized": "finalized",
+        "Share": "Share",
+        "Created": "Created by",
+        "Status": "Status",
+        "Description": "Description",
+        "DescriptionPlaceholder": "Universe Description",
+        "SearchPlaceholder": "Search to add new symbol",
+        "Name": "Name",
+        "Symbol": "Symbol",
+        "Weight": "Weight",
+        "Price": "Price",
+        "Custom": "Custom",
+        "Equal": "Equal",
+        "MarketCap": "Market Cap",
+        "Delete": "Delete",
+        "Industry": "Industry",
+        "EmptySymbolsTitle": "Let’s get started!",
+        "EmptySymbolsDesc": "You have not added any symbols yet, click on the search bar above to search and add your first symbol.",
+        "AllTagsPlaceholder": "All themes",
+        "MaximumTagsReached": "Maximum number of themes reached",
+        "MaximumSymbolsReached": "You have added the maximimum number of symbols",
+        "Broker": "Broker",
+        "Filter": "Filter",
+        "YearReturn": "1 Yr",
+        "MonthReturn": "1 Month",
+        "NoResults": "No results found",
+        "Unavailable": "Unavailable",
+        "Updating": "Updating...",
+        "UpdateAvailable": "Update available",
+        "AlreadyImported": "Already Imported",
+        "Errors": {
+          "Name": "Your universe needs a title",
+          "Symbol": "Your universe needs a symbol",
+          "Weights": "Sum of all universe weights must be exactly 100%"
+        }
+      },
+      "Tags": {
+        "Green Energy": {
+          "Title": "Green Energy",
+          "Description": "Invest in green energy quant funds, improving the planet one step at a time. Will solar energy be the future? Or what about wind energy? We all have our differences on which green energy source will be best, but we all agree on one thing, change is needed and pionieers will be rewarded."
+        },
+        "Agriculture": {
+          "Title": "Agriculture",
+          "Description": "From commodities such as rice and cacao to new technological breaktroughs in the argicultural industries. We all have to eat right? As world population is growing, so is the need for efficient agricultural processes."
+        },
+        "Asia": {
+          "Title": "Asia",
+          "Description": "Invest in the rising mid-income population of asia, or in one of its booming businesses sectors. The economies of tomorrow, will they come from the west or from the east?"
+        },
+        "Automotive": {
+          "Title": "Automotive",
+          "Description": ""
+        },
+        "Travel": {
+          "Title": "Travel",
+          "Description": "5 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Blockchain": {
+          "Title": "Blockchain",
+          "Description": "6 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Emerging Markets": {
+          "Title": "Emerging Markets",
+          "Description": "7 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Europe": {
+          "Title": "Europe",
+          "Description": "8 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Financial Services": {
+          "Title": "Financial Services",
+          "Description": "9 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Food and Beverages": {
+          "Title": "Food and Beverages",
+          "Description": "10 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Precious Metals": {
+          "Title": "Precious Metals",
+          "Description": "11 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Social Responsibility": {
+          "Title": "Social Responsibility",
+          "Description": "12 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Pharma": {
+          "Title": "Pharma",
+          "Description": "13 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Oil and Gas": {
+          "Title": "Oil and Gas",
+          "Description": "14 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Online": {
+          "Title": "Online",
+          "Description": "15 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "USA": {
+          "Title": "USA",
+          "Description": "16 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Real Estate": {
+          "Title": "Real Estate",
+          "Description": "17 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Welness": {
+          "Title": "Welness",
+          "Description": "18 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Retail": {
+          "Title": "Retail",
+          "Description": "19 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Latest Hypes": {
+          "Title": "Latest Hypes",
+          "Description": "20 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Dividends": {
+          "Title": "Dividends",
+          "Description": "21 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Bonds": {
+          "Title": "Bonds",
+          "Description": "22 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "Fund of Funds": {
+          "Title": "Fund of Funds",
+          "Description": "23 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+        },
+        "World": {
+          "Title": "World",
+          "Description": "Invest in world based quant funds. Conquer the entire planet with a single quant fund"
+        }
+      }
+    },
+    "Symbol": {
+      "Back": "Back",
+      "KeyFinancials": "Key Financials",
+      "Website": "Website",
+      "Currency": "Currency",
+      "DayRange": "Day Range",
+      "52WeekRange": "52 Week Range",
+      "LastUpdated": "Last updated",
+      "LastPrice": "Last Price",
+      "Open": "Open",
+      "Shares": "Shares",
+      "MarketCap": "Market Cap (USD)",
+      "EPS": "EPS",
+      "PERatio": "P/E Ratio",
+      "Div Yield": "Div Yield",
+      "Sponsor": "Sponsor",
+      "AssetClass": "Asset Class",
+      "NER": "Net Expense Ratio",
+      "AvgDaily": "Avg. Daily Volume",
+      "AvailableSupply": "Available Supply",
+      "TotalSupply": "Total Supply",
+      "PopupNoDesc": "No Description",
+      "MoreDetails": "See more details",
+      "Price": "Price",
+      "52Week": "52 week range",
+      "Returns": "Returns",
+      "1MO": "1MO",
+      "6MO": "6MO",
+      "1YR": "1YR",
+      "Description": "Description",
+      "Performance": "Performance",
+      "From": "From",
+      "To": "To",
+      "Industry": {
+        "Finance": {
+          "Title": "Finance"
+        }
+      },
+      "AssetType": {
+        "Equity": {
+          "Title": "Equity",
+          "Plural": "Equities"
+        },
+        "ETF": {
+          "Title": "ETF",
+          "Plural": "ETFs"
+        },
+        "Crypto": {
+          "Title": "Crypto",
+          "Plural": "Crypto's"
+        }
+      }
+    },
+    "Catalog": {
+      "Title": "Catalog",
+      "Universe": {
+        "Tag": "Show by Tag",
+        "Popular": "Show Popular",
+        "All": "Show All",
+        "ShowAll": "Show all {0} universes",
+        "Top1Y": "Top 1Y performing",
+        "Top1M": "Top 1M peforming"
+      },
+      "SmartFunds": {
+        "CautionTitle": "Caution",
+        "CautionText": "You understand that any investment decisions you make are based on your own individual needs and tolerance for risk and that the content that you gather from any performance charts are just one of many factors you should consider before making your investment decision. The presentation of performance for a Quant Fund or a Universe should not be regarded as an offer or a solicitation for the use of any Quant Fund, and you are responsible for all investment decisions you make. Past performance is not an indication of future results and the performance for any Quant Fund or Universe is subject to fluctuation depending on shifting market conditions.",
+        "IGotIt": "i got it",
+        "NoSmartFundsFound": "No Quant Funds found. Try searching again",
+        "NoSmartFundsFoundDescr": "It seems your search query did not come up with results. Try making changes to your filters above.",
+        "Overview": "Overview",
+        "PopularFunds": "Popular funds",
+        "Community": "Community funds",
+        "ShowAll": "Show {0} quant funds",
+        "YearPerformance": "1Y RETURN",
+        "Popular": {
+          "Name": "Popular Quant Funds",
+          "Description": "Popular funds description."
+        },
+        "Speculative": {
+          "Name": "Speculative",
+          "Description": "Speculative description."
+        },
+        "Theme": {
+          "Name": "Theme",
+          "Description": "Theme description."
+        },
+        "BrokerBased": {
+          "Name": "BrokerBased",
+          "Description": "BrokerBased description."
+        },
+        "Filters": {
+          "Style": "Trading Style",
+          "Activity": "Activity",
+          "Sharpe": "Sharpe",
+          "DD": "Drawdown",
+          "ROI": "ROI",
+          "NER": "Net Expense Ratio",
+          "Time": "All Time",
+          "Modules": "All Modules",
+          "Universes": "Universes",
+          "Others": "Others",
+          "AssetType": "Asset type",
+          "Theme": "Theme",
+          "Broker": "Broker",
+          "YearReturn": "1 Year return",
+          "MonthReturn": "1 Month return",
+          "Speculative": "Speculative",
+          "Passive": "Passive",
+          "SelectedThemes": "Selected themes",
+          "SearchingThemes": "Searching themes",
+          "Filters": "Filters"
+        },
+        "StatisticTab": {
+          "ROI": "ROI",
+          "1YROI": "1 YEAR RETURN",
+          "1MROI": "1 MONTH RETURN",
+          "NetExpenseRatio": "NET EXPENSE RATIO",
+          "Drawdown": "DRAWDOWN",
+          "Sharpe": "SHARPE"
+        },
+        "DetailsTabs": {
+          "PastPerformance": "Past performance",
+          "SymbolsAndWeights": "Symbols & weights",
+          "RecentNews": " Recent news"
+        },
+        "SymbolsTable": {
+          "Name": "Name",
+          "Symbol": "Symbol",
+          "Weight": "Weight",
+          "Price": "Price",
+          "MarketCap": "Market Cap",
+          "YR": "1 YR"
+        },
+        "ImportButton": "Import quant fund",
+        "BackButton": "Back"
+      },
+      "Modules": {
+        "AllModuleTypes": "All module types",
+        "AllTime": "All Time",
+        "Item": {
+          "PostReply": "Post a reply",
+          "Reply": "Reply",
+          "BackTo": "Back to"
+        }
+      }
+    },
+    "Bounty": {
+      "Title": "bounties",
+      "ICO": {
+        "Tab": "ICO Bounty",
+        "PayoutTitle": "bounty payouts",
+        "PayoutShareFriends": "<b>Share with friends:</b> 25 points p/share",
+        "PayoutFollowTwitter": "<b>Follow us on Twitter:</b> 500 points",
+        "PayoutFollowFacebook": "<b>Follow us on Facebook:</b> 500 points",
+        "ForumSignature": "<b>Forum Signature:</b> 75 points p/week",
+        "BlogPost": "<b>Blog Post:</b> 1750 points",
+        "AffiliateLink": "<b>Affliate Link Signup:</b> 125 points",
+        "Journalism": "<b>Journalism:</b> Variable",
+        "OtherPromotions": "<b>Other Promotions:</b> Variable",
+        "ICOAffLink": "ico affiliate link",
+        "ICOAffLinkApp": "Your link to the Quantler application",
+        "ICOAffLinkIco": "Your link to the Quantler ICO",
+        "ICOAffLinkCopy": "Copy to clipboard",
+        "ShareWithFriends": "Share with friends",
+        "Performance": "Performance",
+        "LinkClicks": "Link Clicks",
+        "FriendsShared": "Friends Shared",
+        "Translations": "Translations",
+        "BlogPosts": "Blog Posts",
+        "SocialMedia": "Social Media",
+        "OtherPromotionsItem": "Other Promotions",
+        "Points": "Points",
+        "Note": "Note: above figures are estimates, rounding and timing issues can cause deviating figures",
+        "AddBounty": "add bounty request",
+        "BountyType": "Bounty Type",
+        "BountyLink": "Bounty Link",
+        "BountyLinkPlaceholder": "http://example.com",
+        "Message": "Message",
+        "MessagePlaceholder": "Your message",
+        "AddRequest": "add request",
+        "BountyHistory": "bounty history",
+        "SuccessAddRequest": "Successfully added request.",
+        "BountyPayout": {
+          "EtherBountyPayoutAddress": "Ether Bounty Payout Address",
+          "Save": "Save",
+          "SuccessSave": "Successfully saved."
+        },
+        "HistoryTable": {
+          "Type": "Type",
+          "Occured": "Occured",
+          "Points": "Points",
+          "Approved": "Approved",
+          "Comment": "Comment"
+        },
+        "HistoryItemModal": {
+          "BountyType": "Bounty Type",
+          "BountyLink": "Bounty Link",
+          "TimeOccured": "Time it occured",
+          "Points": "Points",
+          "Approved": "Approved",
+          "Yes": "Yes",
+          "No": "No",
+          "Comment": "Comment",
+          "Message": "Message",
+          "Close": "Close"
+        }
+      },
+      "Github": {
+        "Tab": "Github Bounty",
+        "UnderDevelopmentTitle": "under development",
+        "UnderDevelopmentText": "Here you will be able to retrieve QUANT tokens in exchange for successful pull requests performed in our public repository"
+      }
+    }
+  },
+  "LandingPage": {
+    "Welcome": {
+      "Title": "Introducing Quantler",
+      "SubTitle": "The tailor made alternative to traditional investement management",
+      "H1Title": "Now it's easy to automate your investing",
+      "H1SubTitle": "The first fully automated investing environment to align with your style of investing",
+      "H1SubItem1Title": "Get Inspired",
+      "H1SubItem1Text": "Choose from one of our many transparant community created quant funds, change them according to your believes or create one from scratch. The choices are endless.",
+      "H1SubItem2Title": "Invest what you want",
+      "H1SubItem2Text": "Whether you want to invest in a passive quant fund or on a speculative fashion, you are in control. Invest in equities, ETFs or crypto currencies.",
+      "H1SubItem3Title": "Invest in your ideas",
+      "H1SubItem3Text": "Do not agree with the way a quant fund works? Make any adjustments you want, all quant funds are open source. We have no closed doors.",
+      "InvestInWhatYouBelieveIn": "Invest in what you believe in",
+      "ShowSmartFunds": "Show Quant Funds"
+    },
+    "SmartFund": {
+      "MenuItem": "Quant Funds",
+      "Title": "Meet your personal investment fund",
+      "GetStarted": "GET STARTED",
+      "SubTitle": "Invest using Quant Funds, which are digitalized investment funds. No pooled investments but fully customizable Quant Funds that fully allign with your interests.",
+      "H1Title": "Every investor is unique, so is every quant fund. ",
+      "H1SubTitle": "Create or change an existing Quant Fund, in minutes",
+      "Text1": "Universes, define what you want to trade on",
+      "Text2": "Create your own quant fund",
+      "Text3": "Backtest and analyze its potential with the power of the cloud"
+    },
+    "Hosting": {
+      "MenuItem": "Hosting",
+      "Title": "Host your Quant Fund at Quantler",
+      "H1Title": "Why would I need hosting?",
+      "H1SubTitle": "Quantler is all about flexibility and transperancy, all publicly available Quant Funds are open source and part of public domain (opposed to traditional investment management funds). You can host your Quant Fund wherever you want. Quantler's technical infrastructure is optimized for hosting your Quant Fund in a high quality, highly available and cost effective way.",
+      "H2Title": "Your Quant Funds, our technical expertise",
+      "H2SubTitle": "Create Quant Funds on themes such as Cyber Security, Connected Cars, Green Energy, Internet of Things",
+      "WorksTitle": "Here is how hosting a Quant Fund works",
+      "WorksChooseTitle": "Choose hosting location",
+      "WorksChooseText": "Choose your location where you want your Quant Fund to be hosted",
+      "WorksDeployTitle": "Deploy your Quant Fund",
+      "WorksDeployText": "Add or remove Quant Funds from your server",
+      "WorksManageTitle": "Manage your hosting",
+      "WorksManageText": "Review your Quant Fund's historical performance and optimize performance"
+    },
+    "BrokerNeutral": {
+      "MenuItem": "Independent",
+      "Title": "Invest where you want",
+      "SubTitle": "With access to a large array of regulated brokers worldwide, you invest where YOU want to invest",
+      "H1Title": "A selection of brokers we are compatible with",
+      "H2Title": "How it works",
+      "H2TitleItem1": "Simulate broker behavior",
+      "H2TextItem1": "See how brokers compare to costs and execution speeds",
+      "H2TitleItem2": "Select your broker to invest with",
+      "H2TextItem2": "Quantler is broker-neutral, you can invest using any of the brokers compatible",
+      "H2TitleItem3": "Invest what you want",
+      "H2TextItem3": "Invest using any of the assets compatible with your selected broker",
+      "FAQTitle": "Frequently Asked Questions",
+      "FAQMore": "view all faqs",
+      "FAQ1Title": "What are Quant Funds?",
+      "FAQ1Text": "Quant Funds are decentralized and digitalized investment funds",
+      "FAQ2Title": "How can I create my own Quant Fund?",
+      "FAQ2Text": "Login to Quantler and create or reuse an existing Quant Fund in minutes",
+      "FAQ3Title": "What are the costs for using a Quant Fund?",
+      "FAQ3Text": "We offer a low cost solution for hosting your Quant Funds which will start from just 1 USD p/month",
+      "FAQ4Title": "What if I do not have a Quant Fund?",
+      "FAQ4Text": "No problem, we have many publicly available Quant Funds to choose from.",
+      "Planned": "Planned"
+    },
+    "Pricing": {
+      "MenuItem": "Pricing",
+      "Title": "When it comes to investing, you get what you don’t pay for",
+      "SubTitle": "Alternative investment management with alternative pricing.",
+      "H1Title": "Bare metal investing, bare metal pricing",
+      "H1Item1Title": "No management fees.",
+      "H1Item1Text": "Quantler does not charge any management fees, as we do not manage any accounts.",
+      "H1Item2Title": "No performance fees.",
+      "H1Item2Text": "Fees should be transparant and predictable, no matter the performance.",
+      "H1Item3Title": "No kick-back fees.",
+      "H1Item3Text": "Quantler is independent, we do not accept any form of kick-back fees that discredit our clients.",
+      "H1Item4Title": "Satisfaction quaranteed.",
+      "H1Item4Text": "We’re committed to providing our customers with a great investing experience.",
+      "H2Title": "Quantler Tiers",
+      "H2SubTitle": "All prices include VAT/Taxes",
+      "PricingTier1Title": "Tier 1",
+      "PricingTier1Item1": "Unlimited number of Quant Funds",
+      "PricingTier1Item2": "Custom made Quant Funds",
+      "PricingTier1Item3": "No additional costs",
+      "PricingTier1Item4": "Includes customer support",
+      "PricingTier1Item5": "Applicable worldwide",
+      "PricingTier2Title": "Tier 2",
+      "PricingTier2Item1": "All the benefits of tier 1",
+      "PricingTier2Item2": "Paid on a monthly basis",
+      "PricingTier2Item3": "Includes all taxes applicable",
+      "PricingAllocated": "Allocated Funds",
+      "PricingFree": "Free",
+      "PricingYearly": "p/annum",
+      "PricingMonthly": "p/month",
+      "PricingBrokeragesTitle": "Commission free brokerages compatible with Quantler",
+      "PricingBrokeragesSubTitle": "Quantler is not affiliated to any third party financial instution",
+      "PricingBrokeragesEligible": "Eligibility",
+      "EquivalentValueCharged": "*Equivalent value charged in QAUNT tokens with a monthly payment schedule",
+      "Planned": {
+        "Title": "Planned",
+        "Tooltip": "This broker is not compatible yet"
+      }
+    },
+    "FAQ": {
+      "MenuItem": "FAQ",
+      "Title": "What Can We Help You With?",
+      "Ask": "Ask a question...",
+      "Topics": "Topics",
+      "NoQuestionsFound": "No Questions found.",
+      "ContactUs": "Contact Us",
+      "HeadOffice": "Quantler Headoffice",
+      "FAQQuestions": {
+        "Topic1": {
+          "topic": "Common Questions",
+          "questions": {
+            "q1": {
+              "title": "Where is Quantler regulated?",
+              "description": "Quantler is a software company based in the Netherlands. As a software company we focus on the technological aspect of investing, regulated activities are done by regulated financial instutions within selected jurisdictions. We, Quantler, are not a regulated entity."
+            },
+            "q2": {
+              "title": "Is Quantler managing my funds?",
+              "description": "You are in total control of your own funds and since you are the creator, owner and sole investor of a Quant Fund, we (Quantler) do not provide any investment managament service."
+            },
+            "q3": {
+              "title": "I live in country X, can I make use of Quantler?",
+              "description": "This depends on the broker you choose. If the broker allows you as a client, you can use our product with your brokerage account. Quantler, the platform, is available worldwide."
+            },
+            "q4": {
+              "title": "What personal information do you need for opening an account?",
+              "description": "We need basic information such as your full name and where you live."
+            }
+          }
+        },
+        "Topic2": {
+          "topic": "Quantler Platform",
+          "questions": {
+            "q1": {
+              "title": "How do I open a brokerage account?",
+              "description": "You cannot open a brokerage account at Quantler, for this we would like to forward you to the brokerage of your choosing. On the My Subscription page you can see the compatible brokers."
+            },
+            "q2": {
+              "title": "Where can I find your source code?",
+              "description": "You can find our source code on github: https://github.com/Quantler/Core"
+            },
+            "q3": {
+              "title": "Are there any data related fees?",
+              "description": "No, we do not charge any additional fees for specific data. All data is available for all users on the platform."
+            }
+          }
+        }
+      }
+    },
+    "Why": {
+      "Title": "Why Quantler?",
+      "SubTitle": "Creating a world where investing is alligned with the interests of the investor.",
+      "H1Title": "We eliminate costs, lower the barriers for access to investing and increase transparancy by making all investment decisions open source, eliminating any conflicts of interest that are associated with investment management today.",
+      "BenefitsTitle": "Some of the benefits of using Quantler",
+      "BenefitsTitleItem1": "Take control, safe costs",
+      "BenefitsTextItem1": "You are always in control, Quantler has no access to your funds. As we are a hosting company, we do not charge your for any trading activities.",
+      "BenefitsTitleItem2": "Direct your own investing",
+      "BenefitsTextItem2": "Unlike pooled investments such as manual funds and exchange-traded funds (ETFs), when you use Quantler, you invest in what you want the way you want to do it",
+      "BenefitsTitleItem3": "Open source",
+      "BenefitsTextItem3": "Quantler is open source, want to know how it works or improve it? At Quantler you can. We have nothing to hide, you can inspect investment decisions all the way.",
+      "BenefitsTitleItem4": "You trade where you want",
+      "BenefitsTextItem4": "Quantler is not a broker, it is a software company for automating your investing. You determine with who you want to invest with. Your not bound to a specific financial instution. Welcome to freedom of choice."
+    },
+    "ICO": {
+      "DecentralizingWallStreet": "Decentralizing Wall Street, together",
+      "FromSmartContractsToETF": "From smart contracts to worlds first decentralized ETFs: Quant Funds",
+      "BuyTokens": "Buy Tokens",
+      "TimeUntilStart": "Time until ICO Starts",
+      "NotStartedTitle": "The ICO did not start yet",
+      "NotStartedDescription": "We did not start the ico yet but you can see the smart contract by copying the address below.",
+      "Link": "GITHUB LINK",
+      "Days": "Days",
+      "Hours": "Hours",
+      "Minutes": "Minutes",
+      "Seconds": "Seconds",
+      "RaisedSoFar": "Raised so far",
+      "TotalRaised": "Total Raised",
+      "ICOEnded": "ICO Ended",
+      "StartDate": "Start Date",
+      "SoftCap": "Soft Cap",
+      "SoftCapDiscount": "Soft cap Discount",
+      "Tooltip": "During the soft cap (< 12,5M USD) a discount of 20% is applied",
+      "EndDate": "End Date",
+      "TimeLeft": "Time Left",
+      "EtherRaised": "Ether Raised",
+      "QuantGenerated": "QUANT Generated",
+      "BaseExchangeRate": "Base Exchange Rate",
+      "TryTheBeta": "Try the beta",
+      "DownloadWhitePaper": "Download Whitepaper",
+      "WhyBuyTokens": "Why should you buy tokens",
+      "TokenBackedNotes": "The QUANT Token",
+      "QUADCoin": "Payment Method",
+      "Shares": "Mining",
+      "NotesText": "Support us now by buying QUANT tokens, which will be needed for using our solution. Quant tokens are utility tokens used to fully utilize our platform. They have 3 main purposes: 1. it will be our only method of payment, 2. as a reward for mining when offering computational resources and 3. for incetivizing our open source community. In our whitepaper we explain our product on a higher level and explain the disruptive factor of our solution. Please check out our beta version for additional information regarding our product.",
+      "NotesText2": "\n (some additional text needed)",
+      "QUADCoinText": "Quantler will only accept QUANT Tokens as method of payment for hosting Quant Funds. You can however, use many payment methods for acquiring these QUANT tokens, either from Quantler or elsewhere such as an exchange. QUANT tokens will be stored in a wallet at Quantler and fees will be automatically deducted using smart contracts on the Ethereum network.",
+      "SharesText": "Run Quantler on your own machine and allow for incoming simulation requests (backtests). These simulations require a large amount of computational resources, miners are rewarded with Quant tokens for providing these resources.",
+      "EULA": {
+        "Title": "Token delivery agreement",
+        "Intro": "Introduction",
+        "Text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel posuere lorem. Donec ut velit accumsan, ullamcorper neque et, mollis orci. Nam euismod nisl justo, non porta dui vestibulum non. Nunc urna dolor, bibendum convallis turpis eget, ornare gravida massa. Curabitur sem sem, tincidunt fringilla scelerisque at, imperdiet sit amet justo. Nunc nibh magna, suscipit dignissim tristique ac, faucibus ac ex. Nulla ornare nulla purus, ac pulvinar dui pulvinar porttitor. Maecenas vel mi nec lectus faucibus elementum vel non nulla.",
+        "Text2": "Proin at rhoncus tellus, id hendrerit augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non tristique orci. Nulla dolor odio, ultricies in sapien id, feugiat sollicitudin leo. Donec id malesuada nulla. Sed at dignissim nisl, vitae varius ipsum. Nunc nec ipsum in neque pharetra tempor. Donec vel urna in velit vestibulum dictum. Phasellus leo tellus, aliquet vel metus et, hendrerit laoreet nibh. Sed posuere fermentum bibendum. Etiam venenatis purus sit amet lacinia lacinia. Mauris id posuere felis, sit amet suscipit velit. Proin sed placerat mi. Aliquam erat volutpat.",
+        "Text3": "Etiam ut mi nec metus dapibus interdum. Curabitur at aliquam urna. Ut et nunc cursus, sodales eros ac, auctor risus. Fusce sit amet elit sed mauris accumsan condimentum ac vel lorem. Praesent sit amet mattis urna. Phasellus euismod elit et augue ultricies, eget venenatis diam vehicula. Sed non augue vel mauris vehicula volutpat. Vivamus velit odio, tincidunt sit amet turpis ac, tincidunt viverra lacus. Cras fringilla consequat imperdiet.",
+        "Agree1": "I hereby acknowledge that I have fully read, understood, and agree to the terms and conditions laid out for the QUANT Token Sale.",
+        "Agree2": "I understand QUANT tokens do not represent a share of any company and does not provide any form of dividends.",
+        "Agree3": "My jurisdictions allows me to buy these tokens during an initial offering, I take sole responsibility for any prohibitions that are put in place.",
+        "Agree4": "I understand that tokens bought are not redeemable under any circumstances.",
+        "Accept": "I ACCEPT THE AGREEMENTS",
+        "BackToQuantler": "Back to Quantler",
+        "ReadMore": "Read More",
+        "AcceptAll": "You must agree with all conditions first"
+      },
+      "BUY": {
+        "QuantPurchaseInstructions": "QUANT Purchase Instructions",
+        "TransactionData": "Transaction Data must",
+        "The": "The",
+        "LearnMoreAbout": "Learn more about",
+        "QuantPurchaseInfo": " be sent with your transaction, or else it will be rejected! You may use any wallet that support tokens. Do not send ETH directly from exchanges (Kraken, Poloniex, Coinbase, etc) multisig wallets, of from other smart contracts, as you will not able to access your QUANT tokens.",
+        "ContractAddress": "Contract Address",
+        "GASS": "Gass Limit",
+        "CopyLink": "Copy Link",
+        "Copied": "Link copied to clipboard"
+      },
+      "Errors": {
+        "Name": "Please enter your name",
+        "Email": "Please enter a valid email address",
+        "Message": "Please enter the message"
+      },
+      "Schema": {
+        "Investor": "Buyer",
+        "You": "(you)",
+        "BuyCoins": "Buy Tokens",
+        "SmartContract": "Smart Contract",
+        "Floating": "Floating",
+        "Coins": "COINS",
+        "Simulations": "Simulations",
+        "Mining": "Mining",
+        "BlockChain": "Blockchain",
+        "QuantToken": "QUANT TOKEN",
+        "FundHosting": "Fund Hosting",
+        "Ledger": "Ledger",
+        "MethodOfPayment": "Method Of Payment",
+        "Conversion": "Conversion",
+        "Exchange": "Exchange"
+      },
+      "HowSmartFundsMakeLifeEasier": "How do Quant Funds make your life easier?",
+      "SmartFundsDescription": "Quant Funds are like smart contracts, where smart contracts are used for decentralizing legal affairs, quant funds are used for decentrializing the investment managment industry.",
+      "Comparison": {
+        "TraditionalInvManagement": "Traditional Investment Management",
+        "SmartFunds": "Quant Funds",
+        "CloseSource": "Closed Source",
+        "OpenSource": "Open Source",
+        "Centralized": "Centralized",
+        "Decentralized": "Decentralized",
+        "NoCustomConfig": "No customization possible (pre-fabric)",
+        "CustomConfig": "Custom made by the owner",
+        "ComplexCostStructure": "Complex Cost Structure",
+        "SupplyChainAddCosts": "Supply chain that adds costs",
+        "NoSupplyChainAddCosts": "Direct ownership, no middleman",
+        "TransparantCost": "Transparant cost structure (every dime you pay)",
+        "TraditionalExchangesOnly": "Traditional exchanges only (Equities and ETFs)",
+        "TraditionalAndCrypto": "Traditional Exchanges (Equities and ETFs) and also crypto exchanges (Crypto Currencies)"
+      },
+      "DistributeFunding": {
+        "Title": "How will funding be distributed",
+        "SubTitle": "Buying QUANT tokens will fund the development of our solution.",
+        "TknAllocation": "Token Allocation",
+        "UseOfFunds": "Use of Funds",
+        "GithubBountyLow": "Github Bounty",
+        "CompanyReserved": "Company Reserved",
+        "Mining": "Reserved for Mining",
+        "TokenSale": "Token Sale",
+        "CapEx": "Capital Expenditures",
+        "Marketing": "Marketing",
+        "SoftDev": "Software Development",
+        "BusDev": "Business Development",
+        "LegalCompliance": "Legal and Compliance",
+        "OtherExpenses": "Other Expenses (unforseen)",
+        "WhatKindOfBounties": "WHAT KIND OF BOUNTIES ARE THERE?",
+        "ICOBounty": "ICO BOUNTY",
+        "ICOBountyText1": "When logged in you can get bounties for promotional activities like: sharing on social media, blog posts, referal links, translations, inviting a friend and journalism. Help us make the community great!",
+        "GithubBounty": "GITHUB BOUNTY",
+        "ICOBountyText2": "Another way to earn bounties is by contributing code to our open source repository (pull request). The amount of tokens you recieve will be based on total amount of lines of code contribute and severity of the contribution (such as bug fixes)",
+        "Note": "Note: tokens rewarded can either be converted to bitcoins via an exchange or used for utilizing our solution.",
+        "WhatIsCompatible": "WHAT IS COMPATIBLE WITH QUANTLER?",
+        "Assets": "Assets",
+        "AssetsText": "Assets that are compatible with Quantler are US Equitites US ETFs and Crypto Currencies.",
+        "BrokersExchanges": "Brokers / Exchanges",
+        "BrokersExchangesText": "We have several brokers which will be compatible with Quantler worldwide. Please log in to our application to see which brokers are applicable to your country of residence."
+
+      },
+      "GlobalSolution": {
+        "Title": "Global Solution for a Global Market",
+        "FreePortfolio": "Low cost, from 1 USD p/month",
+        "OpenSource": "Open Source and encouraged",
+        "AboveUSD": "Above 5,000 USD very competitive 0.25% p/ annum",
+        "TransparentInvoicing": "Transparent invoicing",
+        "NoConflict": "No conflict of interest",
+        "BCEmpowered": "Blockchain Empowered",
+        "Decentralized": "Decentralized architecture",
+        "PlatformIndependent": "Broker Independent",
+        "CryptoCurrencyReady": "Crypto currency ready",
+        "Quote": "Don’t look for the needle in the haystack. Just buy the haystack!",
+        "QuotePlace": "John C. Bogle",
+        "QuoteAuthor": "Founder of The Vanguard Group and inventor of the index fund."
+      },
+      "FAQ": {
+        "Title": "Frequently asked questions",
+        "Q1": "What is the QUANT token?",
+        "A1": "The QUANT token is a digital currency, used to fuel and support the Quantler ecosystem. Want to host a Quant Fund at Quantler? You will need QUANT tokens.",
+        "Q2": "How do I buy these QUANT tokens?",
+        "A2": "For the initial offering you will need to have ethereum to buy these QUANT tokens.",
+        "Q3": "Is the QUANT token a security?",
+        "A3": "The QUANT token will not grant you any voting nor dividend rights in Quantler B.V. (the company behind Quantler). The token is a utility token, as such it is not a security.",
+        "Q4": "Do I need to be whitelisted to buy these tokens?",
+        "A4": "During the initial token sale we will require every purchaser to whitelist him or herself. You can whitelist yourself in advance. Whitelisting involves providing your identity for KYC (Known Your Customer) and AML (Anti Money Laundering) processes. Both KYC and AML are only needed during the initial token sale, the use of our platform does not require any KYC/AML.",
+        "Q5": "Are there any restrictions in applying for the token sale?",
+        "A5": "Due to regulatory reasons, we will not accept participants from People's Republic of China, United States, South Korea and New Zealand. Other interested parties are welcomed to participate. QUANT Token is being developed as a utility token, and is not intended to be a security or regulated product in any jurisdiction, nor have we been reviewed by any regulatory authority. Anyone considering participation should assess the risks associated with digital assets and platforms."
+      },
+      "ContactUs": {
+        "Title": "Contact us and say hi",
+        "Text": "Feel free to contact us to provide some feedback on our product, give us suggestions for new ideas, or to just say hello!",
+        "Text2": "",
+        "NumberOfChamber": "Chamber of commerce",
+        "SendMessage": "Send Message",
+        "FullName": "Full Name",
+        "Email": "Email address",
+        "Phone": "Phone",
+        "Message": "Your Message"
+      }
+    },
+    "General": {
+      "Create": "Create Quant Fund",
+      "OpenAccount": "Open account",
+      "Start": "Start automating your investing. Invest where and what you want.",
+      "GetStarted": "get started",
+      "NoLock": "No Lock In",
+      "NoLockText": "We stand behind our product and hosting service. At any time can you cancel your subscription for hosting your quant funds. Our software is open source, you are free to host your quant funds on other hosting providers as well.",
+      "ComapreAligned": "Aligned to your personal values",
+      "CompareOwnership": "Direct Stock Ownership",
+      "CompareKnow": "Know Exactly What You Own",
+      "CompareCompromise": "No compromise guaranteed",
+      "NewToQuatler": "New to Quantler?",
+      "StartInvest": "Start automated investing today",
+      "FitStyle": {
+        "Title": "Fit to your style of investing",
+        "DayTraders": "Speculative",
+        "Text1": "Fast quant funds hosted on low latency hosting facilities",
+        "LTInvestors": "Passive",
+        "Text2": "Quant funds for analyzing many assets on a monthly or yearly basis"
+      },
+      "QuantlerCompares": {
+        "Title": "See how Quantler compares",
+        "Cost": "Cost",
+        "MinimumInvestment": "Minimum Investment",
+        "RealStocks": "Real Stocks",
+        "DirectOwnership": "Direct Ownership",
+        "OpenSource": "Open Source",
+        "AbilityToCustomize": "Ability to Customize",
+        "WorldwideCoverage": "Worldwide Coverage",
+        "Quantler": "Quantler",
+        "Iconomi": "Iconomi",
+        "ETrade": "E*Trade",
+        "RoboAdvisory": "Robo Advisory"
+      }
+    },
+    "Menu": {
+      "What": "What we do",
+      "How": "How we do it",
+      "Why": "Why we do it",
+      "Login": "Login",
+      "Register": "Register",
+      "Crowdfund": "Crowdfund",
+      "ICO": "ICO"
+    },
+    "Login": {
+      "Email": "Enter Email",
+      "Password": "Password",
+      "Forgot": "Forgot your password?",
+      "Or": "Or",
+      "SignInFacebook": "Sign in with Facebook",
+      "SignInGoogle": "Sign in with Google",
+      "SignUpFacebook": "Sign up with Facebook",
+      "SignUpGoogle": "Sign up with Google",
+      "TermsAgree": "By signing in you agree with Quantler's Terms",
+      "Warning": "WARNING: No Investment Advice. Nothing provided by Quantler should be interpreted as investment, legal or tax advice. We are not financial advisors, brokers or fund managers. None of the content offered by Quantler, third parties or shared code and or algorithms on Quantler should be interpreted as recommendations. These are educational materials provided for the development of your strategy. You acknowledge and agree that any use of Quantler, any decisions made in reliance on Quantler, including any trading or investment decisions or strategies, are made at your own risk. The service provides ability to test ideas on historical data, however past performance is no guarantee of future results. By accessing this site, you agree with Quantler's terms",
+      "RegisterName": "Full Name",
+      "RegisterEmail": "Enter Email",
+      "RegisterPassword": "Password",
+      "RegisterPasswordRetype": "Retype Password",
+      "IAgree": "I agree with the terms",
+      "SignUp": "Sign Up",
+      "WrongEmail": "Wrong Email",
+      "PasswordsNotMatch": "Passwords not match",
+      "RecoverSent": "We've just sent you an email to reset your password.",
+      "IRememberPassword": "I have remembered my password",
+      "PasswordReset": "PASSWORD RESET",
+      "ProvideRecoverEmail": "Fill in your e-mail and new password to receive confirmation that your password has been changed.",
+      "Reset": "RESET",
+      "Errors": {
+        "Name":"Please provide your name",
+        "Email": "Provide valid email",
+        "Password": "Password is required",
+        "PasswordsMatch": "Passwords do not match",
+        "AgreeTerms":"You must agree with terms"
+      }
+    },
+    "Copyright": "All rights reserved."
+  }
+}
