@@ -155,7 +155,10 @@
                 "Views": "Просмотры",
                 "Replies": "Ответы",
                 "LastReply": "Последний ответ",
-                "NoReplies": "пока нет ответов"
+                "NoReplies": "пока нет ответов",
+                "QuantfundsAttached": "",
+                "UniversesAttached": "",
+                "ModulesAttached": ""
             },
             "SmartFundBar": {
                 "MonthReturn": "1 месяц назад",
@@ -414,7 +417,21 @@
                     "Name": "",
                     "CreatedAI": "",
                     "CreatedImport": "",
-                    "CreatedManual": ""
+                    "CreatedManual": "",
+                    "Others": "",
+                    "DiscardFilters": "",
+                    "AdditionalFilters": "",
+                    "Filters": "",
+                    "Themes": "",
+                    "Style": "",
+                    "Speculative": "",
+                    "Passive": "",
+                    "SearchingThemes": "",
+                    "SelectedThemes": "",
+                    "SearchingUniverses": "",
+                    "SelectedUniverses": "",
+                    "SearchingNames": "",
+                    "SelectedNames": ""
                 },
                 "SearchFund": "Search a smart fund"
             },
@@ -425,7 +442,6 @@
                     "SubTitle": "Выберите параметры окружающей среды, на которых будет выполняться этот торговый алгоритм.",
                     "StartDate": "Выберите дату начала",
                     "EndDate": "Выберите дату окончания",
-                    "Timeframe": "Период времени",
                     "SelectUniverse": "Выберите свою вселенную",
                     "MoreOptions": "больше вариантов",
                     "LessOptions": "Меньше вариантов",
@@ -434,11 +450,22 @@
                     "AllocatedFunds": "Выделенные фонды",
                     "BaseCurrency": "Базисная валюта",
                     "ExtendedMarket": "Расширенные рыночные часы",
-                    "ExtendedMarketTooltip": "Привет мир",
                     "UseTickData": "Использовать тиковые данные",
-                    "UseTickDataTooltip": "Привет мир",
                     "Add": "Добавить новое",
                     "Check": "Проверить каталог",
+                    "Tooltips": {
+                        "StartDate": "",
+                        "EndDate": "",
+                        "BrokerModel": "",
+                        "AccountType": "",
+                        "AllocatedFunds": "",
+                        "BaseCurrency": "",
+                        "ExtendedMarket": "",
+                        "UseTickData": ""
+                    },
+                    "Timeframe": "Период времени",
+                    "ExtendedMarketTooltip": "Привет мир",
+                    "UseTickDataTooltip": "Привет мир",
                     "UniverseAdd": {
                         "Title": "Выбрать юниверс",
                         "Search": "Поиск вселенной",
@@ -539,6 +566,28 @@
                     "Name": "",
                     "Universe": "",
                     "Module": ""
+                },
+                "UniverseAdd": {
+                    "SelectUniverse": "",
+                    "SearchUniverse": "",
+                    "NotListed": "",
+                    "New": "",
+                    "NoUniverses": "",
+                    "CheckCatalog": ""
+                },
+                "Modules": {
+                    "SelectModule": "",
+                    "Params": "",
+                    "NotListed": "",
+                    "NoModules": "",
+                    "New": "",
+                    "CheckCatalog": "",
+                    "SearchTemplate": "",
+                    "Tooltips": {
+                        "Signal": "",
+                        "Money Management": "",
+                        "Risk Management": ""
+                    }
                 }
             },
             "MySmartFund": "My Smart Fund",
@@ -698,7 +747,29 @@
                 "title": "Planned",
                 "tooltip": "This broker is not compatible yet"
             },
-            "Assettypes": ""
+            "Assettypes": "",
+            "Brokers": {
+                "FreeTrade": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "PaperTrading": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Cobinhood": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "Binance": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "HitBTC": {
+                    "Name": "",
+                    "Description": ""
+                }
+            }
         },
         "Modules": {
             "Title": "модули",
@@ -824,6 +895,12 @@
                     "Name": "",
                     "Symbol": "",
                     "Weights": ""
+                },
+                "Filters": {
+                    "SearchingFilters": "",
+                    "SelectedFilters": "",
+                    "Industries": "",
+                    "Brokers": ""
                 }
             },
             "Tags": {
@@ -1139,6 +1216,9 @@
             "LastUpdated": "",
             "Open": "Open",
             "Description": "Описание",
+            "SmartFunds": "",
+            "Universe": "",
+            "News": "",
             "Details": {
                 "AAPL": {
                     "Description": ""
@@ -1194,7 +1274,6 @@
                     "Universes": "Вселенные",
                     "Others": "",
                     "AssetType": "",
-                    "Theme": "",
                     "Broker": "",
                     "YearReturn": "",
                     "MonthReturn": "",
@@ -1202,7 +1281,11 @@
                     "Passive": "",
                     "SelectedThemes": "",
                     "SearchingThemes": "",
-                    "Filters": ""
+                    "Filters": "",
+                    "Themes": "",
+                    "DiscardFilters": "",
+                    "AdditionalFilters": "",
+                    "Theme": ""
                 },
                 "StatisticTab": {
                     "ROI": "",
@@ -1210,7 +1293,8 @@
                     "1MROI": "",
                     "NetExpenseRatio": "",
                     "Drawdown": "",
-                    "Sharpe": ""
+                    "Sharpe": "",
+                    "SinceInception": ""
                 },
                 "DetailsTabs": {
                     "PastPerformance": "",
@@ -1226,7 +1310,12 @@
                     "YR": ""
                 },
                 "ImportButton": "",
-                "BackButton": ""
+                "BackButton": "",
+                "NoDescription": "",
+                "Passive": {
+                    "Name": "",
+                    "Description": ""
+                }
             },
             "Modules": {
                 "AllModuleTypes": "Все типы модулей",
@@ -1284,7 +1373,8 @@
                 "BountyPayout": {
                     "EtherBountyPayoutAddress": "",
                     "Save": "",
-                    "SuccessSave": ""
+                    "SuccessSave": "",
+                    "EnterAddress": ""
                 },
                 "HistoryItemModal": {
                     "BountyType": "",
@@ -1297,6 +1387,11 @@
                     "Comment": "",
                     "Message": "",
                     "Close": ""
+                },
+                "Adding": "",
+                "RequestErrors": {
+                    "Type": "",
+                    "Link": ""
                 }
             },
             "Github": {
@@ -1334,7 +1429,8 @@
             "H1SubItem3Title": "Инвестируйте в свои идеи",
             "H1SubItem3Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
             "InvestInWhatYouBelieveIn": "",
-            "ShowSmartFunds": ""
+            "ShowSmartFunds": "",
+            "H1OverTitle": ""
         },
         "SmartFund": {
             "MenuItem": "Автоматизированная торговля",
@@ -1368,7 +1464,8 @@
                 "DayTraders": "",
                 "Text1": "",
                 "LTInvestors": "",
-                "Text2": ""
+                "Text2": "",
+                "SubTitle": ""
             },
             "QuantlerCompares": {
                 "Title": "",
@@ -1384,6 +1481,18 @@
                 "ETrade": "",
                 "RoboAdvisory": ""
             },
+            "FAQ": {
+                "FAQTitle": "",
+                "FAQMore": "",
+                "FAQ1Title": "",
+                "FAQ1Text": "",
+                "FAQ2Title": "",
+                "FAQ2Text": "",
+                "FAQ3Title": "",
+                "FAQ3Text": "",
+                "FAQ4Title": "",
+                "FAQ4Text": ""
+            },
             "Fit": "Примените свой стиль инвестирования",
             "FitDayTitle": "Дневные трейдеры",
             "FitDayText": "Быстрые умные средства, размещенные на объектах с низкой задержкой",
@@ -1396,12 +1505,15 @@
         },
         "Menu": {
             "What": "Что мы делаем",
-            "How": "Как мы это делаем",
-            "Why": "Почему мы это делаем",
             "Login": "Авторизоваться",
             "Register": "регистр",
             "Crowdfund": "",
-            "ICO": ""
+            "ICO": "",
+            "Pricing": "",
+            "AboutUs": "",
+            "BackToApp": "",
+            "How": "Как мы это делаем",
+            "Why": "Почему мы это делаем"
         },
         "Hosting": {
             "MenuItem": "Хостинг",
@@ -1430,6 +1542,7 @@
             "H2TextItem2": "Квантлер нейтрален брокер, вы можете торговать с любым из совместимых с 1000 + брокерами",
             "H2TitleItem3": "Торговля, что вы хотите",
             "H2TextItem3": "Торговля любым из активов, совместимых с выбранным брокером",
+            "Planned": "",
             "FAQTitle": "Часто задаваемые вопросы",
             "FAQMore": "Просмотреть все faqs",
             "FAQ1Title": "Что такое автоматическая торговля?",
@@ -1439,8 +1552,7 @@
             "FAQ3Title": "Каковы затраты на автоматическую торговлю?",
             "FAQ3Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
             "FAQ4Title": "Что делать, если у меня нет торгового алгоритма?",
-            "FAQ4Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой",
-            "Planned": ""
+            "FAQ4Text": "Быстрые алгоритмы торговли, размещенные на хостинге с низкой задержкой"
         },
         "Pricing": {
             "MenuItem": "ценообразование",
@@ -1474,11 +1586,11 @@
             "PricingBrokeragesSubTitle": "Квантлер не связан ни с каким третьим финансовым институтом",
             "PricingBrokeragesEligible": "приемлемость",
             "PricingMonthly": "",
-            "EquivalentValueCharged": "",
             "Planned": {
                 "Title": "",
                 "Tooltip": ""
-            }
+            },
+            "EquivalentValueCharged": ""
         },
         "FAQ": {
             "MenuItem": "Вопросы-Ответы",
@@ -1511,6 +1623,23 @@
                     }
                 },
                 "Topic2": {
+                    "topic": "",
+                    "questions": {
+                        "q1": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q2": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "q3": {
+                            "title": "",
+                            "description": ""
+                        }
+                    }
+                },
+                "Topic3": {
                     "topic": "",
                     "questions": {
                         "q1": {
@@ -1583,7 +1712,10 @@
                 "Password": "",
                 "PasswordsMatch": "",
                 "AgreeTerms": ""
-            }
+            },
+            "Login": "",
+            "Register": "",
+            "SessionExpired": ""
         },
         "Copyright": "Все права защищены.",
         "ICO": {
@@ -1622,10 +1754,6 @@
             "SharesText": "",
             "EULA": {
                 "Title": "",
-                "Intro": "",
-                "Text1": "",
-                "Text2": "",
-                "Text3": "",
                 "Agree1": "",
                 "Agree2": "",
                 "Agree3": "",
@@ -1633,18 +1761,12 @@
                 "Accept": "",
                 "BackToQuantler": "",
                 "ReadMore": "",
-                "AcceptAll": ""
-            },
-            "BUY": {
-                "QuantPurchaseInstructions": "",
-                "TransactionData": "",
-                "The": "",
-                "LearnMoreAbout": "",
-                "QuantPurchaseInfo": "",
-                "ContractAddress": "",
-                "GASS": "",
-                "CopyLink": "",
-                "Copied": ""
+                "AcceptAll": "",
+                "Text": "",
+                "Intro": "",
+                "Text1": "",
+                "Text2": "",
+                "Text3": ""
             },
             "Errors": {
                 "Name": "",
@@ -1739,7 +1861,9 @@
                 "Q4": "",
                 "A4": "",
                 "Q5": "",
-                "A5": ""
+                "A5": "",
+                "Q6": "",
+                "A6": ""
             },
             "ContactUs": {
                 "Title": "",
@@ -1750,7 +1874,56 @@
                 "FullName": "",
                 "Email": "",
                 "Phone": "",
-                "Message": ""
+                "Message": "",
+                "MessageSent": ""
+            },
+            "MeetQuantler": "",
+            "MeetQuantlerDescr": "",
+            "MeetQuantlerStartDate": "",
+            "Card3": "",
+            "Card3Text": "",
+            "BUY": {
+                "WhitelistIdentification": "",
+                "Step1": "",
+                "Step2": "",
+                "Step3": "",
+                "Step4": "",
+                "Step1Desc": "",
+                "Step2Desc": "",
+                "Step3Desc": "",
+                "Note": "",
+                "Step4Desc": "",
+                "EnterAddress": "",
+                "EnterAmount": "",
+                "InputEnterAddressPH": "",
+                "EstimatedAmountToBuy": "",
+                "InputEnterAmountPH": "",
+                "Currency": "",
+                "SuccessfullyAdded": "",
+                "FailedToAdd": "",
+                "Errors": {
+                    "Address": "",
+                    "Amount": "",
+                    "Currency": "",
+                    "VerifyIdentity": ""
+                },
+                "AddRequest": "",
+                "BackToQuantler": "",
+                "YourIdentity": "",
+                "FullName": "",
+                "Country": "",
+                "YourWhitelistedAddresses": "",
+                "WrongCountry": "",
+                "InitialOfferingNote": "",
+                "QuantPurchaseInstructions": "",
+                "TransactionData": "",
+                "The": "",
+                "LearnMoreAbout": "",
+                "QuantPurchaseInfo": "",
+                "ContractAddress": "",
+                "GASS": "",
+                "CopyLink": "",
+                "Copied": ""
             }
         }
     }
