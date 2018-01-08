@@ -155,7 +155,10 @@
                 "Views": "Views",
                 "Replies": "Replies",
                 "LastReply": "Last reply by",
-                "NoReplies": "No replies yet"
+                "NoReplies": "No replies yet",
+                "QuantfundsAttached": "quantfunds attached",
+                "UniversesAttached": "universes attached",
+                "ModulesAttached": "modules attached"
             },
             "SmartFundBar": {
                 "MonthReturn": "1 Month Return",
@@ -414,7 +417,21 @@
                     "Name": "Name",
                     "CreatedAI": "Created AI",
                     "CreatedImport": "Created Import",
-                    "CreatedManual": "Created Manual"
+                    "CreatedManual": "Created Manual",
+                    "Others": "Others",
+                    "DiscardFilters": "Discard all filters",
+                    "AdditionalFilters": "Additional filters",
+                    "Filters": "Filters",
+                    "Themes": "Themes",
+                    "Style": "Trading Style",
+                    "Speculative": "Speculative",
+                    "Passive": "Passive",
+                    "SearchingThemes": "Searching themes",
+                    "SelectedThemes": "Selected Themes",
+                    "SearchingUniverses": "Searching universes",
+                    "SelectedUniverses": "Selected universes",
+                    "SearchingNames": "Searching names",
+                    "SelectedNames": "Selected names"
                 },
                 "SearchFund": "Search a quant fund"
             },
@@ -425,7 +442,6 @@
                     "SubTitle": "Select the environmental settings on which this trading algorithm will be run.",
                     "StartDate": "Start date",
                     "EndDate": "End date",
-                    "Timeframe": "Timeframe",
                     "SelectUniverse": "Please select your universe",
                     "MoreOptions": "more options",
                     "LessOptions": "less options",
@@ -434,11 +450,22 @@
                     "AllocatedFunds": "Allocated Funds",
                     "BaseCurrency": "Base Currency",
                     "ExtendedMarket": "Extended Market Hours",
-                    "ExtendedMarketTooltip": "Hello World",
                     "UseTickData": "Use tick data",
-                    "UseTickDataTooltip": "Hello World",
                     "Add": "add new",
                     "Check": "check catalog",
+                    "Tooltips": {
+                        "StartDate": "Simulation Start Date",
+                        "EndDate": "Simulation End Date",
+                        "BrokerModel": "Simulated Broker Behaviour",
+                        "AccountType": "Broker Account Type",
+                        "AllocatedFunds": "Your initial balance",
+                        "BaseCurrency": "Account base currency",
+                        "ExtendedMarket": "When enabled, allow for extended market hours",
+                        "UseTickData": "Additional realism, takes more time"
+                    },
+                    "Timeframe": "Timeframe",
+                    "ExtendedMarketTooltip": "Hello World",
+                    "UseTickDataTooltip": "Hello World",
                     "UniverseAdd": {
                         "Title": "select a universe",
                         "Search": "search universe",
@@ -539,6 +566,28 @@
                     "Name": "Give your quant fund a name",
                     "Universe": "Select a universe",
                     "Module": "Select Modules"
+                },
+                "UniverseAdd": {
+                    "SelectUniverse": "SELECT A UNIVERSE",
+                    "SearchUniverse": "Search UNIVERSE",
+                    "NotListed": "Is your <b>universe</b> not listed above?",
+                    "New": "ADD NEW",
+                    "NoUniverses": "We could not find any universes",
+                    "CheckCatalog": "CHECK CATALOG"
+                },
+                "Modules": {
+                    "SelectModule": "SELECT A MODULE",
+                    "Params": "Parameters",
+                    "NotListed": "Is your module not listed above?",
+                    "NoModules": "We could not find any modules",
+                    "New": "NEW",
+                    "CheckCatalog": "CHECK CATALOG",
+                    "SearchTemplate": "Search module...",
+                    "Tooltips": {
+                        "Signal": "Signal Tooltip",
+                        "Money Management": "Money Management tooltip",
+                        "Risk Management": "Risk Management tooltip"
+                    }
                 }
             },
             "MySmartFund": "My Quant Fund",
@@ -698,7 +747,29 @@
                 "title": "Planned",
                 "tooltip": "This broker is not compatible yet"
             },
-            "Assettypes": "Asset types"
+            "Assettypes": "Asset types",
+            "Brokers": {
+                "FreeTrade": {
+                    "Name": "FreeTrade",
+                    "Description": "This European broker does not charge any commission on your trading"
+                },
+                "PaperTrading": {
+                    "Name": "Paper Investing",
+                    "Description": "This is a fake broker to allow for testing your Quant Funds in a safe environment with fake capital"
+                },
+                "Cobinhood": {
+                    "Name": "Cobinhood",
+                    "Description": "This Taiwan based crypto currency broker charges no commission for each trade"
+                },
+                "Binance": {
+                    "Name": "Binance",
+                    "Description": "This Japan based crypto currency broker charges commission of 0.1% of the trade value for each trade"
+                },
+                "HitBTC": {
+                    "Name": "HitBTC",
+                    "Description": "This European crypto currency broker charges commission of 0.1% of the trade value for each trade"
+                }
+            }
         },
         "Modules": {
             "Title": "modules",
@@ -824,6 +895,12 @@
                     "Name": "Your universe needs a title",
                     "Symbol": "Your universe needs a symbol",
                     "Weights": "Sum of all universe weights must be exactly 100%"
+                },
+                "Filters": {
+                    "SearchingFilters": "Searching filters",
+                    "SelectedFilters": "Selected filters",
+                    "Industries": "Industries",
+                    "Brokers": "Brokers"
                 }
             },
             "Tags": {
@@ -1139,6 +1216,9 @@
             "LastUpdated": "Last updated",
             "Open": "Open",
             "Description": "Description",
+            "SmartFunds": "Quant Funds",
+            "Universe": "Universe",
+            "News": "News",
             "Details": {
                 "AAPL": {
                     "Description": ""
@@ -1194,7 +1274,6 @@
                     "Universes": "Universes",
                     "Others": "Others",
                     "AssetType": "Asset type",
-                    "Theme": "Theme",
                     "Broker": "Broker",
                     "YearReturn": "1 Year return",
                     "MonthReturn": "1 Month return",
@@ -1202,7 +1281,11 @@
                     "Passive": "Passive",
                     "SelectedThemes": "Selected themes",
                     "SearchingThemes": "Searching themes",
-                    "Filters": "Filters"
+                    "Filters": "Filters",
+                    "Themes": "Themes",
+                    "DiscardFilters": "Discard all filters",
+                    "AdditionalFilters": "Additional filters",
+                    "Theme": "Theme"
                 },
                 "StatisticTab": {
                     "ROI": "ROI",
@@ -1210,7 +1293,8 @@
                     "1MROI": "1 MONTH RETURN",
                     "NetExpenseRatio": "NET EXPENSE RATIO",
                     "Drawdown": "DRAWDOWN",
-                    "Sharpe": "SHARPE"
+                    "Sharpe": "SHARPE",
+                    "SinceInception": "since inception"
                 },
                 "DetailsTabs": {
                     "PastPerformance": "Past performance",
@@ -1226,7 +1310,12 @@
                     "YR": "1 YR"
                 },
                 "ImportButton": "Import quant fund",
-                "BackButton": "Back"
+                "BackButton": "Back",
+                "NoDescription": "No description",
+                "Passive": {
+                    "Name": "Passive",
+                    "Description": "Quant Funds with a passive focus on investing."
+                }
             },
             "Modules": {
                 "AllModuleTypes": "All module types",
@@ -1284,7 +1373,8 @@
                 "BountyPayout": {
                     "EtherBountyPayoutAddress": "Ether Bounty Payout Address",
                     "Save": "Save",
-                    "SuccessSave": "Successfully saved."
+                    "SuccessSave": "Successfully saved.",
+                    "EnterAddress": "Enter bounty payout address"
                 },
                 "HistoryItemModal": {
                     "BountyType": "Bounty Type",
@@ -1297,6 +1387,11 @@
                     "Comment": "Comment",
                     "Message": "Message",
                     "Close": "Close"
+                },
+                "Adding": "adding",
+                "RequestErrors": {
+                    "Type": "Select bounty type",
+                    "Link": "Provide bounty link"
                 }
             },
             "Github": {
@@ -1334,7 +1429,8 @@
             "H1SubItem3Title": "Invest in your ideas",
             "H1SubItem3Text": "Do not agree with the way a quant fund works? Make any adjustments you want, all quant funds are open source. We have no closed doors.",
             "InvestInWhatYouBelieveIn": "Invest in what you believe in",
-            "ShowSmartFunds": "Show Quant Funds"
+            "ShowSmartFunds": "Show Quant Funds",
+            "H1OverTitle": "Quantler offers you the ability to create your personal automated investment fund, simulate your fund against historical data and then connect to a broker of your choice to start investing in any types of assets (equity, ETFs, Crypto Currencies)."
         },
         "SmartFund": {
             "MenuItem": "Quant Funds",
@@ -1368,7 +1464,8 @@
                 "DayTraders": "Speculative",
                 "Text1": "Fast quant funds hosted on low latency hosting facilities",
                 "LTInvestors": "Passive",
-                "Text2": "Quant funds for analyzing many assets on a monthly or yearly basis"
+                "Text2": "Quant funds for analyzing many assets on a monthly or yearly basis",
+                "SubTitle": "Whether you are speculative or a passive investor create a Quant Fund that fits your profile"
             },
             "QuantlerCompares": {
                 "Title": "See how Quantler compares",
@@ -1384,6 +1481,18 @@
                 "ETrade": "E*Trade",
                 "RoboAdvisory": "Robo Advisory"
             },
+            "FAQ": {
+                "FAQTitle": "Frequently Asked Questions",
+                "FAQMore": "view all faqs",
+                "FAQ1Title": "What are Quant Funds?",
+                "FAQ1Text": "Quant Funds are decentralized and digitalized alternatives to traditional investment funds",
+                "FAQ2Title": "How can I create my own Quant Fund?",
+                "FAQ2Text": "Login to Quantler and create or reuse an existing Quant Fund in minutes",
+                "FAQ3Title": "What are the costs for using a Quant Fund?",
+                "FAQ3Text": "We offer a low cost solution for hosting your Quant Funds which will start from just 1 USD p/month",
+                "FAQ4Title": "What if I do not have a Quant Fund?",
+                "FAQ4Text": "No problem, we have many publicly available Quant Funds to choose from"
+            },
             "Fit": "",
             "FitDayTitle": "",
             "FitDayText": "",
@@ -1396,12 +1505,15 @@
         },
         "Menu": {
             "What": "What we do",
-            "How": "How we do it",
-            "Why": "Why we do it",
             "Login": "Login",
             "Register": "Register",
             "Crowdfund": "Crowdfund",
-            "ICO": "ICO"
+            "ICO": "ICO",
+            "Pricing": "Pricing",
+            "AboutUs": "About us",
+            "BackToApp": "Back to app",
+            "How": "How we do it",
+            "Why": "Why we do it"
         },
         "Hosting": {
             "MenuItem": "Hosting",
@@ -1430,6 +1542,7 @@
             "H2TextItem2": "Quantler is broker-neutral, you can invest using any of the brokers compatible",
             "H2TitleItem3": "Invest what you want",
             "H2TextItem3": "Invest using any of the assets compatible with your selected broker",
+            "Planned": "Planned",
             "FAQTitle": "Frequently Asked Questions",
             "FAQMore": "view all faqs",
             "FAQ1Title": "What are Quant Funds?",
@@ -1439,8 +1552,7 @@
             "FAQ3Title": "What are the costs for using a Quant Fund?",
             "FAQ3Text": "We offer a low cost solution for hosting your Quant Funds which will start from just 1 USD p/month",
             "FAQ4Title": "What if I do not have a Quant Fund?",
-            "FAQ4Text": "No problem, we have many publicly available Quant Funds to choose from.",
-            "Planned": "Planned"
+            "FAQ4Text": "No problem, we have many publicly available Quant Funds to choose from."
         },
         "Pricing": {
             "MenuItem": "Pricing",
@@ -1474,11 +1586,11 @@
             "PricingBrokeragesSubTitle": "Quantler is not affiliated to any third party financial instution",
             "PricingBrokeragesEligible": "Eligibility",
             "PricingMonthly": "p/month",
-            "EquivalentValueCharged": "*Equivalent value charged in QAUNT tokens with a monthly payment schedule",
             "Planned": {
                 "Title": "Planned",
                 "Tooltip": "This broker is not compatible yet"
-            }
+            },
+            "EquivalentValueCharged": "*Equivalent value charged in QAUNT tokens with a monthly payment schedule"
         },
         "FAQ": {
             "MenuItem": "FAQ",
@@ -1524,6 +1636,23 @@
                         "q3": {
                             "title": "Are there any data related fees?",
                             "description": "No, we do not charge any additional fees for specific data. All data is available for all users on the platform."
+                        }
+                    }
+                },
+                "Topic3": {
+                    "topic": "Pricing",
+                    "questions": {
+                        "q1": {
+                            "title": "Can I cancel my subscription at any time?",
+                            "description": "Yes, you can stop any Quant Funds and cancel your current subscription at any time. This process is instant and does not require any additional processing time."
+                        },
+                        "q2": {
+                            "title": "How much does Quantler cost?",
+                            "description": "We charge a monthly hosting fee of $1, with no additional trading fees or suprises. Once your total allocated amount reaches $5,000, we switch to 0.25% of your total allocated value per year. We always charge you on a monthly basis."
+                        },
+                        "q3": {
+                            "title": "What is the minimum allocation amount?",
+                            "description": "We do not have a minimum amount that needs to be allocated to a Quant Fund you host. This can be less than 1.00 USD or above 10,000,000 USD."
                         }
                     }
                 }
@@ -1583,7 +1712,10 @@
                 "Password": "Password is required",
                 "PasswordsMatch": "Passwords do not match",
                 "AgreeTerms": "You must agree with terms"
-            }
+            },
+            "Login": "LOGIN",
+            "Register": "REGISTER",
+            "SessionExpired": "Your session has expired. Please log in again."
         },
         "Copyright": "All rights reserved.",
         "ICO": {
@@ -1622,10 +1754,6 @@
             "SharesText": "Run Quantler on your own machine and allow for incoming simulation requests (backtests). These simulations require a large amount of computational resources, miners are rewarded with Quant tokens for providing these resources.",
             "EULA": {
                 "Title": "Token delivery agreement",
-                "Intro": "Introduction",
-                "Text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel posuere lorem. Donec ut velit accumsan, ullamcorper neque et, mollis orci. Nam euismod nisl justo, non porta dui vestibulum non. Nunc urna dolor, bibendum convallis turpis eget, ornare gravida massa. Curabitur sem sem, tincidunt fringilla scelerisque at, imperdiet sit amet justo. Nunc nibh magna, suscipit dignissim tristique ac, faucibus ac ex. Nulla ornare nulla purus, ac pulvinar dui pulvinar porttitor. Maecenas vel mi nec lectus faucibus elementum vel non nulla.",
-                "Text2": "Proin at rhoncus tellus, id hendrerit augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non tristique orci. Nulla dolor odio, ultricies in sapien id, feugiat sollicitudin leo. Donec id malesuada nulla. Sed at dignissim nisl, vitae varius ipsum. Nunc nec ipsum in neque pharetra tempor. Donec vel urna in velit vestibulum dictum. Phasellus leo tellus, aliquet vel metus et, hendrerit laoreet nibh. Sed posuere fermentum bibendum. Etiam venenatis purus sit amet lacinia lacinia. Mauris id posuere felis, sit amet suscipit velit. Proin sed placerat mi. Aliquam erat volutpat.",
-                "Text3": "Etiam ut mi nec metus dapibus interdum. Curabitur at aliquam urna. Ut et nunc cursus, sodales eros ac, auctor risus. Fusce sit amet elit sed mauris accumsan condimentum ac vel lorem. Praesent sit amet mattis urna. Phasellus euismod elit et augue ultricies, eget venenatis diam vehicula. Sed non augue vel mauris vehicula volutpat. Vivamus velit odio, tincidunt sit amet turpis ac, tincidunt viverra lacus. Cras fringilla consequat imperdiet.",
                 "Agree1": "I hereby acknowledge that I have fully read, understood, and agree to the terms and conditions laid out for the QUANT Token Sale.",
                 "Agree2": "I understand QUANT tokens do not represent a share of any company and does not provide any form of dividends.",
                 "Agree3": "My jurisdictions allows me to buy these tokens during an initial offering, I take sole responsibility for any prohibitions that are put in place.",
@@ -1633,18 +1761,12 @@
                 "Accept": "I ACCEPT THE AGREEMENTS",
                 "BackToQuantler": "Back to Quantler",
                 "ReadMore": "Read More",
-                "AcceptAll": "You must agree with all conditions first"
-            },
-            "BUY": {
-                "QuantPurchaseInstructions": "QUANT Purchase Instructions",
-                "TransactionData": "Transaction Data must",
-                "The": "The",
-                "LearnMoreAbout": "Learn more about",
-                "QuantPurchaseInfo": " be sent with your transaction, or else it will be rejected! You may use any wallet that support tokens. Do not send ETH directly from exchanges (Kraken, Poloniex, Coinbase, etc) multisig wallets, of from other smart contracts, as you will not able to access your QUANT tokens.",
-                "ContractAddress": "Contract Address",
-                "GASS": "Gass Limit",
-                "CopyLink": "Copy Link",
-                "Copied": "Link copied to clipboard"
+                "AcceptAll": "You must agree with all conditions first",
+                "Text": "<p>The Terms and Conditions (the “T&amp;C”) apply to the buyer of the Quant token (“QUANT”) and future use of the Quantler platform. Please read the T&amp;C, as well as the white paper of the Quantler project before participating in the crowd-sale.</p> <ol> <li><p>Applicability <br> A. The following T&amp;C constitute the agreement (the “Agreement”) between Quantler B.V. (hereinafter “Quantler” or the “Company”), a private company with limited liability based in The Netherlands with a chamber of commerce number 62989545, and you (the “User”) with respect to the use and the purchase of the QUANT token. By using our services, you are agreeing to be bound by the T&amp;C in its latest version. You are aware that Quantler may change this T&amp;C at any time. Your continued use of the Quantler Platform means that you accept any new or modified terms.</p></li> <li><p>Services <br> A. Quantler is creating a technology for creating, sharing, analyzing and hosting self-created decentralized Quant Funds. The Company mission is to provide a low cost technological solution for personal wealth management. <br> B. The Quantler platform requires the use of QUANT tokens as means of payment.</p></li> <li><p>The QUANT Token <br> A. QUANT functions as means of payment on the Quantler platform, which will allow future Users to make use of Quantler platform services. Through the token sale, the future User acquires the future rights to make use of the Quantler platform. <br> B. QUANT does not have the legal qualification as a security, since it does not give any rights on dividends nor interest. QUANT is final and non-refundable. QUANT is not a share and does not give any right to participate or attend in the general meetings of Quantler. QUANT will not have a particular value outside of the Quantler platform. The purchase of QUANT shall therefore not be done for speculative usage. <br> C. QUANT can be purchased during the crowd sale directly from the Company or after the crowd sale at the Company or exchanger. <br> D. Any future User purchasing QUANT expressly acknowledges and represents that she/he has carefully reviewed the T&amp;C and fully understands the risks, costs and benefits associated with the purchase of this token as indicated in the T&amp;C.</p></li> <li><p>Knowledge Required <br> A. A future User undertaking to purchase QUANT in relation to the token sale should ensure that she/he understands and has significant experience of cryptocurrencies, blockchain systems and services, and that she/he fully understands the risks associated with the token sale as well as the mechanism related to the use of cryptocurrencies (incl. storage). <br> B. Quantler shall not be responsible for any loss of QUANT or situations making it impossible to access QUANT, which may result in any actions omissions of the future User or any person undertaking to acquire QUANT.</p></li> <li><p>Risks <br> A. Acquiring QUANT involves risks, in particular that Quantler may not be able to launch its operations and develop its platform. Therefore, and prior to acquiring QUANT, any future user should carefully consider the risks, costs, and benefits of acquiring QUANT within the crowd sale, and if necessary, obtain independent advice in this regard. Any interested person who is not in the position to accept nor understand the risks associated with the crowd sale (incl. the risks related to the non-development of Quantler platform and operations) or any other risks as indicated in the T&amp;C, should not acquire QUANT, at this stage or later.</p></li> <li><p>Self-Acquisition <br> A. Quantler is allowed to acquire at market price from the market QUANT in order to finance incentives for platform usage. The acquisition must be under the condition that no conflict of interests arise. Trough self-acquisition, Quantler is not allowed to perform operations such as manipulation of the QUANT market.</p></li> <li><p>Important Disclaimer <br> A. The T&amp;C shall not and cannot be considered as an invitation to enter into an investment of any kind. They do not constitute or relate in any way nor should they be considered as an offering of securities in any jurisdiction. The T&amp;C do not include or contain any information or indication that might be considered as a recommendation or that might be used to base any investment decision. QUANT is a utility token and is not intended to be used as an investment. <br> B. Quantler will be an operative entity managing a technology platform and QUANT is only a utility token. Therefore, Quantler is not a financial intermediary according to Dutch Law and is not required to obtain any authorization for anti-money laundering purpose. <br> C. Acquiring QAUNT shall not grant any right or influence over Quantler’s organization and governance to the purchase. <br> D. Employees of Quantler are allowed to operate with QUANT at market price if they are not in knowledge of information that may modify the market price of the token. <br> E. Regulatory authorities are carefully scrutinizing businesses and operations associated to cryptocurrencies in the world. In that respect, regulatory measures, investigations or actions may impact Quantler’s business and even limit or prevent it from developing its operations in the future. Any person undertaking to acquire QUANT must be aware that the Quantler business model and the T&amp;C may change or need to be modified because of new regulatory and compliance requirements from any applicable laws in any jurisdictions. In such case, purchasers and any person undertaking to acquire QUANT acknowledge and understand that neither Quantler nor any of its affiliates shall be held liable for any direct or indirect loss or damages caused by such changes. <br> F. Quantler will do its best to launch its operations and develop the Quantler platform. Any person undertaking to acquire QUANT acknowledges and understands that Quantler does not provide any guarantee that will manage to establish an operative platform and therefore it cannot guarantee that the QUANT can be used to purchase services on the platform. They acknowledge and understand therefore that Quantler (incl. its bodies and employees) assumes no liability or responsibility for any loss or damage that would result from or relate to the incapacity to use QUANT, except in the case of intentional misconduct or gross negligence.</p></li> <li><p>Representation and Warranties <br> A. By participating in the crowd-sale, the User agrees to the T&amp;C and in particular, they represent and warrant that they: <br> I. are authorized and have full power to purchase QUANT according to the laws that apply in their jurisdiction of domicile; <br> II. live in a jurisdiction which allows Quantler to sell the QUANT tokens trough crowd-sale without requiring any local authorization; <br> III. are familiar with all related regulations in the specific jurisdiction in which they are based and that purchasing cryptographic tokens in that jurisdiction is not prohibited, restricted or subject to additional conditions of any kind; <br> IV. are not a U.S. citizen, resident or entity (a “U.S. Person”) nor are they purchasing QUANT tokens or signing on behalf of a U.S. Person. <br> V. are not acting for the purpose of speculative investment; <br> VI. will not use the Token Sale for any illegal activity, including but not limited to money laundering and the financing of terrorism; <br> VII. are solely responsible for determining whether the acquisition of QUANT is appropriate for them; <br> VIII. are acquiring QUANT for future use of the Quantler platform; <br> IX. understands the risks associated with the crowd-sale (incl. the risk related to the non-development of Quantler platform and operations); and <br> X. understands the use of cryptocurrencies and the associated risks.</p></li> <li><p>Intellectual Property Rights <br> A. To the extent that copyright or other intellectual property rights exist in the Quantler platform, such as software, source code, know-how, analysis or programs, those copyrights and other intellectual and industrial rights belong to Quantler.</p></li> <li><p>Limitation of Liability <br> A. Quantler, as well as its officers, directors, agents, joint ventures, employees and suppliers, assume no liability or responsibility for any loss arising out of or related to the use of the Quantler platform or any technical, interruption or malfunction of the platform. <br> B. The limitation of liability set out above shall not be applicable in the event that Quantler, or a Quantler-employee, has caused the damage by intentional misconduct or by gross negligence.</p></li> <li><p>Severability <br> A. If any the provisions of the T&amp;C or the Agreement are deemed to be invalid, void or unenforceable, the remaining provisions shall continue in full force and effect.</p></li> <li><p>Applicable Law and Jurisdiction <br> A. The T&amp;C are subject to and governed by Dutch Law. All disputes arising from or under these T&amp;C shall be resolved by arbitration in accordance with a Dutch Court in The Netherlands.</p></li> </ol>",
+                "Intro": "Introduction",
+                "Text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel posuere lorem. Donec ut velit accumsan, ullamcorper neque et, mollis orci. Nam euismod nisl justo, non porta dui vestibulum non. Nunc urna dolor, bibendum convallis turpis eget, ornare gravida massa. Curabitur sem sem, tincidunt fringilla scelerisque at, imperdiet sit amet justo. Nunc nibh magna, suscipit dignissim tristique ac, faucibus ac ex. Nulla ornare nulla purus, ac pulvinar dui pulvinar porttitor. Maecenas vel mi nec lectus faucibus elementum vel non nulla.",
+                "Text2": "Proin at rhoncus tellus, id hendrerit augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non tristique orci. Nulla dolor odio, ultricies in sapien id, feugiat sollicitudin leo. Donec id malesuada nulla. Sed at dignissim nisl, vitae varius ipsum. Nunc nec ipsum in neque pharetra tempor. Donec vel urna in velit vestibulum dictum. Phasellus leo tellus, aliquet vel metus et, hendrerit laoreet nibh. Sed posuere fermentum bibendum. Etiam venenatis purus sit amet lacinia lacinia. Mauris id posuere felis, sit amet suscipit velit. Proin sed placerat mi. Aliquam erat volutpat.",
+                "Text3": "Etiam ut mi nec metus dapibus interdum. Curabitur at aliquam urna. Ut et nunc cursus, sodales eros ac, auctor risus. Fusce sit amet elit sed mauris accumsan condimentum ac vel lorem. Praesent sit amet mattis urna. Phasellus euismod elit et augue ultricies, eget venenatis diam vehicula. Sed non augue vel mauris vehicula volutpat. Vivamus velit odio, tincidunt sit amet turpis ac, tincidunt viverra lacus. Cras fringilla consequat imperdiet."
             },
             "Errors": {
                 "Name": "Please enter your name",
@@ -1739,7 +1861,9 @@
                 "Q4": "Do I need to be whitelisted to buy these tokens?",
                 "A4": "During the initial token sale we will require every purchaser to whitelist him or herself. You can whitelist yourself in advance. Whitelisting involves providing your identity for KYC (Known Your Customer) and AML (Anti Money Laundering) processes. Both KYC and AML are only needed during the initial token sale, the use of our platform does not require any KYC/AML.",
                 "Q5": "Are there any restrictions in applying for the token sale?",
-                "A5": "Due to regulatory reasons, we will not accept participants from People's Republic of China, United States, South Korea and New Zealand. Other interested parties are welcomed to participate. QUANT Token is being developed as a utility token, and is not intended to be a security or regulated product in any jurisdiction, nor have we been reviewed by any regulatory authority. Anyone considering participation should assess the risks associated with digital assets and platforms."
+                "A5": "Due to regulatory reasons, we will not accept participants from People's Republic of China, United States, South Korea and New Zealand. Other interested parties are welcomed to participate. QUANT Token is being developed as a utility token, and is not intended to be a security or regulated product in any jurisdiction, nor have we been reviewed by any regulatory authority. Anyone considering participation should assess the risks associated with digital assets and platforms.",
+                "Q6": "Where can I find your Smart Contract?",
+                "A6": "You can find the source code of our Smart Contract on github (https://github.com/Quantler/contracts). The contract address for our ICO will be communicated one hour before the ICO starts via SMS."
             },
             "ContactUs": {
                 "Title": "Contact us and say hi",
@@ -1750,7 +1874,56 @@
                 "FullName": "Full Name",
                 "Email": "Email address",
                 "Phone": "Phone",
-                "Message": "Your Message"
+                "Message": "Your Message",
+                "MessageSent": "Your message has been successfully sent. We will contact you very soon!"
+            },
+            "MeetQuantler": "Meet Quantler",
+            "MeetQuantlerDescr": "With Quantler you can create your own automated investment funds. We call these Quant Funds. Quant Funds are decentralized and digitalized alternatives to traditional investment funds.",
+            "MeetQuantlerStartDate": "Starting 2nd of April 2018 you have the unique opportunity to buy QUANT tokens, you can get whitelisted today!",
+            "Card3": "Incentivizing",
+            "Card3Text": "Quantler is open source, you can fully run your own Quant Funds on your own environment. When you help to improve and extend the Quantler's open source ecosystem you will in turn receive QUANT tokens.",
+            "BUY": {
+                "WhitelistIdentification": "Whitelist Identification",
+                "Step1": "Step 1",
+                "Step2": "Step 2",
+                "Step3": "Step 3",
+                "Step4": "Step 4",
+                "Step1Desc": "Download the Yoti app",
+                "Step2Desc": "Register yourself and get your identity verified",
+                "Step3Desc": "Log in using Yoti to continue",
+                "Note": "Note: if you are already whitelisted you can continue",
+                "Step4Desc": "Fill in the ether wallet address you want to whitelist and the estimated amount you are going to spend (max 10.000 USD or equivalent per identity, email quant@quantler.com for an increased max)",
+                "EnterAddress": "Ether address",
+                "EnterAmount": "Estimated Amount",
+                "InputEnterAddressPH": "Enter your ethereum address",
+                "EstimatedAmountToBuy": "Estimated amount to buy",
+                "InputEnterAmountPH": "Enter estimated amount",
+                "Currency": "Currency",
+                "SuccessfullyAdded": "Your address has been successfully added",
+                "FailedToAdd": "There was an error while adding your address",
+                "Errors": {
+                    "Address": "Enter your ether address",
+                    "Amount": "Enter estimated amount to buy",
+                    "Currency": "Choose currency",
+                    "VerifyIdentity": "Verify your identity"
+                },
+                "AddRequest": "Add request",
+                "BackToQuantler": "Back to Quantler",
+                "YourIdentity": "Your identity",
+                "FullName": "Full Name",
+                "Country": "Country",
+                "YourWhitelistedAddresses": "Your whitelisted address",
+                "WrongCountry": "ERROR: Sorry, we cannot whitelist your wallet address due to the following reason: citizens from your country are not permitted during our initial token sale.",
+                "InitialOfferingNote": "The initial offering has not started yet, therefore you cannot continue. The contract address will be shown once we are live. Our website is the only way to know and verify the correct contract address!",
+                "QuantPurchaseInstructions": "QUANT Purchase Instructions",
+                "TransactionData": "Transaction Data must",
+                "The": "The",
+                "LearnMoreAbout": "Learn more about",
+                "QuantPurchaseInfo": " be sent with your transaction, or else it will be rejected! You may use any wallet that support tokens. Do not send ETH directly from exchanges (Kraken, Poloniex, Coinbase, etc) multisig wallets, of from other smart contracts, as you will not able to access your QUANT tokens.",
+                "ContractAddress": "Contract Address",
+                "GASS": "Gass Limit",
+                "CopyLink": "Copy Link",
+                "Copied": "Link copied to clipboard"
             }
         }
     }
