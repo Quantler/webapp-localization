@@ -110,12 +110,17 @@
             "DisclaimerAgree": "",
             "DisclaimerButton": "",
             "AcceptFirst": "",
-            "EquitiesTitle": "",
-            "EquitiesText": "",
             "ETFTitle": "",
             "ETFText": "",
             "CryptoTitle": "",
-            "CryptoText": ""
+            "CryptoText": "",
+            "EquityTitle": "",
+            "EquityText": "",
+            "EquityDescr": "",
+            "ETFDescr": "",
+            "CryptoDescr": "",
+            "EquitiesTitle": "",
+            "EquitiesText": ""
         },
         "Management": {
             "Title": "",
@@ -200,6 +205,11 @@
             },
             "NewsBar": {
                 "NoDataText": "No news available"
+            },
+            "AttachmentTabs": {
+                "Performance": "",
+                "Modules": "",
+                "Universe": ""
             }
         },
         "Discussions": {
@@ -343,7 +353,10 @@
                     "Title": "General",
                     "Description": "General"
                 }
-            }
+            },
+            "NoUniverses": "",
+            "NoModules": "",
+            "NoQuantFunds": ""
         },
         "General": {
             "Update": "",
@@ -542,6 +555,12 @@
                         "EndingCapital": "",
                         "ErrorsFound": "",
                         "ROI": ""
+                    },
+                    "StatHeaders": {
+                        "Statistics": "",
+                        "Current": "",
+                        "Prev": "",
+                        "Diff": ""
                     }
                 },
                 "Dialog": {
@@ -588,7 +607,14 @@
                         "Money Management": "",
                         "Risk Management": ""
                     }
-                }
+                },
+                "Types": {
+                    "Signal": "",
+                    "Money Management": "",
+                    "Risk Management": ""
+                },
+                "Done": "",
+                "Error": ""
             },
             "MySmartFund": "",
             "SelectPremade": "",
@@ -768,6 +794,10 @@
                 "HitBTC": {
                     "Name": "",
                     "Description": ""
+                },
+                "Robinhood": {
+                    "Name": "",
+                    "Description": ""
                 }
             }
         },
@@ -797,7 +827,11 @@
                 "CreateTitle": "",
                 "ModuleName": "",
                 "ModuleNamePlaceholder": "",
-                "ModuleType": ""
+                "ModuleType": "",
+                "Next": "",
+                "Creating": "",
+                "Close": "",
+                "Done": ""
             },
             "SettingsPanel": {
                 "NameTooltip": "",
@@ -1162,7 +1196,10 @@
                 }
             },
             "NoUniversesFound": "",
-            "NoUniversesFoundDescr": ""
+            "NoUniversesFoundDescr": "",
+            "BackTo": "",
+            "Index": "",
+            "Benchmark": ""
         },
         "Symbol": {
             "KeyFinancials": "",
@@ -1315,6 +1352,26 @@
                 "Passive": {
                     "Name": "",
                     "Description": ""
+                },
+                "Crypto": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "FundOfFunds": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowCost": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowRisk": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "BestPerforming": {
+                    "Name": "",
+                    "Description": ""
                 }
             },
             "Modules": {
@@ -1324,7 +1381,8 @@
                     "PostReply": "",
                     "Reply": "",
                     "BackTo": ""
-                }
+                },
+                "All": ""
             }
         },
         "Bounty": {
@@ -1715,7 +1773,8 @@
             },
             "Login": "",
             "Register": "",
-            "SessionExpired": ""
+            "SessionExpired": "",
+            "SignIn": ""
         },
         "Copyright": "",
         "ICO": {
@@ -1863,19 +1922,21 @@
                 "Q5": "",
                 "A5": "",
                 "Q6": "",
-                "A6": ""
+                "A6": "",
+                "Q7": "",
+                "A7": ""
             },
             "ContactUs": {
                 "Title": "",
                 "Text": "",
-                "Text2": "",
                 "NumberOfChamber": "",
                 "SendMessage": "",
                 "FullName": "",
                 "Email": "",
                 "Phone": "",
                 "Message": "",
-                "MessageSent": ""
+                "MessageSent": "",
+                "Text2": ""
             },
             "MeetQuantler": "",
             "MeetQuantlerDescr": "",
