@@ -110,12 +110,17 @@
             "DisclaimerAgree": "I have read and understand the statement above",
             "DisclaimerButton": "continue",
             "AcceptFirst": "Agree to the terms first",
-            "EquitiesTitle": "Equities",
-            "EquitiesText": "Enable equity investing",
             "ETFTitle": "ETFs & ETCs",
             "ETFText": "Enable ETF & ETC investing",
             "CryptoTitle": "Crypto",
-            "CryptoText": "Enable crypto currency investing"
+            "CryptoText": "Enable crypto currency investing",
+            "EquityTitle": "Equities",
+            "EquityText": "Enable equity investing",
+            "EquityDescr": "Equities",
+            "ETFDescr": "Exchange Traded Funds",
+            "CryptoDescr": "Crypto Currencies",
+            "EquitiesTitle": "Equities",
+            "EquitiesText": "Enable equity investing"
         },
         "Management": {
             "Title": "Management",
@@ -200,6 +205,11 @@
             },
             "NewsBar": {
                 "NoDataText": "No news available"
+            },
+            "AttachmentTabs": {
+                "Performance": "Performance",
+                "Modules": "Modules",
+                "Universe": "Universe"
             }
         },
         "Discussions": {
@@ -343,7 +353,10 @@
                     "Title": "General",
                     "Description": "General"
                 }
-            }
+            },
+            "NoUniverses": "No Universes found",
+            "NoModules": "No Modules found",
+            "NoQuantFunds": "No Quant Funds found"
         },
         "General": {
             "Update": "Update",
@@ -542,6 +555,12 @@
                         "EndingCapital": "Ending capital",
                         "ErrorsFound": "Errors found",
                         "ROI": "ROI"
+                    },
+                    "StatHeaders": {
+                        "Statistics": "Statistics",
+                        "Current": "Current",
+                        "Prev": "Previous",
+                        "Diff": "Difference"
                     }
                 },
                 "Dialog": {
@@ -588,7 +607,14 @@
                         "Money Management": "Money Management tooltip",
                         "Risk Management": "Risk Management tooltip"
                     }
-                }
+                },
+                "Types": {
+                    "Signal": "Signal",
+                    "Money Management": "Money Management",
+                    "Risk Management": "Risk Management"
+                },
+                "Done": "Start Hosting",
+                "Error": "Error"
             },
             "MySmartFund": "My Quant Fund",
             "SelectPremade": "OR SELECT A PRE-MADE STRATEGY",
@@ -768,6 +794,10 @@
                 "HitBTC": {
                     "Name": "HitBTC",
                     "Description": "This European crypto currency broker charges commission of 0.1% of the trade value for each trade"
+                },
+                "Robinhood": {
+                    "Name": "Robinhood",
+                    "Description": "Robinhood description"
                 }
             }
         },
@@ -797,7 +827,11 @@
                 "CreateTitle": "Create Module",
                 "ModuleName": "Modules Name",
                 "ModuleNamePlaceholder": "Define your module name",
-                "ModuleType": "Module Type"
+                "ModuleType": "Module Type",
+                "Next": "next",
+                "Creating": "creating",
+                "Close": "close",
+                "Done": "done"
             },
             "SettingsPanel": {
                 "NameTooltip": "Module Name",
@@ -1162,7 +1196,10 @@
                 }
             },
             "NoUniversesFound": "No universes found. Try searching again",
-            "NoUniversesFoundDescr": "It seems your search query did not come up with results. Try making changes to your filters above."
+            "NoUniversesFoundDescr": "It seems your search query did not come up with results. Try making changes to your filters above.",
+            "BackTo": "Back to Universes",
+            "Index": "Index",
+            "Benchmark": "Benchmark"
         },
         "Symbol": {
             "KeyFinancials": "Key Financials",
@@ -1315,6 +1352,26 @@
                 "Passive": {
                     "Name": "Passive",
                     "Description": "Quant Funds with a passive focus on investing."
+                },
+                "Crypto": {
+                    "Name": "Crypto",
+                    "Description": "Crypto currency focused Quant Funds."
+                },
+                "FundOfFunds": {
+                    "Name": "Fund Of Funds",
+                    "Description": "Quant Funds, consisting of only other funds."
+                },
+                "LowCost": {
+                    "Name": "Low Cost",
+                    "Description": "Low cost oriented Quant Funds."
+                },
+                "LowRisk": {
+                    "Name": "Low Risk",
+                    "Description": "Quant Funds that are more stable and less risky."
+                },
+                "BestPerforming": {
+                    "Name": "Best Performing",
+                    "Description": "An overview of the best performing Quant Funds."
                 }
             },
             "Modules": {
@@ -1324,7 +1381,8 @@
                     "PostReply": "Post a reply",
                     "Reply": "Reply",
                     "BackTo": "Back to"
-                }
+                },
+                "All": "ALL"
             }
         },
         "Bounty": {
@@ -1715,7 +1773,8 @@
             },
             "Login": "LOGIN",
             "Register": "REGISTER",
-            "SessionExpired": "Your session has expired. Please log in again."
+            "SessionExpired": "Your session has expired. Please log in again.",
+            "SignIn": "Sign In"
         },
         "Copyright": "All rights reserved.",
         "ICO": {
@@ -1863,19 +1922,21 @@
                 "Q5": "Are there any restrictions in applying for the token sale?",
                 "A5": "Due to regulatory reasons, we will not accept participants from People's Republic of China, United States, South Korea and New Zealand. Other interested parties are welcomed to participate. QUANT Token is being developed as a utility token, and is not intended to be a security or regulated product in any jurisdiction, nor have we been reviewed by any regulatory authority. Anyone considering participation should assess the risks associated with digital assets and platforms.",
                 "Q6": "Where can I find your Smart Contract?",
-                "A6": "You can find the source code of our Smart Contract on github (https://github.com/Quantler/contracts). The contract address for our ICO will be communicated one hour before the ICO starts via SMS."
+                "A6": "You can find the source code of our Smart Contract on github (https://github.com/Quantler/contracts). The contract address for our ICO will be communicated one hour before the ICO starts via SMS.",
+                "Q7": "How can I participate with your ICO bounty?",
+                "A7": "You can find more information regarding our ICO bounty using the following link: <a href='https://cdn.quantler.com/files/ICOBounty.pdf' target='blank' rel='noopener noreferrer'>https://cdn.quantler.com/files/ICOBounty.pdf</a>. Note: even though citizens from the People's Republic of China, United States and New Zealand are excluded from participating in our ICO, they are allowed to participate in our bounty program!"
             },
             "ContactUs": {
                 "Title": "Contact us and say hi",
                 "Text": "Feel free to contact us to provide some feedback on our product, give us suggestions for new ideas, or to just say hello!",
-                "Text2": "",
                 "NumberOfChamber": "Chamber of commerce",
                 "SendMessage": "Send Message",
                 "FullName": "Full Name",
                 "Email": "Email address",
                 "Phone": "Phone",
                 "Message": "Your Message",
-                "MessageSent": "Your message has been successfully sent. We will contact you very soon!"
+                "MessageSent": "Your message has been successfully sent. We will contact you very soon!",
+                "Text2": ""
             },
             "MeetQuantler": "Meet Quantler",
             "MeetQuantlerDescr": "With Quantler you can create your own automated investment funds. We call these Quant Funds. Quant Funds are decentralized and digitalized alternatives to traditional investment funds.",
