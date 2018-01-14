@@ -2,30 +2,30 @@
     "WebApp": {
         "RightMenu": {
             "Languages": {
-                "ru": "Russian",
+                "ru": "Русский",
                 "en": "English",
-                "ar": "Arabic",
-                "de": "German",
-                "es": "Spanish",
-                "fr": "French",
-                "it": "Italian",
-                "ja": "Japanese",
-                "ko": "Korean",
-                "nl": "Dutch",
-                "pt": "Portuguese",
-                "zh": "Chinese"
+                "ar": "العربية",
+                "de": "Deutsch",
+                "es": "Español",
+                "fr": "Français",
+                "it": "Italiano",
+                "ja": "日本語",
+                "ko": "한국어",
+                "nl": "Nederlands",
+                "pt": "Português",
+                "zh": "中文"
             },
-            "Subscription": "Huidig Abonnement",
-            "Statistics": "Gebruik",
-            "Language": "Taal",
-            "StatisticsAnalyzed": "Jaren data geanalyseerd",
-            "StatisticsModules": "Aantal modules",
-            "HelpTranslate": "Help Vertalen",
-            "SettingsFirstName": "Voornaam",
-            "SettingsLastName": "Achternaam",
-            "SettingsEmail": "Email Adres",
-            "SettingsNewsletter": "Nieuwsbrief",
-            "SettingsLogOut": "Uitloggen",
+            "Subscription": "",
+            "Statistics": "",
+            "Language": "",
+            "StatisticsAnalyzed": "",
+            "StatisticsModules": "",
+            "HelpTranslate": "",
+            "SettingsFirstName": "",
+            "SettingsLastName": "",
+            "SettingsEmail": "",
+            "SettingsNewsletter": "",
+            "SettingsLogOut": "",
             "BacktestPower": "",
             "StatisticsBacktests": "",
             "SettingsAPIKeys": "",
@@ -45,125 +45,128 @@
         },
         "LeftMenu": {
             "Items": {
-                "Subscription": "Mijn Abbonnement",
-                "SmartFunds": "Smart Funds",
-                "Dashboard": "Dashboard",
-                "Management": "Beheer",
-                "Modules": "Modules",
-                "Universes": "Universes",
-                "Discussions": "Discussies",
-                "Catalog": "Catalogus",
-                "Help": "Help & FAQs"
+                "Subscription": "",
+                "SmartFunds": "",
+                "Dashboard": "",
+                "Management": "",
+                "Modules": "",
+                "Universes": "",
+                "Discussions": "",
+                "Catalog": "",
+                "Help": ""
             },
             "Text": {
-                "Hosting": "Fund Hosting",
-                "Lab": "Fund Lab",
-                "Community": "Community",
-                "Documentation": "Documentatie"
+                "Hosting": "",
+                "Lab": "",
+                "Community": "",
+                "Documentation": ""
             },
-            "Support": "Ondersteuning"
+            "Support": ""
         },
         "Dashboard": {
-            "Title": "Dashboard",
+            "Title": "",
             "Hosting": {
-                "Status": "Hosting Status",
-                "View": "bekijk hosting beheer",
-                "NoSubscription": "Geen hosting abonnement aanwezig",
+                "Status": "",
+                "View": "",
+                "NoSubscription": "",
                 "NoSubscriptionText": "",
-                "NoSubscriptionButton": "neem een hosting abbonement"
+                "NoSubscriptionButton": ""
             },
             "Statistics": {
-                "Backtest": "Totale simulatie tijd",
-                "Allocated": "Huidige hoeveelheid gealloceerd",
-                "Storage": "Opslag Limiet"
+                "Backtest": "",
+                "Allocated": "",
+                "Storage": ""
             },
             "Create": {
-                "Title": "Maak uw eigen Smart Fund",
-                "CatalogTitle": "Krijg Inspiratie",
-                "CatalogText": "Verken onze catalogus voor verschillende modules gemaakt door de community",
-                "CatalogButton": "Bekijk Catalogus",
-                "UniversesTitle": "Handel waarin u wilt",
+                "Title": "",
+                "CatalogTitle": "",
+                "CatalogText": "",
+                "CatalogButton": "",
+                "UniversesTitle": "",
                 "UniversesText": "",
-                "UniversesButton": "Maak Universe",
-                "CreateTitle": "Investeer in uw idee",
+                "UniversesButton": "",
+                "CreateTitle": "",
                 "CreateText": "",
-                "CreateButton": "Creëer Smart Fund"
+                "CreateButton": ""
             },
             "WhatsHappening": {
-                "Title": "De laatste updates",
-                "Discussions": "Discussies",
-                "Modules": "Modules",
-                "SmartFunds": "Smart Funds",
-                "Universes": "Universes",
-                "News": "Nieuws",
-                "DicussionTitleBar": "zie discussies",
-                "ModulesTitleBar": "zie modules",
-                "SmartFundsTitleBar": "zie smart funds",
-                "UniversesTitleBar": "zie universes"
+                "Title": "",
+                "Discussions": "",
+                "Modules": "",
+                "SmartFunds": "",
+                "Universes": "",
+                "News": "",
+                "DicussionTitleBar": "",
+                "ModulesTitleBar": "",
+                "SmartFundsTitleBar": "",
+                "UniversesTitleBar": ""
             }
         },
         "Onboarding": {
             "AssetTypeTitle": "",
             "AssetTypeSubTitle": "",
-            "DisclaimerTitle": "Voorwaarden",
+            "DisclaimerTitle": "",
             "DisclaimerText": "",
-            "DisclaimerAgree": "Ik heb het bovenstaande gelezen en ga akkoord",
-            "DisclaimerButton": "Doorgaan",
+            "DisclaimerAgree": "",
+            "DisclaimerButton": "",
             "AcceptFirst": "",
-            "EquitiesTitle": "",
-            "EquitiesText": "",
             "ETFTitle": "",
             "ETFText": "",
             "CryptoTitle": "",
-            "CryptoText": ""
+            "CryptoText": "",
+            "EquityTitle": "",
+            "EquityText": "",
+            "EquityDescr": "",
+            "ETFDescr": "",
+            "CryptoDescr": ""
         },
         "Management": {
-            "Title": "Beheer",
-            "Select": "Selecteer uw hosting",
-            "HostingTitle": "Hosting",
-            "HostingLocation": "Locatie",
-            "HostingLatency": "Vertraging",
-            "DelayNotice": "Data kan verouderd zijn, controleer uw broker voor een accurate representatie",
+            "Title": "",
+            "Select": "",
+            "HostingTitle": "",
+            "HostingLocation": "",
+            "HostingLatency": "",
+            "DelayNotice": "",
             "SettledCash": "",
             "UnsettledCash": "",
-            "Positions": "Posities",
-            "Equity": "Waarden",
-            "FreeMargin": "Vrije Margin",
-            "NoHostingTitle": "Er is geen hosting abonnement gevonden",
+            "Positions": "",
+            "Equity": "",
+            "FreeMargin": "",
+            "NoHostingTitle": "",
             "NoHostingSubTitle": "",
-            "NoHostingButton": "neem een hosting abbonement",
-            "NoAccount": "Geen account gevonden",
+            "NoHostingButton": "",
+            "NoAccount": "",
             "FundDetails": {
-                "TabPositionsTitle": "Posities",
-                "TabTradesTitle": "Transacties",
-                "TabOrdersTitle": "Orders",
-                "TabLoggingTitle": "Logging",
-                "Bought": "Gekocht",
-                "Sold": "Verkocht",
-                "SinceInception": "Vanaf begin"
+                "TabPositionsTitle": "",
+                "TabTradesTitle": "",
+                "TabOrdersTitle": "",
+                "TabLoggingTitle": "",
+                "Bought": "",
+                "Sold": "",
+                "SinceInception": ""
             },
             "Account": {
-                "NoHosting": "No hosting running",
-                "Account": "Account",
-                "Balance": "Balance",
-                "Equity": "Equity",
-                "FloatingROI": "Floating ROI"
+                "NoHosting": "",
+                "Account": "",
+                "Balance": "",
+                "Equity": "",
+                "FloatingROI": ""
             }
         },
         "Components": {
             "DiscussionBar": {
-                "Views": "Gezien",
-                "Replies": "Beantwoord",
-                "LastReply": "Laatst geantwoord",
+                "Views": "",
+                "Replies": "",
+                "LastReply": "",
                 "NoReplies": "",
                 "QuantfundsAttached": "",
                 "UniversesAttached": "",
                 "ModulesAttached": ""
             },
             "SmartFundBar": {
-                "MonthReturn": "1 Maand Resultaat",
-                "YearReturn": "1 Jaar Resultaat",
-                "Daytrading": "Speculatief",
+                "MonthReturn": "",
+                "YearReturn": "",
+                "Daytrading": "",
                 "Title": "",
                 "TitleBacktest": "",
                 "NoDataText": "",
@@ -174,18 +177,18 @@
                 "DrawDownChartLabel": ""
             },
             "ModulesBar": {
-                "View": "Bekijk module",
-                "Details": "Details",
+                "View": "",
+                "Details": "",
                 "Title": ""
             },
             "Pagination": {
-                "LoadMore": "Meer Laden",
+                "LoadMore": "",
                 "Loading": ""
             },
             "UniverseBar": {
-                "IndexValue": "Index Waarden",
-                "YearReturn": "1 Jaar Resultaat",
-                "CreatedBy": "Gemaakt door",
+                "IndexValue": "",
+                "YearReturn": "",
+                "CreatedBy": "",
                 "Title": "",
                 "Overview": "",
                 "NoDataText": ""
@@ -199,28 +202,33 @@
                 "AllThemes": ""
             },
             "NewsBar": {
-                "NoDataText": "No news available"
+                "NoDataText": ""
+            },
+            "AttachmentTabs": {
+                "Performance": "",
+                "Modules": "",
+                "Universe": ""
             }
         },
         "Discussions": {
-            "Title": "Discussies",
-            "CreateNewPost": "maak nieuwe discussie",
-            "AllTags": "Alle Tags",
+            "Title": "",
+            "CreateNewPost": "",
+            "AllTags": "",
             "PostDetails": {
-                "BacktestPerformance": "Performance",
-                "AddAttachment": "Bijlagen toevoegen",
-                "PostAReply": "Verstuur antwoord",
-                "PostAReplyPlaceholder": "Type hier uw antwoord",
+                "BacktestPerformance": "",
+                "AddAttachment": "",
+                "PostAReply": "",
+                "PostAReplyPlaceholder": "",
                 "TypeAReplyFirst": "",
                 "Reply": "",
                 "Posting": ""
             },
             "CreatePost": {
-                "PostTitle": "Post Titel",
-                "PostTitlePlaceholder": "Type hier uw titel",
-                "Tags": "Tags",
-                "ShowMoreTags": "Laad meer tags",
-                "AddAttachment": "Bijlagen toevoegen",
+                "PostTitle": "",
+                "PostTitlePlaceholder": "",
+                "Tags": "",
+                "ShowMoreTags": "",
+                "AddAttachment": "",
                 "ShowLessTags": "",
                 "PostAReplyPlaceholder": "",
                 "Post": "",
@@ -236,182 +244,185 @@
             "NoDiscussionsDesc": "",
             "Tags": {
                 "Investing": {
-                    "Title": "Investing",
-                    "Description": "Investing"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Symbol": {
-                    "Title": "Symbol",
-                    "Description": "Symbol"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Backtesting": {
-                    "Title": "Backtesting",
-                    "Description": "Backtesting"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Subscription": {
-                    "Title": "Subscription",
-                    "Description": "Subscription"
+                    "Title": "",
+                    "Description": ""
                 },
                 "FAQ": {
-                    "Title": "FAQ",
-                    "Description": "FAQ"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Day Trading": {
-                    "Title": "Day Trading",
-                    "Description": "Day Trading"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Trending": {
-                    "Title": "Trending",
-                    "Description": "Trending"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Hosting": {
-                    "Title": "Hosting",
-                    "Description": "Hosting"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Stat. Arbitrage": {
-                    "Title": "Stat. Arbitrage",
-                    "Description": "Stat. Arbitrage"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Seasonal": {
-                    "Title": "Seasonal",
-                    "Description": "Seasonal"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Equities": {
-                    "Title": "Equities",
-                    "Description": "Equities"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Development": {
-                    "Title": "Development",
-                    "Description": "Development"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Catalog": {
-                    "Title": "Catalog",
-                    "Description": "Catalog"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Universe": {
-                    "Title": "Universe",
-                    "Description": "Universe"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Market Data": {
-                    "Title": "Market Data",
-                    "Description": "Market Data"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Tools And Tips": {
-                    "Title": "Tools And Tips",
-                    "Description": "Tools And Tips"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Exit": {
-                    "Title": "Exit",
-                    "Description": "Exit"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Entry": {
-                    "Title": "Entry",
-                    "Description": "Entry"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Money Management": {
-                    "Title": "Money Management",
-                    "Description": "Money Management"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Risk Management": {
-                    "Title": "Risk Management",
-                    "Description": "Risk Management"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Live Trading": {
-                    "Title": "Live Trading",
-                    "Description": "Live Trading"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Getting Started": {
-                    "Title": "Getting Started",
-                    "Description": "Getting Started"
+                    "Title": "",
+                    "Description": ""
                 },
                 "News": {
-                    "Title": "News",
-                    "Description": "News"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Feature Request": {
-                    "Title": "Feature Request",
-                    "Description": "Feature Request"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Colleboration Request": {
-                    "Title": "Colleboration Request",
-                    "Description": "Colleboration Request"
+                    "Title": "",
+                    "Description": ""
                 },
                 "Help Request": {
-                    "Title": "Help Request",
-                    "Description": "Help Request"
+                    "Title": "",
+                    "Description": ""
                 },
                 "General": {
-                    "Title": "General",
-                    "Description": "General"
+                    "Title": "",
+                    "Description": ""
                 }
-            }
+            },
+            "NoUniverses": "",
+            "NoModules": "",
+            "NoQuantFunds": ""
         },
         "General": {
-            "Update": "Bijwerken",
-            "Delete": "Verwijderen",
-            "Account": "Account",
-            "On": "Aan",
-            "Off": "Uit",
+            "Update": "",
+            "Delete": "",
+            "Account": "",
+            "On": "",
+            "Off": "",
             "Deployed": "",
-            "Allocated": "Gealloceerd",
-            "Symbol": "Symbool",
-            "Direction": "Richting",
-            "Size": "Grootte",
-            "Changed": "Veranderd",
-            "Price": "Prijs",
-            "Margin": "Marge",
-            "Start": "Start",
-            "Stop": "Stop",
-            "Reply": "Beantwoord",
-            "Trades": "Transacties",
-            "Fills": "Fills",
-            "Date": "Datum",
-            "Time": "Tijd",
-            "Quantity": "Aantal",
-            "Difference": "Verschil",
-            "Allocation": "Gealloceerd",
-            "Sharing": "Delen",
-            "Public": "Publiek",
-            "Setup": "Installatie",
-            "Checking": "Controleren",
-            "Continue": "Doorgaan",
-            "Close": "Sluiten",
-            "Country": "Land",
-            "Balance": "Balans",
-            "Equity": "Waarden",
+            "Allocated": "",
+            "Symbol": "",
+            "Direction": "",
+            "Size": "",
+            "Changed": "",
+            "Price": "",
+            "Margin": "",
+            "Start": "",
+            "Stop": "",
+            "Reply": "",
+            "Trades": "",
+            "Fills": "",
+            "Date": "",
+            "Time": "",
+            "Quantity": "",
+            "Difference": "",
+            "Allocation": "",
+            "Sharing": "",
+            "Public": "",
+            "Setup": "",
+            "Checking": "",
+            "Continue": "",
+            "Close": "",
+            "Country": "",
+            "Balance": "",
+            "Equity": "",
             "Floating": "",
-            "Type": "Type",
-            "Description": "Omschrijving",
-            "File": "Bestand",
-            "Line": "Lijn",
-            "Save": "Opslaan",
-            "Name": "Naam",
-            "Title": "Titel",
-            "Module": "Module",
-            "Values": "Waarden",
-            "Broker": "Broker",
-            "Daytrading": "Speculatief",
-            "LongTermTrading": "Investeren",
+            "Type": "",
+            "Description": "",
+            "File": "",
+            "Line": "",
+            "Save": "",
+            "Name": "",
+            "Title": "",
+            "Module": "",
+            "Values": "",
+            "Broker": "",
+            "Daytrading": "",
+            "LongTermTrading": "",
             "Saving": ""
         },
         "Backtester": {
-            "Title": "smart fund",
-            "MySmartFunds": "Mijn smart fund",
-            "CreateNew": "Maak nieuwe",
+            "Title": "",
+            "MySmartFunds": "",
+            "CreateNew": "",
             "Overview": {
                 "NoFundTitle": "",
                 "NoFundSubTitle": "",
                 "SuggestionTitle": "",
-                "Size": "Grootte",
-                "BacktestHistory": "Simulatie historie",
+                "Size": "",
+                "BacktestHistory": "",
                 "Filters": {
-                    "Status": "Hosting Status",
-                    "Sharpe": "Sharpe",
-                    "DD": "Verlies",
-                    "ROI": "ROI",
-                    "NER": "Net Expense Ratio",
-                    "Time": "Altijd",
-                    "Modules": "Modules",
-                    "Universes": "Universes",
+                    "Status": "",
+                    "Sharpe": "",
+                    "DD": "",
+                    "ROI": "",
+                    "NER": "",
+                    "Time": "",
+                    "Modules": "",
+                    "Universes": "",
                     "LiveTrading": "",
                     "DemoTrading": "",
                     "Name": "",
@@ -436,9 +447,9 @@
                 "SearchFund": ""
             },
             "Create": {
-                "Name": "Smart Fund Naam",
+                "Name": "",
                 "Settings": {
-                    "Title": "simulatie instellingen",
+                    "Title": "",
                     "SubTitle": "",
                     "StartDate": "",
                     "EndDate": "",
@@ -450,9 +461,9 @@
                     "AllocatedFunds": "",
                     "BaseCurrency": "",
                     "ExtendedMarket": "",
-                    "UseTickData": "Gebruik tick data",
-                    "Add": "nieuwe toevoegen",
-                    "Check": "zie catalogus",
+                    "UseTickData": "",
+                    "Add": "",
+                    "Check": "",
                     "Tooltips": {
                         "StartDate": "",
                         "EndDate": "",
@@ -462,26 +473,14 @@
                         "BaseCurrency": "",
                         "ExtendedMarket": "",
                         "UseTickData": ""
-                    },
-                    "Timeframe": "",
-                    "ExtendedMarketTooltip": "",
-                    "UseTickDataTooltip": "",
-                    "UniverseAdd": {
-                        "Title": "selecteer universe",
-                        "Search": "zoek universe",
-                        "NotListed": ""
-                    },
-                    "ModulesAdd": {
-                        "Title": "Selecteer een module",
-                        "NotListed": ""
                     }
                 },
                 "Logic": {
                     "Title": "",
                     "SubTitle": "",
                     "SubTitlePreset": "",
-                    "Choose": "Kies",
-                    "Overwrite": "Overschrijven",
+                    "Choose": "",
+                    "Overwrite": "",
                     "SelectAPreset": "",
                     "EntryTooltip": "",
                     "ExitTooltip": "",
@@ -498,20 +497,14 @@
                     "Preset3": {
                         "Name": "",
                         "Description": ""
-                    },
-                    "Preset1Name": "",
-                    "Preset1Description": "",
-                    "Preset2Name": "",
-                    "Preset2Description": "",
-                    "Preset3Name": "Leeg",
-                    "Preset3Description": ""
+                    }
                 },
                 "Results": {
                     "Title": "",
                     "SubTitle": "",
                     "PerformanceOverview": "",
-                    "Summary": "Overzicht",
-                    "TradingPeriod": "Handels Periode",
+                    "Summary": "",
+                    "TradingPeriod": "",
                     "GrossPnlTooltip": "",
                     "TotalNetProfitTooltip": "",
                     "ROITooltip": "",
@@ -542,24 +535,30 @@
                         "EndingCapital": "",
                         "ErrorsFound": "",
                         "ROI": ""
+                    },
+                    "StatHeaders": {
+                        "Statistics": "",
+                        "Current": "",
+                        "Prev": "",
+                        "Diff": ""
                     }
                 },
                 "Dialog": {
-                    "Title": "Start hosting omgeving",
-                    "Select": "Selecteer uw broker account",
-                    "AccountBalance": "Rekening Balans",
+                    "Title": "",
+                    "Select": "",
+                    "AccountBalance": "",
                     "CurrencyAllocated": "",
                     "FreeForAllocation": "",
                     "PublicText": "",
-                    "SeeTerms": "Zie Voorwaarden",
+                    "SeeTerms": "",
                     "AddBrokerageTitle": "",
                     "AddBrokerageDesc": "",
                     "AwaitingSetup": "",
                     "WarningMessage": ""
                 },
-                "NextStep": "volgende stap",
-                "RunBacktest": "start simulatie",
-                "StartHosting": "start hosting",
+                "NextStep": "",
+                "RunBacktest": "",
+                "StartHosting": "",
                 "NamePlaceholder": "",
                 "SelectPreset": "",
                 "Errors": {
@@ -588,7 +587,14 @@
                         "Money Management": "",
                         "Risk Management": ""
                     }
-                }
+                },
+                "Types": {
+                    "Signal": "",
+                    "Money Management": "",
+                    "Risk Management": ""
+                },
+                "Done": "",
+                "Error": ""
             },
             "MySmartFund": "",
             "SelectPremade": "",
@@ -613,7 +619,7 @@
             "BackToSmartfunds": ""
         },
         "MySubscription": {
-            "Title": "Mijn Abbonement",
+            "Title": "",
             "CommissionFree": "",
             "OtherBrokers": "",
             "License": "",
@@ -644,18 +650,18 @@
                 "Step1PersonalInfo": {
                     "Title": "",
                     "SubTitle": "",
-                    "Name": "Naam",
+                    "Name": "",
                     "PhoneNumber": "",
                     "Country": "",
-                    "Address": "Adres",
-                    "StateRegion": "Staat/Regio",
-                    "City": "Stad",
-                    "Street": "Straat, Huis, Apt",
-                    "Zip": "Postcode"
+                    "Address": "",
+                    "StateRegion": "",
+                    "City": "",
+                    "Street": "",
+                    "Zip": ""
                 },
                 "Step2ServiceAgreement": {
                     "SubTitle": "",
-                    "AgreeTitle": "Gebruikersovereenkomst",
+                    "AgreeTitle": "",
                     "AgreeText": "",
                     "Privacy": "",
                     "AgreementParagraph1": "",
@@ -664,62 +670,62 @@
                     "AgreementParagraph4": ""
                 },
                 "Step3PaymentInformation": {
-                    "Title": "Betaal Informatie",
+                    "Title": "",
                     "SubTitle": "",
-                    "Provide": "BETAAL INFORMATIE OPGEVEN"
+                    "Provide": ""
                 },
                 "Step4Completed": {
-                    "Title": "Succes!",
+                    "Title": "",
                     "SubTitle": "",
-                    "Started": "ABONNEMENT GESTART",
-                    "Connect": "VERBIND UW BROKER"
+                    "Started": "",
+                    "Connect": ""
                 },
                 "Country": "",
                 "CountryHint": "",
                 "Tooltips": {
-                    "Personal Information": "Personal Information",
-                    "Service Agreement": "Service Agreement",
-                    "Payment": "Payment",
-                    "Broker Details": "Broker Details"
+                    "Personal Information": "",
+                    "Service Agreement": "",
+                    "Payment": "",
+                    "Broker Details": ""
                 },
                 "CheckOutModal": {
-                    "Getstarted": "You need Quantcoins to get started",
-                    "Description": "Quantcoins are needed to proceed and start trading. They are still available and ready for you to pick up",
-                    "CHECKOUTICO": "CHECKOUT ICO"
+                    "Getstarted": "",
+                    "Description": "",
+                    "CHECKOUTICO": ""
                 },
                 "Tiers": {
                     "Tier1": {
-                        "Title": "tier 1",
-                        "Feature1Title": "Automated portfolio management",
-                        "Feature1Tooltip": "Automated portfolio management",
-                        "Feature2Title": "Tax-efficient investing features",
-                        "Feature2Tooltip": "Tax-efficient investing features",
-                        "Feature3Title": "New account only",
-                        "Feature3Tooltip": "New account only",
-                        "AllocatedFunds": "Allocated funds",
-                        "Price": "free",
+                        "Title": "",
+                        "Feature1Title": "",
+                        "Feature1Tooltip": "",
+                        "Feature2Title": "",
+                        "Feature2Tooltip": "",
+                        "Feature3Title": "",
+                        "Feature3Tooltip": "",
+                        "AllocatedFunds": "",
+                        "Price": "",
                         "PayPeriod": ""
                     },
                     "Tier2": {
-                        "Title": "tier 2",
-                        "Feature1Title": "Automated portfolio management",
-                        "Feature1Tooltip": "Automated portfolio management",
-                        "Feature2Title": "Tax-efficient investing features",
-                        "Feature2Tooltip": "Tax-efficient investing features",
-                        "Feature3Title": "New account only",
-                        "Feature3Tooltip": "New account only",
-                        "AllocatedFunds": "Allocated funds",
-                        "Price": "~0.25% OF TOTAL",
-                        "PayPeriod": "annually",
-                        "Additional": "0,242657% effectively"
+                        "Title": "",
+                        "Feature1Title": "",
+                        "Feature1Tooltip": "",
+                        "Feature2Title": "",
+                        "Feature2Tooltip": "",
+                        "Feature3Title": "",
+                        "Feature3Tooltip": "",
+                        "AllocatedFunds": "",
+                        "Price": "",
+                        "PayPeriod": "",
+                        "Additional": ""
                     }
                 }
             },
             "Overview": {
-                "Title": "Overzicht Abonnement",
-                "ManagePayment": "Betalingen Beheren",
-                "Current": "Huidig",
-                "Running": "Actief",
+                "Title": "",
+                "ManagePayment": "",
+                "Current": "",
+                "Running": "",
                 "Shared": "",
                 "SmartFundShared": "",
                 "AllocateReduced": "",
@@ -741,11 +747,11 @@
                 "CantFind": "",
                 "ActiveHosting": "",
                 "Compatible": "",
-                "Adding": "Toevoegen"
+                "Adding": ""
             },
             "Planned": {
-                "title": "Planned",
-                "tooltip": "This broker is not compatible yet"
+                "title": "",
+                "tooltip": ""
             },
             "Assettypes": "",
             "Brokers": {
@@ -768,36 +774,42 @@
                 "HitBTC": {
                     "Name": "",
                     "Description": ""
+                },
+                "Robinhood": {
+                    "Name": "",
+                    "Description": ""
                 }
             }
         },
         "Modules": {
-            "Title": "modules",
-            "Add": "nieuwe module toevoegen",
+            "Title": "",
+            "Add": "",
             "AddPopup": {
-                "DefineTitle": "Module Definieren",
+                "DefineTitle": "",
                 "DefineText": "",
-                "DescTitle": "Omschrijving",
+                "DescTitle": "",
                 "DescText": "",
-                "DoneTitle": "Klaar!",
+                "DoneTitle": "",
                 "DoneText": "",
                 "ModuleNameTooltip": "",
                 "ModuleTypeTooltip": "",
                 "TypeYourDescription": "",
                 "ModuleReady": "",
-                "SelectAModule": "Selecteer een module",
+                "SelectAModule": "",
                 "SelectAModuleDesc": "",
                 "Types": {
                     "RM": "",
                     "MM": "",
-                    "Signal": "",
-                    "Entry": "",
-                    "Exit": ""
+                    "Signal": ""
                 },
                 "CreateTitle": "",
                 "ModuleName": "",
                 "ModuleNamePlaceholder": "",
-                "ModuleType": ""
+                "ModuleType": "",
+                "Next": "",
+                "Creating": "",
+                "Close": "",
+                "Done": ""
             },
             "SettingsPanel": {
                 "NameTooltip": "",
@@ -823,7 +835,7 @@
             "Line": "",
             "NoErrors": "",
             "Parameter": "",
-            "Parameters": "Parameters",
+            "Parameters": "",
             "BackTo": "",
             "File": "",
             "Description": "",
@@ -839,31 +851,31 @@
             }
         },
         "Universe": {
-            "Title": "universes",
-            "Add": "nieuwe universe toevoegen",
+            "Title": "",
+            "Add": "",
             "Overview": {
-                "AlreadyShared": "Reeds Gedeeld",
-                "FinalizeFirst": "Eerst Afronden",
-                "Delete": "Universe Verwijderen",
+                "AlreadyShared": "",
+                "FinalizeFirst": "",
+                "Delete": "",
                 "EmptyUniversesTitle": "",
                 "EmptyUniversesDesc": "",
-                "EmptyUniversesSuggestions": "Universe Suggesties",
+                "EmptyUniversesSuggestions": "",
                 "AreYouSure": "",
                 "SuggestionTitle": "",
                 "SelectUniverse": ""
             },
             "Item": {
-                "Index": "Index afgelopen jaar",
-                "Autosaved": "Automatisch Opgeslagen",
-                "Created": "Gemaakt door",
-                "DescriptionPlaceholder": "Universe Omschrijving",
-                "SearchPlaceholder": "Symbool of bedrijfsnaam",
-                "Name": "Naam",
-                "Symbol": "Symbool",
-                "Weight": "Gewicht",
-                "Price": "Prijs",
-                "MarketCap": "Market Cap",
-                "Delete": "Verwijderen",
+                "Index": "",
+                "Autosaved": "",
+                "Created": "",
+                "DescriptionPlaceholder": "",
+                "SearchPlaceholder": "",
+                "Name": "",
+                "Symbol": "",
+                "Weight": "",
+                "Price": "",
+                "MarketCap": "",
+                "Delete": "",
                 "Industry": "",
                 "EmptySymbolsTitle": "",
                 "EmptySymbolsDesc": "",
@@ -913,19 +925,19 @@
                     "Description": ""
                 },
                 "Pharma": {
-                    "Title": "Pharmaseutisch",
+                    "Title": "",
                     "Description": ""
                 },
                 "Agriculture": {
-                    "Title": "Landbouw",
+                    "Title": "",
                     "Description": ""
                 },
                 "Real Estate": {
-                    "Title": "Onroerend Goed",
+                    "Title": "",
                     "Description": ""
                 },
                 "Automotive": {
-                    "Title": "Auto Industrie",
+                    "Title": "",
                     "Description": ""
                 },
                 "World": {
@@ -953,28 +965,28 @@
                     "Description": ""
                 },
                 "Emerging Markets": {
-                    "Title": "Emerging Markets",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                    "Title": "",
+                    "Description": ""
                 },
                 "Financial Services": {
                     "Title": "",
                     "Description": ""
                 },
                 "Food and Beverages": {
-                    "Title": "Food and Beverages",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                    "Title": "",
+                    "Description": ""
                 },
                 "Precious Metals": {
-                    "Title": "Precious Metals",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                    "Title": "",
+                    "Description": ""
                 },
                 "Social Responsibility": {
-                    "Title": "Social Responsibility",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                    "Title": "",
+                    "Description": ""
                 },
                 "Oil and Gas": {
-                    "Title": "Oil and Gas",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
+                    "Title": "",
+                    "Description": ""
                 },
                 "Welness": {
                     "Title": "",
@@ -999,192 +1011,35 @@
                 "Fund of Funds": {
                     "Title": "",
                     "Description": ""
-                },
-                "LowVolatility": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "LifeScience": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "NewTechnologies": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "SocialMedia": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "Aviation": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "Leisure": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "SportAndFitness": {
-                    "Title": "Sport en Fitness",
-                    "Description": ""
-                },
-                "Wellness": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "HealthyLifestyle": {
-                    "Title": "Gezonde Levenstijl",
-                    "Description": ""
-                },
-                "AlternativeEnergy": {
-                    "Title": "Alternatieve Energie",
-                    "Description": ""
-                },
-                "Semiconductor": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "Biotech": {
-                    "Title": "Biotechnologie",
-                    "Description": ""
-                },
-                "Cleantech": {
-                    "Title": "Cleantech",
-                    "Description": ""
-                },
-                "SmartGrid": {
-                    "Title": "Smart Grid",
-                    "Description": ""
-                },
-                "WindEnergy": {
-                    "Title": "Wind Energie",
-                    "Description": ""
-                },
-                "SolarEnergy": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "InternetOfThings": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "OilAndGas": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "FoodAndBeverages": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "WasteManagement": {
-                    "Title": "Afval Management",
-                    "Description": ""
-                },
-                "Water": {
-                    "Title": "Water",
-                    "Description": ""
-                },
-                "Lithium": {
-                    "Title": "Lithium",
-                    "Description": ""
-                },
-                "PreciousMetals": {
-                    "Title": "Edele Metalen",
-                    "Description": ""
-                },
-                "IndustrialMetals": {
-                    "Title": "Industriële Metalen",
-                    "Description": ""
-                },
-                "Gold": {
-                    "Title": "Goud",
-                    "Description": ""
-                },
-                "SocialResponsibility": {
-                    "Title": "Social Verantwoord",
-                    "Description": ""
-                },
-                "EmergingMarkets": {
-                    "Title": "",
-                    "Description": ""
-                },
-                "Low Volatility": {
-                    "Title": "Low Volatility",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Life Science": {
-                    "Title": "Life Science",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "New Technologies": {
-                    "Title": "New Technologies",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Social Media": {
-                    "Title": "Social Media",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Sport And Fitness": {
-                    "Title": "Sport And Fitness",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Healthy Lifestyle": {
-                    "Title": "Healthy Lifestyle",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Alternative Energy": {
-                    "Title": "Alternative Energy",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Smart Grid": {
-                    "Title": "Smart Grid",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "WindE nergy": {
-                    "Title": "Wind Energy",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Solar Energy": {
-                    "Title": "Solar Energy",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Internet Of Things": {
-                    "Title": "Internet Of Things",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Waste Management": {
-                    "Title": "Waste Management",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
-                },
-                "Industrial Metals": {
-                    "Title": "Industrial Metals",
-                    "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
                 }
             },
             "NoUniversesFound": "",
-            "NoUniversesFoundDescr": ""
+            "NoUniversesFoundDescr": "",
+            "BackTo": "",
+            "Index": "",
+            "Benchmark": ""
         },
         "Symbol": {
             "KeyFinancials": "",
-            "Website": "Website",
-            "Currency": "Valuta",
+            "Website": "",
+            "Currency": "",
             "DayRange": "",
             "52WeekRange": "",
             "LastPrice": "",
-            "Shares": "Aandelen",
-            "MarketCap": "Market Cap",
-            "EPS": "EPS",
-            "PERatio": "P/E Ratio",
-            "Div Yield": "Div Yield",
-            "Sponsor": "Sponsor",
-            "AssetClass": "Beleggingscategorie",
-            "NER": "Net Expense Ratio",
-            "AvgDaily": "Gem. Dagelijks Volume",
-            "AvailableSupply": "Handelbare Hoeveelheid",
-            "TotalSupply": "Totale Hoeveelheid",
-            "PopupNoDesc": "Geen Omschrijving",
-            "MoreDetails": "Zie meer details",
-            "Price": "Prijs",
+            "Shares": "",
+            "MarketCap": "",
+            "EPS": "",
+            "PERatio": "",
+            "Div Yield": "",
+            "Sponsor": "",
+            "AssetClass": "",
+            "NER": "",
+            "AvgDaily": "",
+            "AvailableSupply": "",
+            "TotalSupply": "",
+            "PopupNoDesc": "",
+            "MoreDetails": "",
+            "Price": "",
             "52Week": "",
             "Returns": "",
             "1MO": "",
@@ -1218,27 +1073,22 @@
             "Description": "",
             "SmartFunds": "",
             "Universe": "",
-            "News": "",
-            "Details": {
-                "AAPL": {
-                    "Description": ""
-                }
-            }
+            "News": ""
         },
         "Catalog": {
             "Title": "",
             "Universe": {
-                "Tag": "Zie bij tag",
-                "Popular": "Zie populair",
-                "All": "Zie alles",
-                "ShowAll": "Zie alle {0} universes",
+                "Tag": "",
+                "Popular": "",
+                "All": "",
+                "ShowAll": "",
                 "Top1Y": "",
                 "Top1M": ""
             },
             "SmartFunds": {
-                "CautionTitle": "Waarschuwing",
+                "CautionTitle": "",
                 "CautionText": "",
-                "IGotIt": "Akkoord",
+                "IGotIt": "",
                 "NoSmartFundsFound": "",
                 "NoSmartFundsFoundDescr": "",
                 "Overview": "",
@@ -1263,15 +1113,15 @@
                     "Description": ""
                 },
                 "Filters": {
-                    "Style": "Trading Style",
-                    "Activity": "Activity",
-                    "Sharpe": "Sharpe",
-                    "DD": "Drawdown",
-                    "ROI": "ROI",
-                    "NER": "Net Expense Ratio",
-                    "Time": "All Time",
-                    "Modules": "All Modules",
-                    "Universes": "Universes",
+                    "Style": "",
+                    "Activity": "",
+                    "Sharpe": "",
+                    "DD": "",
+                    "ROI": "",
+                    "NER": "",
+                    "Time": "",
+                    "Modules": "",
+                    "Universes": "",
                     "Others": "",
                     "AssetType": "",
                     "Broker": "",
@@ -1284,8 +1134,7 @@
                     "Filters": "",
                     "Themes": "",
                     "DiscardFilters": "",
-                    "AdditionalFilters": "",
-                    "Theme": ""
+                    "AdditionalFilters": ""
                 },
                 "StatisticTab": {
                     "ROI": "",
@@ -1315,6 +1164,26 @@
                 "Passive": {
                     "Name": "",
                     "Description": ""
+                },
+                "Crypto": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "FundOfFunds": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowCost": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowRisk": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "BestPerforming": {
+                    "Name": "",
+                    "Description": ""
                 }
             },
             "Modules": {
@@ -1323,18 +1192,19 @@
                 "Item": {
                     "PostReply": "",
                     "Reply": "",
-                    "BackTo": "Terug naar"
-                }
+                    "BackTo": ""
+                },
+                "All": ""
             }
         },
         "Bounty": {
-            "Title": "bounties",
+            "Title": "",
             "ICO": {
-                "Tab": "ICO Bounty",
-                "PayoutTitle": "bounty uitbetalingen",
-                "PayoutShareFriends": "<b>Deel met vrienden</b> 25 points p/share",
-                "PayoutFollowTwitter": "<b>Volg ons op Twitter:</b> 500 points",
-                "PayoutFollowFacebook": "<b>Volg ons op Facebook:</b> 500 points",
+                "Tab": "",
+                "PayoutTitle": "",
+                "PayoutShareFriends": "",
+                "PayoutFollowTwitter": "",
+                "PayoutFollowFacebook": "",
                 "ForumSignature": "",
                 "BlogPost": "",
                 "AffiliateLink": "",
@@ -1348,24 +1218,24 @@
                 "Performance": "",
                 "LinkClicks": "",
                 "FriendsShared": "",
-                "Translations": "Vertalingen",
-                "BlogPosts": "Blog Posts",
-                "SocialMedia": "Sociale Media",
-                "OtherPromotionsItem": "Overige Promoties",
-                "Points": "Punten",
-                "Note": "Waarschuwing: de getallen hierboven zijn ramingen, door afrondingen en timing issues kunnen de getallen afwijken",
-                "AddBounty": "bounty verzoek toevoegen",
-                "BountyType": "Bounty Type",
-                "BountyLink": "Bounty Link",
-                "Message": "Bericht",
-                "AddRequest": "verzoek toevoegen",
-                "BountyHistory": "bounty historie",
+                "Translations": "",
+                "BlogPosts": "",
+                "SocialMedia": "",
+                "OtherPromotionsItem": "",
+                "Points": "",
+                "Note": "",
+                "AddBounty": "",
+                "BountyType": "",
+                "BountyLink": "",
+                "Message": "",
+                "AddRequest": "",
+                "BountyHistory": "",
                 "HistoryTable": {
-                    "Type": "Type",
-                    "Occured": "Datum",
-                    "Points": "Punten",
-                    "Approved": "Akkoord",
-                    "Comment": "Commentaar"
+                    "Type": "",
+                    "Occured": "",
+                    "Points": "",
+                    "Approved": "",
+                    "Comment": ""
                 },
                 "BountyLinkPlaceholder": "",
                 "MessagePlaceholder": "",
@@ -1395,14 +1265,14 @@
                 }
             },
             "Github": {
-                "Tab": "Github Bounty",
+                "Tab": "",
                 "UnderDevelopmentTitle": "",
                 "UnderDevelopmentText": ""
             }
         },
         "AnnouncementBar": {
-            "title": "ANNOUNCEMENT",
-            "description": "Invest from £15 in our equity crowdfunding round"
+            "title": "",
+            "description": ""
         },
         "NotOptimizedForMobile": {
             "Title": "",
@@ -1418,39 +1288,36 @@
     },
     "LandingPage": {
         "Welcome": {
-            "Title": "Welkom bij Quantler",
-            "SubTitle": "Alternatieve vermogensbeheer, tegen alternatieve prijzen",
-            "H1Title": "Makkelijk geautomatiseerd beleggen",
-            "H1SubTitle": "De allereerste geautomatiseerde handelsomgeving die aansluit op uw behoefte",
-            "H1SubItem1Title": "Krijg Inspiratie",
-            "H1SubItem1Text": "asd",
-            "H1SubItem2Title": "Handel waarin u wilt",
+            "Title": "",
+            "SubTitle": "",
+            "H1Title": "",
+            "H1SubTitle": "",
+            "H1SubItem1Title": "",
+            "H1SubItem1Text": "",
+            "H1SubItem2Title": "",
             "H1SubItem2Text": "",
-            "H1SubItem3Title": "Investeer in uw idee",
+            "H1SubItem3Title": "",
             "H1SubItem3Text": "",
             "InvestInWhatYouBelieveIn": "",
             "ShowSmartFunds": "",
             "H1OverTitle": ""
         },
         "SmartFund": {
-            "MenuItem": "Geautomatiseerd Handelen",
-            "Title": "Bereik uw financieel doel, zonder compromise",
+            "MenuItem": "",
+            "Title": "",
             "SubTitle": "",
-            "H1Title": "Iedere investeerder is unique, zo ook ieder Smart Fund",
-            "H1SubTitle": "Maak een Smart Fund, zonder een regel te programmeren",
+            "H1Title": "",
+            "H1SubTitle": "",
             "GetStarted": "",
             "Text1": "",
             "Text2": "",
-            "Text3": "",
-            "H1Item1Text": "Universes, definieert waarin u wilt investeren",
-            "H1Item2Text": "Maak uw eigen Smart Fund",
-            "H1Item3Text": "Simuleer en analyseer een smart fund met de kracht van de cloud"
+            "Text3": ""
         },
         "General": {
-            "Create": "Creëer uw Smart Fund",
+            "Create": "",
             "Start": "",
-            "GetStarted": "aan de slag",
-            "NoLock": "Geen Lock-In",
+            "GetStarted": "",
+            "NoLock": "",
             "NoLockText": "",
             "ComapreAligned": "",
             "CompareOwnership": "",
@@ -1492,31 +1359,20 @@
                 "FAQ3Text": "",
                 "FAQ4Title": "",
                 "FAQ4Text": ""
-            },
-            "Fit": "",
-            "FitDayTitle": "Speculatief",
-            "FitDayText": "",
-            "FitLongTitle": "Lang-Termijn Beleggen",
-            "FitLongText": "",
-            "CompareTitle": "",
-            "CompareCosts": "Kosten",
-            "CompareMinimum": "Minimale Investering",
-            "CompareCustom": ""
+            }
         },
         "Menu": {
-            "What": "Wat wij doen",
-            "Login": "Inloggen",
-            "Register": "Registreren",
+            "What": "",
+            "Login": "",
+            "Register": "",
             "Crowdfund": "",
             "ICO": "",
             "Pricing": "",
             "AboutUs": "",
-            "BackToApp": "",
-            "How": "Hoe wij dit doen",
-            "Why": "Waarom wij dit doen"
+            "BackToApp": ""
         },
         "Hosting": {
-            "MenuItem": "Hosting",
+            "MenuItem": "",
             "Title": "",
             "H1Title": "",
             "H1SubTitle": "",
@@ -1540,28 +1396,18 @@
             "H2TextItem1": "",
             "H2TitleItem2": "",
             "H2TextItem2": "",
-            "H2TitleItem3": "Handel waarin u wilt",
+            "H2TitleItem3": "",
             "H2TextItem3": "",
-            "Planned": "",
-            "FAQTitle": "",
-            "FAQMore": "zie alle faqs",
-            "FAQ1Title": "",
-            "FAQ1Text": "",
-            "FAQ2Title": "",
-            "FAQ2Text": "",
-            "FAQ3Title": "",
-            "FAQ3Text": "",
-            "FAQ4Title": "",
-            "FAQ4Text": ""
+            "Planned": ""
         },
         "Pricing": {
-            "MenuItem": "Kosten",
-            "Title": "Wanneer iedere stuiver telt",
-            "SubTitle": "Alternatieve vermogensbeheer, tegen alternatieve prijzen.",
-            "H1Title": "Transparant beleggen, transparante kosten",
-            "H1Item1Title": "Geen beheer fees.",
+            "MenuItem": "",
+            "Title": "",
+            "SubTitle": "",
+            "H1Title": "",
+            "H1Item1Title": "",
             "H1Item1Text": "",
-            "H1Item2Title": "Geen performance fees.",
+            "H1Item2Title": "",
             "H1Item2Text": "",
             "H1Item3Title": "",
             "H1Item3Text": "",
@@ -1580,8 +1426,8 @@
             "PricingTier2Item2": "",
             "PricingTier2Item3": "",
             "PricingAllocated": "",
-            "PricingFree": "Gratis",
-            "PricingYearly": "p/jaar",
+            "PricingFree": "",
+            "PricingYearly": "",
             "PricingBrokeragesTitle": "",
             "PricingBrokeragesSubTitle": "",
             "PricingBrokeragesEligible": "",
@@ -1589,14 +1435,13 @@
             "Planned": {
                 "Title": "",
                 "Tooltip": ""
-            },
-            "EquivalentValueCharged": ""
+            }
         },
         "FAQ": {
-            "MenuItem": "FAQ",
-            "Title": "Waar kunnen wij u bij assisteren?",
-            "Ask": "Stel een vraag...",
-            "Topics": "Topics",
+            "MenuItem": "",
+            "Title": "",
+            "Ask": "",
+            "Topics": "",
             "NoQuestionsFound": "",
             "ContactUs": "",
             "HeadOffice": "",
@@ -1656,20 +1501,10 @@
                         }
                     }
                 }
-            },
-            "Topic1Title": "Veel voorkomende vragen",
-            "Topic1Questions1Title": "",
-            "Topic1Questions1Comment": "",
-            "Topic1Questions2Title": "",
-            "Topic1Questions2Comment": "",
-            "Topic2Title": "",
-            "Topic2Questions1Title": "",
-            "Topic2Questions1Comment": "",
-            "Topic2Questions2Title": "",
-            "Topic2Questions2Comment": ""
+            }
         },
         "Why": {
-            "Title": "Waarom Quantler?",
+            "Title": "",
             "SubTitle": "",
             "H1Title": "",
             "BenefitsTitle": "",
@@ -1684,20 +1519,20 @@
         },
         "Login": {
             "Email": "",
-            "Password": "Wachtwoord",
+            "Password": "",
             "Forgot": "",
-            "Or": "Of",
+            "Or": "",
             "SignInFacebook": "",
             "SignInGoogle": "",
             "SignUpFacebook": "",
             "SignUpGoogle": "",
             "TermsAgree": "",
             "Warning": "",
-            "RegisterName": "Volledige Naam",
-            "RegisterEmail": "Email Adres",
-            "RegisterPassword": "Wachtwoord",
-            "RegisterPasswordRetype": "Wachtwoord Herhalen",
-            "IAgree": "Ik ga akkoord met de voorwaarden",
+            "RegisterName": "",
+            "RegisterEmail": "",
+            "RegisterPassword": "",
+            "RegisterPasswordRetype": "",
+            "IAgree": "",
             "SignUp": "",
             "WrongEmail": "",
             "PasswordsNotMatch": "",
@@ -1715,9 +1550,10 @@
             },
             "Login": "",
             "Register": "",
-            "SessionExpired": ""
+            "SessionExpired": "",
+            "SignIn": ""
         },
-        "Copyright": "Alle rechten voorbehouden.",
+        "Copyright": "",
         "ICO": {
             "DecentralizingWallStreet": "",
             "FromSmartContractsToETF": "",
@@ -1762,11 +1598,7 @@
                 "BackToQuantler": "",
                 "ReadMore": "",
                 "AcceptAll": "",
-                "Text": "",
-                "Intro": "",
-                "Text1": "",
-                "Text2": "",
-                "Text3": ""
+                "Text": ""
             },
             "Errors": {
                 "Name": "",
@@ -1863,12 +1695,13 @@
                 "Q5": "",
                 "A5": "",
                 "Q6": "",
-                "A6": ""
+                "A6": "",
+                "Q7": "",
+                "A7": ""
             },
             "ContactUs": {
                 "Title": "",
                 "Text": "",
-                "Text2": "",
                 "NumberOfChamber": "",
                 "SendMessage": "",
                 "FullName": "",
@@ -1914,16 +1747,7 @@
                 "Country": "",
                 "YourWhitelistedAddresses": "",
                 "WrongCountry": "",
-                "InitialOfferingNote": "",
-                "QuantPurchaseInstructions": "",
-                "TransactionData": "",
-                "The": "",
-                "LearnMoreAbout": "",
-                "QuantPurchaseInfo": "",
-                "ContractAddress": "",
-                "GASS": "",
-                "CopyLink": "",
-                "Copied": ""
+                "InitialOfferingNote": ""
             }
         }
     }
