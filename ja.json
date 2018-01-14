@@ -15,9 +15,9 @@
                 "pt": "Portuguese",
                 "zh": "Chinese"
             },
-            "Subscription": "",
-            "Statistics": "",
-            "Language": "",
+            "Subscription": "現在のプラン",
+            "Statistics": "統計",
+            "Language": "言語",
             "StatisticsAnalyzed": "",
             "StatisticsModules": "",
             "HelpTranslate": "",
@@ -45,30 +45,30 @@
         },
         "LeftMenu": {
             "Items": {
-                "Subscription": "",
-                "SmartFunds": "",
-                "Dashboard": "",
-                "Management": "",
-                "Modules": "",
-                "Universes": "",
-                "Discussions": "",
-                "Catalog": "",
-                "Help": ""
+                "Subscription": "マイプラン",
+                "SmartFunds": "Quantファンド",
+                "Dashboard": "ダッシュボード",
+                "Management": "管理",
+                "Modules": "モジュール",
+                "Universes": "Universes",
+                "Discussions": "意見交換",
+                "Catalog": "カタログ",
+                "Help": "ヘルプ＆FAQ"
             },
             "Text": {
-                "Hosting": "",
-                "Lab": "",
-                "Community": "",
-                "Documentation": ""
+                "Hosting": "ファンドホスティング",
+                "Lab": "ファンドラボ",
+                "Community": "コミュニティー",
+                "Documentation": "ドキュメント"
             },
-            "Support": ""
+            "Support": "サポート"
         },
         "Dashboard": {
-            "Title": "",
+            "Title": "ダッシュボード",
             "Hosting": {
-                "Status": "",
-                "View": "",
-                "NoSubscription": "",
+                "Status": "ホスティング状態",
+                "View": "ホスティング管理を見る",
+                "NoSubscription": "利用可能なアクティブホスティングプランがありません",
                 "NoSubscriptionText": "",
                 "NoSubscriptionButton": ""
             },
@@ -110,12 +110,17 @@
             "DisclaimerAgree": "",
             "DisclaimerButton": "",
             "AcceptFirst": "",
-            "EquitiesTitle": "",
-            "EquitiesText": "",
             "ETFTitle": "",
             "ETFText": "",
             "CryptoTitle": "",
-            "CryptoText": ""
+            "CryptoText": "",
+            "EquityTitle": "",
+            "EquityText": "",
+            "EquityDescr": "",
+            "ETFDescr": "",
+            "CryptoDescr": "",
+            "EquitiesTitle": "",
+            "EquitiesText": ""
         },
         "Management": {
             "Title": "",
@@ -200,6 +205,11 @@
             },
             "NewsBar": {
                 "NoDataText": "No news available"
+            },
+            "AttachmentTabs": {
+                "Performance": "",
+                "Modules": "",
+                "Universe": ""
             }
         },
         "Discussions": {
@@ -343,7 +353,10 @@
                     "Title": "General",
                     "Description": "General"
                 }
-            }
+            },
+            "NoUniverses": "",
+            "NoModules": "",
+            "NoQuantFunds": ""
         },
         "General": {
             "Update": "",
@@ -542,6 +555,12 @@
                         "EndingCapital": "",
                         "ErrorsFound": "",
                         "ROI": ""
+                    },
+                    "StatHeaders": {
+                        "Statistics": "",
+                        "Current": "",
+                        "Prev": "",
+                        "Diff": ""
                     }
                 },
                 "Dialog": {
@@ -588,7 +607,14 @@
                         "Money Management": "",
                         "Risk Management": ""
                     }
-                }
+                },
+                "Types": {
+                    "Signal": "",
+                    "Money Management": "",
+                    "Risk Management": ""
+                },
+                "Done": "",
+                "Error": ""
             },
             "MySmartFund": "",
             "SelectPremade": "",
@@ -768,6 +794,10 @@
                 "HitBTC": {
                     "Name": "",
                     "Description": ""
+                },
+                "Robinhood": {
+                    "Name": "",
+                    "Description": ""
                 }
             }
         },
@@ -797,7 +827,11 @@
                 "CreateTitle": "",
                 "ModuleName": "",
                 "ModuleNamePlaceholder": "",
-                "ModuleType": ""
+                "ModuleType": "",
+                "Next": "",
+                "Creating": "",
+                "Close": "",
+                "Done": ""
             },
             "SettingsPanel": {
                 "NameTooltip": "",
@@ -1162,7 +1196,10 @@
                 }
             },
             "NoUniversesFound": "",
-            "NoUniversesFoundDescr": ""
+            "NoUniversesFoundDescr": "",
+            "BackTo": "",
+            "Index": "",
+            "Benchmark": ""
         },
         "Symbol": {
             "KeyFinancials": "",
@@ -1315,6 +1352,26 @@
                 "Passive": {
                     "Name": "",
                     "Description": ""
+                },
+                "Crypto": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "FundOfFunds": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowCost": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowRisk": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "BestPerforming": {
+                    "Name": "",
+                    "Description": ""
                 }
             },
             "Modules": {
@@ -1324,7 +1381,8 @@
                     "PostReply": "",
                     "Reply": "",
                     "BackTo": ""
-                }
+                },
+                "All": ""
             }
         },
         "Bounty": {
@@ -1418,24 +1476,24 @@
     },
     "LandingPage": {
         "Welcome": {
-            "Title": "",
-            "SubTitle": "",
-            "H1Title": "",
-            "H1SubTitle": "",
-            "H1SubItem1Title": "",
-            "H1SubItem1Text": "",
-            "H1SubItem2Title": "",
-            "H1SubItem2Text": "",
-            "H1SubItem3Title": "",
-            "H1SubItem3Text": "",
+            "Title": "Quantlerへようこそ",
+            "SubTitle": "従来の投資管理システムに代わる、小額からはじめる「あなただけの投資管理サービス」",
+            "H1Title": "投資の自動運営がこんなに簡単に",
+            "H1SubTitle": "Quantlerは、個人に合わせた自動運営型の投資ファンドを作成し、過去のデータとファンドを照合することができるサービスです。更に、目的に合わせたブローカー（仲介業者）を自由に選択し、上場投資信託（ETF）、エクイティ、仮想通貨などへの投資も簡単に行えます。",
+            "H1SubItem1Title": "インスピレーション",
+            "H1SubItem1Text": "Quantファンドは透明性が高いたくさんのコミュニティーより成り立っています。好みのコミュニティーを選びあなたの意見を反映させたり、０からのコミュニティー作りなど可能性は無限大です",
+            "H1SubItem2Title": "何に投資する？",
+            "H1SubItem2Text": "場投資信託（ETF）、エクイティ、仮想通貨などへの投資ポートフォリオに、新たな投資アイディアを反映させ、投機から投資のパッシブ運用まで投資方法に関係なく、ファンドがコントロールできます。",
+            "H1SubItem3Title": "どこに投資する？",
+            "H1SubItem3Text": "Quantlerは「選択の自由」を大切にしています。決まった金融機関を介する必要はありません。目的に合ったブローカー（仲介業者）を選び投資ができます。",
             "InvestInWhatYouBelieveIn": "",
             "ShowSmartFunds": "",
             "H1OverTitle": ""
         },
         "SmartFund": {
-            "MenuItem": "",
-            "Title": "",
-            "SubTitle": "",
+            "MenuItem": "Quantファンド",
+            "Title": "あなたに合わせた、自動運営型の投資ファンド",
+            "SubTitle": "Quantlerでは、個人に合わせた自動運営型の投資ファンドを作成することができます。（＝Quantファンド）",
             "H1Title": "",
             "H1SubTitle": "",
             "GetStarted": "",
@@ -1715,7 +1773,8 @@
             },
             "Login": "",
             "Register": "",
-            "SessionExpired": ""
+            "SessionExpired": "",
+            "SignIn": ""
         },
         "Copyright": "",
         "ICO": {
@@ -1863,19 +1922,21 @@
                 "Q5": "",
                 "A5": "",
                 "Q6": "",
-                "A6": ""
+                "A6": "",
+                "Q7": "",
+                "A7": ""
             },
             "ContactUs": {
                 "Title": "",
                 "Text": "",
-                "Text2": "",
                 "NumberOfChamber": "",
                 "SendMessage": "",
                 "FullName": "",
                 "Email": "",
                 "Phone": "",
                 "Message": "",
-                "MessageSent": ""
+                "MessageSent": "",
+                "Text2": ""
             },
             "MeetQuantler": "",
             "MeetQuantlerDescr": "",
