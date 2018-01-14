@@ -26,22 +26,22 @@
             "SettingsEmail": "Адрес электронной почты",
             "SettingsNewsletter": "Новостная рассылка",
             "SettingsLogOut": "Выйти",
-            "BacktestPower": "",
-            "StatisticsBacktests": "",
-            "SettingsAPIKeys": "",
+            "BacktestPower": "Мощность симуляции",
+            "StatisticsBacktests": "Симуляции",
+            "SettingsAPIKeys": "API ключи",
             "SettingsPublicAPIKey": "Public API Key",
             "SettingsCopyPuclikAPIKey": "Copy, publick key link",
             "SettingsSecret": "Secret",
             "SettingsCopySecret": "Copy, secret link",
-            "SettingsResetKeys": "",
+            "SettingsResetKeys": "Сброс ключей",
             "SettingsAssetTypes": "Asset types",
             "SettingsBountyPage": "Testing CI",
-            "AccountDetails": "",
-            "Affiliates": "",
+            "AccountDetails": "Детали аккаунта",
+            "Affiliates": "Рефералы",
             "ProfileRecord": "Пофиль",
             "Settings": "Настройки",
-            "ManageSubscription": "",
-            "PopupNoEmail": ""
+            "ManageSubscription": "Подписка",
+            "PopupNoEmail": "Нет Email"
         },
         "LeftMenu": {
             "Items": {
@@ -109,13 +109,18 @@
             "DisclaimerText": "Этот материал на этом веб-сайте предоставляется только в информационных целях и не представляет собой предложение о продаже, вымогательство для покупки или рекомендацию или одобрение любой безопасности или стратегии, а также не представляет собой предложение о предоставлении инвестиционных консультационных или других услуг Quantler. Кроме того, содержание веб-сайта не дает никакого мнения относительно пригодности какой-либо безопасности или каких-либо конкретных инвестиций. Простая и не гипотетическая производительность не гарантирует будущих результатов. Квантлер предоставляет только хостинг для торговых алгоритмов, проконсультируйтесь с вашим брокером о расходах и информации, связанной с торговлей.",
             "DisclaimerAgree": "Я прочитал и понял сказанное выше",
             "DisclaimerButton": "Продолжать",
-            "AcceptFirst": "",
-            "EquitiesTitle": "Equities",
-            "EquitiesText": "Enable equity investment",
+            "AcceptFirst": "Сначала согласитесь с условиями",
             "ETFTitle": "ETFs & ETCs",
             "ETFText": "Enable ETF & ETC trading",
             "CryptoTitle": "Crypto",
-            "CryptoText": "Enable crypto currency trading"
+            "CryptoText": "Enable crypto currency trading",
+            "EquityTitle": "",
+            "EquityText": "Включить акционное инвестирование",
+            "EquityDescr": "Акции",
+            "ETFDescr": "Биржевые фонды",
+            "CryptoDescr": "Криптовалюты",
+            "EquitiesTitle": "Equities",
+            "EquitiesText": "Enable equity investment"
         },
         "Management": {
             "Title": "управление",
@@ -156,22 +161,22 @@
                 "Replies": "Ответы",
                 "LastReply": "Последний ответ",
                 "NoReplies": "пока нет ответов",
-                "QuantfundsAttached": "",
-                "UniversesAttached": "",
-                "ModulesAttached": ""
+                "QuantfundsAttached": "прикреплённые quant фонды",
+                "UniversesAttached": "прикреплённые universes",
+                "ModulesAttached": "прикреплённые модули"
             },
             "SmartFundBar": {
                 "MonthReturn": "1 месяц назад",
                 "YearReturn": "1 год возврата",
                 "Daytrading": "Daytrading",
                 "Title": "Smart fund",
-                "TitleBacktest": "",
-                "NoDataText": "",
-                "CumulativeChart": "",
-                "CumulativeChartEquity": "",
-                "CumulativeChartBenchmark": "",
-                "DrawDownChart": "",
-                "DrawDownChartLabel": ""
+                "TitleBacktest": "Симуляция",
+                "NoDataText": "Нет доступных Quant Фондов",
+                "CumulativeChart": "Кумулятивное возвращение %",
+                "CumulativeChartEquity": "Акция",
+                "CumulativeChartBenchmark": "Эталонный тест",
+                "DrawDownChart": "Drawdown %",
+                "DrawDownChartLabel": "Drawdown"
             },
             "ModulesBar": {
                 "View": "Модуль просмотра",
@@ -188,18 +193,23 @@
                 "CreatedBy": "Сделано",
                 "Title": "Universe",
                 "Overview": "Осмотр",
-                "NoDataText": ""
+                "NoDataText": "Нет доступных universes"
             },
             "Catalog": {
-                "Catalog": "",
-                "View": "",
-                "SmartFunds": "",
-                "Universes": "",
-                "Modules": "",
-                "AllThemes": ""
+                "Catalog": "КАТАЛОГ",
+                "View": "ПРОСМОТР",
+                "SmartFunds": "Quant Фонды",
+                "Universes": "Universes",
+                "Modules": "Модули",
+                "AllThemes": "Все темы"
             },
             "NewsBar": {
                 "NoDataText": "No news available"
+            },
+            "AttachmentTabs": {
+                "Performance": "Производительность",
+                "Modules": "Модули",
+                "Universe": "Universe"
             }
         },
         "Discussions": {
@@ -211,7 +221,7 @@
                 "AddAttachment": "Прикрепить вложение",
                 "PostAReply": "Отправить ответ",
                 "PostAReplyPlaceholder": "Введите свой ответ здесь",
-                "TypeAReplyFirst": "",
+                "TypeAReplyFirst": "Сначала введите ответ",
                 "Reply": "ответить",
                 "Posting": "публикуется"
             },
@@ -226,14 +236,14 @@
                 "Post": "Создать тему",
                 "Posting": "публикуется",
                 "Errors": {
-                    "Title": "",
-                    "Tag": "",
-                    "Empty": ""
+                    "Title": "Ваш пост не имеет заголовка",
+                    "Tag": "Ваш пост не имеет тега",
+                    "Empty": "Ваш пост пуст"
                 }
             },
             "BackTo": "Назад к обсуждениям",
-            "NoDiscussions": "",
-            "NoDiscussionsDesc": "",
+            "NoDiscussions": "Обсуждения не найдены. Попробуйте поискать снова",
+            "NoDiscussionsDesc": "Похоже, что ваш запрос не дал результатов. Попробуйте изменить заданные выше фильтры",
             "Tags": {
                 "Investing": {
                     "Title": "Инвестирование",
@@ -343,7 +353,10 @@
                     "Title": "Основной",
                     "Description": "Основной"
                 }
-            }
+            },
+            "NoUniverses": "Universes не найдены",
+            "NoModules": "Модули",
+            "NoQuantFunds": "Quant Фонды не найдены"
         },
         "General": {
             "Update": "Обновить",
@@ -412,26 +425,26 @@
                     "Time": "Все время",
                     "Modules": "Все модули",
                     "Universes": "Вселенные",
-                    "LiveTrading": "",
-                    "DemoTrading": "",
-                    "Name": "",
-                    "CreatedAI": "",
-                    "CreatedImport": "",
-                    "CreatedManual": "",
-                    "Others": "",
-                    "DiscardFilters": "",
-                    "AdditionalFilters": "",
-                    "Filters": "",
-                    "Themes": "",
-                    "Style": "",
-                    "Speculative": "",
-                    "Passive": "",
-                    "SearchingThemes": "",
-                    "SelectedThemes": "",
-                    "SearchingUniverses": "",
-                    "SelectedUniverses": "",
-                    "SearchingNames": "",
-                    "SelectedNames": ""
+                    "LiveTrading": "Релаьный трейдинг",
+                    "DemoTrading": "Демо торговля",
+                    "Name": "Имя",
+                    "CreatedAI": "Created AI",
+                    "CreatedImport": "Created Import",
+                    "CreatedManual": "Created Manual",
+                    "Others": "Другие",
+                    "DiscardFilters": "Отменить все фильтры",
+                    "AdditionalFilters": "Дополнительные фильтры",
+                    "Filters": "Фильтры",
+                    "Themes": "Темы",
+                    "Style": "Стиль торговли",
+                    "Speculative": "Спекулятивный",
+                    "Passive": "Пассивный",
+                    "SearchingThemes": "Поиск тем",
+                    "SelectedThemes": "Выбранные Темы",
+                    "SearchingUniverses": "Поиск universes",
+                    "SelectedUniverses": "Выбранные Universes",
+                    "SearchingNames": "Поиск имён",
+                    "SelectedNames": "Выбранные имена"
                 },
                 "SearchFund": "Search a smart fund"
             },
@@ -454,14 +467,14 @@
                     "Add": "Добавить новое",
                     "Check": "Проверить каталог",
                     "Tooltips": {
-                        "StartDate": "",
-                        "EndDate": "",
-                        "BrokerModel": "",
-                        "AccountType": "",
-                        "AllocatedFunds": "",
-                        "BaseCurrency": "",
-                        "ExtendedMarket": "",
-                        "UseTickData": ""
+                        "StartDate": "Дата начала симуляции",
+                        "EndDate": "Дата окончания симуляции",
+                        "BrokerModel": "Поведение симулированного брокера",
+                        "AccountType": "Тип брокерского аккаунта",
+                        "AllocatedFunds": "Ваш начальный баланс",
+                        "BaseCurrency": "Базовая валюта аккаунта",
+                        "ExtendedMarket": "Когда включено, разрешить расширенные рыночные часы",
+                        "UseTickData": "Дополнительный реализм, требует больше времени"
                     },
                     "Timeframe": "Период времени",
                     "ExtendedMarketTooltip": "Привет мир",
@@ -488,16 +501,16 @@
                     "MMTooltip": "Привет мир",
                     "RMTooltip": "Привет мир",
                     "Preset1": {
-                        "Name": "",
-                        "Description": ""
+                        "Name": "Автоматическая балансировка (Периодически)",
+                        "Description": "Производите авторебалансировку вашей Universe на заданном интервале(каждый: день, неделю, месяц или три месяца). Это наиболее обобщённая стратегия для многостороннего профиля"
                     },
                     "Preset2": {
-                        "Name": "",
-                        "Description": ""
+                        "Name": "Следование тенденциям",
+                        "Description": "Автоматически меняйте веса в вашей Universe, основываясь на популярности активов. Если цены возрастают, почему бы не перетасовать колоду автоматически?"
                     },
                     "Preset3": {
-                        "Name": "",
-                        "Description": ""
+                        "Name": "Пустой",
+                        "Description": "Начните с чистого листа. Будьте вдохновителем вашего собственного Quant Фонда."
                     },
                     "Preset1Name": "Имя пресета 1",
                     "Preset1Description": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Morbi non elementum lorem, ac finibus turpis. Etiam orci augue, consectetur ut commodo imperdiet, hendrerit sed urna. Нунк сидит в амуре. Nam erat libero, время, не относящееся к некрому, tincidunt oullamcorper libero.",
@@ -516,32 +529,38 @@
                     "TotalNetProfitTooltip": "Привет мир",
                     "ROITooltip": "Привет мир",
                     "FillNr": "Заполнить Nr",
-                    "SubTitle2": "",
-                    "Trades": "",
-                    "Overview": "",
-                    "Statistics": "",
-                    "Orders": "",
-                    "Logging": "",
-                    "Finalizing": "",
-                    "Completed": "",
+                    "SubTitle2": "Всегда запускайте ваши Quant Фонды в демонстрационной среде перед реальным запуском.",
+                    "Trades": "Сделки",
+                    "Overview": "Обзор",
+                    "Statistics": "Статистика",
+                    "Orders": "Заказы",
+                    "Logging": "Журнал",
+                    "Finalizing": "Финализация",
+                    "Completed": "Завершено, готово к размещению",
                     "OrdersHeaders": {
-                        "Date": "",
-                        "Time": "",
-                        "Symbol": "",
-                        "Type": "",
-                        "FillPrice": "",
-                        "Currency": "",
-                        "Quantity": ""
+                        "Date": "Дата",
+                        "Time": "Время",
+                        "Symbol": "Символ",
+                        "Type": "Тип",
+                        "FillPrice": "Стоимость заполнения",
+                        "Currency": "Валюта",
+                        "Quantity": "Количество"
                     },
                     "OverviewHeaders": {
-                        "BrokerModel": "",
-                        "BaseCurrency": "",
-                        "StartDate": "",
-                        "EndDate": "",
-                        "InitCapital": "",
-                        "EndingCapital": "",
-                        "ErrorsFound": "",
-                        "ROI": ""
+                        "BrokerModel": "Модель брокера",
+                        "BaseCurrency": "Базовая валюта",
+                        "StartDate": "Дата начала",
+                        "EndDate": "Дата окончания",
+                        "InitCapital": "Начальный капитал",
+                        "EndingCapital": "Конечный капитал",
+                        "ErrorsFound": "Ошибок найдено",
+                        "ROI": "ROI"
+                    },
+                    "StatHeaders": {
+                        "Statistics": "Статистика",
+                        "Current": "Текущее",
+                        "Prev": "Предыдущее",
+                        "Diff": "Разница"
                     }
                 },
                 "Dialog": {
@@ -560,57 +579,64 @@
                 "NextStep": "следующий шаг",
                 "RunBacktest": "Запустить backtest",
                 "StartHosting": "Начать хостинг",
-                "NamePlaceholder": "",
-                "SelectPreset": "",
+                "NamePlaceholder": "Дайте название вашему quant фонду",
+                "SelectPreset": "Выбрать предустановку",
                 "Errors": {
-                    "Name": "",
-                    "Universe": "",
-                    "Module": ""
+                    "Name": "Дайте своему quant фонду имя",
+                    "Universe": "Выберите universe",
+                    "Module": "Выберите модули"
                 },
                 "UniverseAdd": {
-                    "SelectUniverse": "",
-                    "SearchUniverse": "",
-                    "NotListed": "",
-                    "New": "",
-                    "NoUniverses": "",
-                    "CheckCatalog": ""
+                    "SelectUniverse": "ВЫБЕРИТЕ UNIVERSE",
+                    "SearchUniverse": "Искать UNIVERSE",
+                    "NotListed": "Вашей <b>universe</b> нет в списке?",
+                    "New": "ДОБАВИТЬ НОВУЮ",
+                    "NoUniverses": "Univserses не найдены",
+                    "CheckCatalog": "СМОТРЕТЬ КАТАЛОГ"
                 },
                 "Modules": {
-                    "SelectModule": "",
-                    "Params": "",
-                    "NotListed": "",
-                    "NoModules": "",
-                    "New": "",
-                    "CheckCatalog": "",
-                    "SearchTemplate": "",
+                    "SelectModule": "ВЫБЕРИТЕ МОДУЛЬ",
+                    "Params": "Параметры",
+                    "NotListed": "Вашего модуля нет в списке?",
+                    "NoModules": "Модули не найдены",
+                    "New": "НОВЫЙ",
+                    "CheckCatalog": "СМОТРЕТЬ КАТАЛОГ",
+                    "SearchTemplate": "Искать модуль...",
                     "Tooltips": {
-                        "Signal": "",
-                        "Money Management": "",
-                        "Risk Management": ""
+                        "Signal": "Логика входа и выхода с рынков",
+                        "Money Management": "Логика определения размера позиции",
+                        "Risk Management": "Управление логикой риска"
                     }
-                }
+                },
+                "Types": {
+                    "Signal": "Сигнал",
+                    "Money Management": "Денежный Менеджмент",
+                    "Risk Management": "Менеджмент Риска"
+                },
+                "Done": "Начать хостинг",
+                "Error": "Ошибка"
             },
             "MySmartFund": "My Smart Fund",
-            "SelectPremade": "",
-            "Signal": "",
-            "MoneyManagement": "",
-            "RiskManagement": "",
-            "Updated": "",
-            "Backtests": "",
-            "CreatedOn": "",
-            "DeleteBacktest": "",
-            "ReloadBacktest": "",
-            "OpenBacktest": "",
-            "ROI": "",
-            "Drawdown": "",
-            "Sharpe": "",
-            "NetExpenseRatio": "",
-            "NER": "",
-            "Modules": "",
-            "Universe": "",
-            "DeleteSmartFund": "",
-            "AreYouSure": "",
-            "BackToSmartfunds": ""
+            "SelectPremade": "ИЛИ ВЫБЕРИТЕ ГОТОВУЮ СТРАТЕГИЮ",
+            "Signal": "Сигнал",
+            "MoneyManagement": "Денежный Менеджмент",
+            "RiskManagement": "Менеджмент Риска",
+            "Updated": "Обновлено",
+            "Backtests": "Симуляции",
+            "CreatedOn": "Дата создания",
+            "DeleteBacktest": "Удалить симуляцию",
+            "ReloadBacktest": "Перезапустить симуляцию",
+            "OpenBacktest": "Открыть симуляцию",
+            "ROI": "ROI",
+            "Drawdown": "Drawdown",
+            "Sharpe": "Sharpe",
+            "NetExpenseRatio": "Net expense ratio",
+            "NER": "КЧС",
+            "Modules": "Модули",
+            "Universe": "Universe",
+            "DeleteSmartFund": "Удалить Quant Фонд",
+            "AreYouSure": "Вы уверены?",
+            "BackToSmartfunds": "Вернуться к моим Quant Фондам"
         },
         "MySubscription": {
             "Title": "Моя подписка",
@@ -698,7 +724,7 @@
                         "Feature3Tooltip": "New account only",
                         "AllocatedFunds": "Allocated funds",
                         "Price": "free",
-                        "PayPeriod": ""
+                        "PayPeriod": "В месяц"
                     },
                     "Tier2": {
                         "Title": "tier 2",
@@ -747,27 +773,31 @@
                 "title": "Planned",
                 "tooltip": "This broker is not compatible yet"
             },
-            "Assettypes": "",
+            "Assettypes": "Типы активов",
             "Brokers": {
                 "FreeTrade": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "FreeTrade",
+                    "Description": "Этот Европейский брокер не взимает комиссию за вашу торговлю"
                 },
                 "PaperTrading": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "Paper Investing",
+                    "Description": "Это ненастоящий брокер для тестирования ваших Quant Фондов в безопасном окружении с ненастоящим капиталом"
                 },
                 "Cobinhood": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "Cobinhood",
+                    "Description": "Этот Тайваньский криптовалютный брокер не взимает комиссию за сделку"
                 },
                 "Binance": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "Binance",
+                    "Description": "Этот Японский криптовалютный брокер взимает комиссию в размере 0.1% стоимости сделки за каждую сделку"
                 },
                 "HitBTC": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "HitBTC",
+                    "Description": "Этот Европейский криптовалютный брокер взимает комиссию в размере 0.1% стоимости сделки за каждую сделку"
+                },
+                "Robinhood": {
+                    "Name": "Robinhood",
+                    "Description": "Robinhood description"
                 }
             }
         },
@@ -790,14 +820,18 @@
                 "Types": {
                     "RM": "Создайте модуль управления рисками, чтобы указать, как управлять своим риском.",
                     "MM": "Создайте модуль управления денежными средствами, чтобы указать размер и время выбора позиции.",
-                    "Signal": "",
+                    "Signal": "Создайте модуль Сигнала, чтобы разработать как, когда и где входить на рынок.",
                     "Entry": "Создайте модуль ввода, чтобы узнать, как и когда выходить на рынки.",
                     "Exit": "Создайте модуль выхода, чтобы узнать, как и когда выйти из рынков."
                 },
                 "CreateTitle": "Создать модуль",
                 "ModuleName": "Имя модуля",
                 "ModuleNamePlaceholder": "Укажите имя модуля",
-                "ModuleType": "Тип модуля"
+                "ModuleType": "Тип модуля",
+                "Next": "дальше",
+                "Creating": "создание",
+                "Close": "закрыть",
+                "Done": "готово"
             },
             "SettingsPanel": {
                 "NameTooltip": "Привет мир",
@@ -807,17 +841,17 @@
                 "ParameterValues": "Значения",
                 "Parameters": "Параметры",
                 "ModuleSettings": "Настройки модуля",
-                "Name": "",
-                "Sharing": "",
-                "SetModule": "",
-                "not": "",
-                "public": "",
-                "Saving": "",
-                "update": "",
-                "deleting": "",
-                "delete": "",
-                "DeleteModule": "",
-                "Areyousure": ""
+                "Name": "Имя",
+                "Sharing": "Общий доступ",
+                "SetModule": "Установить Модуль",
+                "not": " не",
+                "public": "публичный",
+                "Saving": "Сохранение...",
+                "update": "обновить",
+                "deleting": "удаление...",
+                "delete": "удалить",
+                "DeleteModule": "Удалить модуль",
+                "Areyousure": "Вы уверены?"
             },
             "Compile": "компилировать",
             "Line": "Строка",
@@ -830,12 +864,12 @@
             "Module": "Модуль",
             "CompileErrors": "Ошибка: Компиляция прервана",
             "CompileSuccess": "Нет ошибок: Компиляция успешно завершена",
-            "Noerrorstodisplay": "",
-            "NoModulesFound": "",
-            "NoModulesFoundDescription": "",
+            "Noerrorstodisplay": "Нет ошибок для показа",
+            "NoModulesFound": "Модули не найдены. Попробуйте поискать снова",
+            "NoModulesFoundDescription": "Похоже, что поисковый запрос не вернул результатов. Попробуйте изменить фильтры.",
             "ModuleTypeFilter": {
-                "Title": "",
-                "Selection": ""
+                "Title": "МОДУЛИ",
+                "Selection": "Выбрано"
             }
         },
         "Universe": {
@@ -848,9 +882,9 @@
                 "EmptyUniversesTitle": "Давайте начнем!",
                 "EmptyUniversesDesc": "Кажется, вы еще не сделали свой первый алгоритм, поэтому эта вкладка пуста. Создайте свой первый алгоритм на панели инструментов в левом верхнем углу.",
                 "EmptyUniversesSuggestions": "Вселенная",
-                "AreYouSure": "",
-                "SuggestionTitle": "",
-                "SelectUniverse": ""
+                "AreYouSure": "Вы уверены?",
+                "SuggestionTitle": "Предположения universes",
+                "SelectUniverse": "Или выберите готовую universe"
             },
             "Item": {
                 "Index": "Индекс Quantler 1 YR Return",
@@ -867,40 +901,40 @@
                 "Industry": "Промышленность",
                 "EmptySymbolsTitle": "Давайте начнем!",
                 "EmptySymbolsDesc": "Кажется, вы еще не сделали свой первый алгоритм, поэтому эта вкладка пуста. Создайте свой первый алгоритм на панели инструментов в левом верхнем углу.",
-                "Autosaving": "",
-                "Import": "",
-                "ImportDescription": "",
-                "Importing": "",
-                "Saving": "",
-                "Finalize": "",
-                "Finalized": "",
-                "Share": "",
-                "Status": "",
-                "Description": "",
-                "Custom": "",
-                "Equal": "",
-                "AllTagsPlaceholder": "",
-                "MaximumTagsReached": "",
-                "MaximumSymbolsReached": "",
-                "Broker": "",
-                "Filter": "",
-                "YearReturn": "",
-                "MonthReturn": "",
-                "NoResults": "",
-                "Unavailable": "",
-                "Updating": "",
-                "UpdateAvailable": "",
-                "AlreadyImported": "",
+                "Autosaving": "Автосохранение...",
+                "Import": "Импорт",
+                "ImportDescription": "Импорт Вселенной",
+                "Importing": "Импорт",
+                "Saving": "сохранение",
+                "Finalize": "финализировать",
+                "Finalized": "финализировано",
+                "Share": "Поделиться",
+                "Status": "Статус",
+                "Description": "Описание",
+                "Custom": "Вручную",
+                "Equal": "Равно",
+                "AllTagsPlaceholder": "Все темы",
+                "MaximumTagsReached": "Достигнуто максимальное кол-во тем",
+                "MaximumSymbolsReached": "Вы добавили максимальное кол-во символов",
+                "Broker": "Брокер",
+                "Filter": "Фильтр",
+                "YearReturn": "1 Год",
+                "MonthReturn": "1 Mесяц",
+                "NoResults": "Результаты не найдены",
+                "Unavailable": "Недоступно",
+                "Updating": "Обновление..",
+                "UpdateAvailable": "Доступно обновления",
+                "AlreadyImported": "Уже импортировано",
                 "Errors": {
-                    "Name": "",
-                    "Symbol": "",
-                    "Weights": ""
+                    "Name": "Вашей universe нужно название",
+                    "Symbol": "Вашей universe нужен символ",
+                    "Weights": "Общая сумма весов universe должна быть строго равна 100%"
                 },
                 "Filters": {
-                    "SearchingFilters": "",
-                    "SelectedFilters": "",
-                    "Industries": "",
-                    "Brokers": ""
+                    "SearchingFilters": "Поиск фильтров",
+                    "SelectedFilters": "Выбранные фильтры",
+                    "Industries": "Индустрии",
+                    "Brokers": "Брокеры"
                 }
             },
             "Tags": {
@@ -941,24 +975,24 @@
                     "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
                 },
                 "Green Energy": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Зелёная энергия",
+                    "Description": "Инвестируйте в Quant Фонды 'зелёной' энергии, улучшая планету шаг за шагом. Станет ли солнечная энергия будущим? Или как насчёт энергии ветра? У всех нас разные мнения, какой источник 'зелёной' энергии будет лучшим, но мы все согласны с тем, что перемены необходимы и первопроходцы будут награждены."
                 },
                 "Travel": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Путешествия",
+                    "Description": "Вечно развивающаяся индустрия путешествий. Пока полёты становятся дешевле, а доходы по всему миру растут, растёт и количество путешественников и исследователей. От инноваций в том, где нам остановиться в виде Airbnb и роскошных курортов до способов туда добраться."
                 },
                 "Blockchain": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Блокчейн",
+                    "Description": "Некоторые называют Блокчейн версией Интернета 2.0 или способом, каким Интернет предназначался для использования. Однако вы видите эту технологию, она огромная, изменчивая и скорее всего останется. Блокчейн сегодня везде."
                 },
                 "Emerging Markets": {
                     "Title": "Emerging Markets",
                     "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
                 },
                 "Financial Services": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Финансовые сервисы",
+                    "Description": "Сердце каждой инвестиции, финансовая индустрия услуг. Вероятно, это крупнейшая индустрия в мире и в настоящее время быстро меняется. Как изменения в секторе платежей и создание блокчейна повлияют на финансовую отрасль. Будет ли финансовая отрасль рассматривать это как угрозу или возможность?"
                 },
                 "Food and Beverages": {
                     "Title": "Food and Beverages",
@@ -977,28 +1011,28 @@
                     "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
                 },
                 "Welness": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Благополучие",
+                    "Description": "Знали ли вы, что глобальный сектор благополучия имеет размер в 3.7 триллиона долларов? От анти-возрастных продуктов и продуктов красоты до продуктов для фитнеса и потери веса. Инвестируйте в этот сектор, используя любые из доступных Quant Фондов."
                 },
                 "Retail": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Розничная торговля",
+                    "Description": "Розничный сектор, который раньше казался невосприимчивым к нарушениям интернет-экономики, становится всё большей частью цифрового мира. Существующие бизнесы преображаются во многоканальные возможности."
                 },
                 "Latest Hypes": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Последние Тренды",
+                    "Description": "Инвестируйте в любые из последних тенденций, доступных на рынках сегодня. Оставайтесь в ногу с изменениями, используя один из этих Quant Фондов"
                 },
                 "Dividends": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Дивиденды",
+                    "Description": "Quant фонды, содержащие активы с высокой дивидендной доходностью для дополнительной прибыли."
                 },
                 "Bonds": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Облигации",
+                    "Description": "Quant фонды, ориентированные на инвестиции, связанные с облигациями."
                 },
                 "Fund of Funds": {
-                    "Title": "",
-                    "Description": ""
+                    "Title": "Фонд Фондов",
+                    "Description": "Инвестируйте с использованием Quant Фонды, который инвестируют в другие фонды, такие как ETF, объедините много средств для снижения общей незащищённости."
                 },
                 "LowVolatility": {
                     "Title": "Низкая волатильность",
@@ -1161,8 +1195,11 @@
                     "Description": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt."
                 }
             },
-            "NoUniversesFound": "",
-            "NoUniversesFoundDescr": ""
+            "NoUniversesFound": "Universes не найдены. Попробуйте поискать снова",
+            "NoUniversesFoundDescr": "Похоже, что поисковый запрос не вернул результатов. Попробуйте изменить фильтры.",
+            "BackTo": "Назад к Universes",
+            "Index": "Индекс",
+            "Benchmark": "Эталонный тест"
         },
         "Symbol": {
             "KeyFinancials": "Основные финансовые показатели",
@@ -1213,12 +1250,12 @@
                 }
             },
             "Back": "Назад",
-            "LastUpdated": "",
+            "LastUpdated": "Последнее обновление",
             "Open": "Open",
             "Description": "Описание",
-            "SmartFunds": "",
-            "Universe": "",
-            "News": "",
+            "SmartFunds": "Quant Фонды",
+            "Universe": "Universe",
+            "News": "Новости",
             "Details": {
                 "AAPL": {
                     "Description": ""
@@ -1239,28 +1276,28 @@
                 "CautionTitle": "предосторожность",
                 "CautionText": "Прошлые показатели не гарантируют будущих результатов. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu est convallis, iaculis ipsum a, facilisis velit. Maecenas feugiat, velit в faucibus sagittis, nisl elit volutpat velit, id эффективный черепашский quam at nunc. Quisque egestas metus elit, blandit pharetra diam faucibus sit amet.",
                 "IGotIt": "я понял",
-                "NoSmartFundsFound": "",
-                "NoSmartFundsFoundDescr": "",
-                "Overview": "",
-                "PopularFunds": "",
-                "Community": "",
-                "ShowAll": "",
-                "YearPerformance": "",
+                "NoSmartFundsFound": "Quant Фонды не найдены. Попробуйте поискать снова.",
+                "NoSmartFundsFoundDescr": "Похоже, что ваш запрос не дал результатов. Попробуйте изменить ваши фильтры сверху.",
+                "Overview": "Обзор",
+                "PopularFunds": "Популярные",
+                "Community": "Сообщество",
+                "ShowAll": "Показать все {0} Quant Фонд(-ы)",
+                "YearPerformance": "1Г. ВОЗВРАТ",
                 "Popular": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "Популярные Quant Фонды",
+                    "Description": "Получите информацию о самых популярных Quant Фондах, доступных сейчас."
                 },
                 "Speculative": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "Спекулятивные",
+                    "Description": "Показать все наиболее производительные спекулятивные Quant Фонды."
                 },
                 "Theme": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "Тематические",
+                    "Description": "Выберите тему, чтобы показать Quant Фонды, соответствующие этой теме."
                 },
                 "BrokerBased": {
-                    "Name": "",
-                    "Description": ""
+                    "Name": "Брокерские",
+                    "Description": "Показать все Quant Фонды, совместимые с этим брокером."
                 },
                 "Filters": {
                     "Style": "Торговый стиль",
@@ -1272,49 +1309,69 @@
                     "Time": "Все время",
                     "Modules": "Все модули",
                     "Universes": "Вселенные",
-                    "Others": "",
-                    "AssetType": "",
-                    "Broker": "",
-                    "YearReturn": "",
-                    "MonthReturn": "",
-                    "Speculative": "",
-                    "Passive": "",
-                    "SelectedThemes": "",
-                    "SearchingThemes": "",
-                    "Filters": "",
-                    "Themes": "",
-                    "DiscardFilters": "",
-                    "AdditionalFilters": "",
+                    "Others": "Другие",
+                    "AssetType": "Тип актива",
+                    "Broker": "Брокер",
+                    "YearReturn": "Возврат за 1 Год",
+                    "MonthReturn": "Возврат за 1 Месяц",
+                    "Speculative": "Спекулятивные",
+                    "Passive": "Пассивные",
+                    "SelectedThemes": "Выбранные темы",
+                    "SearchingThemes": "Поиск тем",
+                    "Filters": "Фильтры",
+                    "Themes": "Темы",
+                    "DiscardFilters": "Отменить все фильтры",
+                    "AdditionalFilters": "Дополнительные фильтры",
                     "Theme": ""
                 },
                 "StatisticTab": {
-                    "ROI": "",
-                    "1YROI": "",
-                    "1MROI": "",
-                    "NetExpenseRatio": "",
-                    "Drawdown": "",
-                    "Sharpe": "",
-                    "SinceInception": ""
+                    "ROI": "ROI",
+                    "1YROI": "ВОЗВРАТ ЗА 1 ГОД",
+                    "1MROI": "ВОЗВРАТ ЗА 1 МЕСЯЦ",
+                    "NetExpenseRatio": "NET EXPENSE RATIO",
+                    "Drawdown": "DRAWDOWN",
+                    "Sharpe": "SHARPE",
+                    "SinceInception": "С момента создания"
                 },
                 "DetailsTabs": {
-                    "PastPerformance": "",
-                    "SymbolsAndWeights": "",
-                    "RecentNews": ""
+                    "PastPerformance": "Прошлая производительность",
+                    "SymbolsAndWeights": "Символы и веса",
+                    "RecentNews": " Недавние новости"
                 },
                 "SymbolsTable": {
-                    "Name": "",
-                    "Symbol": "",
-                    "Weight": "",
-                    "Price": "",
-                    "MarketCap": "",
-                    "YR": ""
+                    "Name": "Имя",
+                    "Symbol": "Символ",
+                    "Weight": "Вес",
+                    "Price": "Цена",
+                    "MarketCap": "Рыночная капитализация",
+                    "YR": "1 Г."
                 },
-                "ImportButton": "",
-                "BackButton": "",
-                "NoDescription": "",
+                "ImportButton": "Импортировать quant фонд",
+                "BackButton": "Назад",
+                "NoDescription": "Нет описания",
                 "Passive": {
+                    "Name": "Пассивные",
+                    "Description": "Quant Фонды с пассивным фокусом на инвестирование."
+                },
+                "Crypto": {
                     "Name": "",
                     "Description": ""
+                },
+                "FundOfFunds": {
+                    "Name": "Фонд Фондов",
+                    "Description": "Quant Фонды, состоящие сугубо из других фондов."
+                },
+                "LowCost": {
+                    "Name": "Бюджетные",
+                    "Description": "Quant Фонды, ориентированные на низкую стоимость."
+                },
+                "LowRisk": {
+                    "Name": "Низкий риск",
+                    "Description": "Более стабильные и менее рискованные Quant Фонды."
+                },
+                "BestPerforming": {
+                    "Name": "Наилучшие",
+                    "Description": "Обзор Quant Фондов, работающих лучше всего."
                 }
             },
             "Modules": {
@@ -1324,7 +1381,8 @@
                     "PostReply": "Отправить ответ",
                     "Reply": "Ответить",
                     "BackTo": "Вернуться к"
-                }
+                },
+                "All": "ВСЕ"
             }
         },
         "Bounty": {
@@ -1367,37 +1425,37 @@
                     "Approved": "утвержденный",
                     "Comment": "Комментарий"
                 },
-                "BountyLinkPlaceholder": "",
-                "MessagePlaceholder": "",
-                "SuccessAddRequest": "",
+                "BountyLinkPlaceholder": "http://example.com",
+                "MessagePlaceholder": "Ваше сообщение",
+                "SuccessAddRequest": "Запрос успешно добавлен.",
                 "BountyPayout": {
-                    "EtherBountyPayoutAddress": "",
-                    "Save": "",
-                    "SuccessSave": "",
-                    "EnterAddress": ""
+                    "EtherBountyPayoutAddress": "Ether адрес выплаты премий",
+                    "Save": "Сохранить",
+                    "SuccessSave": "Успешно сохранено.",
+                    "EnterAddress": "Введите адрес выплаты премий"
                 },
                 "HistoryItemModal": {
-                    "BountyType": "",
-                    "BountyLink": "",
-                    "TimeOccured": "",
-                    "Points": "",
-                    "Approved": "",
-                    "Yes": "",
-                    "No": "",
-                    "Comment": "",
-                    "Message": "",
-                    "Close": ""
+                    "BountyType": "Тип Премии",
+                    "BountyLink": "Ссылка Премии",
+                    "TimeOccured": "Когда произошло",
+                    "Points": "Баллы",
+                    "Approved": "Подтверждено",
+                    "Yes": "Да",
+                    "No": "Нет",
+                    "Comment": "Комментарий",
+                    "Message": "Сообщение",
+                    "Close": "Закрыть"
                 },
-                "Adding": "",
+                "Adding": "добавление",
                 "RequestErrors": {
-                    "Type": "",
-                    "Link": ""
+                    "Type": "Выберите тип премии",
+                    "Link": "Добавьте ссылку премии"
                 }
             },
             "Github": {
                 "Tab": "Github Bounty",
-                "UnderDevelopmentTitle": "",
-                "UnderDevelopmentText": ""
+                "UnderDevelopmentTitle": "в разработке",
+                "UnderDevelopmentText": "Здесь вы сможете получать QUANT токены в обмен на удачные pull requests, произведённые в нашем открытом репозитории."
             }
         },
         "AnnouncementBar": {
@@ -1405,15 +1463,15 @@
             "description": "Invest from £15 in our equity crowdfunding round"
         },
         "NotOptimizedForMobile": {
-            "Title": "",
-            "Text": "",
-            "OK": ""
+            "Title": "Хм, у нас проблема...",
+            "Text": "Похоже вы зашли в приложение Quantler, используя мобильное устройство. Пожалуйста, обратите внимание на то, что мы ещё не оптимизировали приложение Quantler для вашего разрешения экрана. Рекомендуем использовать компьютер.",
+            "OK": "OK"
         },
         "qEditor": {
-            "PostReply": "",
-            "Reply": "",
-            "Posting": "",
-            "TypeAReplyFirst": ""
+            "PostReply": "Ответить",
+            "Reply": "Отправить ответ",
+            "Posting": "ОТПРАВКА...",
+            "TypeAReplyFirst": "Сначала введите ответ"
         }
     },
     "LandingPage": {
@@ -1428,9 +1486,9 @@
             "H1SubItem2Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
             "H1SubItem3Title": "Инвестируйте в свои идеи",
             "H1SubItem3Text": "Lorem ipsum dolor сидит amet, consectetur adipiscing elit. Vestibulum vel tristique tortor, eu porta tortor. Mauris mollis nisi при ауге rhoncus vestibulum. Nunc quis interdum massa.",
-            "InvestInWhatYouBelieveIn": "",
-            "ShowSmartFunds": "",
-            "H1OverTitle": ""
+            "InvestInWhatYouBelieveIn": "Инвестируйте, во что верите",
+            "ShowSmartFunds": "Показать Quant Фонды",
+            "H1OverTitle": "Quantler предлагает вам возможность создания собственного автоматизированного инвестиционного фонда, провести симуляцию фонда на основе исторических данных и затем подключить к выбранному вами брокеру для начала инвестирования в любые типы активов (акции, ETF, Криптовалюты)."
         },
         "SmartFund": {
             "MenuItem": "Автоматизированная торговля",
@@ -1438,10 +1496,10 @@
             "SubTitle": "Автоматизированная торговля, автоматическая торговля финансовыми рынками. Создавайте свои собственные автоматические торговые стратегии онлайн или офлайн.",
             "H1Title": "Каждый инвестор является uniqe, каждый торговый алоризм, а также",
             "H1SubTitle": "Создание интеллектуального фонда с записью или без написания одной строки кода",
-            "GetStarted": "",
-            "Text1": "",
-            "Text2": "",
-            "Text3": "",
+            "GetStarted": "НАЧАТЬ",
+            "Text1": "Определите свою universe и решите, во что хотите инвестировать.",
+            "Text2": "Укажите, как ваш Quant Фонд должен работать",
+            "Text3": "Симулируйте и анализируйте потенциал вашего Quant Фонд",
             "H1Item1Text": "Вселенные, определите, что вы хотите торговать",
             "H1Item2Text": "Создайте свой собственный интеллектуальный фонд",
             "H1Item3Text": "Проанализируйте и проанализируйте свой потенциал с помощью облачности"
@@ -1460,38 +1518,38 @@
             "OpenAccount": "Завести учетную запись",
             "StartInvest": "Начать автоматическое инвестирование сегодня",
             "FitStyle": {
-                "Title": "",
-                "DayTraders": "",
-                "Text1": "",
-                "LTInvestors": "",
-                "Text2": "",
-                "SubTitle": ""
+                "Title": "Подходит для вашего стиля инвестирования",
+                "DayTraders": "Спекулятивные",
+                "Text1": "Быстрые Quant Фонды, размещенные на хостингах с низкой задержкой",
+                "LTInvestors": "Пассивные",
+                "Text2": "Quant Фонды для анализа многих активов на ежемесячной или ежегодной основе",
+                "SubTitle": "Спекулятивный вы или пассивный инвестор, создайте Quant Фонд, который соответствует вашему профилю"
             },
             "QuantlerCompares": {
-                "Title": "",
-                "Cost": "",
-                "MinimumInvestment": "",
-                "RealStocks": "",
-                "DirectOwnership": "",
-                "OpenSource": "",
-                "AbilityToCustomize": "",
-                "WorldwideCoverage": "",
-                "Quantler": "",
-                "Iconomi": "",
-                "ETrade": "",
-                "RoboAdvisory": ""
+                "Title": "Сравнивая Quantler с другими",
+                "Cost": "Цена",
+                "MinimumInvestment": "Минимальная инвестиция",
+                "RealStocks": "Настоящие акции",
+                "DirectOwnership": "Прямое владение",
+                "OpenSource": "Открытый исходный код",
+                "AbilityToCustomize": "Возможность настройки",
+                "WorldwideCoverage": "Всемирный охват",
+                "Quantler": "Quantler",
+                "Iconomi": "Iconomi",
+                "ETrade": "E*Trade",
+                "RoboAdvisory": "Robo Advisory"
             },
             "FAQ": {
-                "FAQTitle": "",
-                "FAQMore": "",
-                "FAQ1Title": "",
-                "FAQ1Text": "",
-                "FAQ2Title": "",
-                "FAQ2Text": "",
-                "FAQ3Title": "",
-                "FAQ3Text": "",
-                "FAQ4Title": "",
-                "FAQ4Text": ""
+                "FAQTitle": "Часто Задаваемые Вопросы",
+                "FAQMore": "посмотреть все faq",
+                "FAQ1Title": "Что такое Quant Фонды?",
+                "FAQ1Text": "Quant Фонды - это децентрализованные и оцифрованные альтернативы традиционным инвестиционным фондам",
+                "FAQ2Title": "Как мне создать свой личный Quant Фонд?",
+                "FAQ2Text": "Войдите в Quantler и создайте или используйте уже существующие Quant Фонды в считанные минуты",
+                "FAQ3Title": "Стоимость использования Quant Фондов?",
+                "FAQ3Text": "Мы предлагаем бюджетное решение хостинга ваших Quant Фондов, начиная с 1$ в месяц",
+                "FAQ4Title": "Что, если у меня нет Quant Фонда?",
+                "FAQ4Text": "Не проблема, у нас есть много публичных Quant Фондов, которые вы можете выбрать"
             },
             "Fit": "Примените свой стиль инвестирования",
             "FitDayTitle": "Дневные трейдеры",
@@ -1507,11 +1565,11 @@
             "What": "Что мы делаем",
             "Login": "Авторизоваться",
             "Register": "регистр",
-            "Crowdfund": "",
-            "ICO": "",
-            "Pricing": "",
-            "AboutUs": "",
-            "BackToApp": "",
+            "Crowdfund": "Краудфанд",
+            "ICO": "ICO",
+            "Pricing": "Цены",
+            "AboutUs": "О нас",
+            "BackToApp": "Вернуться в приложение",
             "How": "Как мы это делаем",
             "Why": "Почему мы это делаем"
         },
@@ -1542,7 +1600,7 @@
             "H2TextItem2": "Квантлер нейтрален брокер, вы можете торговать с любым из совместимых с 1000 + брокерами",
             "H2TitleItem3": "Торговля, что вы хотите",
             "H2TextItem3": "Торговля любым из активов, совместимых с выбранным брокером",
-            "Planned": "",
+            "Planned": "Запланирован",
             "FAQTitle": "Часто задаваемые вопросы",
             "FAQMore": "Просмотреть все faqs",
             "FAQ1Title": "Что такое автоматическая торговля?",
@@ -1585,10 +1643,10 @@
             "PricingBrokeragesTitle": "Комиссионные брокеры, совместимые с Quantler",
             "PricingBrokeragesSubTitle": "Квантлер не связан ни с каким третьим финансовым институтом",
             "PricingBrokeragesEligible": "приемлемость",
-            "PricingMonthly": "",
+            "PricingMonthly": "в месяц",
             "Planned": {
-                "Title": "",
-                "Tooltip": ""
+                "Title": "Запланирован",
+                "Tooltip": "Этот брокер ещё не совместим"
             },
             "EquivalentValueCharged": ""
         },
@@ -1597,62 +1655,62 @@
             "Title": "Чем мы можем вам помочь?",
             "Ask": "Задайте вопрос...",
             "Topics": "темы",
-            "NoQuestionsFound": "",
-            "ContactUs": "",
-            "HeadOffice": "",
+            "NoQuestionsFound": "Не найдено вопросов в FAQ.",
+            "ContactUs": "Связаться с нами",
+            "HeadOffice": "Главный офис Quantler",
             "FAQQuestions": {
                 "Topic1": {
-                    "topic": "",
+                    "topic": "Общие вопросы",
                     "questions": {
                         "q1": {
-                            "title": "",
-                            "description": ""
+                            "title": "Где регулируется Quantler?",
+                            "description": "Quantler - компания-разработчик ПО, базирующаяся в Нидерландах. Как компания-разработчик мы фокусируемся на технологическом аспекте инвестирования, регулируемые виды деятельности осуществляются регулируемыми финансовыми учреждениями в отдельных юрисдикциях. Мы, Quantler, не являемся регулируемым субъектом."
                         },
                         "q2": {
-                            "title": "",
-                            "description": ""
+                            "title": "Управляет ли Quantler моими средствами?",
+                            "description": "Нет, вы имеете полный контроль над вашими средствами и, поскольку вы являетесь создателем, владельцем и единственным пользователем Quant Фонда, мы (Quantler) не предоставляем услуги менеджмента инвестиций."
                         },
                         "q3": {
-                            "title": "",
-                            "description": ""
+                            "title": "Я живу в стране X, могу ли я использовать Quantler?",
+                            "description": "Это зависит от выбранного брокера. Если брокер разрешает вам быть клиентом, вы можете использовать наш продукт с вашим брокерским аккаунтом. Quantler, как платформа, доступна во всём мире."
                         },
                         "q4": {
-                            "title": "",
-                            "description": ""
+                            "title": "Какие личные данные требуются для открытия учётной записи?",
+                            "description": "Нам нужна базовая информация, такая как: ваше полное имя и место проживания."
                         }
                     }
                 },
                 "Topic2": {
-                    "topic": "",
+                    "topic": "Платформа Quantler",
                     "questions": {
                         "q1": {
-                            "title": "",
-                            "description": ""
+                            "title": "Как мне открыть брокерский аккаунт?",
+                            "description": "Вы не можете открыть брокерский аккаунт в Quantler, для этого мы хотели бы перенаправить вас на выбранную вами брокерскую организацию. На странице 'Моя подписка' вы можете увидеть совместимых брокеров."
                         },
                         "q2": {
-                            "title": "",
-                            "description": ""
+                            "title": "Где я могу найти ваш исходный код?",
+                            "description": "Вы можете найти наш исходный код на github: https://github.com/Quantler/Core"
                         },
                         "q3": {
-                            "title": "",
-                            "description": ""
+                            "title": "Присутствуют ли какие-то платежи, связанные с данными?",
+                            "description": "Нет, мы не взимаем дополнительную плату за какие-то конкретные данные. Все данные доступны для всех пользователей на платформе."
                         }
                     }
                 },
                 "Topic3": {
-                    "topic": "",
+                    "topic": "Цены",
                     "questions": {
                         "q1": {
-                            "title": "",
-                            "description": ""
+                            "title": "Могу ли я отменить свою подписку в любое время?",
+                            "description": "Да, вы можете остановить любые Quant Фонды и отменить вашу подписку, когда захотите, в любое время. Этот процесс моментален и не требует дополнительного времени на обработку."
                         },
                         "q2": {
-                            "title": "",
-                            "description": ""
+                            "title": "Сколько стоит использование Quantler?",
+                            "description": "Мы взимаем месячную плату в размере $1, без дополнительных торговых плат или сюрпризов. Как только общее количество ваших размещённых средств достигнет $5,000, мы переходим на 0.25% от вашей общей стоимости в год. Мы всегда берём с вас плату на месячной основе."
                         },
                         "q3": {
-                            "title": "",
-                            "description": ""
+                            "title": "Какова минимальная сумма для размещения?",
+                            "description": "У нас нет мнимальной суммы, которую вы должны назначить на Quant Фонд, что размещаете. Это значит, что сумма может быть меньше 1.00 USD или больше 10,000,000 USD."
                         }
                     }
                 }
@@ -1699,222 +1757,225 @@
             "RegisterPasswordRetype": "Повторите ввод пароля",
             "IAgree": "Я согласен с условиями",
             "SignUp": "Зарегистрироваться",
-            "WrongEmail": "",
-            "PasswordsNotMatch": "",
-            "RecoverSent": "",
-            "IRememberPassword": "",
-            "PasswordReset": "",
-            "ProvideRecoverEmail": "",
-            "Reset": "",
+            "WrongEmail": "Неверный Email",
+            "PasswordsNotMatch": "Пароли не совпадают",
+            "RecoverSent": "Мы отправили вам письмо для сброса пароля",
+            "IRememberPassword": "Я вспомнил(а) свой пароль",
+            "PasswordReset": "СБРОС ПАРОЛЯ",
+            "ProvideRecoverEmail": "Введите ваш e-mail и новый пароль для получения подтверждения смены пароля",
+            "Reset": "СБРОС",
             "Errors": {
-                "Name": "",
-                "Email": "",
-                "Password": "",
-                "PasswordsMatch": "",
-                "AgreeTerms": ""
+                "Name": "Пожалуйста, введите ваше имя",
+                "Email": "Введите корректный Email",
+                "Password": "Пароль обязателен",
+                "PasswordsMatch": "Пароли не совпадают",
+                "AgreeTerms": "Вы должны согласиться с условиями"
             },
-            "Login": "",
-            "Register": "",
-            "SessionExpired": ""
+            "Login": "ВХОД",
+            "Register": "РЕГИСТРАЦИЯ",
+            "SessionExpired": "Ваша сессия истекла. Пожалуйста, войдите снова",
+            "SignIn": "Войти"
         },
         "Copyright": "Все права защищены.",
         "ICO": {
-            "DecentralizingWallStreet": "",
-            "FromSmartContractsToETF": "",
-            "BuyTokens": "",
-            "TimeUntilStart": "",
-            "NotStartedTitle": "",
+            "DecentralizingWallStreet": "Децентрализуем Уолл-Стрит, вместе",
+            "FromSmartContractsToETF": "Создайте личные автоматизированные инвестиционные фонды за долю цены",
+            "BuyTokens": "Купить Токены",
+            "TimeUntilStart": "Белый список сейчас открыт",
+            "NotStartedTitle": "ICO ещё не началось",
             "NotStartedDescription": "",
-            "Link": "",
-            "Days": "",
-            "Hours": "",
-            "Minutes": "",
-            "Seconds": "",
-            "RaisedSoFar": "",
-            "TotalRaised": "",
-            "ICOEnded": "",
-            "StartDate": "",
-            "SoftCap": "",
-            "SoftCapDiscount": "",
-            "Tooltip": "",
-            "EndDate": "",
-            "TimeLeft": "",
-            "EtherRaised": "",
-            "QuantGenerated": "",
-            "BaseExchangeRate": "",
-            "TryTheBeta": "",
-            "DownloadWhitePaper": "",
-            "WhyBuyTokens": "",
-            "TokenBackedNotes": "",
-            "QUADCoin": "",
-            "Shares": "",
-            "NotesText": "",
-            "NotesText2": "",
-            "QUADCoinText": "",
-            "SharesText": "",
+            "Link": "GITHUB ССЫЛКА",
+            "Days": "Дней",
+            "Hours": "Часов",
+            "Minutes": "Минут",
+            "Seconds": "Секунд",
+            "RaisedSoFar": "Собрано сейчас",
+            "TotalRaised": "Всего собрано",
+            "ICOEnded": "ICO Закончилось",
+            "StartDate": "Дата начала",
+            "SoftCap": "Soft Cap",
+            "SoftCapDiscount": "Скитдка Soft cap",
+            "Tooltip": "Во время действия soft cap (< 12,5M USD) - скидка 20%",
+            "EndDate": "Дата окончания",
+            "TimeLeft": "Осталось времени",
+            "EtherRaised": "Ether Собрано",
+            "QuantGenerated": "QUANT Сгенерировано",
+            "BaseExchangeRate": "Базовый Курс Обмена",
+            "TryTheBeta": "Попробовать Бету",
+            "DownloadWhitePaper": "Загрузить тех. документ",
+            "WhyBuyTokens": "Почему надо покупать токены",
+            "TokenBackedNotes": "QUANT Токен",
+            "QUADCoin": "Метод оплаты",
+            "Shares": "Майнинг",
+            "NotesText": "Quant токены - это служебные токен для полного использования нашей платформы. Они служат 3 основных целям: 1. это будет наш единственный метод оплаты, 2. в качестве награды за майнинг при предоставлении вычислительных ресурсов, и 3. для поощрения нашего open source сообщества. В нашем техническом документе мы подробно обьясняем о нашем продукте и объясняем разрушительный фактор нашего решения. Пожалуйста, ознакомьтесь с нашей бета-версией для получения дополнительной информации о нашем продукте. Пожалуйста, обратите внимание, что размещение ваших Quant Фонд для живых трейдингов все ещё разрабатывается, сейчас же покупатели токенов поддерживают нас в нашей миссии, чтобы как можно скорее довести это до вас.",
+            "NotesText2": "\n Токены будут создаваться во время первоначальной продажи. Максимальное число токенов, которое можно создать - 180.000.000. За 1 ether вы получите 3,343 токенов. До достижения soft-cap в 12.5M USD - скидка 20%. Токены, которые не были созданы во время начальной продажи, будут уничтожены. После краудсейла поставка токенов будет фиксирована. Quantler ставит задачу разместить QUANT токены на разных обменниках, как только это возможно, для дополнительной ликвидности и доступности. Поддержите нас сейчас, покупая QUANT токены. \n",
+            "QUADCoinText": "Quantler будет принимать только QUANT Токены как метод оплаты за хостинг Quant Фондов. Однако вы можете использовать много методов оплаты для получения QUANT токенов, от Quantler либо где либо ещё, например обменивая. QUANT токены будут храниться в кошельке Quantler и сборы автоматически вычитаются, используя смарт-контракты в сети Ethereum.",
+            "SharesText": "Запускайте Quantler на вашем собственном оборудовании и разрешите входящие запросы на симулицю (backtests). Эти симуляции требуют большого количества вычислительных ресурсов, майнеры будут вознаграждены QUANT за предоставление этих ресурсов.",
             "EULA": {
-                "Title": "",
-                "Agree1": "",
-                "Agree2": "",
-                "Agree3": "",
-                "Agree4": "",
-                "Accept": "",
-                "BackToQuantler": "",
-                "ReadMore": "",
-                "AcceptAll": "",
-                "Text": "",
+                "Title": "Соглашение о доставке Токена",
+                "Agree1": "Настоящим подтверждаю, что я полностью прочитал(а), понял(а) и согласен(-на) с условиями и и положениями, изложенными для Продажи QUANT Токенов.",
+                "Agree2": "Я понимаю, что QUANT токены не представляют доли какой-либо компании и не предоставляют каких-либо форм дивидендов.",
+                "Agree3": "Моя юрисдикция позволяет мне покупать эти токены во время начального предложения, я беру на себя исключительную ответственность за любые запреты, которые введены в действие.",
+                "Agree4": "Я понимаю, что купленные токены ни при каких обстоятельствах не подлежат выкупу.",
+                "Accept": "Я СОГЛАСЕН(-НА) С УСЛОВИЯМИ",
+                "BackToQuantler": "Вернуться к Quantler",
+                "ReadMore": "Читать дальше",
+                "AcceptAll": "Сначала вы должны согласиться со всеми условиями",
+                "Text": "<p>The Terms and Conditions (the “T&amp;C”) apply to the buyer of the Quant token (“QUANT”) and future use of the Quantler platform. Please read the T&amp;C, as well as the white paper of the Quantler project before participating in the crowd-sale.</p> <ol> <li><p>Applicability <br> A. The following T&amp;C constitute the agreement (the “Agreement”) between Quantler B.V. (hereinafter “Quantler” or the “Company”), a private company with limited liability based in The Netherlands with a chamber of commerce number 62989545, and you (the “User”) with respect to the use and the purchase of the QUANT token. By using our services, you are agreeing to be bound by the T&amp;C in its latest version. You are aware that Quantler may change this T&amp;C at any time. Your continued use of the Quantler Platform means that you accept any new or modified terms.</p></li> <li><p>Services <br> A. Quantler is creating a technology for creating, sharing, analyzing and hosting self-created decentralized Quant Funds. The Company mission is to provide a low cost technological solution for personal wealth management. <br> B. The Quantler platform requires the use of QUANT tokens as means of payment.</p></li> <li><p>The QUANT Token <br> A. QUANT functions as means of payment on the Quantler platform, which will allow future Users to make use of Quantler platform services. Through the token sale, the future User acquires the future rights to make use of the Quantler platform. <br> B. QUANT does not have the legal qualification as a security, since it does not give any rights on dividends nor interest. QUANT is final and non-refundable. QUANT is not a share and does not give any right to participate or attend in the general meetings of Quantler. QUANT will not have a particular value outside of the Quantler platform. The purchase of QUANT shall therefore not be done for speculative usage. <br> C. QUANT can be purchased during the crowd sale directly from the Company or after the crowd sale at the Company or exchanger. <br> D. Any future User purchasing QUANT expressly acknowledges and represents that she/he has carefully reviewed the T&amp;C and fully understands the risks, costs and benefits associated with the purchase of this token as indicated in the T&amp;C.</p></li> <li><p>Knowledge Required <br> A. A future User undertaking to purchase QUANT in relation to the token sale should ensure that she/he understands and has significant experience of cryptocurrencies, blockchain systems and services, and that she/he fully understands the risks associated with the token sale as well as the mechanism related to the use of cryptocurrencies (incl. storage). <br> B. Quantler shall not be responsible for any loss of QUANT or situations making it impossible to access QUANT, which may result in any actions omissions of the future User or any person undertaking to acquire QUANT.</p></li> <li><p>Risks <br> A. Acquiring QUANT involves risks, in particular that Quantler may not be able to launch its operations and develop its platform. Therefore, and prior to acquiring QUANT, any future user should carefully consider the risks, costs, and benefits of acquiring QUANT within the crowd sale, and if necessary, obtain independent advice in this regard. Any interested person who is not in the position to accept nor understand the risks associated with the crowd sale (incl. the risks related to the non-development of Quantler platform and operations) or any other risks as indicated in the T&amp;C, should not acquire QUANT, at this stage or later.</p></li> <li><p>Self-Acquisition <br> A. Quantler is allowed to acquire at market price from the market QUANT in order to finance incentives for platform usage. The acquisition must be under the condition that no conflict of interests arise. Trough self-acquisition, Quantler is not allowed to perform operations such as manipulation of the QUANT market.</p></li> <li><p>Important Disclaimer <br> A. The T&amp;C shall not and cannot be considered as an invitation to enter into an investment of any kind. They do not constitute or relate in any way nor should they be considered as an offering of securities in any jurisdiction. The T&amp;C do not include or contain any information or indication that might be considered as a recommendation or that might be used to base any investment decision. QUANT is a utility token and is not intended to be used as an investment. <br> B. Quantler will be an operative entity managing a technology platform and QUANT is only a utility token. Therefore, Quantler is not a financial intermediary according to Dutch Law and is not required to obtain any authorization for anti-money laundering purpose. <br> C. Acquiring QAUNT shall not grant any right or influence over Quantler’s organization and governance to the purchase. <br> D. Employees of Quantler are allowed to operate with QUANT at market price if they are not in knowledge of information that may modify the market price of the token. <br> E. Regulatory authorities are carefully scrutinizing businesses and operations associated to cryptocurrencies in the world. In that respect, regulatory measures, investigations or actions may impact Quantler’s business and even limit or prevent it from developing its operations in the future. Any person undertaking to acquire QUANT must be aware that the Quantler business model and the T&amp;C may change or need to be modified because of new regulatory and compliance requirements from any applicable laws in any jurisdictions. In such case, purchasers and any person undertaking to acquire QUANT acknowledge and understand that neither Quantler nor any of its affiliates shall be held liable for any direct or indirect loss or damages caused by such changes. <br> F. Quantler will do its best to launch its operations and develop the Quantler platform. Any person undertaking to acquire QUANT acknowledges and understands that Quantler does not provide any guarantee that will manage to establish an operative platform and therefore it cannot guarantee that the QUANT can be used to purchase services on the platform. They acknowledge and understand therefore that Quantler (incl. its bodies and employees) assumes no liability or responsibility for any loss or damage that would result from or relate to the incapacity to use QUANT, except in the case of intentional misconduct or gross negligence.</p></li> <li><p>Representation and Warranties <br> A. By participating in the crowd-sale, the User agrees to the T&amp;C and in particular, they represent and warrant that they: <br> I. are authorized and have full power to purchase QUANT according to the laws that apply in their jurisdiction of domicile; <br> II. live in a jurisdiction which allows Quantler to sell the QUANT tokens trough crowd-sale without requiring any local authorization; <br> III. are familiar with all related regulations in the specific jurisdiction in which they are based and that purchasing cryptographic tokens in that jurisdiction is not prohibited, restricted or subject to additional conditions of any kind; <br> IV. are not a U.S. citizen, resident or entity (a “U.S. Person”) nor are they purchasing QUANT tokens or signing on behalf of a U.S. Person. <br> V. are not acting for the purpose of speculative investment; <br> VI. will not use the Token Sale for any illegal activity, including but not limited to money laundering and the financing of terrorism; <br> VII. are solely responsible for determining whether the acquisition of QUANT is appropriate for them; <br> VIII. are acquiring QUANT for future use of the Quantler platform; <br> IX. understands the risks associated with the crowd-sale (incl. the risk related to the non-development of Quantler platform and operations); and <br> X. understands the use of cryptocurrencies and the associated risks.</p></li> <li><p>Intellectual Property Rights <br> A. To the extent that copyright or other intellectual property rights exist in the Quantler platform, such as software, source code, know-how, analysis or programs, those copyrights and other intellectual and industrial rights belong to Quantler.</p></li> <li><p>Limitation of Liability <br> A. Quantler, as well as its officers, directors, agents, joint ventures, employees and suppliers, assume no liability or responsibility for any loss arising out of or related to the use of the Quantler platform or any technical, interruption or malfunction of the platform. <br> B. The limitation of liability set out above shall not be applicable in the event that Quantler, or a Quantler-employee, has caused the damage by intentional misconduct or by gross negligence.</p></li> <li><p>Severability <br> A. If any the provisions of the T&amp;C or the Agreement are deemed to be invalid, void or unenforceable, the remaining provisions shall continue in full force and effect.</p></li> <li><p>Applicable Law and Jurisdiction <br> A. The T&amp;C are subject to and governed by Dutch Law. All disputes arising from or under these T&amp;C shall be resolved by arbitration in accordance with a Dutch Court in The Netherlands.</p></li> </ol>",
                 "Intro": "",
                 "Text1": "",
                 "Text2": "",
                 "Text3": ""
             },
             "Errors": {
-                "Name": "",
-                "Email": "",
-                "Message": ""
+                "Name": "Пожалуйста, введите ваше имя",
+                "Email": "Пожалуйста, введите правильный email адрес",
+                "Message": "Пожалуйста, введите сообщение"
             },
             "Schema": {
-                "Investor": "",
-                "You": "",
-                "BuyCoins": "",
-                "SmartContract": "",
-                "Floating": "",
-                "Coins": "",
-                "Simulations": "",
-                "Mining": "",
-                "BlockChain": "",
-                "QuantToken": "",
-                "FundHosting": "",
-                "Ledger": "",
-                "MethodOfPayment": "",
-                "Conversion": "",
-                "Exchange": ""
+                "Investor": "Покупатель",
+                "You": "(вы)",
+                "BuyCoins": "Купить токены",
+                "SmartContract": "Смарт-контракт",
+                "Floating": "Плавучее",
+                "Coins": "ДЕНЬГИ",
+                "Simulations": "Симуляции",
+                "Mining": "Майнинг",
+                "BlockChain": "Блокчейн",
+                "QuantToken": "QUANT ТОКЕН",
+                "FundHosting": "Размещение средств",
+                "Ledger": "Гроссбух",
+                "MethodOfPayment": "Метод оплаты",
+                "Conversion": "Конверсия",
+                "Exchange": "Обмен"
             },
-            "HowSmartFundsMakeLifeEasier": "",
+            "HowSmartFundsMakeLifeEasier": "Как Quant Фонды упрощают вам жизнь?",
             "SmartFundsDescription": "",
             "Comparison": {
-                "TraditionalInvManagement": "",
-                "SmartFunds": "",
-                "CloseSource": "",
-                "OpenSource": "",
-                "Centralized": "",
-                "Decentralized": "",
-                "NoCustomConfig": "",
-                "CustomConfig": "",
-                "ComplexCostStructure": "",
-                "SupplyChainAddCosts": "",
-                "NoSupplyChainAddCosts": "",
-                "TransparantCost": "",
-                "TraditionalExchangesOnly": "",
-                "TraditionalAndCrypto": ""
+                "TraditionalInvManagement": "Традиционное Управление Инвестициями",
+                "SmartFunds": "Quant Фонды",
+                "CloseSource": "Закрытый исходный код",
+                "OpenSource": "Открытый исходный код",
+                "Centralized": "Централизовано",
+                "Decentralized": "Децентрализовано",
+                "NoCustomConfig": "Недоступна кастомизация (заготовки)",
+                "CustomConfig": "Делается вручную владельцем",
+                "ComplexCostStructure": "Комплексная Структура Затрат",
+                "SupplyChainAddCosts": "Цепочка поставок, добавляющая затраты",
+                "NoSupplyChainAddCosts": "Прямое владение, без посредников",
+                "TransparantCost": "Прозрачная ценовая структура (каждый цент, что вы платите)",
+                "TraditionalExchangesOnly": "Только традиционные биржи (Акции и ETF)",
+                "TraditionalAndCrypto": "Традиционные биржи (Акции и ETF), также криптобиржи (Криптовалюты)"
             },
             "DistributeFunding": {
-                "Title": "",
-                "SubTitle": "",
-                "TknAllocation": "",
-                "UseOfFunds": "",
-                "GithubBountyLow": "",
-                "CompanyReserved": "",
-                "Mining": "",
-                "TokenSale": "",
-                "CapEx": "",
-                "Marketing": "",
-                "SoftDev": "",
-                "BusDev": "",
-                "LegalCompliance": "",
-                "OtherExpenses": "",
-                "WhatKindOfBounties": "",
-                "ICOBounty": "",
-                "ICOBountyText1": "",
-                "GithubBounty": "",
-                "ICOBountyText2": "",
-                "Note": "",
-                "WhatIsCompatible": "",
-                "Assets": "",
-                "AssetsText": "",
-                "BrokersExchanges": "",
-                "BrokersExchangesText": ""
+                "Title": "Как будет распределяться финансирование",
+                "SubTitle": "Покупка QUANT токенов спонсирует разработку нашего решения.",
+                "TknAllocation": "Распределение токенов",
+                "UseOfFunds": "Использование средств",
+                "GithubBountyLow": "Github Премия",
+                "CompanyReserved": "Резерв компании",
+                "Mining": "Резерв для майнинга",
+                "TokenSale": "Продажа токенов",
+                "CapEx": "Капитальные затраты",
+                "Marketing": "Маркетинг",
+                "SoftDev": "Разработка ПО",
+                "BusDev": "Развитие бизнеса",
+                "LegalCompliance": "Правовые нормы",
+                "OtherExpenses": "Непредвиденные расходы",
+                "WhatKindOfBounties": "КАКИЕ ЕСТЬ ПРЕМИИ?",
+                "ICOBounty": "ICO ПРЕМИЯ",
+                "ICOBountyText1": "Находясь в системе, вы можете получать премии за рекламные виды деятельности, такие как: поделиться в социальных медиа, посты блоге, реферальные ссылки, переводы, приглашение друзей и журнализм. Помогите нам создать отличное сообщество!",
+                "GithubBounty": "GITHUB ПРЕМИЯ",
+                "ICOBountyText2": "Другой способ получить премии - делать вклад кода в наш открытый репозиторий (pull request). Кол-во токенов, которые вы получите зависит от кол-ва строк кода и степени важности вклада (например, багфиксы)",
+                "Note": "Примечание: полученные токены можно конвертировать в биткоины через обмен или утилизировать в нашем решении.",
+                "WhatIsCompatible": "ЧТО СОВМЕСТИМО С QUANTLER?",
+                "Assets": "Активы",
+                "AssetsText": "Активы, совместимые с Quantler - это US Акции, US ETFs and Криптовалюты.",
+                "BrokersExchanges": "Брокеры / Биржи",
+                "BrokersExchangesText": "У нас есть некоторое количество брокеров, которые будут совместимы с Quantler по всему миру. Пожалуйста, войдите в наше приложение, чтобы узнать, какие брокеры применимы к стране, где вы проживаете."
             },
             "GlobalSolution": {
-                "Title": "",
-                "FreePortfolio": "",
-                "OpenSource": "",
-                "AboveUSD": "",
-                "TransparentInvoicing": "",
-                "NoConflict": "",
-                "BCEmpowered": "",
-                "Decentralized": "",
-                "PlatformIndependent": "",
-                "CryptoCurrencyReady": "",
-                "Quote": "",
-                "QuotePlace": "",
-                "QuoteAuthor": ""
+                "Title": "Глобальное Решение для Глобального Рынка",
+                "FreePortfolio": "Низкая стоимость, от 1 USD в месяц",
+                "OpenSource": "Открытый исходный код",
+                "AboveUSD": "Более 5,000 USD конкурентноспособности 0.25% в год",
+                "TransparentInvoicing": "Прозрачное выставление счетов",
+                "NoConflict": "Нет конфликта интересов",
+                "BCEmpowered": "С возможностями Блокчейна",
+                "Decentralized": "Децентрализованная архитектура",
+                "PlatformIndependent": "Независимость от брокеров",
+                "CryptoCurrencyReady": "Готово к криптовалюте",
+                "Quote": "Не ищите иголку в стоге сена. Просто купите этот стог целиком!",
+                "QuotePlace": "Джон К. Богл",
+                "QuoteAuthor": "Основатель The Vanguard Group и изобретатель индексного фонда."
             },
             "FAQ": {
-                "Title": "",
-                "Q1": "",
-                "A1": "",
-                "Q2": "",
-                "A2": "",
-                "Q3": "",
-                "A3": "",
-                "Q4": "",
-                "A4": "",
-                "Q5": "",
-                "A5": "",
-                "Q6": "",
-                "A6": ""
+                "Title": "Часто задаваемые вопросы",
+                "Q1": "Что такое QUANT токен?",
+                "A1": "QUANT токен - это цифровая валюта, используемая для питания и поддержки экосистемы Quantler'а. Хотите разместить Quant Фонд в Quantler? Вам понадобятся QUANT токены.",
+                "Q2": "Как мне купить эти QUANT токены?",
+                "A2": "Для первоначального предложения вам нужно иметь ethereum для покупки QUANT токенов.",
+                "Q3": "Является QUANT токен долей бизнеса?",
+                "A3": "QUANT токен не даст вам прав на дивиденды или право голоса в Quantler B.V. (компания, стоящая за Quantler). Токен является токеном утилиты, таким образом не является долей бизнеса.",
+                "Q4": "Должен ли я быть в белом списке, чтобы купить эти токены?",
+                "A4": "Во время начальной продажи токены мы будем требовать от каждого покупателя начичия в белом списке. Вы можете попасть в белый список заранее. Процедура включает процессы предоставления данных вашей личности KYC (Known Your Customer) и AML (Anti Money Laundering). KYC и AML необходимы только для первоначальной продажи токенов, использование нашей платформы не требует KYC/AML.",
+                "Q5": "Есть ли ограничения, связанные с продажей токенов?",
+                "A5": "По регуляторным причинам, мы не принимаем участников из Китайской Народной Республики, США и Новой Зеландии. Другие заинтересованные стороны приветствуются для участия. QUANT Токен разрабатывается, как утилитарный токен, и не задумывается как доля бизнеса или регулируемый продукт независимо от юрисдикции, и мы не рассматривались каким-либо регулирующим органом. Любой, кто хочет принять участие, должен оценить риски, связанные с цифровыми активами и платформами.",
+                "Q6": "Где я могу найти ваши Смарт-контракты?",
+                "A6": "Вы можете найти исходный код нашего Смарт-контракта на github (<a href='https://github.com/Quantler/contracts' target='blank' rel='noopener noreferrer'>https://github.com/Quantler/contracts</a>). Контрактный адрес нашего ICO будет сообщён за час до начала ICO через SMS.",
+                "Q7": "Как я могу стать участником программы ICO премий?",
+                "A7": "Вы можете найти больше информации о наших ICO премиях, перейдя по ссылке: <a href='https://cdn.quantler.com/files/ICOBounty.pdf' target='blank' rel='noopener noreferrer'>https://cdn.quantler.com/files/ICOBounty.pdf</a>. Примечание: несмотря на то, что граждане Китайской Народной Республики, США и Новой Зеландии исключаются из участия в нашем ICO, они допускаются к участию в нашей премиальной программе!"
             },
             "ContactUs": {
-                "Title": "",
-                "Text": "",
-                "Text2": "",
-                "NumberOfChamber": "",
-                "SendMessage": "",
-                "FullName": "",
-                "Email": "",
-                "Phone": "",
-                "Message": "",
-                "MessageSent": ""
+                "Title": "Свяжитесь с нами и скажите привет",
+                "Text": "Свяжитесь с нами и дайте нам отзыв о нашем продукте, предложите новые идеи, задайте вопросы, или просто скажите привет!",
+                "NumberOfChamber": "Торговая палата",
+                "SendMessage": "Отправить сообщение",
+                "FullName": "Полное имя",
+                "Email": "Email адрес",
+                "Phone": "Телефон",
+                "Message": "Ваше сообщение",
+                "MessageSent": "Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время!",
+                "Text2": ""
             },
-            "MeetQuantler": "",
-            "MeetQuantlerDescr": "",
-            "MeetQuantlerStartDate": "",
-            "Card3": "",
-            "Card3Text": "",
+            "MeetQuantler": "Встречайте Quantler",
+            "MeetQuantlerDescr": "С Quantler вы можете создать собственные автоматизированные инвестиционные фонды. Мы называем их Quant Фондами. Quant Фонды - децентрализованные цифровые альтернативы традиционным инвестиционным фондам.",
+            "MeetQuantlerStartDate": "Начиная со 1-го Мая 2018 у вас есть уникальная возможность купить QUANT токены, вы можете попасть в белый список уже сегодня!",
+            "Card3": "Поощрение",
+            "Card3Text": "Quantler имеет открытый исходный код, вы можете запускать ваши Quant Фонды в вашей собственной среде. Помогая улучшать открытую экосистему Quantler'а, вы получаете QUANT токены.",
             "BUY": {
-                "WhitelistIdentification": "",
-                "Step1": "",
-                "Step2": "",
-                "Step3": "",
-                "Step4": "",
-                "Step1Desc": "",
-                "Step2Desc": "",
-                "Step3Desc": "",
-                "Note": "",
-                "Step4Desc": "",
-                "EnterAddress": "",
-                "EnterAmount": "",
-                "InputEnterAddressPH": "",
-                "EstimatedAmountToBuy": "",
-                "InputEnterAmountPH": "",
-                "Currency": "",
-                "SuccessfullyAdded": "",
-                "FailedToAdd": "",
+                "WhitelistIdentification": "Идентификация для Белого Списка",
+                "Step1": "Шаг 1",
+                "Step2": "Шаг 2",
+                "Step3": "Шаг 3",
+                "Step4": "Шаг 4",
+                "Step1Desc": "Установите приложение Yoti",
+                "Step2Desc": "Зарегистрируйтесь и подтвердите вашу личность (занимает примерно 5 минут)",
+                "Step3Desc": "Войдите с помощью Yoti, чтобы продолжить",
+                "Note": "Если у вас возникли трудности, сообщите нам на quant@quantler.com",
+                "Step4Desc": "Введите адрес ether-кошелька, который хотите добавить в белый список и примерную сумму, что собираетесь потратить (макс. 10.000 USD или эквивалент на одну личность, свяжитесь с quant@quantler.com для увеличения максимума)",
+                "EnterAddress": "Ether адрес",
+                "EnterAmount": "Приблизительная сумма",
+                "InputEnterAddressPH": "Введите ваш ethereum адрес",
+                "EstimatedAmountToBuy": "Ожидаемая сумма для покупки",
+                "InputEnterAmountPH": "Введите ожидаемую сумму",
+                "Currency": "Валюта",
+                "SuccessfullyAdded": "Ваш адрес успешно добавлен.",
+                "FailedToAdd": "Произошка ошибка при добавлении вашего адреса.",
                 "Errors": {
-                    "Address": "",
-                    "Amount": "",
-                    "Currency": "",
-                    "VerifyIdentity": ""
+                    "Address": "Введите ваш ether адрес",
+                    "Amount": "Введите ожидаемую сумму для покупки",
+                    "Currency": "Выберите валюту",
+                    "VerifyIdentity": "Подтвердите вашу личность"
                 },
-                "AddRequest": "",
-                "BackToQuantler": "",
-                "YourIdentity": "",
-                "FullName": "",
-                "Country": "",
-                "YourWhitelistedAddresses": "",
-                "WrongCountry": "",
-                "InitialOfferingNote": "",
+                "AddRequest": "Добавить запрос",
+                "BackToQuantler": "Вернуться к Quantler",
+                "YourIdentity": "Ваша личность",
+                "FullName": "Полное имя",
+                "Country": "Страна",
+                "YourWhitelistedAddresses": "Ваш адрес из белого списка",
+                "WrongCountry": "ОШИБКА: Извините, мы не можем добавить адреса вашего кошелька в белый список по данной причине: граждане вашей страны не имеют доступа по время первоначальной продажи токенов.",
+                "InitialOfferingNote": "Первоначальное предложение ещё не стартовало, поэтому вы не можете продолжвать. Адрес контракта будет показан, когда мы запустимся. Только на нашем сайте можно узнать и проверить верный контрактный адрес!",
                 "QuantPurchaseInstructions": "",
                 "TransactionData": "",
                 "The": "",
