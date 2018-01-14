@@ -2,8 +2,8 @@
     "WebApp": {
         "RightMenu": {
             "Languages": {
-                "ru": "Русский",
-                "en": "English",
+                "ru": "الروسية",
+                "en": "الإنجليزية",
                 "ar": "العربية",
                 "de": "Deutsch",
                 "es": "Español",
@@ -15,9 +15,9 @@
                 "pt": "Português",
                 "zh": "中文"
             },
-            "Subscription": "Testing CI",
-            "Statistics": "",
-            "Language": "",
+            "Subscription": "الاشتراك الحالي",
+            "Statistics": "الإحصاءات",
+            "Language": "اللغة",
             "StatisticsAnalyzed": "",
             "StatisticsModules": "",
             "HelpTranslate": "",
@@ -45,29 +45,29 @@
         },
         "LeftMenu": {
             "Items": {
-                "Subscription": "",
-                "SmartFunds": "",
-                "Dashboard": "",
-                "Management": "",
-                "Modules": "",
-                "Universes": "",
-                "Discussions": "",
-                "Catalog": "",
-                "Help": ""
+                "Subscription": "اشتراكي",
+                "SmartFunds": "صندوق Quant",
+                "Dashboard": "لوحة التحكم",
+                "Management": "الإدارة",
+                "Modules": "الوحدات",
+                "Universes": "Universes",
+                "Discussions": "المناقشات",
+                "Catalog": "الكتالوج",
+                "Help": "المساعدة"
             },
             "Text": {
-                "Hosting": "",
-                "Lab": "",
-                "Community": "",
-                "Documentation": ""
+                "Hosting": "استضافة الصناديق",
+                "Lab": "مختبر الصندوق",
+                "Community": "المجتمع",
+                "Documentation": "الوثائق"
             },
-            "Support": ""
+            "Support": "الدعم"
         },
         "Dashboard": {
-            "Title": "",
+            "Title": "لوحة التحكم",
             "Hosting": {
-                "Status": "",
-                "View": "",
+                "Status": "حالة الاستضافة",
+                "View": "عرض إدارة الاستضافة",
                 "NoSubscription": "",
                 "NoSubscriptionText": "",
                 "NoSubscriptionButton": ""
@@ -79,10 +79,10 @@
             },
             "Create": {
                 "Title": "",
-                "CatalogTitle": "",
+                "CatalogTitle": "اشعل حماسك",
                 "CatalogText": "",
                 "CatalogButton": "",
-                "UniversesTitle": "",
+                "UniversesTitle": "استثمر فيما تحب",
                 "UniversesText": "",
                 "UniversesButton": "",
                 "CreateTitle": "",
@@ -110,12 +110,15 @@
             "DisclaimerAgree": "",
             "DisclaimerButton": "",
             "AcceptFirst": "",
-            "EquitiesTitle": "",
-            "EquitiesText": "",
             "ETFTitle": "",
             "ETFText": "",
             "CryptoTitle": "",
-            "CryptoText": ""
+            "CryptoText": "",
+            "EquityTitle": "",
+            "EquityText": "",
+            "EquityDescr": "",
+            "ETFDescr": "",
+            "CryptoDescr": ""
         },
         "Management": {
             "Title": "",
@@ -200,6 +203,11 @@
             },
             "NewsBar": {
                 "NoDataText": "No news available"
+            },
+            "AttachmentTabs": {
+                "Performance": "",
+                "Modules": "",
+                "Universe": ""
             }
         },
         "Discussions": {
@@ -343,7 +351,10 @@
                     "Title": "General",
                     "Description": "General"
                 }
-            }
+            },
+            "NoUniverses": "",
+            "NoModules": "",
+            "NoQuantFunds": ""
         },
         "General": {
             "Update": "",
@@ -398,7 +409,7 @@
             "MySmartFunds": "",
             "CreateNew": "",
             "Overview": {
-                "NoFundTitle": "",
+                "NoFundTitle": "لنبدأ",
                 "NoFundSubTitle": "",
                 "SuggestionTitle": "",
                 "Size": "",
@@ -524,6 +535,12 @@
                         "EndingCapital": "",
                         "ErrorsFound": "",
                         "ROI": ""
+                    },
+                    "StatHeaders": {
+                        "Statistics": "",
+                        "Current": "",
+                        "Prev": "",
+                        "Diff": ""
                     }
                 },
                 "Dialog": {
@@ -570,7 +587,14 @@
                         "Money Management": "",
                         "Risk Management": ""
                     }
-                }
+                },
+                "Types": {
+                    "Signal": "",
+                    "Money Management": "",
+                    "Risk Management": ""
+                },
+                "Done": "",
+                "Error": ""
             },
             "MySmartFund": "",
             "SelectPremade": "",
@@ -750,6 +774,10 @@
                 "HitBTC": {
                     "Name": "",
                     "Description": ""
+                },
+                "Robinhood": {
+                    "Name": "",
+                    "Description": ""
                 }
             }
         },
@@ -777,7 +805,11 @@
                 "CreateTitle": "",
                 "ModuleName": "",
                 "ModuleNamePlaceholder": "",
-                "ModuleType": ""
+                "ModuleType": "",
+                "Next": "",
+                "Creating": "",
+                "Close": "",
+                "Done": ""
             },
             "SettingsPanel": {
                 "NameTooltip": "",
@@ -982,7 +1014,10 @@
                 }
             },
             "NoUniversesFound": "",
-            "NoUniversesFoundDescr": ""
+            "NoUniversesFoundDescr": "",
+            "BackTo": "",
+            "Index": "",
+            "Benchmark": ""
         },
         "Symbol": {
             "KeyFinancials": "",
@@ -1129,6 +1164,26 @@
                 "Passive": {
                     "Name": "",
                     "Description": ""
+                },
+                "Crypto": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "FundOfFunds": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowCost": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "LowRisk": {
+                    "Name": "",
+                    "Description": ""
+                },
+                "BestPerforming": {
+                    "Name": "",
+                    "Description": ""
                 }
             },
             "Modules": {
@@ -1138,7 +1193,8 @@
                     "PostReply": "",
                     "Reply": "",
                     "BackTo": ""
-                }
+                },
+                "All": ""
             }
         },
         "Bounty": {
@@ -1236,11 +1292,11 @@
             "SubTitle": "",
             "H1Title": "",
             "H1SubTitle": "",
-            "H1SubItem1Title": "",
+            "H1SubItem1Title": "اشعل حماسك",
             "H1SubItem1Text": "",
-            "H1SubItem2Title": "",
+            "H1SubItem2Title": "استثمر فيما تحب",
             "H1SubItem2Text": "",
-            "H1SubItem3Title": "",
+            "H1SubItem3Title": "استثمر أينما تحب",
             "H1SubItem3Text": "",
             "InvestInWhatYouBelieveIn": "",
             "ShowSmartFunds": "",
@@ -1250,7 +1306,7 @@
             "MenuItem": "",
             "Title": "",
             "SubTitle": "",
-            "H1Title": "",
+            "H1Title": "كل مستثمر فريد من  نوعه، وكذلك كل صنودق Quant",
             "H1SubTitle": "",
             "GetStarted": "",
             "Text1": "",
@@ -1258,9 +1314,9 @@
             "Text3": ""
         },
         "General": {
-            "Create": "",
+            "Create": "لنبدأ",
             "Start": "",
-            "GetStarted": "",
+            "GetStarted": "لنبدأ",
             "NoLock": "",
             "NoLockText": "",
             "ComapreAligned": "",
@@ -1268,7 +1324,7 @@
             "CompareKnow": "",
             "CompareCompromise": "",
             "NewToQuatler": "",
-            "OpenAccount": "",
+            "OpenAccount": "لنبدأ",
             "StartInvest": "",
             "FitStyle": {
                 "Title": "",
@@ -1307,7 +1363,7 @@
         },
         "Menu": {
             "What": "",
-            "Login": "",
+            "Login": "تسجيل الدخول",
             "Register": "",
             "Crowdfund": "",
             "ICO": "",
@@ -1332,8 +1388,8 @@
         },
         "BrokerNeutral": {
             "MenuItem": "",
-            "Title": "",
-            "SubTitle": "",
+            "Title": "استثمر أينما تحب",
+            "SubTitle": "مع إماكنية الوصول إلى مجموعة كبيرة من الوسطاء المنظمين في جميع أنحاء العالم، يمكنك الاستثمار أينما تحب",
             "H1Title": "",
             "H2Title": "",
             "H2TitleItem1": "",
@@ -1455,30 +1511,30 @@
             "BenefitsTitleItem1": "",
             "BenefitsTextItem1": "",
             "BenefitsTitleItem2": "",
-            "BenefitsTextItem2": "",
+            "BenefitsTextItem2": "على عكس الاستثمارات المجمعة مثل صناديق الاستثمار المشتركة والصناديق المتداولة في البورصة (ETF)، عند استخدام Quantler، فإنك تستثمر فيما تحب بالطريقة التي تريدها",
             "BenefitsTitleItem3": "",
             "BenefitsTextItem3": "",
             "BenefitsTitleItem4": "",
             "BenefitsTextItem4": ""
         },
         "Login": {
-            "Email": "",
-            "Password": "",
-            "Forgot": "",
-            "Or": "",
-            "SignInFacebook": "",
-            "SignInGoogle": "",
-            "SignUpFacebook": "",
-            "SignUpGoogle": "",
+            "Email": "ادخل البريد الإلكتروني",
+            "Password": "كلمة المرور",
+            "Forgot": "هل نسيت كلمة المرور؟",
+            "Or": "أو",
+            "SignInFacebook": "سجل دخولك عبر فيسبوك",
+            "SignInGoogle": "سجل دخولك عبر جوجل",
+            "SignUpFacebook": "اشترك عبر فيسبوك",
+            "SignUpGoogle": "اشترك عبر جوجل",
             "TermsAgree": "",
             "Warning": "",
-            "RegisterName": "",
-            "RegisterEmail": "",
-            "RegisterPassword": "",
-            "RegisterPasswordRetype": "",
-            "IAgree": "",
-            "SignUp": "",
-            "WrongEmail": "",
+            "RegisterName": "الاسم الكامل",
+            "RegisterEmail": "ادخل البريد الإلكتروني",
+            "RegisterPassword": "كلمة المرور",
+            "RegisterPasswordRetype": "أعد كتابة كلمة المرور",
+            "IAgree": "اوافق على الشروط",
+            "SignUp": "اشترك",
+            "WrongEmail": "البريد الإلكتروني غير صحيح",
             "PasswordsNotMatch": "",
             "RecoverSent": "",
             "IRememberPassword": "",
@@ -1492,9 +1548,10 @@
                 "PasswordsMatch": "",
                 "AgreeTerms": ""
             },
-            "Login": "",
+            "Login": "تسجيل الدخول",
             "Register": "",
-            "SessionExpired": ""
+            "SessionExpired": "",
+            "SignIn": ""
         },
         "Copyright": "",
         "ICO": {
@@ -1638,12 +1695,13 @@
                 "Q5": "",
                 "A5": "",
                 "Q6": "",
-                "A6": ""
+                "A6": "",
+                "Q7": "",
+                "A7": ""
             },
             "ContactUs": {
                 "Title": "",
                 "Text": "",
-                "Text2": "",
                 "NumberOfChamber": "",
                 "SendMessage": "",
                 "FullName": "",
